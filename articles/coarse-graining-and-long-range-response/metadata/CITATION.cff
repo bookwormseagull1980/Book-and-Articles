@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this article, cite the appropriate public record listed below."
+title: "Coarse-Graining and Long-Range Response in Generated Systems"
+type: article
+authors:
+  - family-names: Guo
+    given-names: Jinku
+    orcid: "https://orcid.org/0009-0000-6600-6171"
+doi: "10.48550/arXiv.2608.01989"
+url: "https://arxiv.org/abs/2608.01989"
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2608.01989"
+    description: "arXiv record"
+  - type: doi
+    value: "10.5281/zenodo.22093524"
+    description: "Zenodo concept DOI for all versions"
+  - type: doi
+    value: "10.5281/zenodo.22704837"
+    description: "Zenodo DOI for the current archived version"
+  - type: doi
+    value: "10.2139/ssrn.7352038"
+    description: "SSRN record"

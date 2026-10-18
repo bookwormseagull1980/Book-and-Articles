@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the published edition or persistent identifier when one is assigned."
+title: "Beyond Apparent Paths: The Practice of Seeking Truth from Facts"
+type: book
+authors:
+  - family-names: Guo
+    given-names: Jinku
+    orcid: "https://orcid.org/0009-0000-6600-6171"
