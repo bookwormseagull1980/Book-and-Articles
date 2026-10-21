@@ -2,8 +2,8 @@
 
 Public reading copies of books and research articles by Jinku Guo. Each work
 has its own directory with an abstract, subject keywords, citation metadata,
-rights statement and SHA-256 file record. Source files are not included in this
-public repository at present.
+rights statement and SHA-256 file record. LaTeX sources are not included.
+Computational supplements are supplied where indicated.
 
 ## Books
 
@@ -30,6 +30,11 @@ public repository at present.
 
 - [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md)
   - Interaction-compatible spectral weights, certified constructions, quadratic ledgers and nonlinear Galerkin error bounds for finite observations.
+
+- [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md)
+  - Prime localization by Hodge operators, occupation traces, additive relative inputs and signed Gaussian responses, with endpoint fixed-point certificates and reproducible computation.
+  - Zenodo: [10.5281/zenodo.23538152](https://doi.org/10.5281/zenodo.23538152)
+  - Includes the computational supplement in `anc/`.
 
 ## Archival Policy
 

@@ -1,0 +1,15 @@
+title: "Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic"
+canonical_slug: "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
+identifiers:
+  zenodo_doi: "10.5281/zenodo.23538152"
+related_works:
+  - title: "A Spectral Construction of Natural-Number Arithmetic"
+    relation: "Companion article supplying the source arithmetic and history construction"
+    concept_doi: "10.5281/zenodo.22512592"
+  - title: "Lean Formalization of Arithmetic and Basic Physical Interfaces"
+    relation: "Referenced formal proof library"
+    concept_doi: "10.5281/zenodo.23254521"
+github:
+  repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
+  path: "articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
+  snapshot_tag: "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21"

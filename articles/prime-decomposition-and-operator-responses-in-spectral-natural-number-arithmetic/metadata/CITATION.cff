@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this article, cite the manuscript snapshot identified below."
+title: "Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic"
+authors:
+  - family-names: Guo
+    given-names: Jinku
+    orcid: "https://orcid.org/0009-0000-6600-6171"
+doi: "10.5281/zenodo.23538152"
+url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
+date-released: "2026-10-21"
+preferred-citation:
+  type: article
+  title: "Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic"
+  authors:
+    - family-names: Guo
+      given-names: Jinku
+      orcid: "https://orcid.org/0009-0000-6600-6171"
+  year: 2026
+  doi: "10.5281/zenodo.23538152"
+  url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
+abstract: >-
+  We study prime decomposition and operator responses on a generated
+  correlation-spectral arithmetic system. The classes of cascade-irreducible
+  modes form the augmentation cotangent basis. Their one-word vectors
+  span the degree-one kernel of a decomposition Hodge Laplacian. Its
+  composite spectral gap yields explicit
+  heat and resolvent approximations to the prime projection. Symmetric
+  and exterior occupations retain both logarithmic arithmetic energy and
+  quadratic correlation energy. A faithful additive map records relative
+  input data. Its charge defect intertwines input multiplicative parity
+  with the parity of the sum. Common-factor coordinates separate shared
+  scale from primitive input pairs. Exact prime-direction and
+  square-dilation identities relate the resulting signed scale responses.
+  Normalized Gaussian endpoint states combine the additive and
+  decomposition responses. Diagonal self-consistency gives a unique stable
+  fixed point with rigorous infinite-tail enclosures. Representation
+  fibres yield dimension and central-sign classifications in the stated
+  realization classes. The counting arguments recover Bertrand's theorem
+  and the prime-number asymptotic. They also give square-free sign densities
+  through the occupation traces and prime projectors with their boundary
+  responses.
+keywords:
+  - "Spectral arithmetic"
+  - "Prime factorization"
+  - "Hodge Laplacians"
+  - "Fock spaces"
+  - "Möbius function"
+  - "Dirichlet series"
+  - "Heat semigroups"
+  - "Riemann zeta function"
