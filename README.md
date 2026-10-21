@@ -30,6 +30,7 @@ Computational supplements are supplied where indicated.
 
 - [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md)
   - Interaction-compatible spectral weights, certified constructions, quadratic ledgers and nonlinear Galerkin error bounds for finite observations.
+  - Zenodo: [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976)
 
 - [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md)
   - Prime localization by Hodge operators, occupation traces, additive relative inputs and signed Gaussian responses, with endpoint fixed-point certificates and reproducible computation.

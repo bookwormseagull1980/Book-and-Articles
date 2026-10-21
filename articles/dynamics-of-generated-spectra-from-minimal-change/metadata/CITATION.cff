@@ -1,13 +1,21 @@
 cff-version: 1.2.0
-message: "Please cite this article by its title and author and identify the repository snapshot."
+message: "If you use this article, cite the appropriate Zenodo record listed below."
 title: "Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows"
 type: article
 authors:
   - family-names: Guo
     given-names: Jinku
     orcid: "https://orcid.org/0009-0000-6600-6171"
+doi: "10.5281/zenodo.23536976"
 url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/dynamics-of-generated-spectra-from-minimal-change-2026-10-21/articles/dynamics-of-generated-spectra-from-minimal-change"
 date-released: "2026-10-21"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23536976"
+    description: "Zenodo concept DOI for all versions"
+  - type: doi
+    value: "10.5281/zenodo.23536977"
+    description: "Zenodo DOI for an archived version"
 abstract: >-
   Nonlinear spectral evolution requires control of the frequencies present
   initially and those created by interaction. We study how spectral bounds can be
