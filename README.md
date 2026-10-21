@@ -33,7 +33,7 @@ Computational supplements are supplied where indicated.
 
 - [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md)
   - Prime localization by Hodge operators, occupation traces, additive relative inputs and signed Gaussian responses, with endpoint fixed-point certificates and reproducible computation.
-  - Zenodo: [10.5281/zenodo.23538152](https://doi.org/10.5281/zenodo.23538152)
+  - Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
   - Includes the computational supplement in `anc/`.
 
 ## Archival Policy

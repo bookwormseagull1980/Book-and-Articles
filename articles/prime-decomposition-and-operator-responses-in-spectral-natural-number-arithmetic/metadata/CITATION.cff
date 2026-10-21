@@ -5,8 +5,8 @@ authors:
   - family-names: Guo
     given-names: Jinku
     orcid: "https://orcid.org/0009-0000-6600-6171"
-doi: "10.5281/zenodo.23538152"
-url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
+doi: "10.5281/zenodo.23538151"
+url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21-doi-correction/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
 date-released: "2026-10-21"
 preferred-citation:
   type: article
@@ -16,8 +16,8 @@ preferred-citation:
       given-names: Jinku
       orcid: "https://orcid.org/0009-0000-6600-6171"
   year: 2026
-  doi: "10.5281/zenodo.23538152"
-  url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
+  doi: "10.5281/zenodo.23538151"
+  url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21-doi-correction/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
 abstract: >-
   We study prime decomposition and operator responses on a generated
   correlation-spectral arithmetic system. The classes of cascade-irreducible

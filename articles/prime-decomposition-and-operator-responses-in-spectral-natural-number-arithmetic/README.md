@@ -4,7 +4,7 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article with a computational supplement
 
-Repository snapshot: [21 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
+Repository snapshot: [21 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21-doi-correction/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
 
 ## Abstract
 
@@ -62,7 +62,7 @@ README specifies the recorded Python version and reproduction procedure.
 Jinku Guo. *Prime Decomposition and Operator Responses in Spectral Natural-Number
 Arithmetic*. Public manuscript snapshot, 21 October 2026. 117 pages.
 
-DOI: [10.5281/zenodo.23538152](https://doi.org/10.5281/zenodo.23538152)
+DOI: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
 Related records cited in the manuscript:
 
