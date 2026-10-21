@@ -17,7 +17,38 @@ identifiers:
     description: "Zenodo concept DOI for all versions"
   - type: doi
     value: "10.5281/zenodo.22704806"
-    description: "Zenodo DOI for the current archived version"
+    description: "Zenodo DOI for an archived version"
   - type: doi
     value: "10.2139/ssrn.7352000"
     description: "SSRN record"
+abstract: >-
+  We develop a source-resolved spectral criterion for long-range tensor exchange
+  coupled to conserved stress-tensor sources. Exact channel elimination carries
+  the propagation kernel, physical source, readout and direct response together,
+  so that the observable residue is independent of the chosen intermediate
+  variables. For an isolated critical subspace, common-space operator estimates
+  control the residue at the displaced root of a finite approximation. A positive
+  Källén–Lehmann representation then identifies the residue with the weight of a
+  zero-invariant-mass atom, including the case in which the atom lies at the
+  endpoint of continuous support. We prove separately that the null-shell part of
+  a complete positive, Lorentz-covariant conserved stress-tensor measure is
+  longitudinal and therefore has no transverse-traceless atomic weight. In a
+  compact spectral realisation, the internal tensor vertices are carried into an
+  external two-helicity response. For localised stationary matter, the conserved
+  energy vertex gives a mixed residue proportional to the two total energies, and
+  spatial resolvent estimates determine the leading potential and force together
+  with their finite-size corrections. After the collective tensor is normalised
+  through its matter vertex, a single dimensional calibration fixes the overall
+  Planck scale, while the spectral residue fixes the corresponding dimensionless
+  exchange strength. Together, these results specify the positivity, helicity,
+  universality and nonlinear consistency conditions under which the collective
+  tensor admits an Einstein–matter effective description.
+keywords:
+  - "Emergent gravity"
+  - "Stress-tensor correlation functions"
+  - "Källén–Lehmann representation"
+  - "Massless spectral atoms"
+  - "Long-range tensor exchange"
+  - "Schur–Feshbach reduction"
+  - "Analytic Fredholm theory"
+  - "Matter coupling"
