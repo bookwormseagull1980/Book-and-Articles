@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this article, cite the appropriate public record listed below."
+title: "A Spectral Construction of Natural-Number Arithmetic"
+type: article
+authors:
+  - family-names: Guo
+    given-names: Jinku
+    orcid: "https://orcid.org/0009-0000-6600-6171"
+doi: "10.5281/zenodo.22512592"
+url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/a-spectral-construction-of-natural-number-arithmetic-2026-10-21/articles/a-spectral-construction-of-natural-number-arithmetic"
+date-released: "2026-10-21"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22512592"
+    description: "Zenodo concept DOI for all versions"
+  - type: doi
+    value: "10.2139/ssrn.7421398"
+    description: "SSRN record"
+abstract: >-
+  We construct natural-number arithmetic together with its correlation
+  source and ordered generation histories. Minimal unbiased compositional
+  change selects a rotation plane and a Gaussian law. Local information
+  and total normalized correlation determine a finite window. Constant
+  preservation selects its Neumann closure within the separated homogeneous
+  boundary class. The oriented modes acquire their order from correlation
+  response. Modulation defines addition and composition defines multiplication.
+  Modulation by the first positive mode defines successor. Winding degree
+  certifies an ordered Peano semiring with unique factorization. The modes
+  retain their quadratic energy and canonical spectral transport.
+  Ordered expressions before evaluation form finite history
+  fibres. Equal root-channel weights and independent subhistory assembly
+  determine a positive law whose Gaussian marginal is the original mode
+  mass. Conditional readout gives exact variance and entropy
+  decompositions. Parent–child assembly defines a positive trace-class
+  operator with explicit cutoff bounds and dissipative evolution. An exact
+  matrix element shows nonzero coupling between value coefficients and
+  orthogonal history differences. Eliminating the latter gives an integral
+  equation for the value response. Scalar and Hilbert completions preserve
+  the construction interfaces. Lean formalizations accompany the core
+  arithmetic construction together with the history-source recursion and
+  assembly results.
+keywords:
+  - "Natural numbers"
+  - "Gaussian semigroups"
+  - "Arithmetic formulas"
+  - "Conditional expectation"
+  - "Trace-class operators"
+  - "Operator semigroups"
+  - "Memory kernels"
+  - "Formalized mathematics"

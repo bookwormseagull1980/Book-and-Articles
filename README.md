@@ -23,6 +23,11 @@ public repository at present.
   - Zenodo: [10.5281/zenodo.22093524](https://doi.org/10.5281/zenodo.22093524)
   - SSRN: [10.2139/ssrn.7352038](https://doi.org/10.2139/ssrn.7352038)
 
+- [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md)
+  - Natural-number arithmetic from a correlation source, with ordered expression histories, conditional readout and history-assembly dynamics.
+  - Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
+  - SSRN: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
+
 - [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md)
   - Interaction-compatible spectral weights, certified constructions, quadratic ledgers and nonlinear Galerkin error bounds for finite observations.
 
