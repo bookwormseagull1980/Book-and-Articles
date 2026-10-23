@@ -1,0 +1,116 @@
+{
+  "target": "Original continuous cold sheet plus actual saved particle-displacement increments, final a=0.4",
+  "initial_state_sha256": "3760e583c92e5ce0cc655f7b0a75098c890c667998ffe6b1b71e9093ba4e4f74",
+  "upstream_run_id": "20261004T090516Z-06e9a7a6",
+  "continuous_reconstruction_initial_error": 0,
+  "displacement_Lip_Euclidean_upper": 0.011203042522150207,
+  "displacement_L2_upper": 0.0076199080642472515,
+  "density_lower": 0.9671300933044421,
+  "density_upper": 1.0343764773162922,
+  "nonlinear_homotopy_remainder_L2_upper": 0.00017460931177097364,
+  "all_frequency_spatial_observable_enclosed": true,
+  "Newtonian_evolved_trajectory_certified": false,
+  "rows": [
+    {
+      "Fourier_cube": 2,
+      "modes": 124,
+      "finite_linear_discrepancy_L2_interval": [
+        0.0005815930514053861,
+        0.0005839818703364553
+      ],
+      "unretained_displacement_L2_upper": 0.002439004078893636,
+      "unretained_CIC_force_L2_upper": 0.0017631676347583593,
+      "all_frequency_Newton_CIC_force_error_interval": [
+        0.00040698373963441234,
+        0.004417165373380371
+      ],
+      "Newton_force_norm_interval": [
+        0.0070444112594382075,
+        0.007794517376018226
+      ],
+      "relative_error_upper": 0.6270453570498439
+    },
+    {
+      "Fourier_cube": 4,
+      "modes": 728,
+      "finite_linear_discrepancy_L2_interval": [
+        0.0008678824279618902,
+        0.0008725576054935923
+      ],
+      "unretained_displacement_L2_upper": 0.0006760316757018878,
+      "unretained_CIC_force_L2_upper": 0.0002824054371530099,
+      "all_frequency_Newton_CIC_force_error_interval": [
+        0.0006932731161909164,
+        0.0014707414324293365
+      ],
+      "Newton_force_norm_interval": [
+        0.007415251034458661,
+        0.007794517376018226
+      ],
+      "relative_error_upper": 0.19834007312696542
+    },
+    {
+      "Fourier_cube": 8,
+      "modes": 4912,
+      "finite_linear_discrepancy_L2_interval": [
+        0.0008917956198759828,
+        0.000897305916302549
+      ],
+      "unretained_displacement_L2_upper": 0.0005647247915665074,
+      "unretained_CIC_force_L2_upper": 0.00022527873759995153,
+      "all_frequency_Newton_CIC_force_error_interval": [
+        0.000717186308105009,
+        0.0013701273934104855
+      ],
+      "Newton_force_norm_interval": [
+        0.007424342976009338,
+        0.007794517376018226
+      ],
+      "relative_error_upper": 0.18454527193016929
+    }
+  ],
+  "independent_1d_Newton_force_checks": [
+    {
+      "amplitude": 0.003,
+      "independent_force_difference_L2": 3.1819799187180933e-06,
+      "analytic_bound": 1.2804562601397372e-05
+    },
+    {
+      "amplitude": 0.03,
+      "independent_force_difference_L2": 0.00031819208537641147,
+      "analytic_bound": 0.001351978227722679
+    },
+    {
+      "amplitude": 0.15,
+      "independent_force_difference_L2": 0.007951223278807328,
+      "analytic_bound": 0.043422867714400064
+    },
+    {
+      "amplitude": 0.4,
+      "independent_force_difference_L2": 0.05638029474687916,
+      "analytic_bound": 0.5659644836651598
+    }
+  ],
+  "work": {
+    "additional_force_evaluations": 1,
+    "additional_3d_complex_ffts": 13,
+    "explicit_fft_and_force_arithmetic": {
+      "binary_scalings": 40960,
+      "real_additions": 2757240,
+      "floor_operations": 12288,
+      "real_multiplications": 1491271,
+      "integer_additions": 98304,
+      "integer_remainders": 98304,
+      "directed_roundings": 1137,
+      "real_divisions": 5,
+      "comparisons": 671581,
+      "absolute_values": 1323008,
+      "complex_butterflies": 319488
+    },
+    "finite_observable_mode_visits": 5764,
+    "scalar_observable_arithmetic_upper": 47218688,
+    "spline_norm_real_operations_upper": 524288,
+    "interval_trigonometric_preprocessing_max_calls": 102,
+    "scope": "one final reconstructed spatial state; spectral modes are reused, no new trajectory"
+  }
+}

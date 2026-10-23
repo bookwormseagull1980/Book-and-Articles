@@ -1,0 +1,104 @@
+{
+  "scope": "independent finite algebra, whole-frequency interpolation and interval arithmetic checks",
+  "rational_checks": {
+    "original_independent_checks": {
+      "cell_moment_identities_exact": 30,
+      "arbitrary_grid_crossing_tests_exact": 40,
+      "grid_face_kink_sharp_example": {
+        "actual": "1/16",
+        "bound": "1/16"
+      },
+      "scope": "independent exact algebra tests; not a smaller dynamical target"
+    },
+    "additional_moments_and_crossings": {
+      "fast_Walsh_exact_checks": 2,
+      "additions_per_Walsh": 24,
+      "additional_corner_tangent_winding_and_noncentroid_checks": 9
+    },
+    "mass_matrix": [
+      {
+        "case": 0,
+        "exact_squared_norm": "34373/442368",
+        "floating_norm_upper": 0.27875127807669337
+      },
+      {
+        "case": 1,
+        "exact_squared_norm": "34561/442368",
+        "floating_norm_upper": 0.2795125409740991
+      },
+      {
+        "case": 2,
+        "exact_squared_norm": "42323/442368",
+        "floating_norm_upper": 0.30931171607781227
+      }
+    ],
+    "face_current": [
+      {
+        "axis": 0,
+        "max_row_sum": "317/256",
+        "column_sum": "1",
+        "analytic_row_bound": "25/16"
+      },
+      {
+        "axis": 1,
+        "max_row_sum": "639/512",
+        "column_sum": "1",
+        "analytic_row_bound": "25/16"
+      },
+      {
+        "axis": 2,
+        "max_row_sum": "1285/1024",
+        "column_sum": "1",
+        "analytic_row_bound": "25/16"
+      }
+    ]
+  },
+  "Fourier_checks": {
+    "affine_cell_Fourier_checks": 30,
+    "projection_mode_checks": 3,
+    "covers": "node and half-cell origins; zero mode; aliases beyond Nyquist"
+  },
+  "real_trajectory_record_checks": {
+    "continuous_time_segments_verified": 64,
+    "re_evolved_particle_steps": 0,
+    "cache_sha256": "7ca0b1dcb84f34bbf95526af62f3e0d9a28761697f8bf0a3341a80fae2573ac1",
+    "initial_state_sha256": "3760e583c92e5ce0cc655f7b0a75098c890c667998ffe6b1b71e9093ba4e4f74",
+    "operator_sha256": "3b34c2bd502ffce70bcb5107a887e5611a31b5eb9bec20b0c647414825247305"
+  },
+  "verification_work": {
+    "Fraction_function_calls": {
+      "__new__": 102386,
+      "reverse": 41924,
+      "_sub": 58948,
+      "_from_coprime_ints": 278369,
+      "_mul": 110567,
+      "forward": 205644,
+      "_add": 74601,
+      "__floor__": 3363,
+      "__eq__": 1353,
+      "numerator": 29236,
+      "denominator": 29236,
+      "__abs__": 30800,
+      "__gt__": 29612,
+      "_richcmp": 29664,
+      "_div": 3452,
+      "__ceil__": 433,
+      "__le__": 52,
+      "__str__": 11,
+      "__pow__": 1
+    },
+    "observed_Fraction_operand_and_result_bits_max": 24,
+    "binary_Fraction_arithmetic_calls": 247568,
+    "unreduced_binary_integer_bits_upper": 49,
+    "binary_arithmetic_gcd_calls_upper": 495136,
+    "scope": "one-time verification cost, separate from spatial-certificate production counts; Python control and library internals not a claimed exact bit total"
+  },
+  "source_files_sha256": {
+    "p9_cic_replacement_validation.py": "9ef221ebfac5b9f167ed5c5edd3d7de97a29b7182f8819edd66a6762bd7b492a",
+    "p9_continuous_force_bound.py": "a49c674284bbe1678df5598930fcaeceecdbf6ddd56e0438effb3f6f9ef2f448",
+    "p9_time_spatial_bounds.py": "5f9a90b4af657f3976e65b38b293625ef64e1318349ca4162f3732e7c0302df6",
+    "p9_i17_independent_verification.py": "63fe6c4e5cb001cfdcc16bce72f2aeba9d74633fbfba377cd39606d79cd41172"
+  },
+  "spatial_result_sha256": "7b4e2e041a781f7d110a76be5cb4dac527ab0ed80043637338f9ca4f28113af0",
+  "all_checks_passed": true
+}

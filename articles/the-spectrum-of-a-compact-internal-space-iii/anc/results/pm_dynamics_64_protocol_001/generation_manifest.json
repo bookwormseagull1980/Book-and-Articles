@@ -1,0 +1,89 @@
+{
+  "closure": {
+    "audit": "mass_conservation_power_bins_particle_id_overlap",
+    "map": "mesh_resolved_poisson_force",
+    "residual_norm": "unresolved_modes_above_mesh_nyquist"
+  },
+  "dynamics": {
+    "force": "spectral_poisson",
+    "force_prefactor": "Q(a)=force_strength/max(a,1e-4)",
+    "force_strength": 0.35,
+    "integrator": "kick_drift_kick",
+    "solver": "particle_mesh",
+    "time_variable": "scale_factor",
+    "tracker": "particle_id_overlap"
+  },
+  "external_data": [],
+  "model": "finite_window_internal_pm_nbody",
+  "output_tables": {
+    "carrier_history_table": 2340,
+    "emergence_event_table": 29,
+    "interaction_budget_table": 2340,
+    "interaction_crossing_table": 29,
+    "interaction_dominance_table": 195,
+    "interaction_strength_table": 2535,
+    "pm_cost_table": 1,
+    "pm_halo_table": 837,
+    "pm_power_table": 576,
+    "pm_snapshot_table": 24,
+    "pm_transfer_table": 2508,
+    "pm_tree_table": 401
+  },
+  "pm_config": {
+    "box_size_mpch": 128.0,
+    "density_threshold_delta": 0.8,
+    "density_threshold_sigma": 1.5,
+    "fof_min_particles": 12,
+    "force_strength": 0.35,
+    "initial_displacement_fraction": 0.22,
+    "initial_velocity_factor": 0.35,
+    "max_halos_per_snapshot": 96,
+    "mesh_size": 128,
+    "mode_bins": 24,
+    "neighbor_links": 3,
+    "particles_per_dim": 64,
+    "seed": 20260904,
+    "steps_per_interval": 4,
+    "z_initial": 120.0
+  },
+  "redshifts": [
+    100.0,
+    60.0,
+    40.0,
+    30.0,
+    20.0,
+    15.0,
+    12.0,
+    10.0,
+    8.0,
+    6.0,
+    5.0,
+    4.0,
+    3.0,
+    2.0,
+    1.5,
+    1.0,
+    0.7,
+    0.5,
+    0.3,
+    0.0,
+    -0.19999999999999996,
+    -0.33333333333333337,
+    -0.5,
+    -0.6666666666666667
+  ],
+  "run_id": "pm_dynamics_64_protocol_001",
+  "state_decomposition": {
+    "activity_selector": "resolved_mesh_modes",
+    "dynamical_state": [
+      "particle_phase_space",
+      "mesh_density",
+      "resolved_force",
+      "halo_catalog",
+      "transfer_graph"
+    ],
+    "external_data": [],
+    "physical_coarse_graining": "particle_mesh_assignment"
+  },
+  "storage_policy": "relationship_tables_only"
+}

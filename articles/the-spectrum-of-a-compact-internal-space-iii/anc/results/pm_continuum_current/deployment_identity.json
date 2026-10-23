@@ -1,0 +1,198 @@
+{
+  "artifact_sha256": {
+    "p9_actual_trajectory_20261004.npz": "7ca0b1dcb84f34bbf95526af62f3e0d9a28761697f8bf0a3341a80fae2573ac1",
+    "p9_cic_replacement_validation_20261004.json": "c3eaadc750d84c3c50128c0d7d911cc8536a43126cf581f7f645314bf2c645ed",
+    "p9_continuous_force_bound_20261004.json": "125ee48e8b723bc90b072229f69caffdd85ab711caac9d257e3f6988669d7335",
+    "p9_continuous_residual_certificate_20261004.json": "a1fae150be1494e571923e65af01b239ca8794c9a7b1a7063d4dfc6f532d2d85",
+    "p9_continuous_residual_independent_check_20261004.json": "f07e823f73b07877e73ee0906b738c93b7c70060a8d3bbd8c852ddd1c5b3ea82",
+    "p9_i17_independent_verification_20261004.json": "786fbd05c229322f6d1eaa88351b4afce5e033f30a8d17c6f5c4c9aee3b0d77f",
+    "p9_time_spatial_bounds_20261004.json": "7b4e2e041a781f7d110a76be5cb4dac527ab0ed80043637338f9ca4f28113af0"
+  },
+  "certificate_recomputations": 0,
+  "consumed_values_hex": {
+    "gamma_m_integral": "0x1.1681e5c464fc8p+7",
+    "h0_gev": "0x1.00b30ae030883p-139",
+    "kl": "0x1.3f2c220cd1aeep+1",
+    "m_nu1_ev": "0x1.55c257dab4508p-9",
+    "m_p_gev": "0x1.0e600f4203c7ap+61",
+    "omega_b": "0x1.94c07d1eb2546p-5",
+    "omega_lambda": "0x1.5ebe2043ad94ap-1",
+    "omega_sigma": "0x1.0febafd4ce8c3p-2",
+    "rho_lambda_gev4": "0x1.2708f3641fecap-155"
+  },
+  "current_input_binding": {
+    "certificate_recomputed": false,
+    "consumed_values_identical": true,
+    "new_force_evaluations": 0,
+    "source_hash": "8409ab410a4f8e706c2fcd4bac7f7a02f7b0191b24787a17c27bf298b8d24f27",
+    "source_reference": "Coarse-Graining Genesis Framework 4.0.0.dev20261005 (unpublished revision)",
+    "source_run_id": "20261004T164657Z-a07542f1"
+  },
+  "formal_evaluate_ast_sha256": "6da692b1dc489c2ea9b4580b0e420f872699596db722be61a7a61a5ead1a7334",
+  "formal_numerical_payload_sha256": "161e37030345b75308fd8a9ca39b765fb452631d6406fcb82603feb19623c1f0",
+  "numerical_source_sha256": {
+    "code/cosmic_cg/__init__.py": "6e90f06293b354ca3305fe73376b01064895b9a768e8fb9667cf1b8987b1355f",
+    "code/cosmic_cg/active_spectral.py": "bd269fb2aea1dc986259f15a72709c0662fab242f57025a92012167e95198832",
+    "code/cosmic_cg/cosmological_dynamics.py": "34a6e55e5198d8ea6e4041b3ee6b8e5506a882a72a6b44a09202e1530af7994e",
+    "code/cosmic_cg/cost.py": "5c03b651892eafe2cb643b513bd3bf8b03055014ca737901d7fdce65d74b98f3",
+    "code/cosmic_cg/de_shelling.py": "4814eb3a7e34dd5bf6940bf7ef742181f39651ebe93452abfd78eac308853d8c",
+    "code/cosmic_cg/entropy_audit.py": "1e9f45934401e3e0bc18c436a59300dc9aefe587e26c353804863d2feddcd284",
+    "code/cosmic_cg/exact_certificate.py": "0959bb4a0a2ff2e0f1cf1cc7d81f4409b69e9447a4aeaade2d3d1dc210bd4ae6",
+    "code/cosmic_cg/field3d.py": "da81b9e73230dc7bed22acd94852906ac0bb8553f23909dbf7a65c6a84e4df49",
+    "code/cosmic_cg/generation.py": "b9b169603f73eb7a49cf4dee42790e88ad1dd7b4178b25250c629257e8723039",
+    "code/cosmic_cg/halo_model.py": "e0eb7314b930a85248411d505a0f4f659b36a0e2fa532b5e1c97134eaa5039d4",
+    "code/cosmic_cg/interaction_adapters.py": "a72192d127dffe0ee47c8c05a53701cf48dceaebd30c183ff3f8897ebe3e94cc",
+    "code/cosmic_cg/interactions.py": "e319319066fba96645d53890bb17cad2a6cf97392d29b8b55c163a3087f46ee2",
+    "code/cosmic_cg/intermediate.py": "732b82f15ac66250646f14cffb4725222232f6a7a91c231d27425d66efe3ec9b",
+    "code/cosmic_cg/io/__init__.py": "2b35b221521a8eaa2cd569cee8b23f6503b2e09e179f9131c117bd2bec11a706",
+    "code/cosmic_cg/io/audit.py": "021ff43a10d6d66b732ac82e23fb937bb5312175d21f2afaea11f920cb1b9ad7",
+    "code/cosmic_cg/io/field_audit.py": "9a4110540a590c0e0617fb0048cf2d864ac457435ab3d228831e2022480de2f8",
+    "code/cosmic_cg/io/figure_data.py": "1d6bb978944561d089fc1f8700a5897a8dad735104500a130406ecc442260900",
+    "code/cosmic_cg/io/pm_audit.py": "c8f692f81ad2bb5bb6a18da94766f0f845e398019b10cf96848cf05e9e89c940",
+    "code/cosmic_cg/io/provenance.py": "abb0380959e969555b76b1cbf7e4e68673e2130e8e957e7a4c7a4ff402c5a18f",
+    "code/cosmic_cg/io/schema_catalog.py": "8e0dac3cbc827426166a584b805be4e059ad789f3baf2f2937d4e68a7d89b797",
+    "code/cosmic_cg/io/schemas.py": "8338f31c10b87a8b5f3fd5aea56ddb401e693e52959e69dbf3ac9c5fb49c71e3",
+    "code/cosmic_cg/io/tables.py": "c6e7889b03634e7bbffc43e49be34b26c4b8cc0578686c84962254c10a8dab1d",
+    "code/cosmic_cg/knl.py": "46ed98dd3034fd060111e207e10d38374a0f5006858a29a82e18c24d8a074fad",
+    "code/cosmic_cg/object_level.py": "2a9104bccc6394f6eafdeace92dd4723139f907c7bbe2a83b2f3c4bdbb870a20",
+    "code/cosmic_cg/params.py": "ea6691ecc29150c94121be8542dc6b14f1487b6845e1d2424321eee4359b3b5a",
+    "code/cosmic_cg/pm_certificate.py": "3bcc15ad86cfd5f39530d54caa92cbf4a08b489a0b634fd740568692dd9fcfb3",
+    "code/cosmic_cg/pm_nbody.py": "d8decd01b1013284a842a8e40444d0124f2cf5c158d77630eb684eec79351091",
+    "code/cosmic_cg/pm_spatial_certificate.py": "59e79809b4906c56634ee550d14c33fab265f2f177a5c61ddcacff2cf206de3f",
+    "code/cosmic_cg/result_tables.py": "549a5b73a928b7ccf5d6624ea8b8375663b46400c5d757349b88c6aa96b8d698",
+    "code/cosmic_cg/run_plan.py": "34bab3fb640e084c0e6b0241862577f3590f61448db178549571734eee8b8842",
+    "code/cosmic_cg/tail_ratio.py": "184bb3b77b14f5837f3ce19771b6a1582acbbed21ec22568293325193e09abae",
+    "code/cosmic_cg/units.py": "64558426738fb29d72be772568e20df4ceec0a23a5a41f73ef39848bafb0cf40"
+  },
+  "schema": 1,
+  "source_adaptations": [
+    "relative source and evidence locations",
+    "source digest acceptance through this explicit migration record"
+  ],
+  "source_migration": {
+    "p9_cic_replacement_validation.py": {
+      "certified_sha256": "9ef221ebfac5b9f167ed5c5edd3d7de97a29b7182f8819edd66a6762bd7b492a",
+      "computational_module_ast_sha256": "d3f85ac9d1bedf0700043c4cb0e7ffbe8820de84f76f156cca274032bb0e72c0",
+      "deployed_sha256": "9b18420d3e94a0482a71f71213a2d68ae8e7e5bf871d09388bc57dcae3f39b0e",
+      "function_ast_sha256": {
+        "actual_kernel_constants": "b0423916621c18e20f00997849b7fdc865319c11d191d06bb745d89b71065345",
+        "actual_monopole_tests": "2e1d1604b77fcd9036e4c1a016d353284c2b4fc15c192f20f064ca65e1b89368",
+        "algebra_checks": "f8a33e2d3edc02ca3eb041d01656377884db98201027b9618cad7c9309e792da",
+        "continuous_reconstruction_metrics": "f6d4cc7459efc5cf7f0611ace802184a86df5e75f822d219f81954ffee5d9e19",
+        "crossing_weight": "70c736a9adead8b81ea8b9d69e7c33e55427920f29bc20a4efc8467489183f46",
+        "exact_cell_moments": "4fad1c55afd19e2c7735893f1bf6d7abe5a915379ac5bbd00ddc744e7cce0abc",
+        "exact_grid_constants": "17c9b417bbb1f1c356b16750a69f64c6ad6b793ef941d6b9edc043638f366a59",
+        "exact_replacement_bound": "b1c7f85edcc1789ade739d00fda005ccb11ed819b4eab77c29dfa118e769889c",
+        "exact_sample": "eef6eb8092d12835a3141f52d95c91bd597f8d52f6c452c28fcb11d2eddd3fd0",
+        "exact_weights": "f42054af18fcf21dceef75f019dd24cbef62ceb15e1f34d30e1faacb8c628956",
+        "grid_lipschitz_matrix": "3009d5ab50d9165400e74bc8b922600a2211c92c2854c468217401abce7892f2",
+        "main": "1c721083dbdd6fbcf1b77fba7ae4ad46434c33ef06295c95683ef3b399817379",
+        "original_trajectory": "453b21656dd925f3c91abb6fc100e7991ad8d52bcdcc7b67f2e3cfa6cf17b0e3",
+        "positive_sum": "e73db2ed9b4aab9380ef7c34bfb3f2de0ca953970b92a0da4b00cf436c1cf14c",
+        "sample64": "4f132dfeaa0d0295167f13e46a92cb718caa990f6bf9d5c2970a38a53391c061",
+        "up": "3f420aee48949db64c105470b7b18579e390e31e15314cacfe7d861631778595"
+      }
+    },
+    "p9_continuous_force_bound.py": {
+      "certified_sha256": "a49c674284bbe1678df5598930fcaeceecdbf6ddd56e0438effb3f6f9ef2f448",
+      "computational_module_ast_sha256": "e6f3cb948614eaeccc8de3c835134938b0cd65fbab9978b5a57253b8e9c10c91",
+      "deployed_sha256": "a49c674284bbe1678df5598930fcaeceecdbf6ddd56e0438effb3f6f9ef2f448",
+      "function_ast_sha256": {
+        "interval_constant": "7a77ac08431c19b7cac8cc234ac4580ea45eb29ac8d79a3b2cb815cc4f911e0a",
+        "lower_difference": "3cfe3088dc8a56bf8a1c8f499f31e6afff184c203cb707df8ee49d5f0c4ad39a",
+        "main": "4b04dab81d4f935aec3eaf8e9963180666f0015b6b1e3bf85b578bae3ad5846c",
+        "multiply_ball": "41f3353139749c95d15c71e399cf64a4bb5def783690411fffe4fe8441dfcdd6",
+        "nonlinear_coefficient": "edec1c0f85dc4361d0e0423db64b6fb14327c02af7dceefbdf9ce462bf4ad426",
+        "positive_square_root_lower": "69e39be973be7484bfad803be035aa9e514f2f89cb3735d512f2fd84983636fd",
+        "positive_square_root_upper": "e786f07f770b62d0d104527495cb8d093db554a0b8e96dd660d63823b3658449",
+        "spectral_factors": "57d1d78e5cb0913bb7a51128a680dc83ad9cba533d7b65a94275f2181268f77e",
+        "spline_norm_upper": "ddd5d862fa2f2b9f902595a6a3a2b08e8f41ebae9b2aaeb9176220366153df94",
+        "sum_of_squared_norms_bounds": "4d9515e0b1322d1367c0854f1f4a817075918c3628141166d36f96578a5b5407",
+        "tail_norm_upper": "ab046653cee99263bd4a61cbe31a903993095f1cb37854f6252e269816c421a8",
+        "validate_homotopy_bound": "cd768ead795340ce9a5f9f46f97716709c18555ba48982ef60b8d2d3cbc3acfa",
+        "vector_norm_interval": "b72f6e0b24c403df5c3b7dfdec48248e8cff3adecbb9b98b28ed45fcf63300ed"
+      }
+    },
+    "p9_continuous_residual_certificate.py": {
+      "certified_sha256": "6d0a923684241a29dc062dd200428a95c18fbb18e1572a66f6dbc6b8ac9422e1",
+      "computational_module_ast_sha256": "5b1d39159690ef169fe42e726db6ce116205554ba8072138ba841a48f1c7e4b8",
+      "deployed_sha256": "6d0a923684241a29dc062dd200428a95c18fbb18e1572a66f6dbc6b8ac9422e1",
+      "function_ast_sha256": {
+        "add": "9083c895533521b14b1c46a3f387f005c9642c9112b34f73eaa7effc366dcb2d",
+        "div_positive": "f7008632ef23b0b1103a8bf87687196b968e0ed7cbb2364c37f19042dfa31fc7",
+        "down": "bf195d9bd075e1808e1aba86c29315c1a92576ddbbd4762d8523f8b64cbf0fe2",
+        "exact": "3270778be49cb61c437bac191fa3b5dcce1a600b7492f160351cd0c4a05eca8c",
+        "field_norm": "cbcffa3896e88901837b6794ec66e663c6fc59d8d0a9aaae2a6ad000e8f74b09",
+        "grad_curl_norms": "0ca0d9ca87ebd325baeb0fb7be42880f641ab4310d52f9504f65d9683e3d769d",
+        "growing_momentum_factor": "0a8d178e9c5cb5ca3301c626cacfb901c4f0f3532f4799935c45387c098ba5ce",
+        "inner": "205a389ea7d2a7088651c26fafd6d7021274b5c8b2405104928a97bdd67b6dff",
+        "magnitude_upper": "d79f265ff5e0804d1cf3dbaea06902044d97a71df3a202f2037a064fe71afadd",
+        "main": "6cee30d7d159487369d4a6383301a89f70a84d4cfa92626671516e2c2bace8d3",
+        "mass": "7fbf0781c8615aafadeb9d98baf747921f630762afa3c7bfa070d1276b277754",
+        "max_vector_norm": "47ca40298f2b9b05e13bd87166f75afb90d57a37a9a8de35d7955eef92b70bec",
+        "mean_norm": "dffd831dd4031b742a852083c7cd3bbe14cc0f54861c82f1f6030d447308fb68",
+        "mul": "f90ad013e5b4558e274921fd0999f9893824cf3fd7bbdb012b5e36f4f6e419b2",
+        "particle_rms": "91b439b0b8ce0cdda6fcdfc546aef725e1a3832e7230984c1bc6ed59e141c3f1",
+        "particle_shape": "4b84fd4bd675620bc7b6b25d184d0641b94f40078be54f292bf619179de237ae",
+        "refine": "5ec23fd0954e80689e3b5b54e3f33eaafaa0f8cd21a2ff340ed4166d41390327",
+        "roll": "69153577157af62c093f08252287a72afa2dbe762b7588baf3006b0059733585",
+        "select": "d1ac7704544af4e61d29f866a5648ccce3ebd8161efc6aa07818db54d997440f",
+        "square_root": "eafd49a1300068034bdbdc5254ec70306597df09367389ef6375cd62bace57b5",
+        "state_shape": "f3b64d7089eba772c8e8b77278bcbdba14e4b69fe3ae76610eef6305bdbed14a",
+        "stored_interval": "e32694dd485c3a6c88ff202e0d4a22cc0f6b5906aed89029d2cfc653fe764882",
+        "sub": "958e2bb463ae282e6d19a92f658a6cee5fd0ebe2b96ba3e22d706fc50854918a",
+        "sum_all": "74d4fbb706ab48a0de4f9e9a8841ec2ae28ab56055de076de3bc0e1b2fbd6818",
+        "up": "2cb1464ecc4d5142fb633113d7749929b2efc57e851cad8f58bb48703cde1f9e"
+      }
+    },
+    "p9_continuous_residual_independent_check.py": {
+      "certified_sha256": "0a8081852b260ce804145653df227e7700b3969a34c62521dc87833f0f3cced8",
+      "computational_module_ast_sha256": "c55dd4b945e6ceb4bbfe839f1d8749069e77c321e727848c048f009af295245b",
+      "deployed_sha256": "6d707eb408b24ce329d33502b37d6858bfc2bd8af6131bced9493322c1e91233",
+      "function_ast_sha256": {
+        "derivative": "db6ddd49d11281eaa5884c1d827a6d1b67eb412889092bed4b8d4525ecd308ab",
+        "exact_checks": "e2bc737debef909fb70b2663d7725e39210bd974980732be6d90dad6d1f5e9a8",
+        "exact_element_energy": "dc1555942e8a5a5c1b96a1cb94878d6af4c0132af88356c5cbc072bbec5bbea9",
+        "main": "fb3fbddd13b07d9c8acfe8266be7431261af92b13fba889d85e6e1ab30f564f7",
+        "poly_add": "cd4edcbd637538a23f8573affb671e787b364998da689702a2b5df94a5549e7f",
+        "poly_scale": "94ca2611ca8ec1398b43c1b7f105db6db817e824e33bcbcdd3b3165b2cfc0201",
+        "polynomial_from_corners": "8a6bf33212d1ec24b1d63a01540a4f4d76b77e0952d014343094398b770f02b0",
+        "scalar_record_checks": "5e1808a7c5f7b5ea88f963d6e9648299ebe11038baaf379855420fdc610e9c29",
+        "square_integral": "79d31aec246817aec3db48f2b54cd0f76c909d56e05740c5bfc9609915c62510",
+        "squared_interval_contains": "5f227baccecf5ff95f8753ac8938a9c795b19fa8d86a94903924e73947d92a84"
+      }
+    },
+    "p9_i17_independent_verification.py": {
+      "certified_sha256": "63fe6c4e5cb001cfdcc16bce72f2aeba9d74633fbfba377cd39606d79cd41172",
+      "computational_module_ast_sha256": "b87879f9e7bab6a7608a34b7bb4d5b580f8bd3f949e13e8f7364c0dbf4e16040",
+      "deployed_sha256": "bfb311e7a12ab25d59ef4c1bc6e7b54963313ad938fe477d480d12829079ee6c",
+      "function_ast_sha256": {
+        "FractionLedger": "69c175f468368caad2360140543c0e6f20c58d9e87cba22119563ec15073ac8e",
+        "current_matrix_checks": "b28be44e4d1ddbb26f5935f99fb50767128ece4fccac2db517505324da4083df",
+        "current_time_record_checks": "9b893ef97e53d491e4db7e42020f54ef66c4924b5f63f80d4af18f7180d53b85",
+        "independent_mass_matrix": "832b1c12c17bef65ebf8d40716655864cb0a3ee9d099fe75db6dfb44a67e7cc7",
+        "independent_shifted_spline_fourier": "f8c2b64e608d2e49b65765b6cbd24bbde819aaa2ba91acd33028f17121d3d71d",
+        "main": "ce8d8d450154d9f2a40c735bc2cd412d7e627a0d437e6adbfe52b7016649d0f1",
+        "moment_and_crossing_checks": "709075c72f7b9e32c86acebc7f3596c12e29944c3a1a47aa636496a7ae4aa32a",
+        "walsh_corners": "55ff1062999afe1e6263c7a3220dfb2f99e45172e6505d687a4ee0059288baea"
+      }
+    },
+    "p9_time_spatial_bounds.py": {
+      "certified_sha256": "5f9a90b4af657f3976e65b38b293625ef64e1318349ca4162f3732e7c0302df6",
+      "computational_module_ast_sha256": "ba950d71c8a8f54dcb9f3681bdc0297cbb4e8087728a65292cd0b47f4547712b",
+      "deployed_sha256": "5f9a90b4af657f3976e65b38b293625ef64e1318349ca4162f3732e7c0302df6",
+      "function_ast_sha256": {
+        "density_modes": "c78d32574eafc220376192addbac9964e9bb85e46346d75ce11a2d4988f6cd4f",
+        "field_modes": "3e469889895cb3060e4c02f3f2c516d8b1314f83c50df0180ad163dbb7065f1b",
+        "fourier_spline_norm": "c974b4a6337624b6e0dcccb1ae71ef66c2e1452d21c4dff5b738a58d7ed6f96e",
+        "main": "5f4146be7d9fa428212040f95ac1f1710c48610afdb11a7210e9ec52cbb90d39",
+        "mass_eigenvalues": "4055d4b6dac37d61e0d3fba013405f9091bd51548bbc4e85086f664e93d0cf5a",
+        "one_anchor": "3b90f57a99f484033567d5fce683e8c08c51e8cd95c623bb36a4f34bb60795bf",
+        "projected_balls": "397c0e04493291daa4072ac592de16844ee4862c5d095471e6a85836bca1924f",
+        "source_operator_bound": "df2e129a963ff9b04fc12bdcde42bf39abbc8bb2f5ad28e03be778270811a142"
+      }
+    }
+  },
+  "status": "portable deployment of completed certificates; no numerical re-execution",
+  "trajectory_advancements": 0
+}

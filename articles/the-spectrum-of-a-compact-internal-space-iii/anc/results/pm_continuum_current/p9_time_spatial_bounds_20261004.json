@@ -1,0 +1,1064 @@
+{
+  "scope": "Eulerian L2 spatial force discrepancy on explicit continuous reconstruction, uniformly in a; not the exact Newtonian trajectory",
+  "initial_state_sha256": "3760e583c92e5ce0cc655f7b0a75098c890c667998ffe6b1b71e9093ba4e4f74",
+  "operator_sha256": "3b34c2bd502ffce70bcb5107a887e5611a31b5eb9bec20b0c647414825247305",
+  "upstream_run_id": "20261004T090516Z-06e9a7a6",
+  "time_interval": [
+    0.2,
+    0.4
+  ],
+  "anchor_indices": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56,
+    64
+  ],
+  "modes_per_anchor": 728,
+  "anchors": {
+    "0": {
+      "error_interval": [
+        0.0005890281318811858,
+        0.0009147063381751108
+      ],
+      "Newton_force_norm_lower": 0.004020952506363782,
+      "psi_norm_upper": 0.00412768452754619,
+      "nonlinear_remainder_upper": 9.458541343093433e-05,
+      "displacement_tail_upper": 0.0003164288066464044,
+      "CIC_force_tail_upper": 0.00013663796948299445,
+      "relative_error_upper": 0.22748498937190778,
+      "a": 0.2
+    },
+    "8": {
+      "error_interval": [
+        0.0006051709616159878,
+        0.0009836464819535677
+      ],
+      "Newton_force_norm_lower": 0.004473833406825698,
+      "psi_norm_upper": 0.004593516690234014,
+      "nonlinear_remainder_upper": 0.00010525990354838699,
+      "displacement_tail_upper": 0.00036373072229764665,
+      "CIC_force_tail_upper": 0.00015284411822979942,
+      "relative_error_upper": 0.2198665869973667,
+      "a": 0.225
+    },
+    "16": {
+      "error_interval": [
+        0.0006202024066486284,
+        0.0010522527819975009
+      ],
+      "Newton_force_norm_lower": 0.004917447589102492,
+      "psi_norm_upper": 0.005049951093219215,
+      "nonlinear_remainder_upper": 0.00011571904508944892,
+      "displacement_tail_upper": 0.00041138750142838583,
+      "CIC_force_tail_upper": 0.0001678478619796777,
+      "relative_error_upper": 0.21398352761895995,
+      "a": 0.25
+    },
+    "24": {
+      "error_interval": [
+        0.0006343443687882423,
+        0.0011200869602143598
+      ],
+      "Newton_force_norm_lower": 0.005352856206807472,
+      "psi_norm_upper": 0.005497995266054095,
+      "nonlinear_remainder_upper": 0.00012598592547725343,
+      "displacement_tail_upper": 0.0004585202666332906,
+      "CIC_force_tail_upper": 0.0001818961699804268,
+      "relative_error_upper": 0.20925033607102955,
+      "a": 0.275
+    },
+    "32": {
+      "error_interval": [
+        0.0006477454595515311,
+        0.0011868434729305558
+      ],
+      "Newton_force_norm_lower": 0.005780570829138663,
+      "psi_norm_upper": 0.00593812628924323,
+      "nonlinear_remainder_upper": 0.00013607147695637108,
+      "displacement_tail_upper": 0.0005046658779070909,
+      "CIC_force_tail_upper": 0.0001951564233712275,
+      "relative_error_upper": 0.20531596411688674,
+      "a": 0.30000000000000004
+    },
+    "40": {
+      "error_interval": [
+        0.0006605086044710705,
+        0.001252311211216299
+      ],
+      "Newton_force_norm_lower": 0.006200766660814291,
+      "psi_norm_upper": 0.006370496388331704,
+      "nonlinear_remainder_upper": 0.000145979187757557,
+      "displacement_tail_upper": 0.0005495829022854042,
+      "CIC_force_tail_upper": 0.00020774555951990302,
+      "relative_error_upper": 0.20196070578341105,
+      "a": 0.325
+    },
+    "48": {
+      "error_interval": [
+        0.0006727070110647811,
+        0.0013163425411318384
+      ],
+      "Newton_force_norm_lower": 0.006613406746916264,
+      "psi_norm_upper": 0.006795052452175207,
+      "nonlinear_remainder_upper": 0.00015570784084508358,
+      "displacement_tail_upper": 0.0005931488210076114,
+      "CIC_force_tail_upper": 0.0002197473041556277,
+      "relative_error_upper": 0.19904152148900114,
+      "a": 0.35000000000000003
+    },
+    "56": {
+      "error_interval": [
+        0.0006843939171667107,
+        0.0013788321557742496
+      ],
+      "Newton_force_norm_lower": 0.007018319598190567,
+      "psi_norm_upper": 0.0072116109166693925,
+      "nonlinear_remainder_upper": 0.0001652532298687356,
+      "displacement_tail_upper": 0.0006353057803047013,
+      "CIC_force_tail_upper": 0.000231222848054991,
+      "relative_error_upper": 0.19646186476457048,
+      "a": 0.375
+    },
+    "64": {
+      "error_interval": [
+        0.0006956088209082172,
+        0.0014397034961974545
+      ],
+      "Newton_force_norm_lower": 0.007415251034966797,
+      "psi_norm_upper": 0.007619908064247252,
+      "nonlinear_remainder_upper": 0.00017460931177097367,
+      "displacement_tail_upper": 0.0006760316708780507,
+      "CIC_force_tail_upper": 0.0002422177431676884,
+      "relative_error_upper": 0.1941543839053456,
+      "a": 0.4
+    }
+  },
+  "intervals": [
+    {
+      "a_interval": [
+        0.2,
+        0.203125
+      ],
+      "anchor_index": 0,
+      "particle_RMS_distance_upper": 6.181518448404243e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0010400368318971844,
+      "Newton_force_norm_lower": 0.003958083805281311,
+      "relative_error_upper": 0.2627627112163348
+    },
+    {
+      "a_interval": [
+        0.203125,
+        0.20625000000000002
+      ],
+      "anchor_index": 0,
+      "particle_RMS_distance_upper": 0.00012343600873404917,
+      "all_frequency_reconstruction_force_error_upper": 0.00116497325959333,
+      "Newton_force_norm_lower": 0.003895412776915632,
+      "relative_error_upper": 0.2990628532352225
+    },
+    {
+      "a_interval": [
+        0.20625000000000002,
+        0.209375
+      ],
+      "anchor_index": 0,
+      "particle_RMS_distance_upper": 0.0001848676995957597,
+      "all_frequency_reconstruction_force_error_upper": 0.0012895262187108028,
+      "Newton_force_norm_lower": 0.0038329341053398376,
+      "relative_error_upper": 0.3364331823274249
+    },
+    {
+      "a_interval": [
+        0.209375,
+        0.21250000000000002
+      ],
+      "anchor_index": 0,
+      "particle_RMS_distance_upper": 0.00024611509985719146,
+      "all_frequency_reconstruction_force_error_upper": 0.0014137055280185394,
+      "Newton_force_norm_lower": 0.003770642865230243,
+      "relative_error_upper": 0.37492427115136395
+    },
+    {
+      "a_interval": [
+        0.21250000000000002,
+        0.215625
+      ],
+      "anchor_index": 8,
+      "particle_RMS_distance_upper": 0.00024323691818521433,
+      "all_frequency_reconstruction_force_error_upper": 0.0014768101488105067,
+      "Newton_force_norm_lower": 0.004226451000233427,
+      "relative_error_upper": 0.3494208613157807
+    },
+    {
+      "a_interval": [
+        0.215625,
+        0.21875
+      ],
+      "anchor_index": 8,
+      "particle_RMS_distance_upper": 0.00018216889096687812,
+      "all_frequency_reconstruction_force_error_upper": 0.0013529945189488359,
+      "Newton_force_norm_lower": 0.004288559810243966,
+      "relative_error_upper": 0.3154892501946633
+    },
+    {
+      "a_interval": [
+        0.21875,
+        0.22187500000000002
+      ],
+      "anchor_index": 8,
+      "particle_RMS_distance_upper": 0.00012127590007197732,
+      "all_frequency_reconstruction_force_error_upper": 0.0012295337758195845,
+      "Newton_force_norm_lower": 0.004350490600785848,
+      "relative_error_upper": 0.28261956837637775
+    },
+    {
+      "a_interval": [
+        0.22187500000000002,
+        0.225
+      ],
+      "anchor_index": 8,
+      "particle_RMS_distance_upper": 6.055411931386346e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.001106420161816499,
+      "Newton_force_norm_lower": 0.004412247263255451,
+      "relative_error_upper": 0.2507611418404867
+    },
+    {
+      "a_interval": [
+        0.225,
+        0.22812500000000002
+      ],
+      "anchor_index": 8,
+      "particle_RMS_distance_upper": 6.0389745017139155e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0011060868923789713,
+      "Newton_force_norm_lower": 0.004412414438984402,
+      "relative_error_upper": 0.25067611115730953
+    },
+    {
+      "a_interval": [
+        0.22812500000000002,
+        0.23125
+      ],
+      "anchor_index": 8,
+      "particle_RMS_distance_upper": 0.00012061816253779128,
+      "all_frequency_reconstruction_force_error_upper": 0.0012282002107645395,
+      "Newton_force_norm_lower": 0.004351159548145185,
+      "relative_error_upper": 0.2822696334562353
+    },
+    {
+      "a_interval": [
+        0.23125,
+        0.234375
+      ],
+      "anchor_index": 8,
+      "particle_RMS_distance_upper": 0.00018068807372149224,
+      "all_frequency_reconstruction_force_error_upper": 0.0013499921570206872,
+      "Newton_force_norm_lower": 0.004290065865067468,
+      "relative_error_upper": 0.3146786551724554
+    },
+    {
+      "a_interval": [
+        0.234375,
+        0.23750000000000002
+      ],
+      "anchor_index": 8,
+      "particle_RMS_distance_upper": 0.00024060208976320872,
+      "all_frequency_reconstruction_force_error_upper": 0.0014714680253539608,
+      "Newton_force_norm_lower": 0.004229130734053674,
+      "relative_error_upper": 0.34793628239142677
+    },
+    {
+      "a_interval": [
+        0.23750000000000002,
+        0.240625
+      ],
+      "anchor_index": 16,
+      "particle_RMS_distance_upper": 0.00023814581226492027,
+      "all_frequency_reconstruction_force_error_upper": 0.0015350942145376187,
+      "Newton_force_norm_lower": 0.0046752430561824215,
+      "relative_error_upper": 0.3283453279520195
+    },
+    {
+      "a_interval": [
+        0.240625,
+        0.24375000000000002
+      ],
+      "anchor_index": 16,
+      "particle_RMS_distance_upper": 0.0001783850273611503,
+      "all_frequency_reconstruction_force_error_upper": 0.001413929022850103,
+      "Newton_force_norm_lower": 0.0047360223445389715,
+      "relative_error_upper": 0.29854779390567726
+    },
+    {
+      "a_interval": [
+        0.24375000000000002,
+        0.246875
+      ],
+      "anchor_index": 16,
+      "particle_RMS_distance_upper": 0.0001187751285572398,
+      "all_frequency_reconstruction_force_error_upper": 0.001293069753235765,
+      "Newton_force_norm_lower": 0.0047966481752428625,
+      "relative_error_upper": 0.2695777772298872
+    },
+    {
+      "a_interval": [
+        0.246875,
+        0.25
+      ],
+      "anchor_index": 16,
+      "particle_RMS_distance_upper": 5.93140793124843e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0011725122766014999,
+      "Newton_force_norm_lower": 0.004857122619543577,
+      "relative_error_upper": 0.24140059217028387
+    },
+    {
+      "a_interval": [
+        0.25,
+        0.25312500000000004
+      ],
+      "anchor_index": 16,
+      "particle_RMS_distance_upper": 5.916883597696977e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0011722177952519443,
+      "Newton_force_norm_lower": 0.00485727033826222,
+      "relative_error_upper": 0.2413326238027195
+    },
+    {
+      "a_interval": [
+        0.25312500000000004,
+        0.25625000000000003
+      ],
+      "anchor_index": 16,
+      "particle_RMS_distance_upper": 0.00011819401383319815,
+      "all_frequency_reconstruction_force_error_upper": 0.001291891541185098,
+      "Newton_force_norm_lower": 0.004797239193908994,
+      "relative_error_upper": 0.26929896320896396
+    },
+    {
+      "a_interval": [
+        0.25625000000000003,
+        0.259375
+      ],
+      "anchor_index": 16,
+      "particle_RMS_distance_upper": 0.00017707698676832932,
+      "all_frequency_reconstruction_force_error_upper": 0.0014112769661641107,
+      "Newton_force_norm_lower": 0.004737352678076276,
+      "relative_error_upper": 0.2979041380421768
+    },
+    {
+      "a_interval": [
+        0.259375,
+        0.2625
+      ],
+      "anchor_index": 16,
+      "particle_RMS_distance_upper": 0.00023581908518382637,
+      "all_frequency_reconstruction_force_error_upper": 0.0015303767675824082,
+      "Newton_force_norm_lower": 0.0046776094376885635,
+      "relative_error_upper": 0.32717070289191197
+    },
+    {
+      "a_interval": [
+        0.2625,
+        0.265625
+      ],
+      "anchor_index": 24,
+      "particle_RMS_distance_upper": 0.0002335842598915924,
+      "all_frequency_reconstruction_force_error_upper": 0.0015936798300289895,
+      "Newton_force_norm_lower": 0.00511529096882803,
+      "relative_error_upper": 0.31155213647487184
+    },
+    {
+      "a_interval": [
+        0.265625,
+        0.26875000000000004
+      ],
+      "anchor_index": 24,
+      "particle_RMS_distance_upper": 0.0001749816685693001,
+      "all_frequency_reconstruction_force_error_upper": 0.0014748628797097386,
+      "Newton_force_norm_lower": 0.005174892324502224,
+      "relative_error_upper": 0.28500358794452924
+    },
+    {
+      "a_interval": [
+        0.26875000000000004,
+        0.27187500000000003
+      ],
+      "anchor_index": 24,
+      "particle_RMS_distance_upper": 0.00011651740196097626,
+      "all_frequency_reconstruction_force_error_upper": 0.00135632638321167,
+      "Newton_force_norm_lower": 0.005234352997993435,
+      "relative_error_upper": 0.25912015940300775
+    },
+    {
+      "a_interval": [
+        0.27187500000000003,
+        0.275
+      ],
+      "anchor_index": 24,
+      "particle_RMS_distance_upper": 5.819047544695198e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0012380683442151047,
+      "Newton_force_norm_lower": 0.005293673990702208,
+      "relative_error_upper": 0.2338769532067226
+    },
+    {
+      "a_interval": [
+        0.275,
+        0.278125
+      ],
+      "anchor_index": 24,
+      "particle_RMS_distance_upper": 5.8054819206680366e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0012377933007332866,
+      "Newton_force_norm_lower": 0.005293811958932681,
+      "relative_error_upper": 0.23381890220801232
+    },
+    {
+      "a_interval": [
+        0.278125,
+        0.28125
+      ],
+      "anchor_index": 24,
+      "particle_RMS_distance_upper": 0.00011597469166072166,
+      "all_frequency_reconstruction_force_error_upper": 0.001355226036258948,
+      "Newton_force_norm_lower": 0.00523490495770893,
+      "relative_error_upper": 0.25888264394623633
+    },
+    {
+      "a_interval": [
+        0.28125,
+        0.28437500000000004
+      ],
+      "anchor_index": 24,
+      "particle_RMS_distance_upper": 0.0001737602446256219,
+      "all_frequency_reconstruction_force_error_upper": 0.0014723864385701886,
+      "Newton_force_norm_lower": 0.005176134565182261,
+      "relative_error_upper": 0.2844567543653772
+    },
+    {
+      "a_interval": [
+        0.28437500000000004,
+        0.28750000000000003
+      ],
+      "anchor_index": 24,
+      "particle_RMS_distance_upper": 0.00023141202713298676,
+      "all_frequency_reconstruction_force_error_upper": 0.0015892756208304294,
+      "Newton_force_norm_lower": 0.005117500222963922,
+      "relative_error_upper": 0.3105570203395053
+    },
+    {
+      "a_interval": [
+        0.28750000000000003,
+        0.290625
+      ],
+      "anchor_index": 32,
+      "particle_RMS_distance_upper": 0.00022927931312460357,
+      "all_frequency_reconstruction_force_error_upper": 0.001651708048746593,
+      "Newton_force_norm_lower": 0.005547383907162462,
+      "relative_error_upper": 0.29774540150610507
+    },
+    {
+      "a_interval": [
+        0.290625,
+        0.29375
+      ],
+      "anchor_index": 32,
+      "particle_RMS_distance_upper": 0.0001717607191987277,
+      "all_frequency_reconstruction_force_error_upper": 0.001535088906781718,
+      "Newton_force_norm_lower": 0.005605882790865435,
+      "relative_error_upper": 0.2738353554739113
+    },
+    {
+      "a_interval": [
+        0.29375,
+        0.296875
+      ],
+      "anchor_index": 32,
+      "particle_RMS_distance_upper": 0.00011437484868597809,
+      "all_frequency_reconstruction_force_error_upper": 0.0014187388619817942,
+      "Newton_force_norm_lower": 0.0056642466891492745,
+      "relative_error_upper": 0.2504726470864351
+    },
+    {
+      "a_interval": [
+        0.296875,
+        0.30000000000000004
+      ],
+      "anchor_index": 32,
+      "particle_RMS_distance_upper": 5.712136647360718e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0013026572349046027,
+      "Newton_force_norm_lower": 0.005722475942838055,
+      "relative_error_upper": 0.22763874377400206
+    },
+    {
+      "a_interval": [
+        0.30000000000000004,
+        0.30312500000000003
+      ],
+      "anchor_index": 32,
+      "particle_RMS_distance_upper": 5.6989466608463686e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.001302389807485947,
+      "Newton_force_norm_lower": 0.0057226100906734734,
+      "relative_error_upper": 0.22758667580874334
+    },
+    {
+      "a_interval": [
+        0.30312500000000003,
+        0.30625
+      ],
+      "anchor_index": 32,
+      "particle_RMS_distance_upper": 0.00011384719287340137,
+      "all_frequency_reconstruction_force_error_upper": 0.001417669038053296,
+      "Newton_force_norm_lower": 0.005664783337803359,
+      "relative_error_upper": 0.2502600635389928
+    },
+    {
+      "a_interval": [
+        0.30625,
+        0.309375
+      ],
+      "anchor_index": 32,
+      "particle_RMS_distance_upper": 0.00017057328661250067,
+      "all_frequency_reconstruction_force_error_upper": 0.0015326813832333263,
+      "Newton_force_norm_lower": 0.005607090460873092,
+      "relative_error_upper": 0.2733470048197991
+    },
+    {
+      "a_interval": [
+        0.309375,
+        0.3125
+      ],
+      "anchor_index": 32,
+      "particle_RMS_distance_upper": 0.0002271678066865815,
+      "all_frequency_reconstruction_force_error_upper": 0.0016474269623665474,
+      "Newton_force_norm_lower": 0.0055495314000186865,
+      "relative_error_upper": 0.2968587514183631
+    },
+    {
+      "a_interval": [
+        0.3125,
+        0.31562500000000004
+      ],
+      "anchor_index": 40,
+      "particle_RMS_distance_upper": 0.00022506290134422015,
+      "all_frequency_reconstruction_force_error_upper": 0.0017086269980158214,
+      "Newton_force_norm_lower": 0.005971868010952362,
+      "relative_error_upper": 0.28611265267119307
+    },
+    {
+      "a_interval": [
+        0.31562500000000004,
+        0.31875000000000003
+      ],
+      "anchor_index": 40,
+      "particle_RMS_distance_upper": 0.00016859987040182862,
+      "all_frequency_reconstruction_force_error_upper": 0.0015941480135378014,
+      "Newton_force_norm_lower": 0.006029293341704936,
+      "relative_error_upper": 0.2644004733541486
+    },
+    {
+      "a_interval": [
+        0.31875000000000003,
+        0.321875
+      ],
+      "anchor_index": 40,
+      "particle_RMS_distance_upper": 0.00011226831764021246,
+      "all_frequency_reconstruction_force_error_upper": 0.0014799356015119676,
+      "Newton_force_norm_lower": 0.006086584953493229,
+      "relative_error_upper": 0.2431471199071327
+    },
+    {
+      "a_interval": [
+        0.321875,
+        0.325
+      ],
+      "anchor_index": 40,
+      "particle_RMS_distance_upper": 5.606832129984345e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0013659899205711386,
+      "Newton_force_norm_lower": 0.006143742766743316,
+      "relative_error_upper": 0.22233839736347305
+    },
+    {
+      "a_interval": [
+        0.325,
+        0.328125
+      ],
+      "anchor_index": 40,
+      "particle_RMS_distance_upper": 5.593649169503172e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0013657226356055408,
+      "Newton_force_norm_lower": 0.006143876843120955,
+      "relative_error_upper": 0.22229004104056613
+    },
+    {
+      "a_interval": [
+        0.328125,
+        0.33125000000000004
+      ],
+      "anchor_index": 40,
+      "particle_RMS_distance_upper": 0.00011174096337469749,
+      "all_frequency_reconstruction_force_error_upper": 0.0014788663889711475,
+      "Newton_force_norm_lower": 0.006087121295460982,
+      "relative_error_upper": 0.24295004439518927
+    },
+    {
+      "a_interval": [
+        0.33125000000000004,
+        0.334375
+      ],
+      "anchor_index": 40,
+      "particle_RMS_distance_upper": 0.0001674131916149521,
+      "all_frequency_reconstruction_force_error_upper": 0.0015917420183201192,
+      "Newton_force_norm_lower": 0.006030500245066234,
+      "relative_error_upper": 0.26394858695551504
+    },
+    {
+      "a_interval": [
+        0.334375,
+        0.3375
+      ],
+      "anchor_index": 40,
+      "particle_RMS_distance_upper": 0.0002229529216398259,
+      "all_frequency_reconstruction_force_error_upper": 0.0017043490070933233,
+      "Newton_force_norm_lower": 0.005974013951054828,
+      "relative_error_upper": 0.28529377752664736
+    },
+    {
+      "a_interval": [
+        0.3375,
+        0.340625
+      ],
+      "anchor_index": 48,
+      "particle_RMS_distance_upper": 0.00022082853373427055,
+      "all_frequency_reconstruction_force_error_upper": 0.0017640731334102194,
+      "Newton_force_norm_lower": 0.006388814631019496,
+      "relative_error_upper": 0.2761190041177823
+    },
+    {
+      "a_interval": [
+        0.340625,
+        0.34375
+      ],
+      "anchor_index": 48,
+      "particle_RMS_distance_upper": 0.0001654215357246033,
+      "all_frequency_reconstruction_force_error_upper": 0.0016517352592427133,
+      "Newton_force_norm_lower": 0.006445165930863081,
+      "relative_error_upper": 0.2562750559040343
+    },
+    {
+      "a_interval": [
+        0.34375,
+        0.34687500000000004
+      ],
+      "anchor_index": 48,
+      "particle_RMS_distance_upper": 0.00011014754918194791,
+      "all_frequency_reconstruction_force_error_upper": 0.0015396670662703768,
+      "Newton_force_norm_lower": 0.0065013819523243414,
+      "relative_error_upper": 0.23682150619068348
+    },
+    {
+      "a_interval": [
+        0.34687500000000004,
+        0.35000000000000003
+      ],
+      "anchor_index": 48,
+      "particle_RMS_distance_upper": 5.500691490620881e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0014278692454661585,
+      "Newton_force_norm_lower": 0.006557462348795117,
+      "relative_error_upper": 0.21774722743600938
+    },
+    {
+      "a_interval": [
+        0.35000000000000003,
+        0.353125
+      ],
+      "anchor_index": 48,
+      "particle_RMS_distance_upper": 5.487280614684712e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0014275973395070718,
+      "Newton_force_norm_lower": 0.006557598743170952,
+      "relative_error_upper": 0.2177012341588854
+    },
+    {
+      "a_interval": [
+        0.353125,
+        0.35625
+      ],
+      "anchor_index": 48,
+      "particle_RMS_distance_upper": 0.00010961109191026814,
+      "all_frequency_reconstruction_force_error_upper": 0.0015385793973540479,
+      "Newton_force_norm_lower": 0.006501927552440854,
+      "relative_error_upper": 0.2366343495747593
+    },
+    {
+      "a_interval": [
+        0.35625,
+        0.359375
+      ],
+      "anchor_index": 48,
+      "particle_RMS_distance_upper": 0.0001642144257660046,
+      "all_frequency_reconstruction_force_error_upper": 0.001649287839755887,
+      "Newton_force_norm_lower": 0.006446393613604696,
+      "relative_error_upper": 0.25584659246918656
+    },
+    {
+      "a_interval": [
+        0.359375,
+        0.36250000000000004
+      ],
+      "anchor_index": 48,
+      "particle_RMS_distance_upper": 0.00021868235733734186,
+      "all_frequency_reconstruction_force_error_upper": 0.0017597217535722904,
+      "Newton_force_norm_lower": 0.006390997384714967,
+      "relative_error_upper": 0.2753438387849963
+    },
+    {
+      "a_interval": [
+        0.36250000000000004,
+        0.36562500000000003
+      ],
+      "anchor_index": 56,
+      "particle_RMS_distance_upper": 0.00021650860437695066,
+      "all_frequency_reconstruction_force_error_upper": 0.001817804076801926,
+      "Newton_force_norm_lower": 0.006798121036235757,
+      "relative_error_upper": 0.2673980158800582
+    },
+    {
+      "a_interval": [
+        0.36562500000000003,
+        0.36875
+      ],
+      "anchor_index": 56,
+      "particle_RMS_distance_upper": 0.00016217650564015338,
+      "all_frequency_reconstruction_force_error_upper": 0.001707645564512812,
+      "Newton_force_norm_lower": 0.006853379117291048,
+      "relative_error_upper": 0.2491684080637578
+    },
+    {
+      "a_interval": [
+        0.36875,
+        0.371875
+      ],
+      "anchor_index": 56,
+      "particle_RMS_distance_upper": 0.00010798070048727418,
+      "all_frequency_reconstruction_force_error_upper": 0.0015977633879218952,
+      "Newton_force_norm_lower": 0.006908498581909968,
+      "relative_error_upper": 0.23127505477176596
+    },
+    {
+      "a_interval": [
+        0.371875,
+        0.375
+      ],
+      "anchor_index": 56,
+      "particle_RMS_distance_upper": 5.3921692757608474e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.001488158568565036,
+      "Newton_force_norm_lower": 0.0069634789176662845,
+      "relative_error_upper": 0.2137090649889944
+    },
+    {
+      "a_interval": [
+        0.375,
+        0.37812500000000004
+      ],
+      "anchor_index": 56,
+      "particle_RMS_distance_upper": 5.3783846523576703e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.001487879084863529,
+      "Newton_force_norm_lower": 0.006963619113214596,
+      "relative_error_upper": 0.21366462764168673
+    },
+    {
+      "a_interval": [
+        0.37812500000000004,
+        0.38125000000000003
+      ],
+      "anchor_index": 56,
+      "particle_RMS_distance_upper": 0.00010742930384098035,
+      "all_frequency_reconstruction_force_error_upper": 0.0015966454293734652,
+      "Newton_force_norm_lower": 0.006909059376012955,
+      "relative_error_upper": 0.23109447212405482
+    },
+    {
+      "a_interval": [
+        0.38125000000000003,
+        0.384375
+      ],
+      "anchor_index": 56,
+      "particle_RMS_distance_upper": 0.00016093581744704117,
+      "all_frequency_reconstruction_force_error_upper": 0.0017051300650429682,
+      "Newton_force_norm_lower": 0.006854640950541249,
+      "relative_error_upper": 0.24875556244974867
+    },
+    {
+      "a_interval": [
+        0.384375,
+        0.3875
+      ],
+      "anchor_index": 56,
+      "particle_RMS_distance_upper": 0.00021430282236978136,
+      "all_frequency_reconstruction_force_error_upper": 0.001813331846389459,
+      "Newton_force_norm_lower": 0.006800364411400279,
+      "relative_error_upper": 0.2666521581328128
+    },
+    {
+      "a_interval": [
+        0.3875,
+        0.390625
+      ],
+      "anchor_index": 64,
+      "particle_RMS_distance_upper": 0.00021206172086084634,
+      "all_frequency_reconstruction_force_error_upper": 0.0018696593459919897,
+      "Newton_force_norm_lower": 0.007199575144793299,
+      "relative_error_upper": 0.2596902328804943
+    },
+    {
+      "a_interval": [
+        0.390625,
+        0.39375000000000004
+      ],
+      "anchor_index": 64,
+      "particle_RMS_distance_upper": 0.00015883476998243638,
+      "all_frequency_reconstruction_force_error_upper": 0.0017617415246897854,
+      "Newton_force_norm_lower": 0.007253709242947935,
+      "relative_error_upper": 0.24287457157213088
+    },
+    {
+      "a_interval": [
+        0.39375000000000004,
+        0.39687500000000003
+      ],
+      "anchor_index": 64,
+      "particle_RMS_distance_upper": 0.00010574843708566949,
+      "all_frequency_reconstruction_force_error_upper": 0.0016541088068166598,
+      "Newton_force_norm_lower": 0.007307700326567736,
+      "relative_error_upper": 0.22635148307915878
+    },
+    {
+      "a_interval": [
+        0.39687500000000003,
+        0.4
+      ],
+      "anchor_index": 64,
+      "particle_RMS_distance_upper": 5.280331390311741e-05,
+      "all_frequency_reconstruction_force_error_upper": 0.0015467623921123854,
+      "Newton_force_norm_lower": 0.007361547793835227,
+      "relative_error_upper": 0.21011374719426384
+    }
+  ],
+  "uniform_absolute_force_error_upper": 0.0018696593459919897,
+  "uniform_relative_force_error_upper": 0.37492427115136395,
+  "grid_source_symbol_norm_upper": 0.99358684402025,
+  "CIC_L2_source_Lipschitz_upper": 1.0104603449938345,
+  "Newton_L2_source_Lipschitz_upper": 1.0170430066208078,
+  "combined_Lipschitz_upper": 2.027503351614643,
+  "uniform_continuous_reconstruction_Lip_upper": 0.011203042522150208,
+  "reconstructed_density_interval": [
+    0.9671300933044416,
+    1.0343764773162922
+  ],
+  "Newtonian_evolved_trajectory_certified": false,
+  "independent_actual_anchor_source_checks": [
+    {
+      "a_interval": [
+        0.2,
+        0.225
+      ],
+      "force_L2_change_upper": 0.00044800969589354296,
+      "Lipschitz_prediction_upper": 0.0004944656511476245,
+      "force_change_per_particle_RMS_upper": 0.9155257414190304
+    },
+    {
+      "a_interval": [
+        0.225,
+        0.25
+      ],
+      "force_L2_change_upper": 0.00043954153902223917,
+      "Lipschitz_prediction_upper": 0.0004837526294467419,
+      "force_change_per_particle_RMS_upper": 0.9181124155696807
+    },
+    {
+      "a_interval": [
+        0.25,
+        0.275
+      ],
+      "force_L2_change_upper": 0.00043190804888748445,
+      "Lipschitz_prediction_upper": 0.0004743114343422307,
+      "force_change_per_particle_RMS_upper": 0.9201253111042785
+    },
+    {
+      "a_interval": [
+        0.275,
+        0.30000000000000004
+      ],
+      "force_L2_change_upper": 0.0004246371429558909,
+      "Lipschitz_prediction_upper": 0.0004655089509511993,
+      "force_change_per_particle_RMS_upper": 0.9217416616622426
+    },
+    {
+      "a_interval": [
+        0.30000000000000004,
+        0.325
+      ],
+      "force_L2_change_upper": 0.00041744109766563063,
+      "Lipschitz_prediction_upper": 0.0004569602228549698,
+      "force_change_per_particle_RMS_upper": 0.923073069525554
+    },
+    {
+      "a_interval": [
+        0.325,
+        0.35000000000000003
+      ],
+      "force_L2_change_upper": 0.0004101389627052315,
+      "Lipschitz_prediction_upper": 0.00044842285205893764,
+      "force_change_per_particle_RMS_upper": 0.9241927699440081
+    },
+    {
+      "a_interval": [
+        0.35000000000000003,
+        0.375
+      ],
+      "force_L2_change_upper": 0.00040261668621520674,
+      "Lipschitz_prediction_upper": 0.00043974267771647356,
+      "force_change_per_particle_RMS_upper": 0.9251505852602211
+    },
+    {
+      "a_interval": [
+        0.375,
+        0.4
+      ],
+      "force_L2_change_upper": 0.00039480530884635753,
+      "Lipschitz_prediction_upper": 0.0004308240571597801,
+      "force_change_per_particle_RMS_upper": 0.9259815044040924
+    }
+  ],
+  "work": {
+    "additional_3d_complex_ffts": 39,
+    "additional_particle_evolutions": 0,
+    "additional_density_depositions": 9,
+    "sparse_anchor_count": 9,
+    "mode_observations": 6552,
+    "RMS_distance_evaluations": 129,
+    "RMS_real_arithmetic_upper": 4756488,
+    "RMS_directed_roundings_upper": 3171336,
+    "core_fft_and_density_arithmetic": {
+      "directed_roundings": 1020,
+      "real_additions": 2912832,
+      "absolute_values": 1179648,
+      "comparisons": 589680,
+      "real_multiplications": 1769760,
+      "complex_butterflies": 294912,
+      "binary_scalings": 147456,
+      "floor_operations": 110592,
+      "integer_additions": 884736,
+      "integer_remainders": 884736
+    },
+    "anchor_arithmetic": {
+      "0": {
+        "directed_roundings": 389720,
+        "real_additions": 1067390,
+        "absolute_values": 481152,
+        "comparisons": 188022,
+        "real_multiplications": 614219,
+        "complex_butterflies": 73728,
+        "real_divisions": 88297,
+        "binary_scalings": 6,
+        "square_roots": 13855
+      },
+      "8": {
+        "directed_roundings": 389720,
+        "real_additions": 1067390,
+        "absolute_values": 481152,
+        "comparisons": 188022,
+        "real_multiplications": 614219,
+        "complex_butterflies": 73728,
+        "real_divisions": 88297,
+        "binary_scalings": 6,
+        "square_roots": 13855
+      },
+      "16": {
+        "directed_roundings": 389720,
+        "real_additions": 1067390,
+        "absolute_values": 481152,
+        "comparisons": 188022,
+        "real_multiplications": 614219,
+        "complex_butterflies": 73728,
+        "real_divisions": 88297,
+        "binary_scalings": 6,
+        "square_roots": 13855
+      },
+      "24": {
+        "directed_roundings": 389720,
+        "real_additions": 1067390,
+        "absolute_values": 481152,
+        "comparisons": 188022,
+        "real_multiplications": 614219,
+        "complex_butterflies": 73728,
+        "real_divisions": 88297,
+        "binary_scalings": 6,
+        "square_roots": 13855
+      },
+      "32": {
+        "directed_roundings": 389720,
+        "real_additions": 1067390,
+        "absolute_values": 481152,
+        "comparisons": 188022,
+        "real_multiplications": 614219,
+        "complex_butterflies": 73728,
+        "real_divisions": 88297,
+        "binary_scalings": 6,
+        "square_roots": 13855
+      },
+      "40": {
+        "directed_roundings": 389720,
+        "real_additions": 1067390,
+        "absolute_values": 481152,
+        "comparisons": 188022,
+        "real_multiplications": 614219,
+        "complex_butterflies": 73728,
+        "real_divisions": 88297,
+        "binary_scalings": 6,
+        "square_roots": 13855
+      },
+      "48": {
+        "directed_roundings": 389720,
+        "real_additions": 1067390,
+        "absolute_values": 481152,
+        "comparisons": 188022,
+        "real_multiplications": 614219,
+        "complex_butterflies": 73728,
+        "real_divisions": 88297,
+        "binary_scalings": 6,
+        "square_roots": 13855
+      },
+      "56": {
+        "directed_roundings": 389720,
+        "real_additions": 1067390,
+        "absolute_values": 481152,
+        "comparisons": 188022,
+        "real_multiplications": 614219,
+        "complex_butterflies": 73728,
+        "real_divisions": 88297,
+        "binary_scalings": 6,
+        "square_roots": 13855
+      },
+      "64": {
+        "directed_roundings": 389720,
+        "real_additions": 1067390,
+        "absolute_values": 481152,
+        "comparisons": 188022,
+        "real_multiplications": 614219,
+        "complex_butterflies": 73728,
+        "real_divisions": 88297,
+        "binary_scalings": 6,
+        "square_roots": 13855
+      }
+    },
+    "remaining_scalar_and_spline_arithmetic_upper": 17195008,
+    "reconstruction_geometry_arithmetic_upper": 6398080,
+    "interval_trigonometric_calls_upper": 59,
+    "FFT_root_trigonometric_enclosures": 60,
+    "interval_square_root_calls_upper": 19,
+    "interval_precision_decimal_digits": 40,
+    "future_reuse": "Capture production density Fourier arrays at these anchors; only three displacement-increment FFTs per anchor remain."
+  },
+  "all_checks_passed": true
+}

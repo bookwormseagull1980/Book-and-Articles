@@ -1,0 +1,2 @@
+run_id,source,grid_size,redshift_count,voxel_count,half_spectrum_modes,field_box_size_mpch,estimated_peak_memory_gb,raw_density_bytes_per_snapshot,raw_density_bytes_all_snapshots,relationship_rows,relationship_bytes_written,saved_to_raw_ratio,storage_policy
+field512_protocol_001,internal_3d_field,512,24,134217728,67371008,512.0,3.25830078125,536870912,12884901888,45577,15738667,0.0012214813226213057,relationship_tables_only

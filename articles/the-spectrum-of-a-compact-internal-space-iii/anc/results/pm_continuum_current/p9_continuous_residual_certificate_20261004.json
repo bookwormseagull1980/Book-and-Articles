@@ -1,0 +1,1865 @@
+{
+  "scope": "Lagrangian L2 defects of original-initial-data continuous reconstruction in the unsoftened periodic Newton equations",
+  "reconstruction_X": "q + original nodal psi0(q) + I_c[x(a)-x(a0)](q)",
+  "reconstruction_P": "f0 psi0(q) + I_c[p(a)-p(a0)](q)",
+  "force_normalization": "F_N=-grad Phi, Laplacian Phi=rho-1, zero mean force",
+  "norm": "Euclidean vectors, box-volume-normalized L2 in continuous Lagrangian q",
+  "time_interval": [
+    0.2,
+    0.4
+  ],
+  "initial_state_sha256": "3760e583c92e5ce0cc655f7b0a75098c890c667998ffe6b1b71e9093ba4e4f74",
+  "operator_sha256": "3b34c2bd502ffce70bcb5107a887e5611a31b5eb9bec20b0c647414825247305",
+  "cache_sha256": "7ca0b1dcb84f34bbf95526af62f3e0d9a28761697f8bf0a3341a80fae2573ac1",
+  "spatial_certificate_sha256": "7b4e2e041a781f7d110a76be5cb4dac527ab0ed80043637338f9ca4f28113af0",
+  "continuous_initial_momentum_factor_interval": [
+    0.25078309169680313,
+    0.25078309169680324
+  ],
+  "initial_source_interpolation_L2_upper": 0.0005461327992482276,
+  "initial_momentum_interpolation_L2_upper": 0.00013696094553568294,
+  "reconstruction_Lipschitz_Euclidean_upper": 0.011203042522150208,
+  "Jacobian_pullback_factor_upper": 1.0170430066208078,
+  "max_r_X_L2_upper": 0.003147499160303308,
+  "max_r_P_L2_upper": 0.005439189332088242,
+  "integrated_r_X_L2_upper": 0.0003731678612537424,
+  "integrated_r_P_L2_upper": 0.0010789593760846153,
+  "states": [
+    {
+      "a": 0.2,
+      "psi_L2_upper": 0.004127684526728947,
+      "gradient_L2_upper": 0.0017894490498642892,
+      "curl_L2_upper": 0.0002875153234982003,
+      "psi_Linfinity_Euclidean_upper": 0.009900195686096677,
+      "mean_upper": 4.2893169544296875e-12,
+      "transverse_upper": 0.0014643035226702438,
+      "nonlinear_and_composition_upper": 0.00011421526113197831
+    },
+    {
+      "a": 0.203125,
+      "psi_L2_upper": 0.004186481224167756,
+      "gradient_L2_upper": 0.0018123188824692086,
+      "curl_L2_upper": 0.0002907276275708154,
+      "psi_Linfinity_Euclidean_upper": 0.010039473573270882,
+      "mean_upper": 4.332127216841139e-12,
+      "transverse_upper": 0.0014806636530129236,
+      "nonlinear_and_composition_upper": 0.00011607253552313439
+    },
+    {
+      "a": 0.20625000000000002,
+      "psi_L2_upper": 0.004245107789803117,
+      "gradient_L2_upper": 0.001835065003644206,
+      "curl_L2_upper": 0.00029391373842588405,
+      "psi_Linfinity_Euclidean_upper": 0.010178249059682058,
+      "mean_upper": 4.3702859986750445e-12,
+      "transverse_upper": 0.0014968903823894158,
+      "nonlinear_and_composition_upper": 0.00011793010567790298
+    },
+    {
+      "a": 0.209375,
+      "psi_L2_upper": 0.004303568578508944,
+      "gradient_L2_upper": 0.0018576914127414763,
+      "curl_L2_upper": 0.000297074565341421,
+      "psi_Linfinity_Euclidean_upper": 0.01031653586588002,
+      "mean_upper": 4.409073629648586e-12,
+      "transverse_upper": 0.001512988341719903,
+      "nonlinear_and_composition_upper": 0.00011978805372457915
+    },
+    {
+      "a": 0.21250000000000002,
+      "psi_L2_upper": 0.004361867615330935,
+      "gradient_L2_upper": 0.0018802018522588175,
+      "curl_L2_upper": 0.000300210962859875,
+      "psi_Linfinity_Euclidean_upper": 0.01045434676550487,
+      "mean_upper": 4.45051903669154e-12,
+      "transverse_upper": 0.0015289618831553678,
+      "nonlinear_and_composition_upper": 0.00012164645344023783
+    },
+    {
+      "a": 0.215625,
+      "psi_L2_upper": 0.0044200086275365995,
+      "gradient_L2_upper": 0.0019025998280975394,
+      "curl_L2_upper": 0.00030332373487226296,
+      "psi_Linfinity_Euclidean_upper": 0.010591693666162324,
+      "mean_upper": 4.487971189831695e-12,
+      "transverse_upper": 0.001544815100872489,
+      "nonlinear_and_composition_upper": 0.00012350537104911425
+    },
+    {
+      "a": 0.21875,
+      "psi_L2_upper": 0.0044779950599607545,
+      "gradient_L2_upper": 0.0019248886256756472,
+      "curl_L2_upper": 0.0003064136381152704,
+      "psi_Linfinity_Euclidean_upper": 0.010728587659002503,
+      "mean_upper": 4.525996933536434e-12,
+      "transverse_upper": 0.0015605518489041246,
+      "nonlinear_and_composition_upper": 0.00012536486555755444
+    },
+    {
+      "a": 0.22187500000000002,
+      "psi_L2_upper": 0.004535830098574066,
+      "gradient_L2_upper": 0.0019470713263218253,
+      "curl_L2_upper": 0.00030948138560213433,
+      "psi_Linfinity_Euclidean_upper": 0.010865039099021347,
+      "mean_upper": 4.567699756226571e-12,
+      "transverse_upper": 0.0015761757585999756,
+      "nonlinear_and_composition_upper": 0.00012722498936863183
+    },
+    {
+      "a": 0.225,
+      "psi_L2_upper": 0.004593516689334745,
+      "gradient_L2_upper": 0.001969150821476642,
+      "curl_L2_upper": 0.0003125276496039392,
+      "psi_Linfinity_Euclidean_upper": 0.01100105761612657,
+      "mean_upper": 4.608972648926616e-12,
+      "transverse_upper": 0.0015916902538044534,
+      "nonlinear_and_composition_upper": 0.00012908578865164535
+    },
+    {
+      "a": 0.22812500000000002,
+      "psi_L2_upper": 0.004651057551517609,
+      "gradient_L2_upper": 0.0019911298253401117,
+      "curl_L2_upper": 0.00031555306438753837,
+      "psi_Linfinity_Euclidean_upper": 0.011136652193379419,
+      "mean_upper": 4.6504099963859184e-12,
+      "transverse_upper": 0.00160709856481271,
+      "nonlinear_and_composition_upper": 0.00013094730371776
+    },
+    {
+      "a": 0.23125,
+      "psi_L2_upper": 0.004708455196474196,
+      "gradient_L2_upper": 0.0020130108877474675,
+      "curl_L2_upper": 0.0003185582288307037,
+      "psi_Linfinity_Euclidean_upper": 0.011271831208383196,
+      "mean_upper": 4.689812395367658e-12,
+      "transverse_upper": 0.0016224037416819929,
+      "nonlinear_and_composition_upper": 0.00013280956947319184
+    },
+    {
+      "a": 0.234375,
+      "psi_L2_upper": 0.0047657119401000765,
+      "gradient_L2_upper": 0.0020347964051515718,
+      "curl_L2_upper": 0.0003215437088339901,
+      "psi_Linfinity_Euclidean_upper": 0.011406602483481488,
+      "mean_upper": 4.73000347720787e-12,
+      "transverse_upper": 0.001637608666522985,
+      "nonlinear_and_composition_upper": 0.0001346726157406958
+    },
+    {
+      "a": 0.23750000000000002,
+      "psi_L2_upper": 0.004822829916634744,
+      "gradient_L2_upper": 0.002056488630394355,
+      "curl_L2_upper": 0.00032451003935639517,
+      "psi_Linfinity_Euclidean_upper": 0.011540973289068161,
+      "mean_upper": 4.7703129023092885e-12,
+      "transverse_upper": 0.0016527160638588187,
+      "nonlinear_and_composition_upper": 0.00013653646751783172
+    },
+    {
+      "a": 0.240625,
+      "psi_L2_upper": 0.004879811089953041,
+      "gradient_L2_upper": 0.002078089682199724,
+      "curl_L2_upper": 0.0003274577264414476,
+      "psi_Linfinity_Euclidean_upper": 0.011674950408186176,
+      "mean_upper": 4.811923803423121e-12,
+      "transverse_upper": 0.001667728510949205,
+      "nonlinear_and_composition_upper": 0.0001384011453135417
+    },
+    {
+      "a": 0.24375000000000002,
+      "psi_L2_upper": 0.0049366572637210525,
+      "gradient_L2_upper": 0.0020996015539156898,
+      "curl_L2_upper": 0.00033038724910493613,
+      "psi_Linfinity_Euclidean_upper": 0.011808540165391282,
+      "mean_upper": 4.854395271801384e-12,
+      "transverse_upper": 0.0016826484474010825,
+      "nonlinear_and_composition_upper": 0.000140266665391132
+    },
+    {
+      "a": 0.246875,
+      "psi_L2_upper": 0.004993370091971803,
+      "gradient_L2_upper": 0.002121026121554992,
+      "curl_L2_upper": 0.00033329906102503714,
+      "psi_Linfinity_Euclidean_upper": 0.01194174844206899,
+      "mean_upper": 4.893669842951979e-12,
+      "transverse_upper": 0.0016974781837743723,
+      "nonlinear_and_composition_upper": 0.00014213303999593274
+    },
+    {
+      "a": 0.25,
+      "psi_L2_upper": 0.005049951092240921,
+      "gradient_L2_upper": 0.002142365151506432,
+      "curl_L2_upper": 0.00033619359206637643,
+      "psi_Linfinity_Euclidean_upper": 0.012074580715788503,
+      "mean_upper": 4.934844075245745e-12,
+      "transverse_upper": 0.001712219909356733,
+      "nonlinear_and_composition_upper": 0.00014400027770106554
+    },
+    {
+      "a": 0.25312500000000004,
+      "psi_L2_upper": 0.005106401648130353,
+      "gradient_L2_upper": 0.002163620306702154,
+      "curl_L2_upper": 0.00033907124980174876,
+      "psi_Linfinity_Euclidean_upper": 0.012207042071390528,
+      "mean_upper": 4.9751242595057786e-12,
+      "transverse_upper": 0.0017268756998965696,
+      "nonlinear_and_composition_upper": 0.0001458683834382792
+    },
+    {
+      "a": 0.25625000000000003,
+      "psi_L2_upper": 0.005162723019896982,
+      "gradient_L2_upper": 0.002184793152846332,
+      "curl_L2_upper": 0.0003419324207611965,
+      "psi_Linfinity_Euclidean_upper": 0.012339137233114252,
+      "mean_upper": 5.016282941152399e-12,
+      "transverse_upper": 0.0017414475239769952,
+      "nonlinear_and_composition_upper": 0.00014773735877107337
+    },
+    {
+      "a": 0.259375,
+      "psi_L2_upper": 0.0052189163526034305,
+      "gradient_L2_upper": 0.002205885165007745,
+      "curl_L2_upper": 0.00034477747183878045,
+      "psi_Linfinity_Euclidean_upper": 0.012470870588471296,
+      "mean_upper": 5.0585835418806605e-12,
+      "transverse_upper": 0.001755937250174381,
+      "nonlinear_and_composition_upper": 0.0001496072021074984
+    },
+    {
+      "a": 0.2625,
+      "psi_L2_upper": 0.005274982684449489,
+      "gradient_L2_upper": 0.002226897732759178,
+      "curl_L2_upper": 0.0003476067513041437,
+      "psi_Linfinity_Euclidean_upper": 0.012602246207996598,
+      "mean_upper": 5.098530130029195e-12,
+      "transverse_upper": 0.0017703466522079581,
+      "nonlinear_and_composition_upper": 0.00015147790889868468
+    },
+    {
+      "a": 0.265625,
+      "psi_L2_upper": 0.005330922948211581,
+      "gradient_L2_upper": 0.002247832164977452,
+      "curl_L2_upper": 0.00035042059001215274,
+      "psi_Linfinity_Euclidean_upper": 0.012733267857109015,
+      "mean_upper": 5.138488140141136e-12,
+      "transverse_upper": 0.0017846774151100905,
+      "nonlinear_and_composition_upper": 0.0001533494716619892
+    },
+    {
+      "a": 0.26875000000000004,
+      "psi_L2_upper": 0.005386737982506219,
+      "gradient_L2_upper": 0.002268689694700208,
+      "curl_L2_upper": 0.00035321930226646554,
+      "psi_Linfinity_Euclidean_upper": 0.01286393901972582,
+      "mean_upper": 5.17906915054685e-12,
+      "transverse_upper": 0.0017989311396167753,
+      "nonlinear_and_composition_upper": 0.000155221880267253
+    },
+    {
+      "a": 0.27187500000000003,
+      "psi_L2_upper": 0.0054424285338344055,
+      "gradient_L2_upper": 0.0022894714834023216,
+      "curl_L2_upper": 0.0003560031868329485,
+      "psi_Linfinity_Euclidean_upper": 0.012994262912687397,
+      "mean_upper": 5.2179906618583345e-12,
+      "transverse_upper": 0.0018131093473277929,
+      "nonlinear_and_composition_upper": 0.00015709512198688622
+    },
+    {
+      "a": 0.275,
+      "psi_L2_upper": 0.005497995264999296,
+      "gradient_L2_upper": 0.0023101786254078505,
+      "curl_L2_upper": 0.0003587725278284391,
+      "psi_Linfinity_Euclidean_upper": 0.0131242424990627,
+      "mean_upper": 5.253264708639208e-12,
+      "transverse_upper": 0.0018272134852363262,
+      "nonlinear_and_composition_upper": 0.00015896918169969632
+    },
+    {
+      "a": 0.278125,
+      "psi_L2_upper": 0.005553438755786107,
+      "gradient_L2_upper": 0.0023308121513747394,
+      "curl_L2_upper": 0.00036152759557461035,
+      "psi_Linfinity_Euclidean_upper": 0.013253880502554733,
+      "mean_upper": 5.2876302023307e-12,
+      "transverse_upper": 0.0018412449300820902,
+      "nonlinear_and_composition_upper": 0.00016084404191041721
+    },
+    {
+      "a": 0.28125,
+      "psi_L2_upper": 0.005608759511309808,
+      "gradient_L2_upper": 0.0023513730318840214,
+      "curl_L2_upper": 0.0003642686472124006,
+      "psi_Linfinity_Euclidean_upper": 0.01338317942201706,
+      "mean_upper": 5.324063395682423e-12,
+      "transverse_upper": 0.0018552049914761061,
+      "nonlinear_and_composition_upper": 0.00016271968295488752
+    },
+    {
+      "a": 0.28437500000000004,
+      "psi_L2_upper": 0.005663957964500299,
+      "gradient_L2_upper": 0.002371862180759357,
+      "curl_L2_upper": 0.00036699592756119957,
+      "psi_Linfinity_Euclidean_upper": 0.013512141539359614,
+      "mean_upper": 5.3602325086613855e-12,
+      "transverse_upper": 0.001869094916270955,
+      "nonlinear_and_composition_upper": 0.00016459608305424055
+    },
+    {
+      "a": 0.28750000000000003,
+      "psi_L2_upper": 0.00571903447951832,
+      "gradient_L2_upper": 0.002392280458293183,
+      "curl_L2_upper": 0.0003697096697206945,
+      "psi_Linfinity_Euclidean_upper": 0.013640768939901335,
+      "mean_upper": 5.396881936864713e-12,
+      "transverse_upper": 0.0018829158916343401,
+      "nonlinear_and_composition_upper": 0.00016647321842397074
+    },
+    {
+      "a": 0.290625,
+      "psi_L2_upper": 0.0057739893577812874,
+      "gradient_L2_upper": 0.002412628674240509,
+      "curl_L2_upper": 0.0003724100957203666,
+      "psi_Linfinity_Euclidean_upper": 0.013769063521232614,
+      "mean_upper": 5.4322096789023095e-12,
+      "transverse_upper": 0.0018966690483513218,
+      "nonlinear_and_composition_upper": 0.0001683510634179981
+    },
+    {
+      "a": 0.29375,
+      "psi_L2_upper": 0.005828822839150022,
+      "gradient_L2_upper": 0.002432907590094289,
+      "curl_L2_upper": 0.00037509741705770723,
+      "psi_Linfinity_Euclidean_upper": 0.013897027000730432,
+      "mean_upper": 5.468427171048855e-12,
+      "transverse_upper": 0.0019103554635719901,
+      "nonlinear_and_composition_upper": 0.00017022959055042224
+    },
+    {
+      "a": 0.296875,
+      "psi_L2_upper": 0.005883535106647399,
+      "gradient_L2_upper": 0.0024531179223414384,
+      "curl_L2_upper": 0.0003777718353281193,
+      "psi_Linfinity_Euclidean_upper": 0.014024660922909693,
+      "mean_upper": 5.5022622883775285e-12,
+      "transverse_upper": 0.0019239761640100286,
+      "nonlinear_and_composition_upper": 0.00017210877061635296
+    },
+    {
+      "a": 0.30000000000000004,
+      "psi_L2_upper": 0.005938126288114147,
+      "gradient_L2_upper": 0.0024732603440110073,
+      "curl_L2_upper": 0.0003804335426329021,
+      "psi_Linfinity_Euclidean_upper": 0.01415196666737286,
+      "mean_upper": 5.537045889395851e-12,
+      "transverse_upper": 0.001937532128032652,
+      "nonlinear_and_composition_upper": 0.00017398857272217584
+    },
+    {
+      "a": 0.30312500000000003,
+      "psi_L2_upper": 0.005992596461596159,
+      "gradient_L2_upper": 0.0024933354877885124,
+      "curl_L2_upper": 0.0003830827221792825,
+      "psi_Linfinity_Euclidean_upper": 0.01427894546798684,
+      "mean_upper": 5.571170587791313e-12,
+      "transverse_upper": 0.001951024288704997,
+      "nonlinear_and_composition_upper": 0.00017586896445659776
+    },
+    {
+      "a": 0.30625,
+      "psi_L2_upper": 0.0060469456554125296,
+      "gradient_L2_upper": 0.002513343947378586,
+      "curl_L2_upper": 0.000385719548630348,
+      "psi_Linfinity_Euclidean_upper": 0.014405598412202205,
+      "mean_upper": 5.605177238450084e-12,
+      "transverse_upper": 0.001964453535579405,
+      "nonlinear_and_composition_upper": 0.00017774991186645512
+    },
+    {
+      "a": 0.309375,
+      "psi_L2_upper": 0.006101173852401852,
+      "gradient_L2_upper": 0.002533286280085018,
+      "curl_L2_upper": 0.0003883441886065924,
+      "psi_Linfinity_Euclidean_upper": 0.014531926449171088,
+      "mean_upper": 5.6398535848492425e-12,
+      "transverse_upper": 0.00197782071724787,
+      "nonlinear_and_composition_upper": 0.00017963137957189304
+    },
+    {
+      "a": 0.3125,
+      "psi_L2_upper": 0.006155280992395752,
+      "gradient_L2_upper": 0.0025531630085018193,
+      "curl_L2_upper": 0.0003909568010600847,
+      "psi_Linfinity_Euclidean_upper": 0.014657930392052937,
+      "mean_upper": 5.670193631441648e-12,
+      "transverse_upper": 0.001991126643241626,
+      "nonlinear_and_composition_upper": 0.00018151333081520765
+    },
+    {
+      "a": 0.31562500000000004,
+      "psi_L2_upper": 0.006209266973954883,
+      "gradient_L2_upper": 0.0025729746223410615,
+      "curl_L2_upper": 0.00039355753768805597,
+      "psi_Linfinity_Euclidean_upper": 0.014783610937968714,
+      "mean_upper": 5.699891903290021e-12,
+      "transverse_upper": 0.002004372086152021,
+      "nonlinear_and_composition_upper": 0.0001833957275426447
+    },
+    {
+      "a": 0.31875000000000003,
+      "psi_L2_upper": 0.0062631316572038425,
+      "gradient_L2_upper": 0.002592721580023806,
+      "curl_L2_upper": 0.00039614654323282314,
+      "psi_Linfinity_Euclidean_upper": 0.014908968665777051,
+      "mean_upper": 5.7283202990877334e-12,
+      "transverse_upper": 0.002017557783144994,
+      "nonlinear_and_composition_upper": 0.00018527853045385324
+    },
+    {
+      "a": 0.321875,
+      "psi_L2_upper": 0.006316874865662758,
+      "gradient_L2_upper": 0.002612404310204633,
+      "curl_L2_upper": 0.0003987239558524918,
+      "psi_Linfinity_Euclidean_upper": 0.015034004044582794,
+      "mean_upper": 5.755731420346084e-12,
+      "transverse_upper": 0.0020306844378542516,
+      "nonlinear_and_composition_upper": 0.0001871616990566869
+    },
+    {
+      "a": 0.325,
+      "psi_L2_upper": 0.006370496387130333,
+      "gradient_L2_upper": 0.00263202321326333,
+      "curl_L2_upper": 0.0004012899074459925,
+      "psi_Linfinity_Euclidean_upper": 0.015158717436320798,
+      "mean_upper": 5.7815847259526265e-12,
+      "transverse_upper": 0.00204375272203499,
+      "nonlinear_and_composition_upper": 0.00018904519168598676
+    },
+    {
+      "a": 0.328125,
+      "psi_L2_upper": 0.00642399597788388,
+      "gradient_L2_upper": 0.0026515786630325693,
+      "curl_L2_upper": 0.0004038445239664162,
+      "psi_Linfinity_Euclidean_upper": 0.015283109104083321,
+      "mean_upper": 5.8064704991236145e-12,
+      "transverse_upper": 0.0020567632771616245,
+      "nonlinear_and_composition_upper": 0.0001909289656205238
+    },
+    {
+      "a": 0.33125000000000004,
+      "psi_L2_upper": 0.006477373362573085,
+      "gradient_L2_upper": 0.002671071007897577,
+      "curl_L2_upper": 0.00040638792568337237,
+      "psi_Linfinity_Euclidean_upper": 0.01540717921601127,
+      "mean_upper": 5.8311268785221e-12,
+      "transverse_upper": 0.0020697167157629846,
+      "nonlinear_and_composition_upper": 0.00019281297708023426
+    },
+    {
+      "a": 0.334375,
+      "psi_L2_upper": 0.006530628236892779,
+      "gradient_L2_upper": 0.0026905005719542203,
+      "curl_L2_upper": 0.00040892022744043395,
+      "psi_Linfinity_Euclidean_upper": 0.015530927852979512,
+      "mean_upper": 5.85474035424444e-12,
+      "transverse_upper": 0.0020826136227317703,
+      "nonlinear_and_composition_upper": 0.0001946971813010446
+    },
+    {
+      "a": 0.3375,
+      "psi_L2_upper": 0.0065837602689838605,
+      "gradient_L2_upper": 0.0027098676565732896,
+      "curl_L2_upper": 0.0004114415389889049,
+      "psi_Linfinity_Euclidean_upper": 0.015654355009990274,
+      "mean_upper": 5.878652391752975e-12,
+      "transverse_upper": 0.0020954545570281255,
+      "nonlinear_and_composition_upper": 0.00019658153257117955
+    },
+    {
+      "a": 0.340625,
+      "psi_L2_upper": 0.0066367690995078,
+      "gradient_L2_upper": 0.0027291725409609017,
+      "curl_L2_upper": 0.00041395196510910745,
+      "psi_Linfinity_Euclidean_upper": 0.015777460600599,
+      "mean_upper": 5.9025568960767054e-12,
+      "transverse_upper": 0.002108240052293542,
+      "nonlinear_and_composition_upper": 0.00019846598423040846
+    },
+    {
+      "a": 0.34375,
+      "psi_L2_upper": 0.006689654346757283,
+      "gradient_L2_upper": 0.002748415484033573,
+      "curl_L2_upper": 0.0004164516059640186,
+      "psi_Linfinity_Euclidean_upper": 0.015900244468973167,
+      "mean_upper": 5.925367025984357e-12,
+      "transverse_upper": 0.0021209706186527855,
+      "nonlinear_and_composition_upper": 0.00020035048883038914
+    },
+    {
+      "a": 0.34687500000000004,
+      "psi_L2_upper": 0.006742415606406831,
+      "gradient_L2_upper": 0.0027675967252285593,
+      "curl_L2_upper": 0.00041894055726725006,
+      "psi_Linfinity_Euclidean_upper": 0.016022706382920606,
+      "mean_upper": 5.9471001226966114e-12,
+      "transverse_upper": 0.0021336467435712964,
+      "nonlinear_and_composition_upper": 0.0002022349981021754
+    },
+    {
+      "a": 0.35000000000000003,
+      "psi_L2_upper": 0.006795052450903084,
+      "gradient_L2_upper": 0.0027867164849491983,
+      "curl_L2_upper": 0.0004214189104632682,
+      "psi_Linfinity_Euclidean_upper": 0.016144846040936377,
+      "mean_upper": 5.9684697750958085e-12,
+      "transverse_upper": 0.0021462688927726303,
+      "nonlinear_and_composition_upper": 0.00020411946294901975
+    },
+    {
+      "a": 0.353125,
+      "psi_L2_upper": 0.006847564433287154,
+      "gradient_L2_upper": 0.0028057749660687866,
+      "curl_L2_upper": 0.0004238867529586778,
+      "psi_Linfinity_Euclidean_upper": 0.016266663078294812,
+      "mean_upper": 5.990190392998894e-12,
+      "transverse_upper": 0.002158837511415685,
+      "nonlinear_and_composition_upper": 0.00020600383355857176
+    },
+    {
+      "a": 0.35625,
+      "psi_L2_upper": 0.0068999510871182515,
+      "gradient_L2_upper": 0.0028247723546525375,
+      "curl_L2_upper": 0.0004263441683103303,
+      "psi_Linfinity_Euclidean_upper": 0.01638815707513622,
+      "mean_upper": 6.01134923846837e-12,
+      "transverse_upper": 0.0021713530250510966,
+      "nonlinear_and_composition_upper": 0.0002078880594188914
+    },
+    {
+      "a": 0.359375,
+      "psi_L2_upper": 0.006952211928698983,
+      "gradient_L2_upper": 0.0028437088208017516,
+      "curl_L2_upper": 0.00042879123638717777,
+      "psi_Linfinity_Euclidean_upper": 0.016509327552940014,
+      "mean_upper": 6.0332326893380895e-12,
+      "transverse_upper": 0.0021838158404493845,
+      "nonlinear_and_composition_upper": 0.00020977208935817916
+    },
+    {
+      "a": 0.36250000000000004,
+      "psi_L2_upper": 0.007004346457989781,
+      "gradient_L2_upper": 0.002862584519502892,
+      "curl_L2_upper": 0.00043122803355098764,
+      "psi_Linfinity_Euclidean_upper": 0.0166301739789555,
+      "mean_upper": 6.0549903848854994e-12,
+      "transverse_upper": 0.0021962263465169873,
+      "nonlinear_and_composition_upper": 0.00021165587157755583
+    },
+    {
+      "a": 0.36562500000000003,
+      "psi_L2_upper": 0.0070563541586231475,
+      "gradient_L2_upper": 0.0028813995912586507,
+      "curl_L2_upper": 0.00043365463281578085,
+      "psi_Linfinity_Euclidean_upper": 0.016750695769296244,
+      "mean_upper": 6.07681931678262e-12,
+      "transverse_upper": 0.0022085849151114558,
+      "nonlinear_and_composition_upper": 0.0002135393536564969
+    },
+    {
+      "a": 0.36875,
+      "psi_L2_upper": 0.007108234500006662,
+      "gradient_L2_upper": 0.002900154162972587,
+      "curl_L2_upper": 0.00043607110399512366,
+      "psi_Linfinity_Euclidean_upper": 0.01687089229260691,
+      "mean_upper": 6.098788173625154e-12,
+      "transverse_upper": 0.002220891901790433,
+      "nonlinear_and_composition_upper": 0.000215422482613927
+    },
+    {
+      "a": 0.371875,
+      "psi_L2_upper": 0.007159986937649392,
+      "gradient_L2_upper": 0.002918848348595972,
+      "curl_L2_upper": 0.0004384775138779647,
+      "psi_Linfinity_Euclidean_upper": 0.016990762871381637,
+      "mean_upper": 6.121320929528539e-12,
+      "transverse_upper": 0.002233147646707665,
+      "nonlinear_and_composition_upper": 0.00021730520491801105
+    },
+    {
+      "a": 0.375,
+      "psi_L2_upper": 0.007211610915328291,
+      "gradient_L2_upper": 0.0029374822499850348,
+      "curl_L2_upper": 0.0004408739263521589,
+      "psi_Linfinity_Euclidean_upper": 0.01711030679098911,
+      "mean_upper": 6.1442027901317196e-12,
+      "transverse_upper": 0.00224535247524111,
+      "nonlinear_and_composition_upper": 0.00021918746656624492
+    },
+    {
+      "a": 0.37812500000000004,
+      "psi_L2_upper": 0.007263105865026512,
+      "gradient_L2_upper": 0.0029560559572506047,
+      "curl_L2_upper": 0.0004432604025199775,
+      "psi_Linfinity_Euclidean_upper": 0.017229523296923333,
+      "mean_upper": 6.1660439257556954e-12,
+      "transverse_upper": 0.0022575066985806892,
+      "nonlinear_and_composition_upper": 0.00022106921307107777
+    },
+    {
+      "a": 0.38125000000000003,
+      "psi_L2_upper": 0.007314471208807753,
+      "gradient_L2_upper": 0.0029745695496957193,
+      "curl_L2_upper": 0.00044563700085325223,
+      "psi_Linfinity_Euclidean_upper": 0.017348411598927024,
+      "mean_upper": 6.1876744212787335e-12,
+      "transverse_upper": 0.0022696106145218284,
+      "nonlinear_and_composition_upper": 0.00022295038952185582
+    },
+    {
+      "a": 0.384375,
+      "psi_L2_upper": 0.007365706358935427,
+      "gradient_L2_upper": 0.0029930230961577793,
+      "curl_L2_upper": 0.0004480037772883612,
+      "psi_Linfinity_Euclidean_upper": 0.017466970869884083,
+      "mean_upper": 6.209590826313195e-12,
+      "transverse_upper": 0.002281664507946657,
+      "nonlinear_and_composition_upper": 0.00022483094058059708
+    },
+    {
+      "a": 0.3875,
+      "psi_L2_upper": 0.00741681071882555,
+      "gradient_L2_upper": 0.0030114166557811263,
+      "curl_L2_upper": 0.0004503607853923467,
+      "psi_Linfinity_Euclidean_upper": 0.017585200253066792,
+      "mean_upper": 6.233176448768103e-12,
+      "transverse_upper": 0.0022936686516712647,
+      "nonlinear_and_composition_upper": 0.00022671081053069047
+    },
+    {
+      "a": 0.390625,
+      "psi_L2_upper": 0.00746778368389964,
+      "gradient_L2_upper": 0.0030297502784068886,
+      "curl_L2_upper": 0.0004527080764422163,
+      "psi_Linfinity_Euclidean_upper": 0.017703098864685265,
+      "mean_upper": 6.256593622401539e-12,
+      "transverse_upper": 0.0023056233068454697,
+      "nonlinear_and_composition_upper": 0.00022858994330335003
+    },
+    {
+      "a": 0.39375000000000004,
+      "psi_L2_upper": 0.007518624642245015,
+      "gradient_L2_upper": 0.003048024005081414,
+      "curl_L2_upper": 0.0004550456995132182,
+      "psi_Linfinity_Euclidean_upper": 0.017820665794042432,
+      "mean_upper": 6.279625242217004e-12,
+      "transverse_upper": 0.0023175287234072405,
+      "nonlinear_and_composition_upper": 0.00023046828249494592
+    },
+    {
+      "a": 0.39687500000000003,
+      "psi_L2_upper": 0.007569332976516953,
+      "gradient_L2_upper": 0.0030662378687664345,
+      "curl_L2_upper": 0.0004573737016145462,
+      "psi_Linfinity_Euclidean_upper": 0.017937900102779895,
+      "mean_upper": 6.301794653347045e-12,
+      "transverse_upper": 0.0023293851407719594,
+      "nonlinear_and_composition_upper": 0.00023234577141457465
+    },
+    {
+      "a": 0.4,
+      "psi_L2_upper": 0.007619908062838924,
+      "gradient_L2_upper": 0.003084391894514001,
+      "curl_L2_upper": 0.00045969212776503866,
+      "psi_Linfinity_Euclidean_upper": 0.018054800831175746,
+      "mean_upper": 6.323442164642035e-12,
+      "transverse_upper": 0.0023411927882190276,
+      "nonlinear_and_composition_upper": 0.00023422235307445292
+    }
+  ],
+  "intervals": [
+    {
+      "a_interval": [
+        0.2,
+        0.203125
+      ],
+      "r_X_L2_Lagrangian_upper": 0.003147499160303308,
+      "r_P_L2_Lagrangian_upper": 0.005260558847365087,
+      "momentum_local_polynomial_upper": 0.0022807512937505327,
+      "force_projection_composition_upper": 0.0015967361885360582,
+      "alpha_interval": [
+        19.288901462483892,
+        19.750782950911812
+      ],
+      "beta_interval": [
+        1.851022122296478,
+        1.8661865216110254
+      ]
+    },
+    {
+      "a_interval": [
+        0.203125,
+        0.20625000000000002
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0030766857878585623,
+      "r_P_L2_Lagrangian_upper": 0.00526921868973623,
+      "momentum_local_polynomial_upper": 0.0022801502427860164,
+      "force_projection_composition_upper": 0.0016148204880673189,
+      "alpha_interval": [
+        18.844278144461104,
+        19.288901462483924
+      ],
+      "beta_interval": [
+        1.8361755471492371,
+        1.8510221222964833
+      ]
+    },
+    {
+      "a_interval": [
+        0.20625000000000002,
+        0.209375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.003008475889350764,
+      "r_P_L2_Lagrangian_upper": 0.005277587172603606,
+      "momentum_local_polynomial_upper": 0.002279523081325966,
+      "force_projection_composition_upper": 0.0016327763954444823,
+      "alpha_interval": [
+        18.416014206432386,
+        18.844278144461132
+      ],
+      "beta_interval": [
+        1.8216343291699257,
+        1.8361755471492418
+      ]
+    },
+    {
+      "a_interval": [
+        0.209375,
+        0.21250000000000002
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0029427360716904995,
+      "r_P_L2_Lagrangian_upper": 0.005285674133974619,
+      "momentum_local_polynomial_upper": 0.0022788693240179863,
+      "force_projection_composition_upper": 0.0016506083365956058,
+      "alpha_interval": [
+        18.003270152821496,
+        18.416014206432415
+      ],
+      "beta_interval": [
+        1.807386646359599,
+        1.8216343291699308
+      ]
+    },
+    {
+      "a_interval": [
+        0.21250000000000002,
+        0.215625
+      ],
+      "r_X_L2_Lagrangian_upper": 0.00287933932716489,
+      "r_P_L2_Lagrangian_upper": 0.005293488566406682,
+      "momentum_local_polynomial_upper": 0.002278188423607223,
+      "force_projection_composition_upper": 0.0016683204719216034,
+      "alpha_interval": [
+        17.60526107399005,
+        18.003270152821518
+      ],
+      "beta_interval": [
+        1.7934212797326252,
+        1.807386646359603
+      ]
+    },
+    {
+      "a_interval": [
+        0.215625,
+        0.21875
+      ],
+      "r_X_L2_Lagrangian_upper": 0.002818168552066313,
+      "r_P_L2_Lagrangian_upper": 0.005301041621169817,
+      "momentum_local_polynomial_upper": 0.002277482709597321,
+      "force_projection_composition_upper": 0.0016859167144616792,
+      "alpha_interval": [
+        17.221252373009023,
+        17.605261073990075
+      ],
+      "beta_interval": [
+        1.7797275746416452,
+        1.7934212797326299
+      ]
+    },
+    {
+      "a_interval": [
+        0.21875,
+        0.22187500000000002
+      ],
+      "r_X_L2_Lagrangian_upper": 0.002759113670863828,
+      "r_P_L2_Lagrangian_upper": 0.005308339476070492,
+      "momentum_local_polynomial_upper": 0.0022767501942455477,
+      "force_projection_composition_upper": 0.0017034007479686077,
+      "alpha_interval": [
+        16.850555882241363,
+        17.221252373009047
+      ],
+      "beta_interval": [
+        1.7662954051101856,
+        1.77972757464165
+      ]
+    },
+    {
+      "a_interval": [
+        0.22187500000000002,
+        0.225
+      ],
+      "r_X_L2_Lagrangian_upper": 0.002702070887095779,
+      "r_P_L2_Lagrangian_upper": 0.005315394017243171,
+      "momentum_local_polynomial_upper": 0.0022759952002292644,
+      "force_projection_composition_upper": 0.001720776042456099,
+      "alpha_interval": [
+        16.49252632927309,
+        16.850555882241384
+      ],
+      "beta_interval": [
+        1.7531151409003456,
+        1.76629540511019
+      ]
+    },
+    {
+      "a_interval": [
+        0.225,
+        0.22812500000000002
+      ],
+      "r_X_L2_Lagrangian_upper": 0.002646943953484405,
+      "r_P_L2_Lagrangian_upper": 0.005322210573144194,
+      "momentum_local_polynomial_upper": 0.0022752160454441264,
+      "force_projection_composition_upper": 0.0017380458685304701,
+      "alpha_interval": [
+        16.146558116425023,
+        16.492526329273115
+      ],
+      "beta_interval": [
+        1.7401776170710581,
+        1.7531151409003503
+      ]
+    },
+    {
+      "a_interval": [
+        0.22812500000000002,
+        0.23125
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0025936416471736756,
+      "r_P_L2_Lagrangian_upper": 0.0053287914732945306,
+      "momentum_local_polynomial_upper": 0.002274408556037091,
+      "force_projection_composition_upper": 0.001755213311155185,
+      "alpha_interval": [
+        15.81208238217185,
+        16.14655811642504
+      ],
+      "beta_interval": [
+        1.7274741058072967,
+        1.7401776170710623
+      ]
+    },
+    {
+      "a_interval": [
+        0.23125,
+        0.234375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0025420787085179857,
+      "r_P_L2_Lagrangian_upper": 0.005335146010503053,
+      "momentum_local_polynomial_upper": 0.0022735759871855823,
+      "force_projection_composition_upper": 0.001772281282263681,
+      "alpha_interval": [
+        15.488564316372566,
+        15.812082382171875
+      ],
+      "beta_interval": [
+        1.7149962903226281,
+        1.7274741058073013
+      ]
+    },
+    {
+      "a_interval": [
+        0.234375,
+        0.23750000000000002
+      ],
+      "r_X_L2_Lagrangian_upper": 0.002492174661687918,
+      "r_P_L2_Lagrangian_upper": 0.0053412821875925345,
+      "momentum_local_polynomial_upper": 0.0022727207338311974,
+      "force_projection_composition_upper": 0.0017892525313766507,
+      "alpha_interval": [
+        15.175500704348169,
+        15.488564316372589
+      ],
+      "beta_interval": [
+        1.702736240657071,
+        1.7149962903226328
+      ]
+    },
+    {
+      "a_interval": [
+        0.23750000000000002,
+        0.240625
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0024438537792274523,
+      "r_P_L2_Lagrangian_upper": 0.00534720344804534,
+      "momentum_local_polynomial_upper": 0.0022718410270012525,
+      "force_projection_composition_upper": 0.0018061296562627471,
+      "alpha_interval": [
+        14.872417677589265,
+        15.175500704348192
+      ],
+      "beta_interval": [
+        1.6906863912096255,
+        1.7027362406570756
+      ]
+    },
+    {
+      "a_interval": [
+        0.240625,
+        0.24375000000000002
+      ],
+      "r_X_L2_Lagrangian_upper": 0.002397044963797858,
+      "r_P_L2_Lagrangian_upper": 0.005352912989848174,
+      "momentum_local_polynomial_upper": 0.0022709352163200074,
+      "force_projection_composition_upper": 0.0018229151127922146,
+      "alpha_interval": [
+        14.5788686512893,
+        14.872417677589288
+      ],
+      "beta_interval": [
+        1.6788395198603125,
+        1.6906863912096302
+      ]
+    },
+    {
+      "a_interval": [
+        0.24375000000000002,
+        0.246875
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0023516817086370744,
+      "r_P_L2_Lagrangian_upper": 0.005358413273887304,
+      "momentum_local_polynomial_upper": 0.0022700012502431125,
+      "force_projection_composition_upper": 0.0018396112237703053,
+      "alpha_interval": [
+        14.29443243102334,
+        14.578868651289321
+      ],
+      "beta_interval": [
+        1.6671887285504057,
+        1.678839519860317
+      ]
+    },
+    {
+      "a_interval": [
+        0.246875,
+        0.25
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0023076996834259034,
+      "r_P_L2_Lagrangian_upper": 0.005363709749996358,
+      "momentum_local_polynomial_upper": 0.002269040376425861,
+      "force_projection_composition_upper": 0.0018562201870577987,
+      "alpha_interval": [
+        14.018711472764716,
+        14.29443243102336
+      ],
+      "beta_interval": [
+        1.6557274252018674,
+        1.6671887285504101
+      ]
+    },
+    {
+      "a_interval": [
+        0.25,
+        0.25312500000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0022650394633164706,
+      "r_P_L2_Lagrangian_upper": 0.005368811621632196,
+      "momentum_local_polynomial_upper": 0.002268057882470145,
+      "force_projection_composition_upper": 0.001872744083334849,
+      "alpha_interval": [
+        13.75133028208559,
+        14.018711472764739
+      ],
+      "beta_interval": [
+        1.644449306868061,
+        1.655727425201872
+      ]
+    },
+    {
+      "a_interval": [
+        0.25312500000000004,
+        0.25625000000000003
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0022236447440301178,
+      "r_P_L2_Lagrangian_upper": 0.005373717138375272,
+      "momentum_local_polynomial_upper": 0.002267048367394581,
+      "force_projection_composition_upper": 0.0018891848827480688,
+      "alpha_interval": [
+        13.491933939850075,
+        13.751330282085613
+      ],
+      "beta_interval": [
+        1.633348344017701,
+        1.6444493068680657
+      ]
+    },
+    {
+      "a_interval": [
+        0.25625000000000003,
+        0.259375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0021834623406750387,
+      "r_P_L2_Lagrangian_upper": 0.005378426546872042,
+      "momentum_local_polynomial_upper": 0.0022660086712853063,
+      "force_projection_composition_upper": 0.0019055444522818796,
+      "alpha_interval": [
+        13.24018674300435,
+        13.491933939850096
+      ],
+      "beta_interval": [
+        1.6224187658628983,
+        1.6333483440177057
+      ]
+    },
+    {
+      "a_interval": [
+        0.259375,
+        0.2625
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0021444408827016232,
+      "r_P_L2_Lagrangian_upper": 0.005382946735399202,
+      "momentum_local_polynomial_upper": 0.0022649425027635455,
+      "force_projection_composition_upper": 0.001921824561106643,
+      "alpha_interval": [
+        12.99577095021784,
+        13.240186743004369
+      ],
+      "beta_interval": [
+        1.6116550466501267,
+        1.6224187658629028
+      ]
+    },
+    {
+      "a_interval": [
+        0.2625,
+        0.265625
+      ],
+      "r_X_L2_Lagrangian_upper": 0.002106533416272353,
+      "r_P_L2_Lagrangian_upper": 0.005387280259951757,
+      "momentum_local_polynomial_upper": 0.0022638494473418906,
+      "force_projection_composition_upper": 0.0019380268867720798,
+      "alpha_interval": [
+        12.758385623151101,
+        12.99577095021786
+      ],
+      "beta_interval": [
+        1.6010518928401247,
+        1.611655046650131
+      ]
+    },
+    {
+      "a_interval": [
+        0.265625,
+        0.26875000000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.002069694017928328,
+      "r_P_L2_Lagrangian_upper": 0.005391430003841834,
+      "momentum_local_polynomial_upper": 0.0022627296124572535,
+      "force_projection_composition_upper": 0.0019541530198840286,
+      "alpha_interval": [
+        12.527745555035,
+        12.758385623151117
+      ],
+      "beta_interval": [
+        1.5906042311092192,
+        1.6010518928401294
+      ]
+    },
+    {
+      "a_interval": [
+        0.26875000000000004,
+        0.27187500000000003
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0020338802392293044,
+      "r_P_L2_Lagrangian_upper": 0.005395395732224655,
+      "momentum_local_polynomial_upper": 0.002261580167182422,
+      "force_projection_composition_upper": 0.0019702044693146797,
+      "alpha_interval": [
+        12.303580279056016,
+        12.527745555035017
+      ],
+      "beta_interval": [
+        1.580307197110378,
+        1.5906042311092234
+      ]
+    },
+    {
+      "a_interval": [
+        0.27187500000000003,
+        0.275
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0019990506254307146,
+      "r_P_L2_Lagrangian_upper": 0.005399179188586986,
+      "momentum_local_polynomial_upper": 0.002260400425252094,
+      "force_projection_composition_upper": 0.001986182666936023,
+      "alpha_interval": [
+        12.08563314976512,
+        12.303580279056034
+      ],
+      "beta_interval": [
+        1.5701561249375935,
+        1.5803071971103824
+      ]
+    },
+    {
+      "a_interval": [
+        0.275,
+        0.278125
+      ],
+      "r_X_L2_Lagrangian_upper": 0.00196516709670406,
+      "r_P_L2_Lagrangian_upper": 0.0054027846111416354,
+      "momentum_local_polynomial_upper": 0.0022591923490975795,
+      "force_projection_composition_upper": 0.0020020889719925077,
+      "alpha_interval": [
+        11.87366049137389,
+        12.085633149765139
+      ],
+      "beta_interval": [
+        1.5601465372419443,
+        1.570156124937598
+      ]
+    },
+    {
+      "a_interval": [
+        0.278125,
+        0.28125
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0019321926152047841,
+      "r_P_L2_Lagrangian_upper": 0.00540621361074403,
+      "momentum_local_polynomial_upper": 0.002257955417515426,
+      "force_projection_composition_upper": 0.002017924674430994,
+      "alpha_interval": [
+        11.667430807379173,
+        11.873660491373908
+      ],
+      "beta_interval": [
+        1.5502741359520005,
+        1.560146537241949
+      ]
+    },
+    {
+      "a_interval": [
+        0.28125,
+        0.28437500000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001900092184078352,
+      "r_P_L2_Lagrangian_upper": 0.005409466029614629,
+      "momentum_local_polynomial_upper": 0.0022566874728423892,
+      "force_projection_composition_upper": 0.002033690999325196,
+      "alpha_interval": [
+        11.466724046475637,
+        11.66743080737919
+      ],
+      "beta_interval": [
+        1.5405347935551654,
+        1.5502741359520054
+      ]
+    },
+    {
+      "a_interval": [
+        0.28437500000000004,
+        0.28750000000000003
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0018688329551417224,
+      "r_P_L2_Lagrangian_upper": 0.005412542448891239,
+      "momentum_local_polynomial_upper": 0.0022553872193133433,
+      "force_projection_composition_upper": 0.0020493891100583114,
+      "alpha_interval": [
+        11.271330920179839,
+        11.466724046475653
+      ],
+      "beta_interval": [
+        1.5309245449000688,
+        1.5405347935551696
+      ]
+    },
+    {
+      "a_interval": [
+        0.28750000000000003,
+        0.290625
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001838382957278774,
+      "r_P_L2_Lagrangian_upper": 0.0054154467987373,
+      "momentum_local_polynomial_upper": 0.002254056823917354,
+      "force_projection_composition_upper": 0.0020650201117693202,
+      "alpha_interval": [
+        11.081052268006614,
+        11.271330920179855
+      ],
+      "beta_interval": [
+        1.521439579483375,
+        1.530924544900073
+      ]
+    },
+    {
+      "a_interval": [
+        0.290625,
+        0.29375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0018087123670232825,
+      "r_P_L2_Lagrangian_upper": 0.005418177932576591,
+      "momentum_local_polynomial_upper": 0.0022526934827531834,
+      "force_projection_composition_upper": 0.002080585054122413,
+      "alpha_interval": [
+        10.895698466413759,
+        11.081052268006628
+      ],
+      "beta_interval": [
+        1.512076234187284,
+        1.5214395794833788
+      ]
+    },
+    {
+      "a_interval": [
+        0.29375,
+        0.296875
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001779792288431539,
+      "r_P_L2_Lagrangian_upper": 0.005420738928704165,
+      "momentum_local_polynomial_upper": 0.0022512987142175958,
+      "force_projection_composition_upper": 0.002096084934626382,
+      "alpha_interval": [
+        10.71508887806859,
+        10.895698466413773
+      ],
+      "beta_interval": [
+        1.5028309864366822,
+        1.5120762341872882
+      ]
+    },
+    {
+      "a_interval": [
+        0.296875,
+        0.30000000000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0017515958336481632,
+      "r_P_L2_Lagrangian_upper": 0.005423130622881602,
+      "momentum_local_polynomial_upper": 0.002249871885284739,
+      "force_projection_composition_upper": 0.0021115207007548283,
+      "alpha_interval": [
+        10.539051338294312,
+        10.715088878068604
+      ],
+      "beta_interval": [
+        1.4937004477473241,
+        1.5028309864366864
+      ]
+    },
+    {
+      "a_interval": [
+        0.30000000000000004,
+        0.30312500000000003
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0017240965486438747,
+      "r_P_L2_Lagrangian_upper": 0.0054253527333892266,
+      "momentum_local_polynomial_upper": 0.0022484113288309786,
+      "force_projection_composition_upper": 0.0021268932531615953,
+      "alpha_interval": [
+        10.367421675828888,
+        10.539051338294328
+      ],
+      "beta_interval": [
+        1.4846813576386553,
+        1.4937004477473284
+      ]
+    },
+    {
+      "a_interval": [
+        0.30312500000000003,
+        0.30625
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0016972698649597591,
+      "r_P_L2_Lagrangian_upper": 0.005427408456029807,
+      "momentum_local_polynomial_upper": 0.0022469189333376685,
+      "force_projection_composition_upper": 0.002142203447445861,
+      "alpha_interval": [
+        10.200043265276943,
+        10.367421675828904
+      ],
+      "beta_interval": [
+        1.4757705778868988,
+        1.4846813576386595
+      ]
+    },
+    {
+      "a_interval": [
+        0.30625,
+        0.309375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0016710920955615837,
+      "r_P_L2_Lagrangian_upper": 0.005429294863657358,
+      "momentum_local_polynomial_upper": 0.0022453905359703435,
+      "force_projection_composition_upper": 0.0021574520968197634,
+      "alpha_interval": [
+        10.03676660885984,
+        10.200043265276957
+      ],
+      "beta_interval": [
+        1.4669650870958928,
+        1.475770577886903
+      ]
+    },
+    {
+      "a_interval": [
+        0.309375,
+        0.3125
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0016455405303024248,
+      "r_P_L2_Lagrangian_upper": 0.005431013746984298,
+      "momentum_local_polynomial_upper": 0.0022438267582139855,
+      "force_projection_composition_upper": 0.002172639974056834,
+      "alpha_interval": [
+        9.877448945271938,
+        10.036766608859857
+      ],
+      "beta_interval": [
+        1.4582619755648503,
+        1.4669650870958972
+      ]
+    },
+    {
+      "a_interval": [
+        0.3125,
+        0.31562500000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0016205936727670183,
+      "r_P_L2_Lagrangian_upper": 0.005432566273388379,
+      "momentum_local_polynomial_upper": 0.0022422276593127913,
+      "force_projection_composition_upper": 0.0021877678136946665,
+      "alpha_interval": [
+        9.721953883635116,
+        9.877448945271952
+      ],
+      "beta_interval": [
+        1.4496584404337713,
+        1.4582619755648545
+      ]
+    },
+    {
+      "a_interval": [
+        0.31562500000000004,
+        0.31875000000000003
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001596230820454319,
+      "r_P_L2_Lagrangian_upper": 0.0054339550837268795,
+      "momentum_local_polynomial_upper": 0.002240594828824286,
+      "force_projection_composition_upper": 0.0022028363135988475,
+      "alpha_interval": [
+        9.570151060710673,
+        9.72195388363513
+      ],
+      "beta_interval": [
+        1.4411517810886556,
+        1.4496584404337753
+      ]
+    },
+    {
+      "a_interval": [
+        0.31875000000000003,
+        0.321875
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0015724320561998804,
+      "r_P_L2_Lagrangian_upper": 0.005435181011628793,
+      "momentum_local_polynomial_upper": 0.0022389281012389875,
+      "force_projection_composition_upper": 0.002217846136910939,
+      "alpha_interval": [
+        9.421915819679068,
+        9.570151060710689
+      ],
+      "beta_interval": [
+        1.432739394809965,
+        1.44115178108866
+      ]
+    },
+    {
+      "a_interval": [
+        0.321875,
+        0.325
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0015491788927934262,
+      "r_P_L2_Lagrangian_upper": 0.0054362416601511565,
+      "momentum_local_polynomial_upper": 0.002237224128513601,
+      "force_projection_composition_upper": 0.0022327979137209773,
+      "alpha_interval": [
+        9.277128908935977,
+        9.421915819679082
+      ],
+      "beta_interval": [
+        1.4244187726489939,
+        1.4327393948099691
+      ]
+    },
+    {
+      "a_interval": [
+        0.325,
+        0.328125
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0015264529309629382,
+      "r_P_L2_Lagrangian_upper": 0.005437137463659674,
+      "momentum_local_polynomial_upper": 0.002235482437903251,
+      "force_projection_composition_upper": 0.002247692242782149,
+      "alpha_interval": [
+        9.135676199478254,
+        9.277128908935989
+      ],
+      "beta_interval": [
+        1.416187495517895,
+        1.4244187726489976
+      ]
+    },
+    {
+      "a_interval": [
+        0.328125,
+        0.33125000000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0015042370280542987,
+      "r_P_L2_Lagrangian_upper": 0.005437872371906957,
+      "momentum_local_polynomial_upper": 0.0022337061126644357,
+      "force_projection_composition_upper": 0.002262529692843219,
+      "alpha_interval": [
+        8.997448419567615,
+        9.135676199478269
+      ],
+      "beta_interval": [
+        1.408043230480125,
+        1.4161874955178992
+      ]
+    },
+    {
+      "a_interval": [
+        0.33125000000000004,
+        0.334375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001482514593363616,
+      "r_P_L2_Lagrangian_upper": 0.005438443739441211,
+      "momentum_local_polynomial_upper": 0.002231891678123545,
+      "force_projection_composition_upper": 0.0022773108040328154,
+      "alpha_interval": [
+        8.862340905463826,
+        8.997448419567627
+      ],
+      "beta_interval": [
+        1.399983727229006,
+        1.4080432304801287
+      ]
+    },
+    {
+      "a_interval": [
+        0.334375,
+        0.3375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0014612694866493945,
+      "r_P_L2_Lagrangian_upper": 0.005438855965969111,
+      "momentum_local_polynomial_upper": 0.0022300427383084693,
+      "force_projection_composition_upper": 0.0022920360895993053,
+      "alpha_interval": [
+        8.730253367114086,
+        8.862340905463839
+      ],
+      "beta_interval": [
+        1.3920068147429634,
+        1.39998372722901
+      ]
+    },
+    {
+      "a_interval": [
+        0.3375,
+        0.340625
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001440487102699482,
+      "r_P_L2_Lagrangian_upper": 0.005439106556114994,
+      "momentum_local_polynomial_upper": 0.0022281560336649135,
+      "force_projection_composition_upper": 0.002306706036523951,
+      "alpha_interval": [
+        8.601089667771927,
+        8.7302533671141
+      ],
+      "beta_interval": [
+        1.384110398106777,
+        1.3920068147429674
+      ]
+    },
+    {
+      "a_interval": [
+        0.340625,
+        0.34375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0014201525827570167,
+      "r_P_L2_Lagrangian_upper": 0.005439189332088242,
+      "momentum_local_polynomial_upper": 0.002226224649876029,
+      "force_projection_composition_upper": 0.002321321107483175,
+      "alpha_interval": [
+        8.474757616598062,
+        8.601089667771939
+      ],
+      "beta_interval": [
+        1.376292455488935,
+        1.384110398106781
+      ]
+    },
+    {
+      "a_interval": [
+        0.34375,
+        0.34687500000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0014002515963435032,
+      "r_P_L2_Lagrangian_upper": 0.005439114149152764,
+      "momentum_local_polynomial_upper": 0.002224257731173201,
+      "force_projection_composition_upper": 0.0023358817416734724,
+      "alpha_interval": [
+        8.351168773368121,
+        8.474757616598074
+      ],
+      "beta_interval": [
+        1.3685510352658294,
+        1.3762924554889389
+      ]
+    },
+    {
+      "a_interval": [
+        0.34687500000000004,
+        0.35000000000000003
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0013807711418020784,
+      "r_P_L2_Lagrangian_upper": 0.0054388808048084535,
+      "momentum_local_polynomial_upper": 0.0022222543873088273,
+      "force_projection_composition_upper": 0.0023503883557216506,
+      "alpha_interval": [
+        8.230238264478407,
+        8.351168773368133
+      ],
+      "beta_interval": [
+        1.360884253284182,
+        1.3685510352658337
+      ]
+    },
+    {
+      "a_interval": [
+        0.35000000000000003,
+        0.353125
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0013616981100201052,
+      "r_P_L2_Lagrangian_upper": 0.0054384852372360475,
+      "momentum_local_polynomial_upper": 0.0022202098893451846,
+      "force_projection_composition_upper": 0.002364841344974257,
+      "alpha_interval": [
+        8.111884609501539,
+        8.23023826447842
+      ],
+      "beta_interval": [
+        1.3532902902536406,
+        1.360884253284186
+      ]
+    },
+    {
+      "a_interval": [
+        0.353125,
+        0.35625
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0013430202860209952,
+      "r_P_L2_Lagrangian_upper": 0.005437930034592372,
+      "momentum_local_polynomial_upper": 0.0022181261768065854,
+      "force_projection_composition_upper": 0.0023792410844699886,
+      "alpha_interval": [
+        7.99602955759958,
+        8.11188460950155
+      ],
+      "beta_interval": [
+        1.3457673892620408,
+        1.3532902902536441
+      ]
+    },
+    {
+      "a_interval": [
+        0.35625,
+        0.359375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0013247257520538878,
+      "r_P_L2_Lagrangian_upper": 0.005437214852417384,
+      "momentum_local_polynomial_upper": 0.0022160022731511153,
+      "force_projection_composition_upper": 0.0023935879298075642,
+      "alpha_interval": [
+        7.88259793315324,
+        7.996029557599592
+      ],
+      "beta_interval": [
+        1.3383138534063086,
+        1.3457673892620445
+      ]
+    },
+    {
+      "a_interval": [
+        0.359375,
+        0.36250000000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0013068028825617922,
+      "r_P_L2_Lagrangian_upper": 0.005436342297522216,
+      "momentum_local_polynomial_upper": 0.0022138401676755665,
+      "force_projection_composition_upper": 0.002407882218094544,
+      "alpha_interval": [
+        7.771517490012715,
+        7.882597933153252
+      ],
+      "beta_interval": [
+        1.3309280435324422,
+        1.3383138534063126
+      ]
+    },
+    {
+      "a_interval": [
+        0.36250000000000004,
+        0.36562500000000003
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0012892408711305018,
+      "r_P_L2_Lagrangian_upper": 0.00543531231644932,
+      "momentum_local_polynomial_upper": 0.00221163920222553,
+      "force_projection_composition_upper": 0.002422124268767953,
+      "alpha_interval": [
+        7.662718773818813,
+        7.771517490012727
+      ],
+      "beta_interval": [
+        1.3236083760784374,
+        1.3309280435324462
+      ]
+    },
+    {
+      "a_interval": [
+        0.36562500000000003,
+        0.36875
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0012720290479485874,
+      "r_P_L2_Lagrangian_upper": 0.0054341239395164,
+      "momentum_local_polynomial_upper": 0.0022093978135583965,
+      "force_projection_composition_upper": 0.0024363143844043605,
+      "alpha_interval": [
+        7.556134991882633,
+        7.662718773818825
+      ],
+      "beta_interval": [
+        1.3163533210144112,
+        1.3236083760784412
+      ]
+    },
+    {
+      "a_interval": [
+        0.36875,
+        0.371875
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001255157438086071,
+      "r_P_L2_Lagrangian_upper": 0.005432776661928622,
+      "momentum_local_polynomial_upper": 0.0022071149127019184,
+      "force_projection_composition_upper": 0.0024504528516256763,
+      "alpha_interval": [
+        7.451701890148601,
+        7.5561349918826455
+      ],
+      "beta_interval": [
+        1.3091613998745522,
+        1.316353321014415
+      ]
+    },
+    {
+      "a_interval": [
+        0.371875,
+        0.375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001238616090519277,
+      "r_P_L2_Lagrangian_upper": 0.005431272684805778,
+      "momentum_local_polynomial_upper": 0.0022047921245425027,
+      "force_projection_composition_upper": 0.002464539941807355,
+      "alpha_interval": [
+        7.349357636799218,
+        7.451701890148612
+      ],
+      "beta_interval": [
+        1.302031183875855,
+        1.309161399874556
+      ]
+    },
+    {
+      "a_interval": [
+        0.375,
+        0.37812500000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001222395764118643,
+      "r_P_L2_Lagrangian_upper": 0.005429611449901732,
+      "momentum_local_polynomial_upper": 0.0022024283213275936,
+      "force_projection_composition_upper": 0.0024785759116517673,
+      "alpha_interval": [
+        7.249042712090895,
+        7.349357636799231
+      ],
+      "beta_interval": [
+        1.2949612921189244,
+        1.3020311838758591
+      ]
+    },
+    {
+      "a_interval": [
+        0.37812500000000004,
+        0.38125000000000003
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0012064872756071337,
+      "r_P_L2_Lagrangian_upper": 0.005427793194098695,
+      "momentum_local_polynomial_upper": 0.0022000231756170298,
+      "force_projection_composition_upper": 0.0024925610040436846,
+      "alpha_interval": [
+        7.150699804038735,
+        7.2490427120909064
+      ],
+      "beta_interval": [
+        1.287950389866418,
+        1.2949612921189284
+      ]
+    },
+    {
+      "a_interval": [
+        0.38125000000000003,
+        0.384375
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0011908818948760198,
+      "r_P_L2_Lagrangian_upper": 0.005425819098299845,
+      "momentum_local_polynomial_upper": 0.002197577308170754,
+      "force_projection_composition_upper": 0.0025064954485272545,
+      "alpha_interval": [
+        7.054273709594591,
+        7.150699804038746
+      ],
+      "beta_interval": [
+        1.2809971868949832,
+        1.2879503898664217
+      ]
+    },
+    {
+      "a_interval": [
+        0.384375,
+        0.3875
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0011755712395472545,
+      "r_P_L2_Lagrangian_upper": 0.005423687559585918,
+      "momentum_local_polynomial_upper": 0.0021950885585973125,
+      "force_projection_composition_upper": 0.0025203794622019556,
+      "alpha_interval": [
+        6.959711240986962,
+        7.054273709594601
+      ],
+      "beta_interval": [
+        1.274100435916784,
+        1.2809971868949865
+      ]
+    },
+    {
+      "a_interval": [
+        0.3875,
+        0.390625
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0011605471725236402,
+      "r_P_L2_Lagrangian_upper": 0.005421403017210922,
+      "momentum_local_polynomial_upper": 0.0021925608104902098,
+      "force_projection_composition_upper": 0.00253421325014882,
+      "alpha_interval": [
+        6.866961136913891,
+        6.959711240986972
+      ],
+      "beta_interval": [
+        1.2672589310669689,
+        1.2741004359167876
+      ]
+    },
+    {
+      "a_interval": [
+        0.390625,
+        0.39375000000000004
+      ],
+      "r_X_L2_Lagrangian_upper": 0.0011458020726194946,
+      "r_P_L2_Lagrangian_upper": 0.005418962939202679,
+      "momentum_local_polynomial_upper": 0.002189990977141226,
+      "force_projection_composition_upper": 0.002547997005902187,
+      "alpha_interval": [
+        6.775973978300727,
+        6.866961136913901
+      ],
+      "beta_interval": [
+        1.2604715064536336,
+        1.2672589310669726
+      ]
+    },
+    {
+      "a_interval": [
+        0.39375000000000004,
+        0.39687500000000003
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001131328094446914,
+      "r_P_L2_Lagrangian_upper": 0.005416369424275006,
+      "momentum_local_polynomial_upper": 0.0021873806022623924,
+      "force_projection_composition_upper": 0.0025617309121865346,
+      "alpha_interval": [
+        6.686702108353993,
+        6.775973978300738
+      ],
+      "beta_interval": [
+        1.2537370347670607,
+        1.2604715064536374
+      ]
+    },
+    {
+      "a_interval": [
+        0.39687500000000003,
+        0.4
+      ],
+      "r_X_L2_Lagrangian_upper": 0.001117118185360975,
+      "r_P_L2_Lagrangian_upper": 0.005413620986878319,
+      "momentum_local_polynomial_upper": 0.0021847276443388284,
+      "force_projection_composition_upper": 0.002575415141293481,
+      "alpha_interval": [
+        6.5990995566602555,
+        6.6867021083540035
+      ],
+      "beta_interval": [
+        1.2470544259451857,
+        1.2537370347670642
+      ]
+    }
+  ],
+  "work": {
+    "trajectory_advancements": 0,
+    "new_FFTs": 0,
+    "new_depositions": 0,
+    "previous_spatial_certificate_recomputed": false,
+    "binary_primitive_operation_counts": {
+      "comparisons": 78210370,
+      "real_multiplications": 61958946,
+      "directed_roundings": 139084054,
+      "real_additions": 72820634,
+      "real_divisions": 30010186,
+      "square_roots": 1174,
+      "absolute_values": 1622016
+    },
+    "coefficient_endpoint_evaluations": 65,
+    "additional_coefficient_arithmetic_upper": 16640,
+    "additional_scalar_arithmetic_upper": 4096,
+    "interval_preprocessing": {
+      "precision_decimal_digits": 40,
+      "growth_series_terms": 20,
+      "additional_interval_arithmetic_upper": 512,
+      "square_roots_upper": 8,
+      "pi_interval_reads": 1,
+      "transcendental_force_evaluations": 0
+    },
+    "peak_spatial_refinement": "one initial 32^3 Q1 field pair; trajectory states remain at 16^3",
+    "index_copies_and_hash_bytes_counted_as_memory_work_not_real_arithmetic": true
+  },
+  "Newtonian_evolved_trajectory_certified": false,
+  "proof_boundary": "Residuals are continuous-function L2 bounds; a dynamical stability and density continuation argument is separate.",
+  "all_bounds_finite": true,
+  "source_sha256": "6d0a923684241a29dc062dd200428a95c18fbb18e1572a66f6dbc6b8ac9422e1"
+}

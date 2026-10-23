@@ -1,0 +1,557 @@
+{
+  "upstream_run_id": "20261004T090516Z-06e9a7a6",
+  "target_initial_sha256": "3760e583c92e5ce0cc655f7b0a75098c890c667998ffe6b1b71e9093ba4e4f74",
+  "target_operator_sha256": "3b34c2bd502ffce70bcb5107a887e5611a31b5eb9bec20b0c647414825247305",
+  "interval": [
+    0.2,
+    0.4
+  ],
+  "original_particles": 4096,
+  "original_mesh": [
+    16,
+    16,
+    16
+  ],
+  "original_steps": 64,
+  "regenerated_once_this_execution": true,
+  "trajectory_cache": "p9_actual_trajectory_20261004.npz",
+  "algebra_checks": {
+    "cell_moment_identities_exact": 30,
+    "arbitrary_grid_crossing_tests_exact": 40,
+    "grid_face_kink_sharp_example": {
+      "actual": "1/16",
+      "bound": "1/16"
+    },
+    "scope": "independent exact algebra tests; not a smaller dynamical target"
+  },
+  "kernel_derivative_bounds": {
+    "first": [
+      0.14262604553220215,
+      0.14262604553220215,
+      0.14262604456781883
+    ],
+    "mixed": {
+      "(0, 1)": 0.05868657051611874,
+      "(0, 2)": 0.06675568200729907,
+      "(1, 2)": 0.06675568200729907
+    },
+    "face_jumps": [
+      0.27411014637580106,
+      0.27411014637580106,
+      0.27411014490230884
+    ]
+  },
+  "same_target_monopole_validation": [
+    {
+      "group_width_in_original_cells": 2,
+      "monopoles": 512,
+      "original_particles": 4096,
+      "grid_force_samples_at_original_positions": [
+        0.004338699945496501,
+        0.004340072567545238
+      ],
+      "rigorous_global_bound": 2465.76465547232,
+      "first_moment_term": 1.0416838928493161e-12,
+      "mixed_curvature_term": 787.2434166205352,
+      "grid_crossing_term": 1678.5212388517832,
+      "force_work": {
+        "binary_scalings": 40960,
+        "real_additions": 987336,
+        "floor_operations": 12288,
+        "real_multiplications": 606319,
+        "integer_additions": 98304,
+        "integer_remainders": 98304,
+        "directed_roundings": 372,
+        "real_divisions": 5,
+        "comparisons": 229321,
+        "absolute_values": 438272,
+        "complex_butterflies": 98304
+      },
+      "accepted_at_formal_trajectory_tolerance": false
+    },
+    {
+      "group_width_in_original_cells": 4,
+      "monopoles": 64,
+      "original_particles": 4096,
+      "grid_force_samples_at_original_positions": [
+        3.0096478659330645,
+        3.009657755504182
+      ],
+      "rigorous_global_bound": 8196.959933961545,
+      "first_moment_term": 9.8537579958613e-13,
+      "mixed_curvature_term": 3149.083049268419,
+      "grid_crossing_term": 5047.876884693123,
+      "force_work": {
+        "binary_scalings": 40960,
+        "real_additions": 987336,
+        "floor_operations": 12288,
+        "real_multiplications": 606319,
+        "integer_additions": 98304,
+        "integer_remainders": 98304,
+        "directed_roundings": 372,
+        "real_divisions": 5,
+        "comparisons": 229321,
+        "absolute_values": 438272,
+        "complex_butterflies": 98304
+      },
+      "accepted_at_formal_trajectory_tolerance": false
+    }
+  ],
+  "continuous_reconstruction": {
+    "construction": "q + original trilinear psi0(q) + centred-grid interpolation of particle displacement increments",
+    "initial_continuous_reconstruction_error": 0,
+    "uniform_reconstruction_Lip_diagnostic": 0.011192579301731573,
+    "uniform_empirical_W_infinity_lower": 1.0000000000000002,
+    "rows": [
+      {
+        "a": 0.2,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.006529505928326991,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.008928298950195312
+      },
+      {
+        "a": 0.203125,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.006613433540813426,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.009066233546521474
+      },
+      {
+        "a": 0.20625000000000002,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.006696835575075808,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.00920365243418475
+      },
+      {
+        "a": 0.209375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.006779728828921282,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.00934056981042275
+      },
+      {
+        "a": 0.21250000000000002,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.006862129067281429,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.009476998903862999
+      },
+      {
+        "a": 0.215625,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.006944051098779913,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.00961295205513979
+      },
+      {
+        "a": 0.21875,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.0070255088488015765,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.009748440773015066
+      },
+      {
+        "a": 0.22187500000000002,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007106515415506754,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.009883475810684494
+      },
+      {
+        "a": 0.225,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.00718708313996539,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01001806718161724
+      },
+      {
+        "a": 0.22812500000000002,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007267223644108902,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.010152224236006813
+      },
+      {
+        "a": 0.23125,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007346947882114854,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.010285955703913885
+      },
+      {
+        "a": 0.234375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007426266185968292,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.010419269747175441
+      },
+      {
+        "a": 0.23750000000000002,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007505188306620817,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.010552173962246059
+      },
+      {
+        "a": 0.240625,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007583723445186967,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.010684675448040082
+      },
+      {
+        "a": 0.24375000000000002,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007661880300749529,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.010816780832247908
+      },
+      {
+        "a": 0.246875,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007739667088068929,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.010948496289982845
+      },
+      {
+        "a": 0.25,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007817091575190045,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.011079827580934953
+      },
+      {
+        "a": 0.25312500000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007894161110687954,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.011210780063311443
+      },
+      {
+        "a": 0.25625000000000003,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.007970882637507101,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.011341358726998596
+      },
+      {
+        "a": 0.259375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008047262733829927,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.011471568216320005
+      },
+      {
+        "a": 0.2625,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008123307628526297,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.011601412850335002
+      },
+      {
+        "a": 0.265625,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008199023217821054,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.011730896635264276
+      },
+      {
+        "a": 0.26875000000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008274415082260888,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01186002328911595
+      },
+      {
+        "a": 0.27187500000000003,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.00834948850636884,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.011988796256490186
+      },
+      {
+        "a": 0.275,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.00842424850354705,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.012117218721633627
+      },
+      {
+        "a": 0.278125,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008498699823732848,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01224529362214355
+      },
+      {
+        "a": 0.28125,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008572846964507209,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.012373023666239824
+      },
+      {
+        "a": 0.28437500000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008646694190397975,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.012500411340384154
+      },
+      {
+        "a": 0.28750000000000003,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008720245541941942,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.012627458928307522
+      },
+      {
+        "a": 0.290625,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008793504850899794,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.012754168520827669
+      },
+      {
+        "a": 0.29375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008866475751836625,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.012880542024594543
+      },
+      {
+        "a": 0.296875,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.008939161689168744,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.013006581168075293
+      },
+      {
+        "a": 0.30000000000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009011565925021385,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01313228751222173
+      },
+      {
+        "a": 0.30312500000000003,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.00908369155693544,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.013257662466480635
+      },
+      {
+        "a": 0.30625,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009155541515309501,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.013382707290728213
+      },
+      {
+        "a": 0.309375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009227118578943422,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.013507423102805838
+      },
+      {
+        "a": 0.3125,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009298425382345816,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01363181088109755
+      },
+      {
+        "a": 0.31562500000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009369464425466262,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.013755871482889592
+      },
+      {
+        "a": 0.31875000000000003,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009440238071459769,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.013879605646642368
+      },
+      {
+        "a": 0.321875,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009510748558891221,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.014003013996110258
+      },
+      {
+        "a": 0.325,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009580998010398242,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.014126097045710662
+      },
+      {
+        "a": 0.328125,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.00965098843693357,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.014248855208119249
+      },
+      {
+        "a": 0.33125000000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009720721735463343,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01437128879883165
+      },
+      {
+        "a": 0.334375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009790199706166678,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.014493398042265238
+      },
+      {
+        "a": 0.3375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009859424048777708,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.014615183074960125
+      },
+      {
+        "a": 0.340625,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009928396370342485,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01473664395011598
+      },
+      {
+        "a": 0.34375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.009997118190930854,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.014857780648438457
+      },
+      {
+        "a": 0.34687500000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010065590946685576,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01497859307178162
+      },
+      {
+        "a": 0.35000000000000003,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010133815994749941,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.015099081051369367
+      },
+      {
+        "a": 0.353125,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.01020179461752835,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.015219244352625783
+      },
+      {
+        "a": 0.35625,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010269528023727716,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01533908268376205
+      },
+      {
+        "a": 0.359375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010337017350142698,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.015458595692218857
+      },
+      {
+        "a": 0.36250000000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010404263670611206,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.015577782969427911
+      },
+      {
+        "a": 0.36562500000000003,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.01047126799676135,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.015696644053632358
+      },
+      {
+        "a": 0.36875,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010538031280299402,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.01581517843390845
+      },
+      {
+        "a": 0.371875,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010604554418297111,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.015933385551871293
+      },
+      {
+        "a": 0.375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010670838252142772,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.016051264809747945
+      },
+      {
+        "a": 0.37812500000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.01073688357326819,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.016168815568235573
+      },
+      {
+        "a": 0.38125000000000003,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010802691123064317,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.016286037151257204
+      },
+      {
+        "a": 0.384375,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010868261598342206,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.016402928843289644
+      },
+      {
+        "a": 0.3875,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.010933595651787316,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.016519489898099593
+      },
+      {
+        "a": 0.390625,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.0109986938948421,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.016635719541196803
+      },
+      {
+        "a": 0.39375000000000004,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.011063556899838518,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.016751616969363337
+      },
+      {
+        "a": 0.39687500000000003,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.011128185202853089,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.0168671813503547
+      },
+      {
+        "a": 0.4,
+        "reconstructed_displacement_Lip_infinity_upper_float_diagnostic": 0.011192579301731573,
+        "cell_occupancy": 4096,
+        "max_particle_displacement_from_original_centre": 0.016982411829559396
+      }
+    ],
+    "Newtonian_evolved_trajectory_certified": false,
+    "missing": [
+      "time-dependent Newtonian force residual including unretained modes",
+      "stability in a regularity space controlling density/force and actual flow Jacobian",
+      "continuous momentum reconstruction and time-integrated defect enclosure"
+    ]
+  },
+  "exact_cell_aggregation": {
+    "minimum_occupied_cells": 4096,
+    "maximum_occupied_cells": 4096,
+    "particle_reduction_for_this_target": 0,
+    "mass_and_source_force_preserved_by_8_moments": true,
+    "direct_unit_mass_deposition_work_per_state": {
+      "multiplications": 65536,
+      "accumulation_additions": 32768
+    },
+    "cell_moment_work_per_state": {
+      "multiplications": 16384,
+      "moment_additions": 32768,
+      "Walsh_additions": 98304,
+      "binary_scalings": 32768
+    },
+    "break_even_ignoring_grouping_and_binary_scalings": "N_particles > 2 * occupied_cells",
+    "advancement_closed_by_these_moments_alone": false
+  },
+  "validation_work": {
+    "production_force_evaluations_if_cache_built": 65,
+    "additional_enclosed_force_evaluations": 3,
+    "additional_complex_ffts": 15,
+    "kernel_work": {
+      "complex_ffts": 3,
+      "explicit_arithmetic": {
+        "directed_roundings": 258,
+        "real_additions": 589968,
+        "absolute_values": 294912,
+        "comparisons": 147420,
+        "real_multiplications": 294984,
+        "complex_butterflies": 73728,
+        "real_divisions": 3,
+        "binary_scalings": 24576
+      },
+      "kernel_difference_real_additions": 147456,
+      "kernel_radius": 4.4023869152616504e-14
+    },
+    "baseline_force_work": {
+      "binary_scalings": 40960,
+      "real_additions": 987336,
+      "floor_operations": 12288,
+      "real_multiplications": 606319,
+      "integer_additions": 98304,
+      "integer_remainders": 98304,
+      "directed_roundings": 372,
+      "real_divisions": 5,
+      "comparisons": 229321,
+      "absolute_values": 438272,
+      "complex_butterflies": 98304
+    },
+    "scope": "one-time candidate validation; exact-Fraction shape budgets separately identifiable in source"
+  },
+  "all_checks_passed": true
+}

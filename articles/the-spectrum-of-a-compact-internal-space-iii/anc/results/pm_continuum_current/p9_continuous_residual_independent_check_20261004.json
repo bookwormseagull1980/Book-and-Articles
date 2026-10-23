@@ -1,0 +1,68 @@
+{
+  "all_checks_passed": true,
+  "exact_algebra": {
+    "exact_periodic_element_integrations": [
+      {
+        "periodic_cells_per_axis": 2,
+        "exact_Q1_energies": {
+          "norm_squared": "2101/27648",
+          "gradient_squared": "1285/3456",
+          "curl_squared": "2629/10368",
+          "divergence_squared": "613/5184"
+        }
+      },
+      {
+        "periodic_cells_per_axis": 3,
+        "exact_Q1_energies": {
+          "norm_squared": "31019/373248",
+          "gradient_squared": "13913/46656",
+          "curl_squared": "99245/559872",
+          "divergence_squared": "67711/559872"
+        }
+      }
+    ],
+    "primitive_rational_enclosure_cases": 240,
+    "opposite_trend_product_counterexample_checked": true,
+    "actual_periodic_field_product_counterexample_midpoint_factor": "5/4"
+  },
+  "actual_record_checks": {
+    "independent_growth_integral_digits": 80,
+    "time_intervals_checked": 64,
+    "all_identity_digests_match": true,
+    "original_initial_momenta_reconstructed_bitwise_equal": true,
+    "original_growth_scalar_inside_enclosure": true,
+    "additional_initial_interpolation_arithmetic_upper": 1228800,
+    "additional_initial_particle_evolutions": 0,
+    "exact_growth_factor_reference": "0.25078309169680321347596105725183198452614822370618105926995101362102978002077619",
+    "result_sha256": "a1fae150be1494e571923e65af01b239ca8794c9a7b1a7063d4dfc6f532d2d85"
+  },
+  "verification_work": {
+    "Fraction_function_calls": {
+      "__new__": 29854,
+      "__neg__": 1995,
+      "_from_coprime_ints": 67981,
+      "forward": 65974,
+      "_add": 27707,
+      "_mul": 19580,
+      "_div": 18525,
+      "_sub": 162,
+      "__eq__": 5,
+      "numerator": 1565,
+      "denominator": 1565,
+      "__pow__": 12,
+      "__le__": 252,
+      "_richcmp": 1136,
+      "__str__": 8,
+      "__lt__": 400,
+      "__gt__": 244,
+      "__ge__": 240
+    },
+    "observed_operand_and_result_bits_max": 109,
+    "unreduced_binary_integer_bits_upper": 219,
+    "binary_arithmetic_calls": 65974,
+    "independent_80_digit_quadrature_is_validation_only": true
+  },
+  "scope": "element identities and interval implementation, not a smaller dynamical trajectory",
+  "new_FFTs": 0,
+  "new_particle_evolutions": 0
+}

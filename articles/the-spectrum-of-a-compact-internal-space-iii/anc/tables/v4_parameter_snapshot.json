@@ -1,0 +1,16 @@
+{
+  "gamma_m_integral": 139.2537061093592,
+  "h0_gev": 1.4388498142964775e-42,
+  "kl": 2.4935343325226915,
+  "m_nu1_ev": 0.002607415413287687,
+  "m_p_gev": 2.435323595526305e+18,
+  "omega_b": 0.049408192038365814,
+  "omega_lambda": 0.6850442965140158,
+  "omega_sigma": 0.2655475114476184,
+  "rho_lambda_gev4": 2.5233889268202705e-47,
+  "snapshot_hash": "8409ab410a4f8e706c2fcd4bac7f7a02f7b0191b24787a17c27bf298b8d24f27",
+  "source_hash": "8409ab410a4f8e706c2fcd4bac7f7a02f7b0191b24787a17c27bf298b8d24f27",
+  "source_path": null,
+  "source_reference": "Coarse-Graining Genesis Framework 4.0.0.dev20261005 (unpublished revision)",
+  "source_run_id": "20261004T164657Z-a07542f1"
+}

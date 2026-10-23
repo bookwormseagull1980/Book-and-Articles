@@ -1,0 +1,45 @@
+"""Audit a completed result directory."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+import sys
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from cosmic_cg.io.audit import audit_run, write_audit_markdown, write_audit_report
+
+
+def main() -> int:
+    args = parse_args()
+    run_dir = Path(args.run_dir)
+    report = audit_run(run_dir, None if args.run_type == "auto" else args.run_type)
+    qc_dir = run_dir / "quality_checks"
+    qc_dir.mkdir(parents=True, exist_ok=True)
+    write_audit_report(report, qc_dir / "audit_report.json")
+    write_audit_markdown(report, qc_dir / "audit_report.md")
+    print(json.dumps({"run_dir": str(run_dir), "run_type": report.run_type, "status": report.status}, indent=2))
+    if args.strict and report.status == "fail":
+        return 1
+    return 0
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--run-dir", required=True, help="completed result directory")
+    parser.add_argument(
+        "--run-type",
+        default="auto",
+        choices=("auto", "generated_universe"),
+        help="schema to audit against",
+    )
+    parser.add_argument("--strict", action="store_true", help="return nonzero when audit status is fail")
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

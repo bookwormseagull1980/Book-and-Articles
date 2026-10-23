@@ -1,0 +1,4717 @@
+{
+  "scope": "specified cold-source Vlasov--Poisson realization; finite numerical validation",
+  "upstream_run_id": "20261004T164657Z-a07542f1",
+  "upstream_parameter_sha256": "8409ab410a4f8e706c2fcd4bac7f7a02f7b0191b24787a17c27bf298b8d24f27",
+  "upstream_reference": "Coarse-Graining Genesis Framework 4.0.0.dev20261005 (unpublished revision)",
+  "clock": {
+    "time_variable": "a",
+    "momentum": "p=a^3 E(a) dx/da",
+    "EdS": [
+      {
+        "steps": 32,
+        "displacement_error": 0.0012051245276434308,
+        "velocity_error": 0.0012051985974596002
+      },
+      {
+        "steps": 64,
+        "displacement_error": 0.0003047097544233157,
+        "velocity_error": 0.00030471441992485637
+      },
+      {
+        "steps": 128,
+        "displacement_error": 7.640011237941557e-05,
+        "velocity_error": 7.640040455481056e-05
+      }
+    ],
+    "current_background_interval": [
+      0.2,
+      0.4
+    ],
+    "current_background_max_error": 3.7160393562274407e-06
+  },
+  "PM": {
+    "particles": 4096,
+    "mesh": [
+      16,
+      16,
+      16
+    ],
+    "box_Mpc_over_h": 32.0,
+    "seed": 20260904,
+    "initial_displacement_fraction": 0.002,
+    "initial_velocity": "growing mode f(a0) displacement/a0",
+    "scope": "finite CIC particle trajectory enclosure, mass and time-refinement checks",
+    "rows": [
+      {
+        "steps": 16,
+        "density_mean_error": 4.511093720793724e-10,
+        "minimum_density": 0.9918953776359558,
+        "rms_density": 0.002716820454224944,
+        "particle_count": 4096,
+        "force_evaluations": 17
+      },
+      {
+        "steps": 32,
+        "density_mean_error": 2.764863893389702e-10,
+        "minimum_density": 0.9918952584266663,
+        "rms_density": 0.0027168607339262962,
+        "particle_count": 4096,
+        "force_evaluations": 33
+      },
+      {
+        "steps": 64,
+        "density_mean_error": 3.7834979593753815e-10,
+        "minimum_density": 0.9918952584266663,
+        "rms_density": 0.0027168700471520424,
+        "particle_count": 4096,
+        "force_evaluations": 65
+      }
+    ],
+    "successive_position_RMS_Mpc_over_h": [
+      7.67996505351151e-08,
+      1.9142020022434746e-08
+    ],
+    "trajectory_certificate": {
+      "target": "finite periodic CIC particle equations with the stored Fourier multipliers",
+      "state_norm": "max(max_i |x_i|_infinity, momentum_weight * max_i |p_i|_infinity)",
+      "interval": [
+        0.2,
+        0.4
+      ],
+      "particles": 4096,
+      "mesh": [
+        16,
+        16,
+        16
+      ],
+      "steps": 64,
+      "momentum_weight": 0.9344870002955983,
+      "continuation_tube": 0.1,
+      "uniform_joint_error_upper": 0.005714230313019903,
+      "relative_position_to_cell_upper": 0.0028571151565099516,
+      "max_defect_upper": 0.0032555309796875663,
+      "max_lipschitz_upper": 22.46287873313517,
+      "kernel_current_slope_upper": 8.079630135820752,
+      "kernel_roundoff_upper": 4.4023869152616504e-14,
+      "force_roundoff_upper": 7.672913604227085e-08,
+      "face_current_upper": 1.2476497083365803,
+      "spatial_continuum_certified": false,
+      "original_continuous_initial_sheet": {
+        "initial_map": "X(q)=q+s I_h D(q), P(q)=a0^2 E(a0) f(a0) s I_h D(q), uniform q",
+        "source": "the same displacement arrays, amplitude normalization and cell-centered initial lattice",
+        "displacement_Lipschitz_upper": 0.006529505928326991,
+        "initial_weighted_W_infinity_upper": 1.0065333388799809,
+        "position_roundoff_upper": 3.832951646620888e-06,
+        "quantization_half_cell": 1.0,
+        "same_initial_tube_admissible": false,
+        "spatial_force_consistency_required": true
+      },
+      "initial_Newtonian_force_observables": {
+        "target": "initial Newtonian and CIC force Fourier projections of the original continuous cold sheet",
+        "initial_map": "X(q)=q+s I_h D(q), q uniform in the periodic box",
+        "force_comparison": "continuous Newtonian force versus the trilinearly interpolated PM force from the actual particles",
+        "norm": "volume-normalized L2 of the stated nonzero Fourier box",
+        "displacement_amplitude_upper": 0.00990019568609669,
+        "displacement_second_moment_upper": 1.9294762641369085e-05,
+        "cell_edge_displacement_upper": [
+          0.006238618676705008,
+          0.006433359188392183,
+          0.0058950295413835625
+        ],
+        "bands": [
+          {
+            "mode_box_radius": 1,
+            "nonzero_modes": 26,
+            "normalized_L2_force_error": [
+              0.00015026043515711427,
+              0.0001503501332047768
+            ],
+            "normalized_L2_Newton_force": [
+              0.0031468861973320173,
+              0.003146951482720211
+            ],
+            "relative_L2_force_error": [
+              0.04774793509915501,
+              0.04777742942602951
+            ]
+          },
+          {
+            "mode_box_radius": 2,
+            "nonzero_modes": 124,
+            "normalized_L2_force_error": [
+              0.000440684559840241,
+              0.0004418785321728246
+            ],
+            "normalized_L2_Newton_force": [
+              0.003853609621653166,
+              0.0038542735223965558
+            ],
+            "relative_L2_force_error": [
+              0.11433660773670959,
+              0.1146661378697883
+            ]
+          }
+        ],
+        "mode_enclosures": [
+          {
+            "mode": [
+              -2,
+              -2,
+              -2
+            ],
+            "force_error_norm": [
+              5.1226017147156085e-05,
+              5.151936941785652e-05
+            ],
+            "Newton_force_norm": [
+              0.0001491898354321648,
+              0.00014948317848466458
+            ],
+            "Newton_density_coefficient": {
+              "real": -4.385604524163803e-05,
+              "imaginary": -9.161938813172734e-05,
+              "radius": 9.976227039735537e-08
+            },
+            "density_displacement_remainder_upper": 1.0018287900592253e-08,
+            "density_Gauss_remainder_upper": 8.974398239145323e-08
+          },
+          {
+            "mode": [
+              -2,
+              -2,
+              -1
+            ],
+            "force_error_norm": [
+              8.639759342653117e-05,
+              8.65901676578921e-05
+            ],
+            "Newton_force_norm": [
+              0.00032741409633925845,
+              0.00032760665950520195
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.0001850139375473394,
+              "imaginary": 5.466068663901853e-05,
+              "radius": 5.671453382379698e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 5.020746486025455e-08
+          },
+          {
+            "mode": [
+              -2,
+              -2,
+              0
+            ],
+            "force_error_norm": [
+              2.57071388910338e-05,
+              2.587530794461443e-05
+            ],
+            "Newton_force_norm": [
+              0.00011118178479871869,
+              0.00011134994196366005
+            ],
+            "Newton_density_coefficient": {
+              "real": 3.9113181542420667e-05,
+              "imaginary": 4.78381721701861e-05,
+              "radius": 4.669391243953909e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 4.124064714957678e-08
+          },
+          {
+            "mode": [
+              -2,
+              -2,
+              1
+            ],
+            "force_error_norm": [
+              5.165474784629432e-05,
+              5.184732207764441e-05
+            ],
+            "Newton_force_norm": [
+              0.00019596984147231906,
+              0.00019616240463825503
+            ],
+            "Newton_density_coefficient": {
+              "real": -9.387636505454574e-05,
+              "imaginary": -6.727362748245645e-05,
+              "radius": 5.671453382235635e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 5.020746486025455e-08
+          },
+          {
+            "mode": [
+              -2,
+              -2,
+              2
+            ],
+            "force_error_norm": [
+              2.2068689378877255e-05,
+              2.2362041649568546e-05
+            ],
+            "Newton_force_norm": [
+              6.445761660643012e-05,
+              6.475095965892343e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 4.110648085697486e-05,
+              "imaginary": 1.552980116262281e-05,
+              "radius": 9.976227039595331e-08
+            },
+            "density_displacement_remainder_upper": 1.0018287900592253e-08,
+            "density_Gauss_remainder_upper": 8.974398239145323e-08
+          },
+          {
+            "mode": [
+              -2,
+              -1,
+              -2
+            ],
+            "force_error_norm": [
+              2.3719658425698367e-05,
+              2.3904744228257434e-05
+            ],
+            "Newton_force_norm": [
+              9.013936885143899e-05,
+              9.032444358858775e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 5.0693771195999365e-05,
+              "imaginary": 1.5973986484289253e-05,
+              "radius": 5.450900949228005e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.8001940538952456e-08
+          },
+          {
+            "mode": [
+              -2,
+              -1,
+              -1
+            ],
+            "force_error_norm": [
+              1.9782674071387793e-05,
+              1.9883083772448677e-05
+            ],
+            "Newton_force_norm": [
+              0.00011152101146934687,
+              0.00011162140708189077
+            ],
+            "Newton_density_coefficient": {
+              "real": 3.0927898856421495e-05,
+              "imaginary": -4.3851491697176475e-05,
+              "radius": 2.4142945464955326e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.0600945737078064e-08
+          },
+          {
+            "mode": [
+              -2,
+              -1,
+              0
+            ],
+            "force_error_norm": [
+              2.795994393086267e-05,
+              2.804078988620477e-05
+            ],
+            "Newton_force_norm": [
+              0.00019851461752526454,
+              0.00019859544784753532
+            ],
+            "Newton_density_coefficient": {
+              "real": 4.092554588505837e-05,
+              "imaginary": 7.69721673929492e-05,
+              "radius": 1.7744313705102628e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.504982321590912e-08
+          },
+          {
+            "mode": [
+              -2,
+              -1,
+              1
+            ],
+            "force_error_norm": [
+              4.148330758742082e-05,
+              4.1583717288491696e-05
+            ],
+            "Newton_force_norm": [
+              0.00023324640031619347,
+              0.00023334679592874386
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00010743212618606489,
+              "imaginary": 3.237899786505433e-05,
+              "radius": 2.4142945465844747e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.0600945737078064e-08
+          },
+          {
+            "mode": [
+              -2,
+              -1,
+              2
+            ],
+            "force_error_norm": [
+              2.625413314570013e-05,
+              2.643921894826005e-05
+            ],
+            "Newton_force_norm": [
+              9.968163199587047e-05,
+              9.986670673301943e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -4.159826905660867e-05,
+              "imaginary": -4.1517620829902456e-05,
+              "radius": 5.4509009492164935e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.8001940538952456e-08
+          },
+          {
+            "mode": [
+              -2,
+              0,
+              -2
+            ],
+            "force_error_norm": [
+              2.5203440747393534e-05,
+              2.536263883627765e-05
+            ],
+            "Newton_force_norm": [
+              0.00010924012861203442,
+              0.00010939931481228009
+            ],
+            "Newton_density_coefficient": {
+              "real": 6.0245356475298766e-05,
+              "imaginary": -7.511633409321645e-06,
+              "radius": 4.420285331566234e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 3.8749588040284014e-08
+          },
+          {
+            "mode": [
+              -2,
+              0,
+              -1
+            ],
+            "force_error_norm": [
+              6.121707360364908e-05,
+              6.129640893394875e-05
+            ],
+            "Newton_force_norm": [
+              0.0004342327854014328,
+              0.0004343121050986567
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00019063376389968312,
+              "imaginary": 3.598101709847482e-06,
+              "radius": 1.741269304544973e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.4718202562213412e-08
+          },
+          {
+            "mode": [
+              -2,
+              0,
+              0
+            ],
+            "force_error_norm": [
+              3.057737873375355e-05,
+              3.063855511080228e-05
+            ],
+            "Newton_force_norm": [
+              0.0003062494408646751,
+              0.0003063105995370605
+            ],
+            "Newton_density_coefficient": {
+              "real": -8.713485905092505e-06,
+              "imaginary": 0.00011995983959960855,
+              "radius": 1.2008477240472289e-08
+            },
+            "density_displacement_remainder_upper": 1.928020405408703e-09,
+            "density_Gauss_remainder_upper": 1.0080456797779326e-08
+          },
+          {
+            "mode": [
+              -2,
+              0,
+              1
+            ],
+            "force_error_norm": [
+              4.2151706894803635e-05,
+              4.223104222509448e-05
+            ],
+            "Newton_force_norm": [
+              0.00029944066519394224,
+              0.00029951998489115956
+            ],
+            "Newton_density_coefficient": {
+              "real": 2.613475318600865e-05,
+              "imaginary": -0.000128863631072997,
+              "radius": 1.7412693044441307e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.4718202562213412e-08
+          },
+          {
+            "mode": [
+              -2,
+              0,
+              2
+            ],
+            "force_error_norm": [
+              3.682681757439578e-05,
+              3.6986015663282426e-05
+            ],
+            "Newton_force_norm": [
+              0.0001594592367154145,
+              0.00015961842291566125
+            ],
+            "Newton_density_coefficient": {
+              "real": 1.2840399379368851e-05,
+              "imaginary": 8.766617128088921e-05,
+              "radius": 4.4202853315619165e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 3.8749588040284014e-08
+          },
+          {
+            "mode": [
+              -2,
+              1,
+              -2
+            ],
+            "force_error_norm": [
+              2.3485792567492464e-05,
+              2.3670878370052486e-05
+            ],
+            "Newton_force_norm": [
+              8.919784546443691e-05,
+              8.938292020158632e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -3.139176264210038e-05,
+              "imaginary": 4.220113876759171e-05,
+              "radius": 5.450900949240513e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.8001940538952456e-08
+          },
+          {
+            "mode": [
+              -2,
+              1,
+              -1
+            ],
+            "force_error_norm": [
+              2.6032700072023055e-05,
+              2.613310977308541e-05
+            ],
+            "Newton_force_norm": [
+              0.00014650231550296733,
+              0.00014660271111551184
+            ],
+            "Newton_density_coefficient": {
+              "real": -6.584630579001075e-05,
+              "imaginary": 2.5148496417192486e-05,
+              "radius": 2.4142945464933935e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.0600945737078064e-08
+          },
+          {
+            "mode": [
+              -2,
+              1,
+              0
+            ],
+            "force_error_norm": [
+              2.7584369364538052e-05,
+              2.7665215319878792e-05
+            ],
+            "Newton_force_norm": [
+              0.00019639310913988173,
+              0.00019647393946215115
+            ],
+            "Newton_density_coefficient": {
+              "real": 4.159711799199759e-05,
+              "imaginary": 7.55497349767709e-05,
+              "radius": 1.7744313704822227e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.504982321590912e-08
+          },
+          {
+            "mode": [
+              -2,
+              1,
+              1
+            ],
+            "force_error_norm": [
+              4.341013547146096e-05,
+              4.351054517253474e-05
+            ],
+            "Newton_force_norm": [
+              0.00024440590160709655,
+              0.0002445062972196486
+            ],
+            "Newton_density_coefficient": {
+              "real": 6.882339488533986e-05,
+              "imaginary": 9.532404639969811e-05,
+              "radius": 2.4142945465980186e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.0600945737078064e-08
+          },
+          {
+            "mode": [
+              -2,
+              1,
+              2
+            ],
+            "force_error_norm": [
+              3.822849085790229e-05,
+              3.8413576660463595e-05
+            ],
+            "Newton_force_norm": [
+              0.0001452071584115798,
+              0.00014539223314872973
+            ],
+            "Newton_density_coefficient": {
+              "real": 7.880886168709706e-06,
+              "imaginary": -8.522498241585492e-05,
+              "radius": 5.450900949234402e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.8001940538952456e-08
+          },
+          {
+            "mode": [
+              -2,
+              2,
+              -2
+            ],
+            "force_error_norm": [
+              4.803309311298904e-05,
+              4.8326445383686574e-05
+            ],
+            "Newton_force_norm": [
+              0.00013986113385023116,
+              0.00014015447690272892
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.6775838380298346e-05,
+              "imaginary": -9.374050040156968e-05,
+              "radius": 9.976227039691019e-08
+            },
+            "density_displacement_remainder_upper": 1.0018287900592253e-08,
+            "density_Gauss_remainder_upper": 8.974398239145323e-08
+          },
+          {
+            "mode": [
+              -2,
+              2,
+              -1
+            ],
+            "force_error_norm": [
+              2.7209500223200708e-05,
+              2.7402074454538647e-05
+            ],
+            "Newton_force_norm": [
+              0.00010325957701203326,
+              0.00010345214017796022
+            ],
+            "Newton_density_coefficient": {
+              "real": -3.141859013939929e-05,
+              "imaginary": -5.214829426566085e-05,
+              "radius": 5.671453382052459e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 5.020746486025455e-08
+          },
+          {
+            "mode": [
+              -2,
+              2,
+              0
+            ],
+            "force_error_norm": [
+              4.656336217478042e-05,
+              4.6731531228369254e-05
+            ],
+            "Newton_force_norm": [
+              0.00020135439604065892,
+              0.00020152255320560533
+            ],
+            "Newton_density_coefficient": {
+              "real": 8.682775866138514e-05,
+              "imaginary": 7.054111366244742e-05,
+              "radius": 4.669391244021318e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 4.124064714957678e-08
+          },
+          {
+            "mode": [
+              -2,
+              2,
+              1
+            ],
+            "force_error_norm": [
+              6.800010700580404e-05,
+              6.819268123715802e-05
+            ],
+            "Newton_force_norm": [
+              0.00025784648091973004,
+              0.00025803904408566833
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.0001399216529932457,
+              "imaginary": -5.9227920149063634e-05,
+              "radius": 5.671453382264699e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 5.020746486025455e-08
+          },
+          {
+            "mode": [
+              -2,
+              2,
+              2
+            ],
+            "force_error_norm": [
+              4.434922444777453e-05,
+              4.464257671846976e-05
+            ],
+            "Newton_force_norm": [
+              0.0001292976221685791,
+              0.0001295909652210753
+            ],
+            "Newton_density_coefficient": {
+              "real": 2.3409177053755978e-06,
+              "imaginary": -8.801361615226208e-05,
+              "radius": 9.976227039655424e-08
+            },
+            "density_displacement_remainder_upper": 1.0018287900592253e-08,
+            "density_Gauss_remainder_upper": 8.974398239145323e-08
+          },
+          {
+            "mode": [
+              -1,
+              -2,
+              -2
+            ],
+            "force_error_norm": [
+              2.2426697786861507e-05,
+              2.2614543175915674e-05
+            ],
+            "Newton_force_norm": [
+              8.526864973064514e-05,
+              8.545648405428947e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -6.045900659705056e-06,
+              "imaginary": -4.99179051083192e-05,
+              "radius": 5.532177480439163e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.881470584735354e-08
+          },
+          {
+            "mode": [
+              -1,
+              -2,
+              -1
+            ],
+            "force_error_norm": [
+              2.924102135597721e-05,
+              2.934368424998948e-05
+            ],
+            "Newton_force_norm": [
+              0.00016477177676734036,
+              0.00016487442557283364
+            ],
+            "Newton_density_coefficient": {
+              "real": -5.866251255931489e-05,
+              "imaginary": -5.33185617265334e-05,
+              "radius": 2.468478900855303e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.1142789276012123e-08
+          },
+          {
+            "mode": [
+              -1,
+              -2,
+              0
+            ],
+            "force_error_norm": [
+              5.3078677978318034e-05,
+              5.3161580808011645e-05
+            ],
+            "Newton_force_norm": [
+              0.00037601441099068824,
+              0.00037609729818730703
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.1769649271186618e-05,
+              "imaginary": 0.00016468763700043534,
+              "radius": 1.8195849992608408e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.550135949835417e-08
+          },
+          {
+            "mode": [
+              -1,
+              -2,
+              1
+            ],
+            "force_error_norm": [
+              6.682914447039538e-05,
+              6.693180736442488e-05
+            ],
+            "Newton_force_norm": [
+              0.000376045493142495,
+              0.0003761481419479996
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00017498644377878544,
+              "imaginary": 4.5820545927107684e-05,
+              "radius": 2.4684789010167788e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.1142789276012123e-08
+          },
+          {
+            "mode": [
+              -1,
+              -2,
+              2
+            ],
+            "force_error_norm": [
+              3.315930329732322e-06,
+              3.5037757187788223e-06
+            ],
+            "Newton_force_norm": [
+              1.2854178105006769e-05,
+              1.3042012428645344e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -7.346805996210423e-06,
+              "imaginary": -2.0485239885501633e-06,
+              "radius": 5.5321774803179515e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.881470584735354e-08
+          },
+          {
+            "mode": [
+              -1,
+              -1,
+              -2
+            ],
+            "force_error_norm": [
+              3.864197504853369e-05,
+              3.8738523666040985e-05
+            ],
+            "Newton_force_norm": [
+              0.0002174565182806947,
+              0.00021755305280968257
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00010460587202516577,
+              "imaginary": -9.59468224217136e-07,
+              "radius": 2.321443945353769e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 1.9672439728477385e-08
+          },
+          {
+            "mode": [
+              -1,
+              -1,
+              -1
+            ],
+            "force_error_norm": [
+              1.960277591120978e-05,
+              1.9634484550020854e-05
+            ],
+            "Newton_force_norm": [
+              0.0001998783869062433,
+              0.00019991007483255717
+            ],
+            "Newton_density_coefficient": {
+              "real": 5.5158007891801514e-05,
+              "imaginary": 3.973763006918503e-05,
+              "radius": 5.388331930464104e-09
+            },
+            "density_displacement_remainder_upper": 1.2522859875740316e-09,
+            "density_Gauss_remainder_upper": 4.13604588646024e-09
+          },
+          {
+            "mode": [
+              -1,
+              -1,
+              0
+            ],
+            "force_error_norm": [
+              3.131098413664902e-05,
+              3.132967857213017e-05
+            ],
+            "Newton_force_norm": [
+              0.0005018603482704491,
+              0.0005018790170098688
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00012477656271665054,
+              "imaginary": 6.206298667731538e-05,
+              "radius": 2.5919694931973547e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.910311298311122e-09
+          },
+          {
+            "mode": [
+              -1,
+              -1,
+              1
+            ],
+            "force_error_norm": [
+              7.3249801715116625e-06,
+              7.356688810306211e-06
+            ],
+            "Newton_force_norm": [
+              7.454751768061402e-05,
+              7.457920560691614e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.6977664573545534e-05,
+              "imaginary": 1.8835870822755433e-05,
+              "radius": 5.388331929070621e-09
+            },
+            "density_displacement_remainder_upper": 1.2522859875740316e-09,
+            "density_Gauss_remainder_upper": 4.13604588646024e-09
+          },
+          {
+            "mode": [
+              -1,
+              -1,
+              2
+            ],
+            "force_error_norm": [
+              1.113102287676285e-05,
+              1.122757149425656e-05
+            ],
+            "Newton_force_norm": [
+              6.268401510647972e-05,
+              6.278054963545743e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 1.231777609360125e-05,
+              "imaginary": 2.754252266072291e-05,
+              "radius": 2.321443945180058e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 1.9672439728477385e-08
+          },
+          {
+            "mode": [
+              -1,
+              0,
+              -2
+            ],
+            "force_error_norm": [
+              7.007313089971586e-06,
+              7.0831237492996985e-06
+            ],
+            "Newton_force_norm": [
+              4.9922524345121874e-05,
+              4.9998319371384175e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 2.1420095739883565e-05,
+              "imaginary": -4.725584300570003e-06,
+              "radius": 1.6638938031821877e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.3944447555046187e-08
+          },
+          {
+            "mode": [
+              -1,
+              0,
+              -1
+            ],
+            "force_error_norm": [
+              3.500260288609479e-05,
+              3.502034191837175e-05
+            ],
+            "Newton_force_norm": [
+              0.0005595781606381988,
+              0.0005595958739744127
+            ],
+            "Newton_density_coefficient": {
+              "real": -5.993043571009942e-05,
+              "imaginary": -0.000143363949515761,
+              "radius": 2.4593212242075793e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.7776630368328401e-09
+          },
+          {
+            "mode": [
+              -1,
+              0,
+              0
+            ],
+            "force_error_norm": [
+              2.449791764372176e-05,
+              2.4505148846058353e-05
+            ],
+            "Newton_force_norm": [
+              0.0009638153885719827,
+              0.0009638225829639648
+            ],
+            "Newton_density_coefficient": {
+              "real": -7.166981081108363e-05,
+              "imaginary": -0.00017514926616167607,
+              "radius": 7.06307778654104e-10
+            },
+            "density_displacement_remainder_upper": 2.410025506760879e-10,
+            "density_Gauss_remainder_upper": 4.6530520541856767e-10
+          },
+          {
+            "mode": [
+              -1,
+              0,
+              1
+            ],
+            "force_error_norm": [
+              3.987623491983859e-05,
+              3.989397395211136e-05
+            ],
+            "Newton_force_norm": [
+              0.0006371457820232017,
+              0.0006371634953594122
+            ],
+            "Newton_density_coefficient": {
+              "real": 1.7429416278067557e-05,
+              "imaginary": 0.00017606461281434248,
+              "radius": 2.459321223863769e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.7776630368328401e-09
+          },
+          {
+            "mode": [
+              -1,
+              0,
+              2
+            ],
+            "force_error_norm": [
+              3.2809833530067685e-05,
+              3.288564418941036e-05
+            ],
+            "Newton_force_norm": [
+              0.00023312339934609247,
+              0.00023319919437236414
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00010185467941653488,
+              "imaginary": -1.025553923809449e-05,
+              "radius": 1.663893803299107e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.3944447555046187e-08
+          },
+          {
+            "mode": [
+              -1,
+              1,
+              -2
+            ],
+            "force_error_norm": [
+              7.059083002563023e-05,
+              7.068737864315143e-05
+            ],
+            "Newton_force_norm": [
+              0.0003969355137013273,
+              0.00039703204823032416
+            ],
+            "Newton_density_coefficient": {
+              "real": -5.965507780113826e-06,
+              "imaginary": -0.0001908385888647273,
+              "radius": 2.321443945476299e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 1.9672439728477385e-08
+          },
+          {
+            "mode": [
+              -1,
+              1,
+              -1
+            ],
+            "force_error_norm": [
+              2.319615813870235e-05,
+              2.3227866777515898e-05
+            ],
+            "Newton_force_norm": [
+              0.00023589182958103885,
+              0.00023592351750735373
+            ],
+            "Newton_density_coefficient": {
+              "real": -5.916779936582555e-05,
+              "imaginary": 5.418394328648266e-05,
+              "radius": 5.388331930443565e-09
+            },
+            "density_displacement_remainder_upper": 1.2522859875740316e-09,
+            "density_Gauss_remainder_upper": 4.13604588646024e-09
+          },
+          {
+            "mode": [
+              -1,
+              1,
+              0
+            ],
+            "force_error_norm": [
+              2.7743904464839137e-05,
+              2.776259890030717e-05
+            ],
+            "Newton_force_norm": [
+              0.00044293305918932934,
+              0.0004429517279287396
+            ],
+            "Newton_density_coefficient": {
+              "real": -2.894366470256758e-05,
+              "imaginary": -0.00011954229495097325,
+              "radius": 2.591969492311e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.910311298311122e-09
+          },
+          {
+            "mode": [
+              -1,
+              1,
+              1
+            ],
+            "force_error_norm": [
+              3.730515722916986e-05,
+              3.733686586798855e-05
+            ],
+            "Newton_force_norm": [
+              0.00037926981672608786,
+              0.00037930150465240625
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00012887682010914495,
+              "imaginary": 5.408714980839438e-06,
+              "radius": 5.38833193081437e-09
+            },
+            "density_displacement_remainder_upper": 1.2522859875740316e-09,
+            "density_Gauss_remainder_upper": 4.13604588646024e-09
+          },
+          {
+            "mode": [
+              -1,
+              1,
+              2
+            ],
+            "force_error_norm": [
+              3.090805025710176e-05,
+              3.100459887460963e-05
+            ],
+            "Newton_force_norm": [
+              0.00017424949377738619,
+              0.00017434602830637396
+            ],
+            "Newton_density_coefficient": {
+              "real": 6.799254505375149e-05,
+              "imaginary": -4.90348180242803e-05,
+              "radius": 2.3214439453416442e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 1.9672439728477385e-08
+          },
+          {
+            "mode": [
+              -1,
+              2,
+              -2
+            ],
+            "force_error_norm": [
+              2.8372564779374552e-05,
+              2.856041016842985e-05
+            ],
+            "Newton_force_norm": [
+              0.00010753484851170227,
+              0.00010772268283534694
+            ],
+            "Newton_density_coefficient": {
+              "real": 1.2712642491088753e-05,
+              "imaginary": 6.211093447081917e-05,
+              "radius": 5.5321774804303257e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.881470584735354e-08
+          },
+          {
+            "mode": [
+              -1,
+              2,
+              -1
+            ],
+            "force_error_norm": [
+              2.3044079637013114e-05,
+              2.3146742531018698e-05
+            ],
+            "Newton_force_norm": [
+              0.00012951234555288365,
+              0.00012961499435837156
+            ],
+            "Newton_density_coefficient": {
+              "real": -4.298518691327645e-05,
+              "imaginary": 4.511501090149947e-05,
+              "radius": 2.4684789007500756e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.1142789276012123e-08
+          },
+          {
+            "mode": [
+              -1,
+              2,
+              0
+            ],
+            "force_error_norm": [
+              5.896240220923958e-05,
+              5.90453050389471e-05
+            ],
+            "Newton_force_norm": [
+              0.0004197758093703347,
+              0.0004198586965669625
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00010410911741000347,
+              "imaginary": 0.00015210384130368904,
+              "radius": 1.8195849993786482e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.550135949835417e-08
+          },
+          {
+            "mode": [
+              -1,
+              2,
+              1
+            ],
+            "force_error_norm": [
+              2.0768394412347053e-05,
+              2.087105730635115e-05
+            ],
+            "Newton_force_norm": [
+              0.00011690399853262036,
+              0.00011700664733810764
+            ],
+            "Newton_density_coefficient": {
+              "real": 5.303213463275305e-05,
+              "imaginary": 1.8753629816974637e-05,
+              "radius": 2.4684789007520095e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.1142789276012123e-08
+          },
+          {
+            "mode": [
+              -1,
+              2,
+              2
+            ],
+            "force_error_norm": [
+              9.676075747085613e-06,
+              9.86392113613559e-06
+            ],
+            "Newton_force_norm": [
+              3.691042927025175e-05,
+              3.709826359389317e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 3.363268018920442e-06,
+              "imaginary": -2.1536325137524965e-05,
+              "radius": 5.53217748038557e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.881470584735354e-08
+          },
+          {
+            "mode": [
+              0,
+              -2,
+              -2
+            ],
+            "force_error_norm": [
+              8.796545962163608e-05,
+              8.812796662498197e-05
+            ],
+            "Newton_force_norm": [
+              0.0003801683386619724,
+              0.0003803308337766696
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00016815836236872824,
+              "imaginary": -0.00012774144990116817,
+              "radius": 4.5121673285856484e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 3.96684079987435e-08
+          },
+          {
+            "mode": [
+              0,
+              -2,
+              -1
+            ],
+            "force_error_norm": [
+              4.349998403724624e-06,
+              4.431949660549606e-06
+            ],
+            "Newton_force_norm": [
+              3.0646404585592755e-05,
+              3.072834020935254e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.3197061398833269e-05,
+              "imaginary": -2.714387247916974e-06,
+              "radius": 1.79869555243566e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.5292465036250593e-08
+          },
+          {
+            "mode": [
+              0,
+              -2,
+              0
+            ],
+            "force_error_norm": [
+              3.053567681897498e-05,
+              3.059919295187539e-05
+            ],
+            "Newton_force_norm": [
+              0.00031006985052781143,
+              0.0003101333489560487
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00012174946611021945,
+              "imaginary": 2.5712031629038454e-06,
+              "radius": 1.246788722775225e-08
+            },
+            "density_displacement_remainder_upper": 1.928020405408703e-09,
+            "density_Gauss_remainder_upper": 1.0539866777009065e-08
+          },
+          {
+            "mode": [
+              0,
+              -2,
+              1
+            ],
+            "force_error_norm": [
+              4.93939863017464e-05,
+              4.947593755859605e-05
+            ],
+            "Newton_force_norm": [
+              0.00034972584273414126,
+              0.0003498077783579175
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00015356296669027445,
+              "imaginary": 8.715986443893894e-07,
+              "radius": 1.7986955526504357e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.5292465036250593e-08
+          },
+          {
+            "mode": [
+              0,
+              -2,
+              2
+            ],
+            "force_error_norm": [
+              7.516393563427329e-05,
+              7.532644263760856e-05
+            ],
+            "Newton_force_norm": [
+              0.0003247400618198872,
+              0.0003249025569345764
+            ],
+            "Newton_density_coefficient": {
+              "real": -7.215877445828138e-05,
+              "imaginary": 0.00016533209920307083,
+              "radius": 4.5121673284239584e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 3.96684079987435e-08
+          },
+          {
+            "mode": [
+              0,
+              -1,
+              -2
+            ],
+            "force_error_norm": [
+              2.5474529607318802e-05,
+              2.555089931887657e-05
+            ],
+            "Newton_force_norm": [
+              0.0001811511070887712,
+              0.00018122746116725958
+            ],
+            "Newton_density_coefficient": {
+              "real": -7.933035465180304e-05,
+              "imaginary": 5.925172170065808e-06,
+              "radius": 1.6761664228498682e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.4067173746638313e-08
+          },
+          {
+            "mode": [
+              0,
+              -1,
+              -1
+            ],
+            "force_error_norm": [
+              9.13802918022323e-06,
+              9.15612178814315e-06
+            ],
+            "Newton_force_norm": [
+              0.00014664652888363906,
+              0.00014666459579551038
+            ],
+            "Newton_density_coefficient": {
+              "real": 3.1058060467624634e-05,
+              "imaginary": -2.6339847841326537e-05,
+              "radius": 2.508411702484672e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.8267535134696908e-09
+          },
+          {
+            "mode": [
+              0,
+              -1,
+              0
+            ],
+            "force_error_norm": [
+              3.535316686921047e-05,
+              3.53606480873492e-05
+            ],
+            "Newton_force_norm": [
+              0.0013841612573227207,
+              0.0013841687017304997
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.7186253520906136e-05,
+              "imaginary": -0.00027123622006582543,
+              "radius": 7.308530216063446e-10
+            },
+            "density_displacement_remainder_upper": 2.410025506760879e-10,
+            "density_Gauss_remainder_upper": 4.898504437369932e-10
+          },
+          {
+            "mode": [
+              0,
+              -1,
+              1
+            ],
+            "force_error_norm": [
+              4.880245898336907e-05,
+              4.882055159136138e-05
+            ],
+            "Newton_force_norm": [
+              0.0007814755149709651,
+              0.0007814935818828839
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.000166932937355003,
+              "imaginary": 0.00013864918996820707,
+              "radius": 2.508411706505298e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.8267535134696908e-09
+          },
+          {
+            "mode": [
+              0,
+              -1,
+              2
+            ],
+            "force_error_norm": [
+              4.2613381176490904e-05,
+              4.268975088805874e-05
+            ],
+            "Newton_force_norm": [
+              0.00030321383512202566,
+              0.00030329018920052044
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.0001322885448272129,
+              "imaginary": -1.50605234096136e-05,
+              "radius": 1.67616642292455e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.4067173746638313e-08
+          },
+          {
+            "mode": [
+              0,
+              0,
+              -2
+            ],
+            "force_error_norm": [
+              1.5932293213081215e-05,
+              1.598946591596344e-05
+            ],
+            "Newton_force_norm": [
+              0.00016063025439248785,
+              0.00016068740939070988
+            ],
+            "Newton_density_coefficient": {
+              "real": 5.882245303041297e-05,
+              "imaginary": -2.281095719231557e-05,
+              "radius": 1.1222357657299507e-08
+            },
+            "density_displacement_remainder_upper": 1.928020405408703e-09,
+            "density_Gauss_remainder_upper": 9.294337222362681e-09
+          },
+          {
+            "mode": [
+              0,
+              0,
+              -1
+            ],
+            "force_error_norm": [
+              6.392361156061685e-06,
+              6.399166801974289e-06
+            ],
+            "Newton_force_norm": [
+              0.0002495184851589325,
+              0.00024952525399451786
+            ],
+            "Newton_density_coefficient": {
+              "real": 4.672805174002842e-05,
+              "imaginary": -1.4725918173491128e-05,
+              "radius": 6.645288789936766e-10
+            },
+            "density_displacement_remainder_upper": 2.410025506760879e-10,
+            "density_Gauss_remainder_upper": 4.235263129978523e-10
+          },
+          {
+            "mode": [
+              0,
+              0,
+              1
+            ],
+            "force_error_norm": [
+              6.392361156061685e-06,
+              6.399166801974289e-06
+            ],
+            "Newton_force_norm": [
+              0.0002495184851589325,
+              0.00024952525399451786
+            ],
+            "Newton_density_coefficient": {
+              "real": 4.672805174002842e-05,
+              "imaginary": 1.4725918173491128e-05,
+              "radius": 6.645288789936766e-10
+            },
+            "density_displacement_remainder_upper": 2.410025506760879e-10,
+            "density_Gauss_remainder_upper": 4.235263129978523e-10
+          },
+          {
+            "mode": [
+              0,
+              0,
+              2
+            ],
+            "force_error_norm": [
+              1.5932293213081215e-05,
+              1.598946591596344e-05
+            ],
+            "Newton_force_norm": [
+              0.00016063025439248785,
+              0.00016068740939070988
+            ],
+            "Newton_density_coefficient": {
+              "real": 5.882245303041297e-05,
+              "imaginary": 2.281095719231557e-05,
+              "radius": 1.1222357657299507e-08
+            },
+            "density_displacement_remainder_upper": 1.928020405408703e-09,
+            "density_Gauss_remainder_upper": 9.294337222362681e-09
+          },
+          {
+            "mode": [
+              0,
+              1,
+              -2
+            ],
+            "force_error_norm": [
+              4.2613381176490904e-05,
+              4.268975088805874e-05
+            ],
+            "Newton_force_norm": [
+              0.00030321383512202566,
+              0.00030329018920052044
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.0001322885448272129,
+              "imaginary": 1.50605234096136e-05,
+              "radius": 1.67616642292455e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.4067173746638313e-08
+          },
+          {
+            "mode": [
+              0,
+              1,
+              -1
+            ],
+            "force_error_norm": [
+              4.880245898336907e-05,
+              4.882055159136138e-05
+            ],
+            "Newton_force_norm": [
+              0.0007814755149709651,
+              0.0007814935818828839
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.000166932937355003,
+              "imaginary": -0.00013864918996820707,
+              "radius": 2.508411706505298e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.8267535134696908e-09
+          },
+          {
+            "mode": [
+              0,
+              1,
+              0
+            ],
+            "force_error_norm": [
+              3.535316686921047e-05,
+              3.53606480873492e-05
+            ],
+            "Newton_force_norm": [
+              0.0013841612573227207,
+              0.0013841687017304997
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.7186253520906136e-05,
+              "imaginary": 0.00027123622006582543,
+              "radius": 7.308530216063446e-10
+            },
+            "density_displacement_remainder_upper": 2.410025506760879e-10,
+            "density_Gauss_remainder_upper": 4.898504437369932e-10
+          },
+          {
+            "mode": [
+              0,
+              1,
+              1
+            ],
+            "force_error_norm": [
+              9.13802918022323e-06,
+              9.15612178814315e-06
+            ],
+            "Newton_force_norm": [
+              0.00014664652888363906,
+              0.00014666459579551038
+            ],
+            "Newton_density_coefficient": {
+              "real": 3.1058060467624634e-05,
+              "imaginary": 2.6339847841326537e-05,
+              "radius": 2.508411702484672e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.8267535134696908e-09
+          },
+          {
+            "mode": [
+              0,
+              1,
+              2
+            ],
+            "force_error_norm": [
+              2.5474529607318802e-05,
+              2.555089931887657e-05
+            ],
+            "Newton_force_norm": [
+              0.0001811511070887712,
+              0.00018122746116725958
+            ],
+            "Newton_density_coefficient": {
+              "real": -7.933035465180304e-05,
+              "imaginary": -5.925172170065808e-06,
+              "radius": 1.6761664228498682e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.4067173746638313e-08
+          },
+          {
+            "mode": [
+              0,
+              2,
+              -2
+            ],
+            "force_error_norm": [
+              7.516393563427329e-05,
+              7.532644263760856e-05
+            ],
+            "Newton_force_norm": [
+              0.0003247400618198872,
+              0.0003249025569345764
+            ],
+            "Newton_density_coefficient": {
+              "real": -7.215877445828138e-05,
+              "imaginary": -0.00016533209920307083,
+              "radius": 4.5121673284239584e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 3.96684079987435e-08
+          },
+          {
+            "mode": [
+              0,
+              2,
+              -1
+            ],
+            "force_error_norm": [
+              4.93939863017464e-05,
+              4.947593755859605e-05
+            ],
+            "Newton_force_norm": [
+              0.00034972584273414126,
+              0.0003498077783579175
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00015356296669027445,
+              "imaginary": -8.715986443893894e-07,
+              "radius": 1.7986955526504357e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.5292465036250593e-08
+          },
+          {
+            "mode": [
+              0,
+              2,
+              0
+            ],
+            "force_error_norm": [
+              3.053567681897498e-05,
+              3.059919295187539e-05
+            ],
+            "Newton_force_norm": [
+              0.00031006985052781143,
+              0.0003101333489560487
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00012174946611021945,
+              "imaginary": -2.5712031629038454e-06,
+              "radius": 1.246788722775225e-08
+            },
+            "density_displacement_remainder_upper": 1.928020405408703e-09,
+            "density_Gauss_remainder_upper": 1.0539866777009065e-08
+          },
+          {
+            "mode": [
+              0,
+              2,
+              1
+            ],
+            "force_error_norm": [
+              4.349998403724624e-06,
+              4.431949660549606e-06
+            ],
+            "Newton_force_norm": [
+              3.0646404585592755e-05,
+              3.072834020935254e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.3197061398833269e-05,
+              "imaginary": 2.714387247916974e-06,
+              "radius": 1.79869555243566e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.5292465036250593e-08
+          },
+          {
+            "mode": [
+              0,
+              2,
+              2
+            ],
+            "force_error_norm": [
+              8.796545962163608e-05,
+              8.812796662498197e-05
+            ],
+            "Newton_force_norm": [
+              0.0003801683386619724,
+              0.0003803308337766696
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00016815836236872824,
+              "imaginary": 0.00012774144990116817,
+              "radius": 4.5121673285856484e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 3.96684079987435e-08
+          },
+          {
+            "mode": [
+              1,
+              -2,
+              -2
+            ],
+            "force_error_norm": [
+              9.676075747085613e-06,
+              9.86392113613559e-06
+            ],
+            "Newton_force_norm": [
+              3.691042927025175e-05,
+              3.709826359389317e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 3.363268018920442e-06,
+              "imaginary": 2.1536325137524965e-05,
+              "radius": 5.53217748038557e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.881470584735354e-08
+          },
+          {
+            "mode": [
+              1,
+              -2,
+              -1
+            ],
+            "force_error_norm": [
+              2.0768394412347053e-05,
+              2.087105730635115e-05
+            ],
+            "Newton_force_norm": [
+              0.00011690399853262036,
+              0.00011700664733810764
+            ],
+            "Newton_density_coefficient": {
+              "real": 5.303213463275305e-05,
+              "imaginary": -1.8753629816974637e-05,
+              "radius": 2.4684789007520095e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.1142789276012123e-08
+          },
+          {
+            "mode": [
+              1,
+              -2,
+              0
+            ],
+            "force_error_norm": [
+              5.896240220923958e-05,
+              5.90453050389471e-05
+            ],
+            "Newton_force_norm": [
+              0.0004197758093703347,
+              0.0004198586965669625
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00010410911741000347,
+              "imaginary": -0.00015210384130368904,
+              "radius": 1.8195849993786482e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.550135949835417e-08
+          },
+          {
+            "mode": [
+              1,
+              -2,
+              1
+            ],
+            "force_error_norm": [
+              2.3044079637013114e-05,
+              2.3146742531018698e-05
+            ],
+            "Newton_force_norm": [
+              0.00012951234555288365,
+              0.00012961499435837156
+            ],
+            "Newton_density_coefficient": {
+              "real": -4.298518691327645e-05,
+              "imaginary": -4.511501090149947e-05,
+              "radius": 2.4684789007500756e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.1142789276012123e-08
+          },
+          {
+            "mode": [
+              1,
+              -2,
+              2
+            ],
+            "force_error_norm": [
+              2.8372564779374552e-05,
+              2.856041016842985e-05
+            ],
+            "Newton_force_norm": [
+              0.00010753484851170227,
+              0.00010772268283534694
+            ],
+            "Newton_density_coefficient": {
+              "real": 1.2712642491088753e-05,
+              "imaginary": -6.211093447081917e-05,
+              "radius": 5.5321774804303257e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.881470584735354e-08
+          },
+          {
+            "mode": [
+              1,
+              -1,
+              -2
+            ],
+            "force_error_norm": [
+              3.090805025710176e-05,
+              3.100459887460963e-05
+            ],
+            "Newton_force_norm": [
+              0.00017424949377738619,
+              0.00017434602830637396
+            ],
+            "Newton_density_coefficient": {
+              "real": 6.799254505375149e-05,
+              "imaginary": 4.90348180242803e-05,
+              "radius": 2.3214439453416442e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 1.9672439728477385e-08
+          },
+          {
+            "mode": [
+              1,
+              -1,
+              -1
+            ],
+            "force_error_norm": [
+              3.730515722916986e-05,
+              3.733686586798855e-05
+            ],
+            "Newton_force_norm": [
+              0.00037926981672608786,
+              0.00037930150465240625
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00012887682010914495,
+              "imaginary": -5.408714980839438e-06,
+              "radius": 5.38833193081437e-09
+            },
+            "density_displacement_remainder_upper": 1.2522859875740316e-09,
+            "density_Gauss_remainder_upper": 4.13604588646024e-09
+          },
+          {
+            "mode": [
+              1,
+              -1,
+              0
+            ],
+            "force_error_norm": [
+              2.7743904464839137e-05,
+              2.776259890030717e-05
+            ],
+            "Newton_force_norm": [
+              0.00044293305918932934,
+              0.0004429517279287396
+            ],
+            "Newton_density_coefficient": {
+              "real": -2.894366470256758e-05,
+              "imaginary": 0.00011954229495097325,
+              "radius": 2.591969492311e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.910311298311122e-09
+          },
+          {
+            "mode": [
+              1,
+              -1,
+              1
+            ],
+            "force_error_norm": [
+              2.319615813870235e-05,
+              2.3227866777515898e-05
+            ],
+            "Newton_force_norm": [
+              0.00023589182958103885,
+              0.00023592351750735373
+            ],
+            "Newton_density_coefficient": {
+              "real": -5.916779936582555e-05,
+              "imaginary": -5.418394328648266e-05,
+              "radius": 5.388331930443565e-09
+            },
+            "density_displacement_remainder_upper": 1.2522859875740316e-09,
+            "density_Gauss_remainder_upper": 4.13604588646024e-09
+          },
+          {
+            "mode": [
+              1,
+              -1,
+              2
+            ],
+            "force_error_norm": [
+              7.059083002563023e-05,
+              7.068737864315143e-05
+            ],
+            "Newton_force_norm": [
+              0.0003969355137013273,
+              0.00039703204823032416
+            ],
+            "Newton_density_coefficient": {
+              "real": -5.965507780113826e-06,
+              "imaginary": 0.0001908385888647273,
+              "radius": 2.321443945476299e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 1.9672439728477385e-08
+          },
+          {
+            "mode": [
+              1,
+              0,
+              -2
+            ],
+            "force_error_norm": [
+              3.2809833530067685e-05,
+              3.288564418941036e-05
+            ],
+            "Newton_force_norm": [
+              0.00023312339934609247,
+              0.00023319919437236414
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00010185467941653488,
+              "imaginary": 1.025553923809449e-05,
+              "radius": 1.663893803299107e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.3944447555046187e-08
+          },
+          {
+            "mode": [
+              1,
+              0,
+              -1
+            ],
+            "force_error_norm": [
+              3.987623491983859e-05,
+              3.989397395211136e-05
+            ],
+            "Newton_force_norm": [
+              0.0006371457820232017,
+              0.0006371634953594122
+            ],
+            "Newton_density_coefficient": {
+              "real": 1.7429416278067557e-05,
+              "imaginary": -0.00017606461281434248,
+              "radius": 2.459321223863769e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.7776630368328401e-09
+          },
+          {
+            "mode": [
+              1,
+              0,
+              0
+            ],
+            "force_error_norm": [
+              2.449791764372176e-05,
+              2.4505148846058353e-05
+            ],
+            "Newton_force_norm": [
+              0.0009638153885719827,
+              0.0009638225829639648
+            ],
+            "Newton_density_coefficient": {
+              "real": -7.166981081108363e-05,
+              "imaginary": 0.00017514926616167607,
+              "radius": 7.06307778654104e-10
+            },
+            "density_displacement_remainder_upper": 2.410025506760879e-10,
+            "density_Gauss_remainder_upper": 4.6530520541856767e-10
+          },
+          {
+            "mode": [
+              1,
+              0,
+              1
+            ],
+            "force_error_norm": [
+              3.500260288609479e-05,
+              3.502034191837175e-05
+            ],
+            "Newton_force_norm": [
+              0.0005595781606381988,
+              0.0005595958739744127
+            ],
+            "Newton_density_coefficient": {
+              "real": -5.993043571009942e-05,
+              "imaginary": 0.000143363949515761,
+              "radius": 2.4593212242075793e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.7776630368328401e-09
+          },
+          {
+            "mode": [
+              1,
+              0,
+              2
+            ],
+            "force_error_norm": [
+              7.007313089971586e-06,
+              7.0831237492996985e-06
+            ],
+            "Newton_force_norm": [
+              4.9922524345121874e-05,
+              4.9998319371384175e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 2.1420095739883565e-05,
+              "imaginary": 4.725584300570003e-06,
+              "radius": 1.6638938031821877e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.3944447555046187e-08
+          },
+          {
+            "mode": [
+              1,
+              1,
+              -2
+            ],
+            "force_error_norm": [
+              1.113102287676285e-05,
+              1.122757149425656e-05
+            ],
+            "Newton_force_norm": [
+              6.268401510647972e-05,
+              6.278054963545743e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 1.231777609360125e-05,
+              "imaginary": -2.754252266072291e-05,
+              "radius": 2.321443945180058e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 1.9672439728477385e-08
+          },
+          {
+            "mode": [
+              1,
+              1,
+              -1
+            ],
+            "force_error_norm": [
+              7.3249801715116625e-06,
+              7.356688810306211e-06
+            ],
+            "Newton_force_norm": [
+              7.454751768061402e-05,
+              7.457920560691614e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.6977664573545534e-05,
+              "imaginary": -1.8835870822755433e-05,
+              "radius": 5.388331929070621e-09
+            },
+            "density_displacement_remainder_upper": 1.2522859875740316e-09,
+            "density_Gauss_remainder_upper": 4.13604588646024e-09
+          },
+          {
+            "mode": [
+              1,
+              1,
+              0
+            ],
+            "force_error_norm": [
+              3.131098413664902e-05,
+              3.132967857213017e-05
+            ],
+            "Newton_force_norm": [
+              0.0005018603482704491,
+              0.0005018790170098688
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00012477656271665054,
+              "imaginary": -6.206298667731538e-05,
+              "radius": 2.5919694931973547e-09
+            },
+            "density_displacement_remainder_upper": 6.816581514652654e-10,
+            "density_Gauss_remainder_upper": 1.910311298311122e-09
+          },
+          {
+            "mode": [
+              1,
+              1,
+              1
+            ],
+            "force_error_norm": [
+              1.960277591120978e-05,
+              1.9634484550020854e-05
+            ],
+            "Newton_force_norm": [
+              0.0001998783869062433,
+              0.00019991007483255717
+            ],
+            "Newton_density_coefficient": {
+              "real": 5.5158007891801514e-05,
+              "imaginary": -3.973763006918503e-05,
+              "radius": 5.388331930464104e-09
+            },
+            "density_displacement_remainder_upper": 1.2522859875740316e-09,
+            "density_Gauss_remainder_upper": 4.13604588646024e-09
+          },
+          {
+            "mode": [
+              1,
+              1,
+              2
+            ],
+            "force_error_norm": [
+              3.864197504853369e-05,
+              3.8738523666040985e-05
+            ],
+            "Newton_force_norm": [
+              0.0002174565182806947,
+              0.00021755305280968257
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00010460587202516577,
+              "imaginary": 9.59468224217136e-07,
+              "radius": 2.321443945353769e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 1.9672439728477385e-08
+          },
+          {
+            "mode": [
+              1,
+              2,
+              -2
+            ],
+            "force_error_norm": [
+              3.315930329732322e-06,
+              3.5037757187788223e-06
+            ],
+            "Newton_force_norm": [
+              1.2854178105006769e-05,
+              1.3042012428645344e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -7.346805996210423e-06,
+              "imaginary": 2.0485239885501633e-06,
+              "radius": 5.5321774803179515e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.881470584735354e-08
+          },
+          {
+            "mode": [
+              1,
+              2,
+              -1
+            ],
+            "force_error_norm": [
+              6.682914447039538e-05,
+              6.693180736442488e-05
+            ],
+            "Newton_force_norm": [
+              0.000376045493142495,
+              0.0003761481419479996
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00017498644377878544,
+              "imaginary": -4.5820545927107684e-05,
+              "radius": 2.4684789010167788e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.1142789276012123e-08
+          },
+          {
+            "mode": [
+              1,
+              2,
+              0
+            ],
+            "force_error_norm": [
+              5.3078677978318034e-05,
+              5.3161580808011645e-05
+            ],
+            "Newton_force_norm": [
+              0.00037601441099068824,
+              0.00037609729818730703
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.1769649271186618e-05,
+              "imaginary": -0.00016468763700043534,
+              "radius": 1.8195849992608408e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.550135949835417e-08
+          },
+          {
+            "mode": [
+              1,
+              2,
+              1
+            ],
+            "force_error_norm": [
+              2.924102135597721e-05,
+              2.934368424998948e-05
+            ],
+            "Newton_force_norm": [
+              0.00016477177676734036,
+              0.00016487442557283364
+            ],
+            "Newton_density_coefficient": {
+              "real": -5.866251255931489e-05,
+              "imaginary": 5.33185617265334e-05,
+              "radius": 2.468478900855303e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.1142789276012123e-08
+          },
+          {
+            "mode": [
+              1,
+              2,
+              2
+            ],
+            "force_error_norm": [
+              2.2426697786861507e-05,
+              2.2614543175915674e-05
+            ],
+            "Newton_force_norm": [
+              8.526864973064514e-05,
+              8.545648405428947e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -6.045900659705056e-06,
+              "imaginary": 4.99179051083192e-05,
+              "radius": 5.532177480439163e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.881470584735354e-08
+          },
+          {
+            "mode": [
+              2,
+              -2,
+              -2
+            ],
+            "force_error_norm": [
+              4.434922444777453e-05,
+              4.464257671846976e-05
+            ],
+            "Newton_force_norm": [
+              0.0001292976221685791,
+              0.0001295909652210753
+            ],
+            "Newton_density_coefficient": {
+              "real": 2.3409177053755978e-06,
+              "imaginary": 8.801361615226208e-05,
+              "radius": 9.976227039655424e-08
+            },
+            "density_displacement_remainder_upper": 1.0018287900592253e-08,
+            "density_Gauss_remainder_upper": 8.974398239145323e-08
+          },
+          {
+            "mode": [
+              2,
+              -2,
+              -1
+            ],
+            "force_error_norm": [
+              6.800010700580404e-05,
+              6.819268123715802e-05
+            ],
+            "Newton_force_norm": [
+              0.00025784648091973004,
+              0.00025803904408566833
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.0001399216529932457,
+              "imaginary": 5.9227920149063634e-05,
+              "radius": 5.671453382264699e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 5.020746486025455e-08
+          },
+          {
+            "mode": [
+              2,
+              -2,
+              0
+            ],
+            "force_error_norm": [
+              4.656336217478042e-05,
+              4.6731531228369254e-05
+            ],
+            "Newton_force_norm": [
+              0.00020135439604065892,
+              0.00020152255320560533
+            ],
+            "Newton_density_coefficient": {
+              "real": 8.682775866138514e-05,
+              "imaginary": -7.054111366244742e-05,
+              "radius": 4.669391244021318e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 4.124064714957678e-08
+          },
+          {
+            "mode": [
+              2,
+              -2,
+              1
+            ],
+            "force_error_norm": [
+              2.7209500223200708e-05,
+              2.7402074454538647e-05
+            ],
+            "Newton_force_norm": [
+              0.00010325957701203326,
+              0.00010345214017796022
+            ],
+            "Newton_density_coefficient": {
+              "real": -3.141859013939929e-05,
+              "imaginary": 5.214829426566085e-05,
+              "radius": 5.671453382052459e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 5.020746486025455e-08
+          },
+          {
+            "mode": [
+              2,
+              -2,
+              2
+            ],
+            "force_error_norm": [
+              4.803309311298904e-05,
+              4.8326445383686574e-05
+            ],
+            "Newton_force_norm": [
+              0.00013986113385023116,
+              0.00014015447690272892
+            ],
+            "Newton_density_coefficient": {
+              "real": -1.6775838380298346e-05,
+              "imaginary": 9.374050040156968e-05,
+              "radius": 9.976227039691019e-08
+            },
+            "density_displacement_remainder_upper": 1.0018287900592253e-08,
+            "density_Gauss_remainder_upper": 8.974398239145323e-08
+          },
+          {
+            "mode": [
+              2,
+              -1,
+              -2
+            ],
+            "force_error_norm": [
+              3.822849085790229e-05,
+              3.8413576660463595e-05
+            ],
+            "Newton_force_norm": [
+              0.0001452071584115798,
+              0.00014539223314872973
+            ],
+            "Newton_density_coefficient": {
+              "real": 7.880886168709706e-06,
+              "imaginary": 8.522498241585492e-05,
+              "radius": 5.450900949234402e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.8001940538952456e-08
+          },
+          {
+            "mode": [
+              2,
+              -1,
+              -1
+            ],
+            "force_error_norm": [
+              4.341013547146096e-05,
+              4.351054517253474e-05
+            ],
+            "Newton_force_norm": [
+              0.00024440590160709655,
+              0.0002445062972196486
+            ],
+            "Newton_density_coefficient": {
+              "real": 6.882339488533986e-05,
+              "imaginary": -9.532404639969811e-05,
+              "radius": 2.4142945465980186e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.0600945737078064e-08
+          },
+          {
+            "mode": [
+              2,
+              -1,
+              0
+            ],
+            "force_error_norm": [
+              2.7584369364538052e-05,
+              2.7665215319878792e-05
+            ],
+            "Newton_force_norm": [
+              0.00019639310913988173,
+              0.00019647393946215115
+            ],
+            "Newton_density_coefficient": {
+              "real": 4.159711799199759e-05,
+              "imaginary": -7.55497349767709e-05,
+              "radius": 1.7744313704822227e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.504982321590912e-08
+          },
+          {
+            "mode": [
+              2,
+              -1,
+              1
+            ],
+            "force_error_norm": [
+              2.6032700072023055e-05,
+              2.613310977308541e-05
+            ],
+            "Newton_force_norm": [
+              0.00014650231550296733,
+              0.00014660271111551184
+            ],
+            "Newton_density_coefficient": {
+              "real": -6.584630579001075e-05,
+              "imaginary": -2.5148496417192486e-05,
+              "radius": 2.4142945464933935e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.0600945737078064e-08
+          },
+          {
+            "mode": [
+              2,
+              -1,
+              2
+            ],
+            "force_error_norm": [
+              2.3485792567492464e-05,
+              2.3670878370052486e-05
+            ],
+            "Newton_force_norm": [
+              8.919784546443691e-05,
+              8.938292020158632e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -3.139176264210038e-05,
+              "imaginary": -4.220113876759171e-05,
+              "radius": 5.450900949240513e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.8001940538952456e-08
+          },
+          {
+            "mode": [
+              2,
+              0,
+              -2
+            ],
+            "force_error_norm": [
+              3.682681757439578e-05,
+              3.6986015663282426e-05
+            ],
+            "Newton_force_norm": [
+              0.0001594592367154145,
+              0.00015961842291566125
+            ],
+            "Newton_density_coefficient": {
+              "real": 1.2840399379368851e-05,
+              "imaginary": -8.766617128088921e-05,
+              "radius": 4.4202853315619165e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 3.8749588040284014e-08
+          },
+          {
+            "mode": [
+              2,
+              0,
+              -1
+            ],
+            "force_error_norm": [
+              4.2151706894803635e-05,
+              4.223104222509448e-05
+            ],
+            "Newton_force_norm": [
+              0.00029944066519394224,
+              0.00029951998489115956
+            ],
+            "Newton_density_coefficient": {
+              "real": 2.613475318600865e-05,
+              "imaginary": 0.000128863631072997,
+              "radius": 1.7412693044441307e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.4718202562213412e-08
+          },
+          {
+            "mode": [
+              2,
+              0,
+              0
+            ],
+            "force_error_norm": [
+              3.057737873375355e-05,
+              3.063855511080228e-05
+            ],
+            "Newton_force_norm": [
+              0.0003062494408646751,
+              0.0003063105995370605
+            ],
+            "Newton_density_coefficient": {
+              "real": -8.713485905092505e-06,
+              "imaginary": -0.00011995983959960855,
+              "radius": 1.2008477240472289e-08
+            },
+            "density_displacement_remainder_upper": 1.928020405408703e-09,
+            "density_Gauss_remainder_upper": 1.0080456797779326e-08
+          },
+          {
+            "mode": [
+              2,
+              0,
+              1
+            ],
+            "force_error_norm": [
+              6.121707360364908e-05,
+              6.129640893394875e-05
+            ],
+            "Newton_force_norm": [
+              0.0004342327854014328,
+              0.0004343121050986567
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.00019063376389968312,
+              "imaginary": -3.598101709847482e-06,
+              "radius": 1.741269304544973e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.4718202562213412e-08
+          },
+          {
+            "mode": [
+              2,
+              0,
+              2
+            ],
+            "force_error_norm": [
+              2.5203440747393534e-05,
+              2.536263883627765e-05
+            ],
+            "Newton_force_norm": [
+              0.00010924012861203442,
+              0.00010939931481228009
+            ],
+            "Newton_density_coefficient": {
+              "real": 6.0245356475298766e-05,
+              "imaginary": 7.511633409321645e-06,
+              "radius": 4.420285331566234e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 3.8749588040284014e-08
+          },
+          {
+            "mode": [
+              2,
+              1,
+              -2
+            ],
+            "force_error_norm": [
+              2.625413314570013e-05,
+              2.643921894826005e-05
+            ],
+            "Newton_force_norm": [
+              9.968163199587047e-05,
+              9.986670673301943e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": -4.159826905660867e-05,
+              "imaginary": 4.1517620829902456e-05,
+              "radius": 5.4509009492164935e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.8001940538952456e-08
+          },
+          {
+            "mode": [
+              2,
+              1,
+              -1
+            ],
+            "force_error_norm": [
+              4.148330758742082e-05,
+              4.1583717288491696e-05
+            ],
+            "Newton_force_norm": [
+              0.00023324640031619347,
+              0.00023334679592874386
+            ],
+            "Newton_density_coefficient": {
+              "real": 0.00010743212618606489,
+              "imaginary": -3.237899786505433e-05,
+              "radius": 2.4142945465844747e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.0600945737078064e-08
+          },
+          {
+            "mode": [
+              2,
+              1,
+              0
+            ],
+            "force_error_norm": [
+              2.795994393086267e-05,
+              2.804078988620477e-05
+            ],
+            "Newton_force_norm": [
+              0.00019851461752526454,
+              0.00019859544784753532
+            ],
+            "Newton_density_coefficient": {
+              "real": 4.092554588505837e-05,
+              "imaginary": -7.69721673929492e-05,
+              "radius": 1.7744313705102628e-08
+            },
+            "density_displacement_remainder_upper": 2.6944904303128524e-09,
+            "density_Gauss_remainder_upper": 1.504982321590912e-08
+          },
+          {
+            "mode": [
+              2,
+              1,
+              1
+            ],
+            "force_error_norm": [
+              1.9782674071387793e-05,
+              1.9883083772448677e-05
+            ],
+            "Newton_force_norm": [
+              0.00011152101146934687,
+              0.00011162140708189077
+            ],
+            "Newton_density_coefficient": {
+              "real": 3.0927898856421495e-05,
+              "imaginary": 4.3851491697176475e-05,
+              "radius": 2.4142945464955326e-08
+            },
+            "density_displacement_remainder_upper": 3.5419996551939633e-09,
+            "density_Gauss_remainder_upper": 2.0600945737078064e-08
+          },
+          {
+            "mode": [
+              2,
+              1,
+              2
+            ],
+            "force_error_norm": [
+              2.3719658425698367e-05,
+              2.3904744228257434e-05
+            ],
+            "Newton_force_norm": [
+              9.013936885143899e-05,
+              9.032444358858775e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 5.0693771195999365e-05,
+              "imaginary": -1.5973986484289253e-05,
+              "radius": 5.450900949228005e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 4.8001940538952456e-08
+          },
+          {
+            "mode": [
+              2,
+              2,
+              -2
+            ],
+            "force_error_norm": [
+              2.2068689378877255e-05,
+              2.2362041649568546e-05
+            ],
+            "Newton_force_norm": [
+              6.445761660643012e-05,
+              6.475095965892343e-05
+            ],
+            "Newton_density_coefficient": {
+              "real": 4.110648085697486e-05,
+              "imaginary": -1.552980116262281e-05,
+              "radius": 9.976227039595331e-08
+            },
+            "density_displacement_remainder_upper": 1.0018287900592253e-08,
+            "density_Gauss_remainder_upper": 8.974398239145323e-08
+          },
+          {
+            "mode": [
+              2,
+              2,
+              -1
+            ],
+            "force_error_norm": [
+              5.165474784629432e-05,
+              5.184732207764441e-05
+            ],
+            "Newton_force_norm": [
+              0.00019596984147231906,
+              0.00019616240463825503
+            ],
+            "Newton_density_coefficient": {
+              "real": -9.387636505454574e-05,
+              "imaginary": 6.727362748245645e-05,
+              "radius": 5.671453382235635e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 5.020746486025455e-08
+          },
+          {
+            "mode": [
+              2,
+              2,
+              0
+            ],
+            "force_error_norm": [
+              2.57071388910338e-05,
+              2.587530794461443e-05
+            ],
+            "Newton_force_norm": [
+              0.00011118178479871869,
+              0.00011134994196366005
+            ],
+            "Newton_density_coefficient": {
+              "real": 3.9113181542420667e-05,
+              "imaginary": -4.78381721701861e-05,
+              "radius": 4.669391243953909e-08
+            },
+            "density_displacement_remainder_upper": 5.453265211722123e-09,
+            "density_Gauss_remainder_upper": 4.124064714957678e-08
+          },
+          {
+            "mode": [
+              2,
+              2,
+              1
+            ],
+            "force_error_norm": [
+              8.639759342653117e-05,
+              8.65901676578921e-05
+            ],
+            "Newton_force_norm": [
+              0.00032741409633925845,
+              0.00032760665950520195
+            ],
+            "Newton_density_coefficient": {
+              "real": -0.0001850139375473394,
+              "imaginary": -5.466068663901853e-05,
+              "radius": 5.671453382379698e-08
+            },
+            "density_displacement_remainder_upper": 6.507068868254375e-09,
+            "density_Gauss_remainder_upper": 5.020746486025455e-08
+          },
+          {
+            "mode": [
+              2,
+              2,
+              2
+            ],
+            "force_error_norm": [
+              5.1226017147156085e-05,
+              5.151936941785652e-05
+            ],
+            "Newton_force_norm": [
+              0.0001491898354321648,
+              0.00014948317848466458
+            ],
+            "Newton_density_coefficient": {
+              "real": -4.385604524163803e-05,
+              "imaginary": 9.161938813172734e-05,
+              "radius": 9.976227039735537e-08
+            },
+            "density_displacement_remainder_upper": 1.0018287900592253e-08,
+            "density_Gauss_remainder_upper": 8.974398239145323e-08
+          }
+        ],
+        "work": {
+          "additional_3d_complex_FFTs": 51,
+          "reused_density_transforms": 1,
+          "new_particle_trajectories": 0,
+          "explicit_arithmetic_counts": {
+            "real_multiplications": 6264288,
+            "real_additions": 11124463,
+            "comparisons": 2523720,
+            "directed_roundings": 291014,
+            "square_roots": 1108,
+            "binary_scalings": 417793,
+            "absolute_values": 5126968,
+            "complex_butterflies": 1253376,
+            "real_divisions": 1273
+          },
+          "remaining_scalar_arithmetic_upper": 507904,
+          "interval_preprocessing": {
+            "decimal_digits": 40,
+            "sin_cos_enclosures": 2284,
+            "square_root_enclosures": 125
+          },
+          "retained_quadratic_spectral_arrays": 48
+        },
+        "all_mode_spatial_error_certified": false,
+        "evolved_Newtonian_trajectory_certified": false,
+        "all_checks_passed": true
+      },
+      "initial_data": "exact stored binary particle coordinates and canonical momenta",
+      "initial_state_sha256": "3760e583c92e5ce0cc655f7b0a75098c890c667998ffe6b1b71e9093ba4e4f74",
+      "finite_operator_data_sha256": "3b34c2bd502ffce70bcb5107a887e5611a31b5eb9bec20b0c647414825247305",
+      "work": {
+        "production_force_evaluations": 65,
+        "certificate_force_evaluations": 65,
+        "certificate_depositions": 65,
+        "certificate_3d_complex_ffts": 263,
+        "certificate_force_sample_components": 798720,
+        "retained_trajectory_states": 2,
+        "certificate_steps": 64,
+        "explicit_arithmetic_counts": {
+          "directed_roundings": 31310,
+          "real_additions": 75066137,
+          "absolute_values": 42975232,
+          "comparisons": 29207909,
+          "real_multiplications": 46000403,
+          "complex_butterflies": 6463488,
+          "real_divisions": 1574672,
+          "binary_scalings": 2686976,
+          "floor_operations": 798720,
+          "integer_additions": 6389760,
+          "integer_remainders": 6389760,
+          "square_roots": 130
+        },
+        "remaining_scalar_arithmetic_upper": 133120,
+        "one_time_multiplier_arithmetic_upper": 262144,
+        "one_time_initial_sheet_arithmetic_upper": 131072,
+        "count_scope": "certificate arithmetic; vector indexing/copies and production integrator counted separately",
+        "twiddle_preprocessing": {
+          "interval_precision_decimal_digits": 40,
+          "trigonometric_enclosures": 60,
+          "reused_for_all_steps": true
+        }
+      },
+      "rows": [
+        {
+          "a": 0.203125,
+          "joint_error_upper": 1.0913342999401495e-05,
+          "defect_upper": 0.0032555309796875663,
+          "lipschitz_upper": 22.46287873313517
+        },
+        {
+          "a": 0.20625000000000002,
+          "joint_error_upper": 2.2485645077059625e-05,
+          "defect_upper": 0.0032189537458530513,
+          "lipschitz_upper": 22.291696270014867
+        },
+        {
+          "a": 0.209375,
+          "joint_error_upper": 3.4755490095955974e-05,
+          "defect_upper": 0.003183394926987489,
+          "lipschitz_upper": 22.12411851731526
+        },
+        {
+          "a": 0.21250000000000002,
+          "joint_error_upper": 4.776330561486998e-05,
+          "defect_upper": 0.003148799077547772,
+          "lipschitz_upper": 21.960003002475794
+        },
+        {
+          "a": 0.215625,
+          "joint_error_upper": 6.155147336002869e-05,
+          "defect_upper": 0.003115122070614392,
+          "lipschitz_upper": 21.79921458590299
+        },
+        {
+          "a": 0.21875,
+          "joint_error_upper": 7.616450179377728e-05,
+          "defect_upper": 0.0030823480761224234,
+          "lipschitz_upper": 21.641624985215827
+        },
+        {
+          "a": 0.22187500000000002,
+          "joint_error_upper": 9.16488282407567e-05,
+          "defect_upper": 0.003050375947370216,
+          "lipschitz_upper": 21.487112338881772
+        },
+        {
+          "a": 0.225,
+          "joint_error_upper": 0.00010805299936525888,
+          "defect_upper": 0.003019137212963653,
+          "lipschitz_upper": 21.335560799316138
+        },
+        {
+          "a": 0.22812500000000002,
+          "joint_error_upper": 0.00012542808292568107,
+          "defect_upper": 0.0029886623930945426,
+          "lipschitz_upper": 21.186860162058522
+        },
+        {
+          "a": 0.23125,
+          "joint_error_upper": 0.00014382765230275637,
+          "defect_upper": 0.002958945606636337,
+          "lipschitz_upper": 21.04090552067897
+        },
+        {
+          "a": 0.234375,
+          "joint_error_upper": 0.00016330755242867972,
+          "defect_upper": 0.0029298803100335294,
+          "lipschitz_upper": 20.897596948285134
+        },
+        {
+          "a": 0.23750000000000002,
+          "joint_error_upper": 0.0001839262036542549,
+          "defect_upper": 0.0029014260972262565,
+          "lipschitz_upper": 20.75683919890123
+        },
+        {
+          "a": 0.240625,
+          "joint_error_upper": 0.0002057450173051846,
+          "defect_upper": 0.0028736370815244305,
+          "lipschitz_upper": 20.61854143555131
+        },
+        {
+          "a": 0.24375000000000002,
+          "joint_error_upper": 0.00022882807359928973,
+          "defect_upper": 0.0028464334143493528,
+          "lipschitz_upper": 20.482616974907454
+        },
+        {
+          "a": 0.246875,
+          "joint_error_upper": 0.0002532423792657358,
+          "defect_upper": 0.0028197826398036526,
+          "lipschitz_upper": 20.34898304953921
+        },
+        {
+          "a": 0.25,
+          "joint_error_upper": 0.0002790579816473352,
+          "defect_upper": 0.0027936525925227147,
+          "lipschitz_upper": 20.217560588239053
+        },
+        {
+          "a": 0.25312500000000004,
+          "joint_error_upper": 0.00030634808441557367,
+          "defect_upper": 0.0027680107550820537,
+          "lipschitz_upper": 20.088274009902623
+        },
+        {
+          "a": 0.25625000000000003,
+          "joint_error_upper": 0.00033518932165180264,
+          "defect_upper": 0.0027428707600688006,
+          "lipschitz_upper": 19.96105103293191
+        },
+        {
+          "a": 0.259375,
+          "joint_error_upper": 0.0003656617872722162,
+          "defect_upper": 0.002718214789377134,
+          "lipschitz_upper": 19.835822496804635
+        },
+        {
+          "a": 0.2625,
+          "joint_error_upper": 0.0003978490779191982,
+          "defect_upper": 0.0026939982964217933,
+          "lipschitz_upper": 19.712522195401284
+        },
+        {
+          "a": 0.265625,
+          "joint_error_upper": 0.00043183851795070385,
+          "defect_upper": 0.0026702052225654215,
+          "lipschitz_upper": 19.591086720776477
+        },
+        {
+          "a": 0.26875000000000004,
+          "joint_error_upper": 0.0004677213513170416,
+          "defect_upper": 0.0026468350880794744,
+          "lipschitz_upper": 19.471455317991207
+        },
+        {
+          "a": 0.27187500000000003,
+          "joint_error_upper": 0.0005055927935466328,
+          "defect_upper": 0.0026238586312203843,
+          "lipschitz_upper": 19.35356974862253
+        },
+        {
+          "a": 0.275,
+          "joint_error_upper": 0.0005455521722702024,
+          "defect_upper": 0.002601244886399161,
+          "lipschitz_upper": 19.237374162846336
+        },
+        {
+          "a": 0.278125,
+          "joint_error_upper": 0.0005877031761538123,
+          "defect_upper": 0.0025789926618415573,
+          "lipschitz_upper": 19.122814979620067
+        },
+        {
+          "a": 0.28125,
+          "joint_error_upper": 0.0006321539463044695,
+          "defect_upper": 0.0025570799459217934,
+          "lipschitz_upper": 19.009840774574453
+        },
+        {
+          "a": 0.28437500000000004,
+          "joint_error_upper": 0.0006790173007950634,
+          "defect_upper": 0.0025355038951490206,
+          "lipschitz_upper": 18.898402174141342
+        },
+        {
+          "a": 0.28750000000000003,
+          "joint_error_upper": 0.0007284109481886698,
+          "defect_upper": 0.002514275004387442,
+          "lipschitz_upper": 18.788451756903196
+        },
+        {
+          "a": 0.290625,
+          "joint_error_upper": 0.0007804575526414668,
+          "defect_upper": 0.0024933700860773934,
+          "lipschitz_upper": 18.67994396025681
+        },
+        {
+          "a": 0.29375,
+          "joint_error_upper": 0.0008352848728326266,
+          "defect_upper": 0.0024727550342128193,
+          "lipschitz_upper": 18.57283499255325
+        },
+        {
+          "a": 0.296875,
+          "joint_error_upper": 0.0008930259734931839,
+          "defect_upper": 0.0024524059356211443,
+          "lipschitz_upper": 18.46708275021516
+        },
+        {
+          "a": 0.30000000000000004,
+          "joint_error_upper": 0.0009538195824150367,
+          "defect_upper": 0.0024323509918589684,
+          "lipschitz_upper": 18.362646739984342
+        },
+        {
+          "a": 0.30312500000000003,
+          "joint_error_upper": 0.0010178101816515333,
+          "defect_upper": 0.00241258571368229,
+          "lipschitz_upper": 18.259488006001764
+        },
+        {
+          "a": 0.30625,
+          "joint_error_upper": 0.0010851480914112525,
+          "defect_upper": 0.002393070974117943,
+          "lipschitz_upper": 18.157569060107825
+        },
+        {
+          "a": 0.309375,
+          "joint_error_upper": 0.0011559896841549094,
+          "defect_upper": 0.0023737727834926515,
+          "lipschitz_upper": 18.056853816425704
+        },
+        {
+          "a": 0.3125,
+          "joint_error_upper": 0.0012304977768595293,
+          "defect_upper": 0.002354714381534485,
+          "lipschitz_upper": 17.957307529257694
+        },
+        {
+          "a": 0.31562500000000004,
+          "joint_error_upper": 0.0013088418564553219,
+          "defect_upper": 0.002335921004736487,
+          "lipschitz_upper": 17.858896735426622
+        },
+        {
+          "a": 0.31875000000000003,
+          "joint_error_upper": 0.0013911980925726468,
+          "defect_upper": 0.0023173537326967334,
+          "lipschitz_upper": 17.761589198723737
+        },
+        {
+          "a": 0.321875,
+          "joint_error_upper": 0.001477749622552494,
+          "defect_upper": 0.002298993801361379,
+          "lipschitz_upper": 17.665353857461668
+        },
+        {
+          "a": 0.325,
+          "joint_error_upper": 0.0015686868345827964,
+          "defect_upper": 0.002280839335142198,
+          "lipschitz_upper": 17.570160774898635
+        },
+        {
+          "a": 0.328125,
+          "joint_error_upper": 0.0016642076054640645,
+          "defect_upper": 0.0022628890385772774,
+          "lipschitz_upper": 17.475981092416742
+        },
+        {
+          "a": 0.33125000000000004,
+          "joint_error_upper": 0.0017645175311678085,
+          "defect_upper": 0.00224513830277963,
+          "lipschitz_upper": 17.382786984949664
+        },
+        {
+          "a": 0.334375,
+          "joint_error_upper": 0.0018698301606033577,
+          "defect_upper": 0.002227578665538485,
+          "lipschitz_upper": 17.29055161880498
+        },
+        {
+          "a": 0.3375,
+          "joint_error_upper": 0.0019803672161057243,
+          "defect_upper": 0.002210192293133101,
+          "lipschitz_upper": 17.199249111456126
+        },
+        {
+          "a": 0.340625,
+          "joint_error_upper": 0.0020963590097650103,
+          "defect_upper": 0.0021930101847426778,
+          "lipschitz_upper": 17.10885449344449
+        },
+        {
+          "a": 0.34375,
+          "joint_error_upper": 0.00221804452105082,
+          "defect_upper": 0.0021760051003654316,
+          "lipschitz_upper": 17.019343672575758
+        },
+        {
+          "a": 0.34687500000000004,
+          "joint_error_upper": 0.002345671610654959,
+          "defect_upper": 0.002159134210142124,
+          "lipschitz_upper": 16.930693398824843
+        },
+        {
+          "a": 0.35000000000000003,
+          "joint_error_upper": 0.002479497512166345,
+          "defect_upper": 0.002142422559600133,
+          "lipschitz_upper": 16.842881231841716
+        },
+        {
+          "a": 0.353125,
+          "joint_error_upper": 0.0026197891311669987,
+          "defect_upper": 0.002125899343866323,
+          "lipschitz_upper": 16.75588550982317
+        },
+        {
+          "a": 0.35625,
+          "joint_error_upper": 0.002766823184536423,
+          "defect_upper": 0.00210954736541556,
+          "lipschitz_upper": 16.66968532010158
+        },
+        {
+          "a": 0.359375,
+          "joint_error_upper": 0.0029208864318953378,
+          "defect_upper": 0.0020933316394512558,
+          "lipschitz_upper": 16.584260470392003
+        },
+        {
+          "a": 0.36250000000000004,
+          "joint_error_upper": 0.0030822760766100535,
+          "defect_upper": 0.002077250108225096,
+          "lipschitz_upper": 16.499591461878055
+        },
+        {
+          "a": 0.36562500000000003,
+          "joint_error_upper": 0.0032513000812105404,
+          "defect_upper": 0.0020613042204469705,
+          "lipschitz_upper": 16.415659463426802
+        },
+        {
+          "a": 0.36875,
+          "joint_error_upper": 0.0034282774480474012,
+          "defect_upper": 0.0020454864264889063,
+          "lipschitz_upper": 16.33244628705376
+        },
+        {
+          "a": 0.371875,
+          "joint_error_upper": 0.0036135386292366323,
+          "defect_upper": 0.0020298182014531494,
+          "lipschitz_upper": 16.249934364360538
+        },
+        {
+          "a": 0.375,
+          "joint_error_upper": 0.0038074257758188602,
+          "defect_upper": 0.0020142979177218347,
+          "lipschitz_upper": 16.168106724400744
+        },
+        {
+          "a": 0.37812500000000004,
+          "joint_error_upper": 0.004010293009777622,
+          "defect_upper": 0.001998907188911063,
+          "lipschitz_upper": 16.08694697192894
+        },
+        {
+          "a": 0.38125000000000003,
+          "joint_error_upper": 0.00422250672974149,
+          "defect_upper": 0.0019836202220494302,
+          "lipschitz_upper": 16.006439266999692
+        },
+        {
+          "a": 0.384375,
+          "joint_error_upper": 0.0044444460403467445,
+          "defect_upper": 0.001968440128465943,
+          "lipschitz_upper": 15.9265683050188
+        },
+        {
+          "a": 0.3875,
+          "joint_error_upper": 0.004676503228162195,
+          "defect_upper": 0.0019534099809721183,
+          "lipschitz_upper": 15.84731929830293
+        },
+        {
+          "a": 0.390625,
+          "joint_error_upper": 0.004919083902893744,
+          "defect_upper": 0.0019385071703539203,
+          "lipschitz_upper": 15.76867795806171
+        },
+        {
+          "a": 0.39375000000000004,
+          "joint_error_upper": 0.00517260730138244,
+          "defect_upper": 0.0019236944800893412,
+          "lipschitz_upper": 15.69063047696571
+        },
+        {
+          "a": 0.39687500000000003,
+          "joint_error_upper": 0.00543750679458843,
+          "defect_upper": 0.0019089810080032813,
+          "lipschitz_upper": 15.613163512442926
+        },
+        {
+          "a": 0.4,
+          "joint_error_upper": 0.005714230313019903,
+          "defect_upper": 0.0018943934359748763,
+          "lipschitz_upper": 15.536264171049957
+        }
+      ],
+      "all_checks_passed": true
+    }
+  },
+  "active_spectral": {
+    "scope": "alias-free finite matter-dominated Fourier model; conditional matter evolution",
+    "initial_density": "0.01 cos(x)+1e-8 cos(Nx)",
+    "initial_velocity": "-0.01 sin(x)-1e-8 sin(Nx)/N",
+    "full_positive_modes": 8,
+    "steps": 128,
+    "duration_log_a": 0.2,
+    "step": "1/640",
+    "tolerance": 0.0001,
+    "error_norm": "joint Fourier l1",
+    "certificate_arithmetic": "exact integer polynomial of stored IEEE coordinates; exact rational scalar bound rounded upward every step",
+    "uniform_error_upper": 8.665019220471672e-05,
+    "minimum_tube_margin": 0.0054486632290661145,
+    "density_lower_bound": 0.97,
+    "events": [
+      {
+        "step": 0,
+        "time": 0.0,
+        "from_modes": 1,
+        "to_modes": 2,
+        "reason": "next-step error reserve",
+        "reconstruction_jump": 0.0
+      }
+    ],
+    "records": [
+      {
+        "step": 6,
+        "time": 0.009375,
+        "active_modes": 2,
+        "error_upper": 1.410696991048615e-06,
+        "defect_norm": 2.3844329995251928e-08,
+        "state_norm": 0.02018965674944794
+      },
+      {
+        "step": 12,
+        "time": 0.01875,
+        "active_modes": 2,
+        "error_upper": 2.9476165834105608e-06,
+        "defect_norm": 5.370317993658333e-08,
+        "state_norm": 0.020381125353208622
+      },
+      {
+        "step": 18,
+        "time": 0.028125,
+        "active_modes": 2,
+        "error_upper": 4.6343156797535185e-06,
+        "defect_norm": 8.496729095350896e-08,
+        "state_norm": 0.020574423370620876
+      },
+      {
+        "step": 24,
+        "time": 0.0375,
+        "active_modes": 2,
+        "error_upper": 6.484191898342646e-06,
+        "defect_norm": 1.1768728913393766e-07,
+        "state_norm": 0.020769568535832214
+      },
+      {
+        "step": 30,
+        "time": 0.046875,
+        "active_modes": 2,
+        "error_upper": 8.511830110791107e-06,
+        "defect_norm": 1.519154459133881e-07,
+        "state_norm": 0.020966578759623492
+      },
+      {
+        "step": 36,
+        "time": 0.05625,
+        "active_modes": 2,
+        "error_upper": 1.0733107522253791e-05,
+        "defect_norm": 1.8770572974879046e-07,
+        "state_norm": 0.021165472131254165
+      },
+      {
+        "step": 42,
+        "time": 0.065625,
+        "active_modes": 2,
+        "error_upper": 1.316530804997532e-05,
+        "defect_norm": 2.2511385768314972e-07,
+        "state_norm": 0.02136626692032829
+      },
+      {
+        "step": 48,
+        "time": 0.075,
+        "active_modes": 2,
+        "error_upper": 1.5827246822904976e-05,
+        "defect_norm": 2.6419735402129423e-07,
+        "state_norm": 0.021568981578681617
+      },
+      {
+        "step": 54,
+        "time": 0.084375,
+        "active_modes": 2,
+        "error_upper": 1.8739405697935256e-05,
+        "defect_norm": 3.050155989852441e-07,
+        "state_norm": 0.02177363474228996
+      },
+      {
+        "step": 60,
+        "time": 0.09375,
+        "active_modes": 2,
+        "error_upper": 2.1924080767560218e-05,
+        "defect_norm": 3.476298898299456e-07,
+        "state_norm": 0.021980245233199164
+      },
+      {
+        "step": 66,
+        "time": 0.103125,
+        "active_modes": 2,
+        "error_upper": 2.5405542919972476e-05,
+        "defect_norm": 3.921035015534374e-07,
+        "state_norm": 0.022188832061476937
+      },
+      {
+        "step": 72,
+        "time": 0.1125,
+        "active_modes": 2,
+        "error_upper": 2.921021260655106e-05,
+        "defect_norm": 4.3850174222343965e-07,
+        "state_norm": 0.0223994144271868
+      },
+      {
+        "step": 78,
+        "time": 0.121875,
+        "active_modes": 2,
+        "error_upper": 3.3366850073813545e-05,
+        "defect_norm": 4.868920220636224e-07,
+        "state_norm": 0.02261201172238441
+      },
+      {
+        "step": 84,
+        "time": 0.13125,
+        "active_modes": 2,
+        "error_upper": 3.790676242821187e-05,
+        "defect_norm": 5.373439135246649e-07,
+        "state_norm": 0.022826643533136633
+      },
+      {
+        "step": 90,
+        "time": 0.140625,
+        "active_modes": 2,
+        "error_upper": 4.286402902314969e-05,
+        "defect_norm": 5.899292182273317e-07,
+        "state_norm": 0.02304332964156354
+      },
+      {
+        "step": 96,
+        "time": 0.15,
+        "active_modes": 2,
+        "error_upper": 4.827574678946791e-05,
+        "defect_norm": 6.447220387613528e-07,
+        "state_norm": 0.02326209002790368
+      },
+      {
+        "step": 102,
+        "time": 0.159375,
+        "active_modes": 2,
+        "error_upper": 5.418229727401026e-05,
+        "defect_norm": 7.017988430483849e-07,
+        "state_norm": 0.0234829448726029
+      },
+      {
+        "step": 108,
+        "time": 0.16875,
+        "active_modes": 2,
+        "error_upper": 6.062763730708354e-05,
+        "defect_norm": 7.612385427522948e-07,
+        "state_norm": 0.02370591455842707
+      },
+      {
+        "step": 114,
+        "time": 0.178125,
+        "active_modes": 2,
+        "error_upper": 6.765961538954116e-05,
+        "defect_norm": 8.23122565042556e-07,
+        "state_norm": 0.023931019672598898
+      },
+      {
+        "step": 120,
+        "time": 0.1875,
+        "active_modes": 2,
+        "error_upper": 7.533031607525024e-05,
+        "defect_norm": 8.875349307523818e-07,
+        "state_norm": 0.024158281008959247
+      },
+      {
+        "step": 126,
+        "time": 0.196875,
+        "active_modes": 2,
+        "error_upper": 8.369643482601395e-05,
+        "defect_norm": 9.545623322981152e-07,
+        "state_norm": 0.024387719570153215
+      },
+      {
+        "step": 128,
+        "time": 0.2,
+        "active_modes": 2,
+        "error_upper": 8.665019220471672e-05,
+        "defect_norm": 9.775012976257614e-07,
+        "state_norm": 0.024464686578729168
+      }
+    ],
+    "final_active_modes": 2,
+    "certified_full_carrier": false,
+    "selection_policy": "A[j+1]=q*A[j]+b; floating policy; each accepted step independently certified",
+    "work": {
+      "scope": "typed arithmetic and storage counts; categories are not added with arbitrary weights",
+      "advancement_float": {
+        "multiplications": 2693,
+        "additions_subtractions": 1539,
+        "divisions": 1282,
+        "unary_negations": 257,
+        "rhs_coordinates": 514,
+        "examined_pair_indices": 1283,
+        "valid_ordered_convolution_pairs": 384
+      },
+      "accepted_advancement_float": {
+        "multiplications": 2688,
+        "additions_subtractions": 1536,
+        "divisions": 1280,
+        "unary_negations": 256,
+        "rhs_coordinates": 512,
+        "examined_pair_indices": 1280,
+        "valid_ordered_convolution_pairs": 384
+      },
+      "rejected_advancement_float": {
+        "multiplications": 5,
+        "additions_subtractions": 3,
+        "divisions": 2,
+        "unary_negations": 1,
+        "rhs_coordinates": 2,
+        "examined_pair_indices": 3,
+        "valid_ordered_convolution_pairs": 0
+      },
+      "candidate_attempts": 129,
+      "rejected_attempts": 1,
+      "certificate": {
+        "plan_builds": 2,
+        "polynomial_quadratic_terms": 12,
+        "dyadic_coordinate_conversions": 516,
+        "reused_coordinate_conversions": 510,
+        "integer_quadratic_products": 893,
+        "certificate_calls": 129,
+        "logical_pairs": 769,
+        "setup_fraction_operations": 9,
+        "setup_fraction_comparisons": 3,
+        "setup_explicit_fraction_constructors": 2,
+        "setup_integer_multiplications": 1,
+        "setup_gcd_calls_upper": 20,
+        "setup_max_integer_bits_upper": 96,
+        "build_pair_slots": 26,
+        "build_fraction_operations": 44,
+        "build_explicit_fraction_constructors": 46,
+        "build_lcm_calls": 2,
+        "build_gcd_calls_upper": 155,
+        "build_integer_multiplications_upper": 45,
+        "build_integer_divisions_upper": 42,
+        "build_integer_sign_changes": 17,
+        "build_max_integer_bits_upper": 52,
+        "integer_additions": 4623,
+        "integer_subtractions": 1542,
+        "integer_multiplications": 7445,
+        "integer_exact_divisions": 1028,
+        "integer_absolute_values": 2570,
+        "scalar_fraction_operations": 645,
+        "scalar_fraction_comparisons": 258,
+        "scalar_explicit_fraction_constructors": 387,
+        "scalar_dyadic_conversions": 186,
+        "scalar_fraction_to_float_conversions": 129,
+        "scalar_gcd_calls_upper": 1863,
+        "maximum_binary_denominator_bits": 77,
+        "maximum_coordinate_numerator_bits_upper": 71,
+        "maximum_direct_integer_bits_upper": 168,
+        "maximum_scalar_integer_bits_upper": 1312
+      },
+      "certificate_rhs_coordinates": 1028,
+      "selection": {
+        "scope": "floating-point selection policy, not a second certificate",
+        "float_power_evaluations": 1,
+        "multiplications": 130,
+        "additions_subtractions": 130,
+        "divisions": 1,
+        "allowance_comparisons": 127,
+        "recurrence_updates": 127
+      },
+      "input_setup": {
+        "initial_state_float_divisions": 1,
+        "initial_error_fraction_from_float": 3,
+        "initial_error_fraction_additions": 1,
+        "initial_error_fraction_absolute_values": 2,
+        "initial_error_fraction_to_float": 1,
+        "initial_error_fraction_comparisons": 1,
+        "initial_error_nextafter_upper": 1
+      },
+      "acceptance_comparisons_upper": 387,
+      "records_and_storage": {
+        "records": 22,
+        "events": 1,
+        "state_norm_absolute_values": 512,
+        "state_norm_additions": 512,
+        "diagnostic_fraction_divisions": 22,
+        "diagnostic_time_fraction_multiplications": 23,
+        "tube_margin_float_subtractions": 256,
+        "bound_and_margin_comparisons": 256,
+        "validation_state_scalars_stored": 2064,
+        "validation_bound_scalars_stored": 129,
+        "final_active_state_scalars": 4
+      }
+    },
+    "checks": {
+      "uniform_bound_below_tolerance": true,
+      "strict_tube": true,
+      "positive_density": true,
+      "sampled_reference_agrees": true
+    },
+    "all_checks_passed": true,
+    "max_sampled_reference_error": 4.020705772020583e-06,
+    "max_sampled_error_fraction_of_bound": 0.9999999999999999,
+    "full_certified_reference": {
+      "scope": "alias-free finite matter-dominated Fourier model; conditional matter evolution",
+      "initial_density": "0.01 cos(x)+1e-8 cos(Nx)",
+      "initial_velocity": "-0.01 sin(x)-1e-8 sin(Nx)/N",
+      "full_positive_modes": 8,
+      "steps": 128,
+      "duration_log_a": 0.2,
+      "step": "1/640",
+      "tolerance": 0.0001,
+      "error_norm": "joint Fourier l1",
+      "certificate_arithmetic": "exact integer polynomial of stored IEEE coordinates; exact rational scalar bound rounded upward every step",
+      "uniform_error_upper": 8.642288942389611e-05,
+      "minimum_tube_margin": 0.005448787872386395,
+      "density_lower_bound": 0.97,
+      "events": [],
+      "records": [
+        {
+          "step": 6,
+          "time": 0.009375,
+          "active_modes": 8,
+          "error_upper": 1.3983382604067928e-06,
+          "defect_norm": 5.636563855258712e-16,
+          "state_norm": 0.02018966822007445
+        },
+        {
+          "step": 12,
+          "time": 0.01875,
+          "active_modes": 8,
+          "error_upper": 2.9337645614194743e-06,
+          "defect_norm": 6.788851143216484e-16,
+          "state_norm": 0.020381137322295285
+        },
+        {
+          "step": 18,
+          "time": 0.028125,
+          "active_modes": 8,
+          "error_upper": 4.6185382544221426e-06,
+          "defect_norm": 1.652178175061818e-16,
+          "state_norm": 0.020574436131697904
+        },
+        {
+          "step": 24,
+          "time": 0.0375,
+          "active_modes": 8,
+          "error_upper": 6.466004711453296e-06,
+          "defect_norm": 8.549096783764186e-17,
+          "state_norm": 0.020769582398748373
+        },
+        {
+          "step": 30,
+          "time": 0.046875,
+          "active_modes": 8,
+          "error_upper": 8.490691431677792e-06,
+          "defect_norm": 8.852369585023591e-16,
+          "state_norm": 0.020966594051189492
+        },
+        {
+          "step": 36,
+          "time": 0.05625,
+          "active_modes": 8,
+          "error_upper": 1.0708412651666204e-05,
+          "defect_norm": 3.432348495640004e-16,
+          "state_norm": 0.021165489195908136
+        },
+        {
+          "step": 42,
+          "time": 0.065625,
+          "active_modes": 8,
+          "error_upper": 1.3136383211928406e-05,
+          "defect_norm": 2.0208118011738643e-16,
+          "state_norm": 0.02136628612082401
+        },
+        {
+          "step": 48,
+          "time": 0.075,
+          "active_modes": 8,
+          "error_upper": 1.5793342498703853e-05,
+          "defect_norm": 6.956893092505294e-16,
+          "state_norm": 0.0215690032968003
+        },
+        {
+          "step": 54,
+          "time": 0.084375,
+          "active_modes": 8,
+          "error_upper": 1.869968935247269e-05,
+          "defect_norm": 7.616384964332484e-16,
+          "state_norm": 0.021773659379576264
+        },
+        {
+          "step": 60,
+          "time": 0.09375,
+          "active_modes": 8,
+          "error_upper": 2.1877628913557856e-05,
+          "defect_norm": 6.6872840866023904e-18,
+          "state_norm": 0.021980273211722294
+        },
+        {
+          "step": 66,
+          "time": 0.103125,
+          "active_modes": 8,
+          "error_upper": 2.535133246104577e-05,
+          "defect_norm": 6.093998909912078e-17,
+          "state_norm": 0.02218886382461754
+        },
+        {
+          "step": 72,
+          "time": 0.1125,
+          "active_modes": 8,
+          "error_upper": 2.9147111394663026e-05,
+          "defect_norm": 7.091657337823158e-16,
+          "state_norm": 0.022399450440450552
+        },
+        {
+          "step": 78,
+          "time": 0.121875,
+          "active_modes": 8,
+          "error_upper": 3.3293606611034246e-05,
+          "defect_norm": 6.679423352947743e-16,
+          "state_norm": 0.02261205247424311
+        },
+        {
+          "step": 84,
+          "time": 0.13125,
+          "active_modes": 8,
+          "error_upper": 3.782199463641069e-05,
+          "defect_norm": 7.442732208624701e-18,
+          "state_norm": 0.022826689535897705
+        },
+        {
+          "step": 90,
+          "time": 0.140625,
+          "active_modes": 8,
+          "error_upper": 4.2766211998568226e-05,
+          "defect_norm": 1.3451403742975325e-16,
+          "state_norm": 0.02304338143226879
+        },
+        {
+          "step": 96,
+          "time": 0.15,
+          "active_modes": 8,
+          "error_upper": 4.816319945163624e-05,
+          "defect_norm": 6.579359238611491e-16,
+          "state_norm": 0.023262148169258295
+        },
+        {
+          "step": 102,
+          "time": 0.159375,
+          "active_modes": 8,
+          "error_upper": 5.4053167810531014e-05,
+          "defect_norm": 2.4435783266539473e-16,
+          "state_norm": 0.02348300995393567
+        },
+        {
+          "step": 108,
+          "time": 0.16875,
+          "active_modes": 8,
+          "error_upper": 6.047988730703186e-05,
+          "defect_norm": 8.524033768971267e-16,
+          "state_norm": 0.023705987196682685
+        },
+        {
+          "step": 114,
+          "time": 0.178125,
+          "active_modes": 8,
+          "error_upper": 6.749100254873192e-05,
+          "defect_norm": 6.96788561468035e-16,
+          "state_norm": 0.023931100513363522
+        },
+        {
+          "step": 120,
+          "time": 0.1875,
+          "active_modes": 8,
+          "error_upper": 7.513837534625593e-05,
+          "defect_norm": 5.308372567414008e-16,
+          "state_norm": 0.02415837072752029
+        },
+        {
+          "step": 126,
+          "time": 0.196875,
+          "active_modes": 8,
+          "error_upper": 8.347845787457922e-05,
+          "defect_norm": 6.246626955828375e-17,
+          "state_norm": 0.024387818872594436
+        },
+        {
+          "step": 128,
+          "time": 0.2,
+          "active_modes": 8,
+          "error_upper": 8.642288942389611e-05,
+          "defect_norm": 7.307127039331502e-16,
+          "state_norm": 0.024464789238189708
+        }
+      ],
+      "final_active_modes": 8,
+      "certified_full_carrier": true,
+      "selection_policy": null,
+      "work": {
+        "scope": "typed arithmetic and storage counts; categories are not added with arbitrary weights",
+        "advancement_float": {
+          "multiplications": 47232,
+          "additions_subtractions": 24576,
+          "divisions": 23552,
+          "unary_negations": 1024,
+          "rhs_coordinates": 2048,
+          "examined_pair_indices": 17408,
+          "valid_ordered_convolution_pairs": 10752
+        },
+        "accepted_advancement_float": {
+          "multiplications": 47232,
+          "additions_subtractions": 24576,
+          "divisions": 23552,
+          "unary_negations": 1024,
+          "rhs_coordinates": 2048,
+          "examined_pair_indices": 17408,
+          "valid_ordered_convolution_pairs": 10752
+        },
+        "rejected_advancement_float": {},
+        "candidate_attempts": 128,
+        "rejected_attempts": 0,
+        "certificate": {
+          "plan_builds": 1,
+          "polynomial_quadratic_terms": 128,
+          "dyadic_coordinate_conversions": 2064,
+          "reused_coordinate_conversions": 2032,
+          "integer_quadratic_products": 11619,
+          "certificate_calls": 128,
+          "logical_pairs": 10752,
+          "setup_fraction_operations": 9,
+          "setup_fraction_comparisons": 3,
+          "setup_explicit_fraction_constructors": 2,
+          "setup_integer_multiplications": 1,
+          "setup_gcd_calls_upper": 20,
+          "setup_max_integer_bits_upper": 96,
+          "build_pair_slots": 136,
+          "build_fraction_operations": 344,
+          "build_explicit_fraction_constructors": 384,
+          "build_lcm_calls": 1,
+          "build_gcd_calls_upper": 1224,
+          "build_integer_multiplications_upper": 412,
+          "build_integer_divisions_upper": 304,
+          "build_integer_sign_changes": 176,
+          "build_max_integer_bits_upper": 96,
+          "integer_additions": 27648,
+          "integer_subtractions": 4096,
+          "integer_multiplications": 41699,
+          "integer_exact_divisions": 4096,
+          "integer_absolute_values": 8192,
+          "scalar_fraction_operations": 640,
+          "scalar_fraction_comparisons": 256,
+          "scalar_explicit_fraction_constructors": 384,
+          "scalar_dyadic_conversions": 200,
+          "scalar_fraction_to_float_conversions": 128,
+          "scalar_gcd_calls_upper": 1864,
+          "maximum_binary_denominator_bits": 129,
+          "maximum_coordinate_numerator_bits_upper": 123,
+          "maximum_direct_integer_bits_upper": 284,
+          "maximum_scalar_integer_bits_upper": 2048
+        },
+        "certificate_rhs_coordinates": 2048,
+        "selection": {},
+        "input_setup": {
+          "initial_state_float_divisions": 1,
+          "initial_error_fraction_from_float": 0,
+          "initial_error_fraction_additions": 0,
+          "initial_error_fraction_absolute_values": 0,
+          "initial_error_fraction_to_float": 0,
+          "initial_error_fraction_comparisons": 0,
+          "initial_error_nextafter_upper": 0
+        },
+        "acceptance_comparisons_upper": 384,
+        "records_and_storage": {
+          "records": 22,
+          "events": 0,
+          "state_norm_absolute_values": 2048,
+          "state_norm_additions": 2048,
+          "diagnostic_fraction_divisions": 22,
+          "diagnostic_time_fraction_multiplications": 22,
+          "tube_margin_float_subtractions": 256,
+          "bound_and_margin_comparisons": 256,
+          "validation_state_scalars_stored": 2064,
+          "validation_bound_scalars_stored": 129,
+          "final_active_state_scalars": 16
+        }
+      },
+      "checks": {
+        "uniform_bound_below_tolerance": true,
+        "strict_tube": true,
+        "positive_density": true,
+        "sampled_reference_agrees": true
+      },
+      "all_checks_passed": true,
+      "max_sampled_reference_error": 3.918046311477736e-06,
+      "max_sampled_error_fraction_of_bound": 0.11150418794640427
+    },
+    "verification_work": {
+      "scope": "optional shared independent check, separate from both required certified evolutions",
+      "DOP853_rhs_evaluations": 32,
+      "DOP853_rhs_float": {
+        "multiplications": 11296,
+        "additions_subtractions": 5632,
+        "divisions": 5888,
+        "unary_negations": 256,
+        "rhs_coordinates": 512,
+        "examined_pair_indices": 4352,
+        "valid_ordered_convolution_pairs": 2688
+      },
+      "solver_internal_arithmetic": "not included in RHS counts; no total solver operation count claimed",
+      "dense_reference_evaluations": 1,
+      "dense_reference_sample_points": 129,
+      "dense_reference_scalar_values": 2064,
+      "comparison_subtractions": 4128,
+      "comparison_absolute_values": 4128,
+      "comparison_additions": 3870,
+      "stored_trajectory_scalars": 4128
+    }
+  },
+  "active_scaling": {
+    "scope": "alias-free finite matter-dominated Fourier model; conditional matter evolution",
+    "initial_density": "0.01 cos(x)+1e-8 cos(Nx)",
+    "initial_velocity": "-0.01 sin(x)-1e-8 sin(Nx)/N",
+    "full_positive_modes": 32,
+    "steps": 50,
+    "duration_log_a": 0.05,
+    "step": "1/1000",
+    "tolerance": 0.0001,
+    "error_norm": "joint Fourier l1",
+    "certificate_arithmetic": "exact integer polynomial of stored IEEE coordinates; exact rational scalar bound rounded upward every step",
+    "uniform_error_upper": 7.003065461970974e-05,
+    "minimum_tube_margin": 0.008905072696685267,
+    "density_lower_bound": 0.97,
+    "events": [],
+    "records": [
+      {
+        "step": 2,
+        "time": 0.002,
+        "active_modes": 1,
+        "error_upper": 1.05360632084187e-06,
+        "defect_norm": 0.00015030015000093327,
+        "state_norm": 0.02004002
+      },
+      {
+        "step": 4,
+        "time": 0.004,
+        "active_modes": 1,
+        "error_upper": 2.1753271887688693e-06,
+        "defect_norm": 0.00015090225300393704,
+        "state_norm": 0.02008012008002
+      },
+      {
+        "step": 6,
+        "time": 0.006,
+        "active_modes": 1,
+        "error_upper": 3.3811741213221147e-06,
+        "defect_norm": 0.00015150676803313035,
+        "state_norm": 0.020120300400300124
+      },
+      {
+        "step": 8,
+        "time": 0.008,
+        "active_modes": 1,
+        "error_upper": 4.677259709385626e-06,
+        "defect_norm": 0.00015211370475182124,
+        "state_norm": 0.020160561121401126
+      },
+      {
+        "step": 10,
+        "time": 0.01,
+        "active_modes": 1,
+        "error_upper": 6.070140128085675e-06,
+        "defect_norm": 0.00015272307286192912,
+        "state_norm": 0.020200902404205048
+      },
+      {
+        "step": 12,
+        "time": 0.012,
+        "active_modes": 1,
+        "error_upper": 7.566847325412628e-06,
+        "defect_norm": 0.00015333488210257486,
+        "state_norm": 0.020241324409915863
+      },
+      {
+        "step": 14,
+        "time": 0.014,
+        "active_modes": 1,
+        "error_upper": 9.174923546605201e-06,
+        "defect_norm": 0.00015394914225362643,
+        "state_norm": 0.020281827300060104
+      },
+      {
+        "step": 16,
+        "time": 0.016,
+        "active_modes": 1,
+        "error_upper": 1.0902458363781751e-05,
+        "defect_norm": 0.00015456586313263165,
+        "state_norm": 0.020322411236487523
+      },
+      {
+        "step": 18,
+        "time": 0.018,
+        "active_modes": 1,
+        "error_upper": 1.2758128392616536e-05,
+        "defect_norm": 0.0001551850545998155,
+        "state_norm": 0.020363076381371737
+      },
+      {
+        "step": 20,
+        "time": 0.02,
+        "active_modes": 1,
+        "error_upper": 1.4751239891035345e-05,
+        "defect_norm": 0.00015580672654857494,
+        "state_norm": 0.020403822897210863
+      },
+      {
+        "step": 22,
+        "time": 0.022,
+        "active_modes": 1,
+        "error_upper": 1.6891774449086005e-05,
+        "defect_norm": 0.00015643088891930675,
+        "state_norm": 0.020444650946828184
+      },
+      {
+        "step": 24,
+        "time": 0.024,
+        "active_modes": 1,
+        "error_upper": 1.919043799426259e-05,
+        "defect_norm": 0.00015705755168627514,
+        "state_norm": 0.020485560693372786
+      },
+      {
+        "step": 26,
+        "time": 0.026,
+        "active_modes": 1,
+        "error_upper": 2.1658713352888903e-05,
+        "defect_norm": 0.00015768672486559792,
+        "state_norm": 0.020526552300320227
+      },
+      {
+        "step": 28,
+        "time": 0.028,
+        "active_modes": 1,
+        "error_upper": 2.4308916625605146e-05,
+        "defect_norm": 0.00015831841851696133,
+        "state_norm": 0.02056762593147317
+      },
+      {
+        "step": 30,
+        "time": 0.03,
+        "active_modes": 1,
+        "error_upper": 2.7154257653717644e-05,
+        "defect_norm": 0.00015895264273397587,
+        "state_norm": 0.020608781750962046
+      },
+      {
+        "step": 32,
+        "time": 0.032,
+        "active_modes": 1,
+        "error_upper": 3.020890487327092e-05,
+        "defect_norm": 0.0001595894076581912,
+        "state_norm": 0.020650019923245718
+      },
+      {
+        "step": 34,
+        "time": 0.034,
+        "active_modes": 1,
+        "error_upper": 3.348805487522472e-05,
+        "defect_norm": 0.00016022872346392337,
+        "state_norm": 0.02069134061311213
+      },
+      {
+        "step": 36,
+        "time": 0.036,
+        "active_modes": 1,
+        "error_upper": 3.700800701325151e-05,
+        "defect_norm": 0.000160870600371282,
+        "state_norm": 0.020732743985678963
+      },
+      {
+        "step": 38,
+        "time": 0.038,
+        "active_modes": 1,
+        "error_upper": 4.07862434254152e-05,
+        "defect_norm": 0.0001615150486383993,
+        "state_norm": 0.020774230206394306
+      },
+      {
+        "step": 40,
+        "time": 0.04,
+        "active_modes": 1,
+        "error_upper": 4.484151486260359e-05,
+        "defect_norm": 0.00016216207856957002,
+        "state_norm": 0.0208157994410373
+      },
+      {
+        "step": 42,
+        "time": 0.042,
+        "active_modes": 1,
+        "error_upper": 4.9193932745060505e-05,
+        "defect_norm": 0.00016281170050642339,
+        "state_norm": 0.020857451855718818
+      },
+      {
+        "step": 44,
+        "time": 0.044,
+        "active_modes": 1,
+        "error_upper": 5.3865067898967515e-05,
+        "defect_norm": 0.00016346392482855687,
+        "state_norm": 0.02089918761688211
+      },
+      {
+        "step": 46,
+        "time": 0.046,
+        "active_modes": 1,
+        "error_upper": 5.887805645782703e-05,
+        "defect_norm": 0.00016411876196612953,
+        "state_norm": 0.02094100689130349
+      },
+      {
+        "step": 48,
+        "time": 0.048,
+        "active_modes": 1,
+        "error_upper": 6.425771344851929e-05,
+        "defect_norm": 0.00016477622238342073,
+        "state_norm": 0.02098290984609299
+      },
+      {
+        "step": 50,
+        "time": 0.05,
+        "active_modes": 1,
+        "error_upper": 7.003065461970974e-05,
+        "defect_norm": 0.00016543631659023464,
+        "state_norm": 0.021024896648695023
+      }
+    ],
+    "final_active_modes": 1,
+    "certified_full_carrier": false,
+    "selection_policy": "A[j+1]=q*A[j]+b; floating policy; each accepted step independently certified",
+    "work": {
+      "scope": "typed arithmetic and storage counts; categories are not added with arbitrary weights",
+      "advancement_float": {
+        "multiplications": 250,
+        "additions_subtractions": 150,
+        "divisions": 100,
+        "unary_negations": 50,
+        "rhs_coordinates": 100,
+        "examined_pair_indices": 150,
+        "valid_ordered_convolution_pairs": 0
+      },
+      "accepted_advancement_float": {
+        "multiplications": 250,
+        "additions_subtractions": 150,
+        "divisions": 100,
+        "unary_negations": 50,
+        "rhs_coordinates": 100,
+        "examined_pair_indices": 150,
+        "valid_ordered_convolution_pairs": 0
+      },
+      "rejected_advancement_float": {},
+      "candidate_attempts": 50,
+      "rejected_attempts": 0,
+      "certificate": {
+        "plan_builds": 1,
+        "polynomial_quadratic_terms": 2,
+        "dyadic_coordinate_conversions": 102,
+        "reused_coordinate_conversions": 98,
+        "integer_quadratic_products": 100,
+        "certificate_calls": 50,
+        "logical_pairs": 50,
+        "setup_fraction_operations": 9,
+        "setup_fraction_comparisons": 3,
+        "setup_explicit_fraction_constructors": 2,
+        "setup_integer_multiplications": 1,
+        "setup_gcd_calls_upper": 20,
+        "setup_max_integer_bits_upper": 96,
+        "build_pair_slots": 6,
+        "build_fraction_operations": 10,
+        "build_explicit_fraction_constructors": 10,
+        "build_lcm_calls": 1,
+        "build_gcd_calls_upper": 35,
+        "build_integer_multiplications_upper": 9,
+        "build_integer_divisions_upper": 10,
+        "build_integer_sign_changes": 3,
+        "build_max_integer_bits_upper": 36,
+        "integer_additions": 750,
+        "integer_subtractions": 300,
+        "integer_multiplications": 1300,
+        "integer_exact_divisions": 200,
+        "integer_absolute_values": 500,
+        "scalar_fraction_operations": 250,
+        "scalar_fraction_comparisons": 100,
+        "scalar_explicit_fraction_constructors": 150,
+        "scalar_dyadic_conversions": 76,
+        "scalar_fraction_to_float_conversions": 50,
+        "scalar_gcd_calls_upper": 726,
+        "maximum_binary_denominator_bits": 60,
+        "maximum_coordinate_numerator_bits_upper": 54,
+        "maximum_direct_integer_bits_upper": 132,
+        "maximum_scalar_integer_bits_upper": 1048
+      },
+      "certificate_rhs_coordinates": 200,
+      "selection": {
+        "scope": "floating-point selection policy, not a second certificate",
+        "float_power_evaluations": 1,
+        "multiplications": 52,
+        "additions_subtractions": 52,
+        "divisions": 1,
+        "allowance_comparisons": 49,
+        "recurrence_updates": 49
+      },
+      "input_setup": {
+        "initial_state_float_divisions": 1,
+        "initial_error_fraction_from_float": 3,
+        "initial_error_fraction_additions": 1,
+        "initial_error_fraction_absolute_values": 2,
+        "initial_error_fraction_to_float": 1,
+        "initial_error_fraction_comparisons": 1,
+        "initial_error_nextafter_upper": 1
+      },
+      "acceptance_comparisons_upper": 150,
+      "records_and_storage": {
+        "records": 25,
+        "events": 0,
+        "state_norm_absolute_values": 100,
+        "state_norm_additions": 100,
+        "diagnostic_fraction_divisions": 25,
+        "diagnostic_time_fraction_multiplications": 25,
+        "tube_margin_float_subtractions": 100,
+        "bound_and_margin_comparisons": 100,
+        "validation_state_scalars_stored": 3264,
+        "validation_bound_scalars_stored": 51,
+        "final_active_state_scalars": 2
+      }
+    },
+    "checks": {
+      "uniform_bound_below_tolerance": true,
+      "strict_tube": true,
+      "positive_density": true,
+      "sampled_reference_agrees": true
+    },
+    "all_checks_passed": true,
+    "max_sampled_reference_error": 8.624632837575028e-06,
+    "max_sampled_error_fraction_of_bound": 1.0,
+    "full_certified_reference": {
+      "scope": "alias-free finite matter-dominated Fourier model; conditional matter evolution",
+      "initial_density": "0.01 cos(x)+1e-8 cos(Nx)",
+      "initial_velocity": "-0.01 sin(x)-1e-8 sin(Nx)/N",
+      "full_positive_modes": 32,
+      "steps": 50,
+      "duration_log_a": 0.05,
+      "step": "1/1000",
+      "tolerance": 0.0001,
+      "error_norm": "joint Fourier l1",
+      "certificate_arithmetic": "exact integer polynomial of stored IEEE coordinates; exact rational scalar bound rounded upward every step",
+      "uniform_error_upper": 4.884578353400184e-05,
+      "minimum_tube_margin": 0.008918170709671032,
+      "density_lower_bound": 0.97,
+      "events": [],
+      "records": [
+        {
+          "step": 2,
+          "time": 0.002,
+          "active_modes": 32,
+          "error_upper": 7.31453753448814e-07,
+          "defect_norm": 1.188786434055706e-16,
+          "state_norm": 0.02004033078889244
+        },
+        {
+          "step": 4,
+          "time": 0.004,
+          "active_modes": 32,
+          "error_upper": 1.517470844074497e-06,
+          "defect_norm": 1.409751781679084e-15,
+          "state_norm": 0.020080733160240415
+        },
+        {
+          "step": 6,
+          "time": 0.006,
+          "active_modes": 32,
+          "error_upper": 2.3620137031047833e-06,
+          "defect_norm": 1.6876372115988736e-15,
+          "state_norm": 0.0201212175953388
+        },
+        {
+          "step": 8,
+          "time": 0.008,
+          "active_modes": 32,
+          "error_upper": 3.2693323006676907e-06,
+          "defect_norm": 5.942301945692162e-16,
+          "state_norm": 0.020161784263340313
+        },
+        {
+          "step": 10,
+          "time": 0.01,
+          "active_modes": 32,
+          "error_upper": 4.243985010967704e-06,
+          "defect_norm": 2.028939214340641e-16,
+          "state_norm": 0.020202433333756337
+        },
+        {
+          "step": 12,
+          "time": 0.012,
+          "active_modes": 32,
+          "error_upper": 5.290860991530198e-06,
+          "defect_norm": 9.036192823254434e-16,
+          "state_norm": 0.02024316497645769
+        },
+        {
+          "step": 14,
+          "time": 0.014,
+          "active_modes": 32,
+          "error_upper": 6.415204186390255e-06,
+          "defect_norm": 7.684214034313162e-16,
+          "state_norm": 0.020283979361675458
+        },
+        {
+          "step": 16,
+          "time": 0.016,
+          "active_modes": 32,
+          "error_upper": 7.622639071061674e-06,
+          "defect_norm": 1.6212301005852424e-15,
+          "state_norm": 0.020324876660001774
+        },
+        {
+          "step": 18,
+          "time": 0.018,
+          "active_modes": 32,
+          "error_upper": 8.91919826568443e-06,
+          "defect_norm": 8.698896266008782e-16,
+          "state_norm": 0.02036585704239065
+        },
+        {
+          "step": 20,
+          "time": 0.02,
+          "active_modes": 32,
+          "error_upper": 1.0311352151908942e-05,
+          "defect_norm": 6.977090970463239e-16,
+          "state_norm": 0.02040692068015877
+        },
+        {
+          "step": 22,
+          "time": 0.022,
+          "active_modes": 32,
+          "error_upper": 1.1806040638920204e-05,
+          "defect_norm": 6.532498904315241e-16,
+          "state_norm": 0.020448067744986295
+        },
+        {
+          "step": 24,
+          "time": 0.024,
+          "active_modes": 32,
+          "error_upper": 1.3410707234548078e-05,
+          "defect_norm": 3.0496685792963986e-16,
+          "state_norm": 0.020489298408917687
+        },
+        {
+          "step": 26,
+          "time": 0.026,
+          "active_modes": 32,
+          "error_upper": 1.5133335588739991e-05,
+          "defect_norm": 1.7336990942324199e-16,
+          "state_norm": 0.020530612844362525
+        },
+        {
+          "step": 28,
+          "time": 0.028,
+          "active_modes": 32,
+          "error_upper": 1.6982488688796072e-05,
+          "defect_norm": 6.673428407111969e-16,
+          "state_norm": 0.02057201122409631
+        },
+        {
+          "step": 30,
+          "time": 0.03,
+          "active_modes": 32,
+          "error_upper": 1.896735089879039e-05,
+          "defect_norm": 1.3350692169335633e-15,
+          "state_norm": 0.020613493721261283
+        },
+        {
+          "step": 32,
+          "time": 0.032,
+          "active_modes": 32,
+          "error_upper": 2.1097773049572376e-05,
+          "defect_norm": 1.5322717374903771e-15,
+          "state_norm": 0.02065506050936728
+        },
+        {
+          "step": 34,
+          "time": 0.034,
+          "active_modes": 32,
+          "error_upper": 2.3384320800703678e-05,
+          "defect_norm": 6.801915045375487e-16,
+          "state_norm": 0.0206967117622925
+        },
+        {
+          "step": 36,
+          "time": 0.036,
+          "active_modes": 32,
+          "error_upper": 2.583832651176964e-05,
+          "defect_norm": 1.281603042738912e-15,
+          "state_norm": 0.020738447654284366
+        },
+        {
+          "step": 38,
+          "time": 0.038,
+          "active_modes": 32,
+          "error_upper": 2.847194487769768e-05,
+          "defect_norm": 4.80766578742414e-17,
+          "state_norm": 0.020780268359960344
+        },
+        {
+          "step": 40,
+          "time": 0.04,
+          "active_modes": 32,
+          "error_upper": 3.129821260125603e-05,
+          "defect_norm": 9.975524887622911e-17,
+          "state_norm": 0.020822174054308768
+        },
+        {
+          "step": 42,
+          "time": 0.042,
+          "active_modes": 32,
+          "error_upper": 3.433111239564502e-05,
+          "defect_norm": 6.939864076963173e-16,
+          "state_norm": 0.02086416491268967
+        },
+        {
+          "step": 44,
+          "time": 0.044,
+          "active_modes": 32,
+          "error_upper": 3.758564163142375e-05,
+          "defect_norm": 1.4362465088068156e-15,
+          "state_norm": 0.020906241110835617
+        },
+        {
+          "step": 46,
+          "time": 0.046,
+          "active_modes": 32,
+          "error_upper": 4.1077885964774844e-05,
+          "defect_norm": 8.656657951829699e-16,
+          "state_norm": 0.02094840282485255
+        },
+        {
+          "step": 48,
+          "time": 0.048,
+          "active_modes": 32,
+          "error_upper": 4.482509830857959e-05,
+          "defect_norm": 4.792522605580993e-16,
+          "state_norm": 0.020990650231220605
+        },
+        {
+          "step": 50,
+          "time": 0.05,
+          "active_modes": 32,
+          "error_upper": 4.884578353400184e-05,
+          "defect_norm": 1.545352906865807e-15,
+          "state_norm": 0.021032983506794965
+        }
+      ],
+      "final_active_modes": 32,
+      "certified_full_carrier": true,
+      "selection_policy": null,
+      "work": {
+        "scope": "typed arithmetic and storage counts; categories are not added with arbitrary weights",
+        "advancement_float": {
+          "multiplications": 304050,
+          "additions_subtractions": 153600,
+          "divisions": 152000,
+          "unary_negations": 1600,
+          "rhs_coordinates": 3200,
+          "examined_pair_indices": 104000,
+          "valid_ordered_convolution_pairs": 74400
+        },
+        "accepted_advancement_float": {
+          "multiplications": 304050,
+          "additions_subtractions": 153600,
+          "divisions": 152000,
+          "unary_negations": 1600,
+          "rhs_coordinates": 3200,
+          "examined_pair_indices": 104000,
+          "valid_ordered_convolution_pairs": 74400
+        },
+        "rejected_advancement_float": {},
+        "candidate_attempts": 50,
+        "rejected_attempts": 0,
+        "certificate": {
+          "plan_builds": 1,
+          "polynomial_quadratic_terms": 2240,
+          "dyadic_coordinate_conversions": 3264,
+          "reused_coordinate_conversions": 3136,
+          "integer_quadratic_products": 70415,
+          "certificate_calls": 50,
+          "logical_pairs": 74400,
+          "setup_fraction_operations": 9,
+          "setup_fraction_comparisons": 3,
+          "setup_explicit_fraction_constructors": 2,
+          "setup_integer_multiplications": 1,
+          "setup_gcd_calls_upper": 20,
+          "setup_max_integer_bits_upper": 96,
+          "build_pair_slots": 2080,
+          "build_fraction_operations": 5408,
+          "build_explicit_fraction_constructors": 6144,
+          "build_lcm_calls": 1,
+          "build_gcd_calls_upper": 19296,
+          "build_integer_multiplications_upper": 6832,
+          "build_integer_divisions_upper": 4672,
+          "build_integer_sign_changes": 3008,
+          "build_max_integer_bits_upper": 268,
+          "integer_additions": 129600,
+          "integer_subtractions": 6400,
+          "integer_multiplications": 203365,
+          "integer_exact_divisions": 6400,
+          "integer_absolute_values": 12800,
+          "scalar_fraction_operations": 250,
+          "scalar_fraction_comparisons": 100,
+          "scalar_explicit_fraction_constructors": 150,
+          "scalar_dyadic_conversions": 84,
+          "scalar_fraction_to_float_conversions": 50,
+          "scalar_gcd_calls_upper": 734,
+          "maximum_binary_denominator_bits": 325,
+          "maximum_coordinate_numerator_bits_upper": 319,
+          "maximum_direct_integer_bits_upper": 721,
+          "maximum_scalar_integer_bits_upper": 5480
+        },
+        "certificate_rhs_coordinates": 3200,
+        "selection": {},
+        "input_setup": {
+          "initial_state_float_divisions": 1,
+          "initial_error_fraction_from_float": 0,
+          "initial_error_fraction_additions": 0,
+          "initial_error_fraction_absolute_values": 0,
+          "initial_error_fraction_to_float": 0,
+          "initial_error_fraction_comparisons": 0,
+          "initial_error_nextafter_upper": 0
+        },
+        "acceptance_comparisons_upper": 150,
+        "records_and_storage": {
+          "records": 25,
+          "events": 0,
+          "state_norm_absolute_values": 3200,
+          "state_norm_additions": 3200,
+          "diagnostic_fraction_divisions": 25,
+          "diagnostic_time_fraction_multiplications": 25,
+          "tube_margin_float_subtractions": 100,
+          "bound_and_margin_comparisons": 100,
+          "validation_state_scalars_stored": 3264,
+          "validation_bound_scalars_stored": 51,
+          "final_active_state_scalars": 64
+        }
+      },
+      "checks": {
+        "uniform_bound_below_tolerance": true,
+        "strict_tube": true,
+        "positive_density": true,
+        "sampled_reference_agrees": true
+      },
+      "all_checks_passed": true,
+      "max_sampled_reference_error": 5.377747376327454e-07,
+      "max_sampled_error_fraction_of_bound": 0.028483799651984856
+    },
+    "verification_work": {
+      "scope": "optional shared independent check, separate from both required certified evolutions",
+      "DOP853_rhs_evaluations": 32,
+      "DOP853_rhs_float": {
+        "multiplications": 192544,
+        "additions_subtractions": 96256,
+        "divisions": 97280,
+        "unary_negations": 1024,
+        "rhs_coordinates": 2048,
+        "examined_pair_indices": 66560,
+        "valid_ordered_convolution_pairs": 47616
+      },
+      "solver_internal_arithmetic": "not included in RHS counts; no total solver operation count claimed",
+      "dense_reference_evaluations": 1,
+      "dense_reference_sample_points": 51,
+      "dense_reference_scalar_values": 3264,
+      "comparison_subtractions": 6528,
+      "comparison_absolute_values": 6528,
+      "comparison_additions": 6426,
+      "stored_trajectory_scalars": 6528
+    }
+  },
+  "checks": {
+    "EdS_second_order": true,
+    "current_background_clock": true,
+    "PM_step_refinement": true,
+    "PM_mass_conservation": true,
+    "PM_density_positive": true,
+    "PM_trajectory_enclosure": true,
+    "PM_initial_Newtonian_force": true,
+    "active_evolution": true,
+    "active_scaling": true
+  },
+  "all_checks_passed": true,
+  "source_sha256": {
+    "code\\audit_field_universe.py": "1a54baebeeb5f510c2e72704f485e1814768bfada81ae7c20f82d98913d29e05",
+    "code\\audit_interaction_design.py": "3b0fa581cb04a3bf4fa1886807f5d573815c5c51113973ec99b5cc550a478a05",
+    "code\\audit_pm_nbody.py": "72bdb5e41d2bff4c668d46e52f343d7b6a7694b487100aa885d6141b6b2a6dd8",
+    "code\\audit_run.py": "ec352ada24b8b87539d73df8ce10b4b1d0e3f69a443c37ffa1db674ce3ae56cb",
+    "code\\build_figure_data.py": "9f83561a4cf80b722ba4142fea86e76bb814133a6e234e5ec5476c64b440aec9",
+    "code\\build_interaction_tables.py": "accfdb89b6829dc8ffb93cebcc9be458d247f2c9b369ab0ce09482259f4437ec",
+    "code\\check_references.py": "107d1cef74ac334011549aab26c6269faf280881d863cc0846c2f0c33ec98424",
+    "code\\cosmic_cg\\__init__.py": "6e90f06293b354ca3305fe73376b01064895b9a768e8fb9667cf1b8987b1355f",
+    "code\\cosmic_cg\\active_spectral.py": "bd269fb2aea1dc986259f15a72709c0662fab242f57025a92012167e95198832",
+    "code\\cosmic_cg\\cosmological_dynamics.py": "34a6e55e5198d8ea6e4041b3ee6b8e5506a882a72a6b44a09202e1530af7994e",
+    "code\\cosmic_cg\\cost.py": "5c03b651892eafe2cb643b513bd3bf8b03055014ca737901d7fdce65d74b98f3",
+    "code\\cosmic_cg\\de_shelling.py": "4814eb3a7e34dd5bf6940bf7ef742181f39651ebe93452abfd78eac308853d8c",
+    "code\\cosmic_cg\\entropy_audit.py": "1e9f45934401e3e0bc18c436a59300dc9aefe587e26c353804863d2feddcd284",
+    "code\\cosmic_cg\\exact_certificate.py": "0959bb4a0a2ff2e0f1cf1cc7d81f4409b69e9447a4aeaade2d3d1dc210bd4ae6",
+    "code\\cosmic_cg\\field3d.py": "da81b9e73230dc7bed22acd94852906ac0bb8553f23909dbf7a65c6a84e4df49",
+    "code\\cosmic_cg\\generation.py": "b9b169603f73eb7a49cf4dee42790e88ad1dd7b4178b25250c629257e8723039",
+    "code\\cosmic_cg\\halo_model.py": "e0eb7314b930a85248411d505a0f4f659b36a0e2fa532b5e1c97134eaa5039d4",
+    "code\\cosmic_cg\\interaction_adapters.py": "a72192d127dffe0ee47c8c05a53701cf48dceaebd30c183ff3f8897ebe3e94cc",
+    "code\\cosmic_cg\\interactions.py": "e319319066fba96645d53890bb17cad2a6cf97392d29b8b55c163a3087f46ee2",
+    "code\\cosmic_cg\\intermediate.py": "732b82f15ac66250646f14cffb4725222232f6a7a91c231d27425d66efe3ec9b",
+    "code\\cosmic_cg\\io\\__init__.py": "2b35b221521a8eaa2cd569cee8b23f6503b2e09e179f9131c117bd2bec11a706",
+    "code\\cosmic_cg\\io\\audit.py": "021ff43a10d6d66b732ac82e23fb937bb5312175d21f2afaea11f920cb1b9ad7",
+    "code\\cosmic_cg\\io\\field_audit.py": "9a4110540a590c0e0617fb0048cf2d864ac457435ab3d228831e2022480de2f8",
+    "code\\cosmic_cg\\io\\figure_data.py": "1d6bb978944561d089fc1f8700a5897a8dad735104500a130406ecc442260900",
+    "code\\cosmic_cg\\io\\pm_audit.py": "c8f692f81ad2bb5bb6a18da94766f0f845e398019b10cf96848cf05e9e89c940",
+    "code\\cosmic_cg\\io\\provenance.py": "abb0380959e969555b76b1cbf7e4e68673e2130e8e957e7a4c7a4ff402c5a18f",
+    "code\\cosmic_cg\\io\\schema_catalog.py": "8e0dac3cbc827426166a584b805be4e059ad789f3baf2f2937d4e68a7d89b797",
+    "code\\cosmic_cg\\io\\schemas.py": "8338f31c10b87a8b5f3fd5aea56ddb401e693e52959e69dbf3ac9c5fb49c71e3",
+    "code\\cosmic_cg\\io\\tables.py": "c6e7889b03634e7bbffc43e49be34b26c4b8cc0578686c84962254c10a8dab1d",
+    "code\\cosmic_cg\\knl.py": "46ed98dd3034fd060111e207e10d38374a0f5006858a29a82e18c24d8a074fad",
+    "code\\cosmic_cg\\object_level.py": "2a9104bccc6394f6eafdeace92dd4723139f907c7bbe2a83b2f3c4bdbb870a20",
+    "code\\cosmic_cg\\params.py": "ea6691ecc29150c94121be8542dc6b14f1487b6845e1d2424321eee4359b3b5a",
+    "code\\cosmic_cg\\pm_certificate.py": "3bcc15ad86cfd5f39530d54caa92cbf4a08b489a0b634fd740568692dd9fcfb3",
+    "code\\cosmic_cg\\pm_nbody.py": "d8decd01b1013284a842a8e40444d0124f2cf5c158d77630eb684eec79351091",
+    "code\\cosmic_cg\\pm_spatial_certificate.py": "59e79809b4906c56634ee550d14c33fab265f2f177a5c61ddcacff2cf206de3f",
+    "code\\cosmic_cg\\result_tables.py": "549a5b73a928b7ccf5d6624ea8b8375663b46400c5d757349b88c6aa96b8d698",
+    "code\\cosmic_cg\\run_plan.py": "34bab3fb640e084c0e6b0241862577f3590f61448db178549571734eee8b8842",
+    "code\\cosmic_cg\\tail_ratio.py": "184bb3b77b14f5837f3ce19771b6a1582acbbed21ec22568293325193e09abae",
+    "code\\cosmic_cg\\units.py": "64558426738fb29d72be772568e20df4ceec0a23a5a41f73ef39848bafb0cf40",
+    "code\\index_results.py": "5edec384620761cdf1f8c72fadbbbde6b969a4c3d5543ce0487d93426443a278",
+    "code\\make_field_figures.py": "c35427e9f77c312285b8490ddde8d6a100c187ae01618f43836792b67f2d20a4",
+    "code\\make_svg_figures.py": "16623ea9f556db9680dacbf708371a426c2fe328ec0a8ab6f73e33f6ab5b47a4",
+    "code\\plan_production_runs.py": "d00d88b4ee01e06a52dc072d9f8be47aaeb6491920de225f3ae258b58174bd5a",
+    "code\\readout_object_budget.py": "3481c8e82e994fed73d54ae19f39c35531628b4b69f4d2700081790314bc8ae5",
+    "code\\rebuild_field_figure_data.py": "e552630eaca29c480573cb1ebc9fac15dcbe2f73d1a8a51a6cc627220a9d0692",
+    "code\\run_cflow_trajectory.py": "572d47d1a15423805f79fede2c4a57003c7379c441d2641ac6b02ee918d5ce66",
+    "code\\run_checks.py": "d5daa06c0fdefc805e1682646d0a527942b28df8067c2f649b913cbb303d06c7",
+    "code\\run_generated_field_universe.py": "1481e4aa0c68c7a332e9a7aa2876713983a96fb6bd90fab5dede9d7cdd6ee372",
+    "code\\run_generated_universe.py": "6c2ca9a317f8136708c7eca811725308cd0c3e03d9b05b24a381083a4ebbdec5",
+    "code\\run_pm_nbody.py": "c41d8d3f4d009a86f47a4376eb2b14978616314d2f6ab699f333afd465adb494",
+    "code\\run_resolved_spectral_integrator.py": "05c866dce93e381712a931ac68dd6d45c58097f2a2074ec86cdeeba5f9cf7eb2",
+    "code\\summarize_field_results.py": "6205e8509096e11504da3d166b0224d77c6d6d0492706a572a824302b59a3c8e",
+    "code\\verify_cosmological_dynamics.py": "3f35953120d418535f5f014fea3ae0de21ad06b0709b4d04844d69427026f004",
+    "code\\verify_finite_window_closure.py": "8187f9c24f3e921d950a297b9ef3cd259f9e7268f518272e5642de2b44065173"
+  },
+  "identity_binding": {
+    "all_checks_passed": true,
+    "upstream_run_id": "20261004T164657Z-a07542f1",
+    "consumed_parameter_count": 9,
+    "verified_artifacts": 7,
+    "verified_deployed_sources": 6,
+    "initial_state_sha256": "3760e583c92e5ce0cc655f7b0a75098c890c667998ffe6b1b71e9093ba4e4f74",
+    "operator_sha256": "3b34c2bd502ffce70bcb5107a887e5611a31b5eb9bec20b0c647414825247305",
+    "numerical_payload_sha256": "161e37030345b75308fd8a9ca39b765fb452631d6406fcb82603feb19623c1f0",
+    "new_force_evaluations": 0,
+    "new_trajectory_advancements": 0,
+    "certificate_recomputed": false,
+    "scope": "input, source-relocation and saved-evidence integrity"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "closure": {
+    "epsilon0": 1e-12,
+    "map": "spectral_tail_moment_proxy",
+    "norm": "log_power_integral",
+    "residual_norm": "unresolved_gaussian_coarse_power"
+  },
+  "external_data": [],
+  "field_config": {
+    "closure_floor": 1e-12,
+    "field_box_size_mpch": 512.0,
+    "gaussian_sigma_mpch": 1.0,
+    "global_box_size_mpch": 14000.0,
+    "grid_size": 512,
+    "k_cut_hmpc": 1.0,
+    "max_peak_candidates": 8192,
+    "max_peaks_per_snapshot": 384,
+    "mode_bins": 48,
+    "neighbor_links": 3,
+    "object_step_gyr": 0.25,
+    "peak_exclusion_cells": 5,
+    "peak_patch_radius_cells": 3,
+    "peak_slab_cells": 16,
+    "peak_threshold_sigma": 2.5,
+    "seed": 20260903,
+    "tail_width": 0.75
+  },
+  "figure_data": [
+    "fig08_field_relations.csv"
+  ],
+  "model": "finite_window_3d_field_generation",
+  "output_tables": {
+    "carrier_history_table": 2340,
+    "emergence_event_table": 20,
+    "field_closure_table": 24,
+    "field_epoch_relation_table": 23,
+    "field_mode_table": 1152,
+    "field_object_table": 9216,
+    "field_relation_summary_table": 40,
+    "field_transfer_table": 27648,
+    "field_window_table": 24,
+    "interaction_budget_table": 2340,
+    "interaction_crossing_table": 20,
+    "interaction_dominance_table": 195,
+    "interaction_strength_table": 2535
+  },
+  "redshifts": [
+    100.0,
+    60.0,
+    40.0,
+    30.0,
+    20.0,
+    15.0,
+    12.0,
+    10.0,
+    8.0,
+    6.0,
+    5.0,
+    4.0,
+    3.0,
+    2.0,
+    1.5,
+    1.0,
+    0.7,
+    0.5,
+    0.3,
+    0.0,
+    -0.19999999999999996,
+    -0.33333333333333337,
+    -0.5,
+    -0.6666666666666667
+  ],
+  "run_id": "field512_protocol_001",
+  "spectrum": {
+    "c_nl": 1.0,
+    "endpoint_radius_factor": 1.0,
+    "k_max_hmpc": 200.0,
+    "k_min_hmpc": 0.0001,
+    "k_nl0_hmpc": 0.2,
+    "k_pivot_hmpc": 0.2,
+    "k_points": 768,
+    "n_s": 0.965,
+    "spectrum_shape": "finite_window_envelope",
+    "uv_envelope_alpha": 2.0,
+    "uv_envelope_beta": 2.0,
+    "uv_envelope_k_hmpc": 20.0
+  },
+  "state_decomposition": {
+    "activity_selector": "A_Lambda",
+    "external_data": [],
+    "field_state": [
+      "X_sigma",
+      "X_A",
+      "X_T"
+    ],
+    "physical_coarse_graining": "G_sigma"
+  },
+  "storage_policy": "relationship_tables_only"
+}

@@ -1,0 +1,2 @@
+run_id,source,particles_per_dim,mesh_size,redshift_count,particle_count,mesh_cell_count,box_size_mpch,estimated_peak_memory_gb,raw_particle_bytes_per_snapshot,raw_mesh_bytes_per_snapshot,raw_bytes_all_snapshots,relationship_rows,relationship_bytes_written,saved_to_raw_ratio,storage_policy
+pm_dynamics_64_protocol_001,internal_pm_nbody,64,128,24,262144,2097152,128.0,0.17333984375,8388608,8388608,1006632960,11814,3572842,0.0035492996374766033,relationship_tables_only

@@ -1,0 +1,29 @@
+# Resolved internal particle-mesh configuration
+box_size_mpch: 128.0
+density_threshold_delta: 0.8
+density_threshold_sigma: 1.5
+dry_run: false
+external_data: []
+fof_min_particles: 12
+force_strength: 0.35
+initial_displacement_fraction: 0.22
+initial_velocity_factor: 0.35
+max_halos_per_snapshot: 96
+memory_safety_factor: 1.25
+mesh_size: 128
+mode_bins: 24
+neighbor_links: 3
+params_file: ""
+particles_per_dim: 64
+pm_config: {"particles_per_dim": 64, "mesh_size": 128, "box_size_mpch": 128.0, "seed": 20260904, "z_initial": 120.0, "steps_per_interval": 4, "initial_displacement_fraction": 0.22, "initial_velocity_factor": 0.35, "force_strength": 0.35, "mode_bins": 24, "density_threshold_sigma": 1.5, "density_threshold_delta": 0.8, "fof_min_particles": 12, "max_halos_per_snapshot": 96, "neighbor_links": 3}
+progress: true
+redshift_values: [100.0, 60.0, 40.0, 30.0, 20.0, 15.0, 12.0, 10.0, 8.0, 6.0, 5.0, 4.0, 3.0, 2.0, 1.5, 1.0, 0.7, 0.5, 0.3, 0.0, -0.19999999999999996, -0.33333333333333337, -0.5, -0.6666666666666667]
+redshifts: ""
+results_root: "D:\\论文撰写\\论文5-粗粒化\\results"
+run_id: "pm_dynamics_64_protocol_001"
+seed: 20260904
+skip_memory_check: false
+state_decomposition: {"dynamical_state": ["particle_phase_space", "mesh_density", "resolved_force", "halo_catalog", "transfer_graph"], "physical_coarse_graining": "particle_mesh_assignment", "activity_selector": "resolved_mesh_modes", "external_data": []}
+steps_per_interval: 4
+storage_policy: "relationship_tables_only"
+z_initial: 120.0

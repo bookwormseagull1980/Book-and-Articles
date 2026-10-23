@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this article or its supplement, cite the manuscript and identify the repository snapshot."
+title: "The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation"
+type: article
+authors:
+  - family-names: Guo
+    given-names: Jinku
+    orcid: "https://orcid.org/0009-0000-6600-6171"
+url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/the-spectrum-of-a-compact-internal-space-iii"
+version: "2026-10-23"
+date-released: "2026-10-23"
+abstract: >-
+  Cosmic matter forms concentrations whose external force can often be
+  described by their mass and spatial moments. Encounters and material
+  exchange can make finer structure relevant again. We determine when
+  field and object descriptions preserve that force and the
+  subsequent evolution of specified observables while retaining unresolved
+  influence in residual variables and memory. The compact internal-space
+  construction supplies the matter carriers and collective source. Their
+  coupled variations determine the macroscopic evolution. The applications
+  examine homogeneous response reuse and a constrained nonuniform Einstein–matter perturbation
+  together with autonomous expansion from a local constitutive action.
+  Reconstruction in a common state space combines object replacement with
+  moving spectral boundaries and truncated memory for a finite reference
+  evolution. Spatial moments bound the force error. Cloud-in-cell assignment
+  admits an exact eight-moment cell representation. A positive lower bound
+  on the source derivative of the stationary constraint bounds the error
+  in reusing its response. Integrable stability and defect bounds on a
+  certified state tube then control the accumulated reconstruction error.
+  A common modulus of continuity transfers this bound to observables over
+  the prescribed interval. The first accepted window is the least
+  certified member of a finite ordered family.
+  Finite Galerkin examples retain positive density and the prescribed
+  accuracy with reduced arithmetic work including verification. A
+  cosmological particle calculation encloses the continuous-time trajectory
+  at fixed mesh resolution. Its weakly perturbed cold-sheet reconstruction
+  also gives full-frequency force bounds and continuous position and
+  momentum equation-defect bounds. These estimates select sufficient
+  retained structure for the prescribed interaction and observables. They
+  control the re-entry of finer coordinates.
+keywords:
+  - "Cosmic structure formation"
+  - "Coarse-graining"
+  - "Spectral methods"
+  - "Model reduction"
+  - "Memory effects"
+  - "A posteriori error estimates"
