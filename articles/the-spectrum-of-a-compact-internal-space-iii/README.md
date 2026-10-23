@@ -4,9 +4,9 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article with computational supplement
 
-Article DOI: not yet assigned.
+Article DOI: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)
 
-Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/the-spectrum-of-a-compact-internal-space-iii-2026-10-23/articles/the-spectrum-of-a-compact-internal-space-iii)
+Repository snapshot: [23 October 2026, DOI metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/the-spectrum-of-a-compact-internal-space-iii-2026-10-23-doi-update/articles/the-spectrum-of-a-compact-internal-space-iii)
 
 ## Abstract
 
@@ -81,8 +81,9 @@ LaTeX sources remain outside this repository.
 Jinku Guo. *The Spectrum of a Compact Internal Space III: Finite-Window
 Dynamics of Cosmic Structure Formation*. Manuscript with computational
 supplement, 2026.
+[doi:10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996).
 
-No article DOI has yet been assigned. The repository snapshot is identified
-by its dated tag and file checksums. The framework software DOI
+The repository snapshot is identified by its dated tag and file checksums.
+The framework software DOI
 [10.5281/zenodo.22067005](https://doi.org/10.5281/zenodo.22067005)
 identifies a separate software record.

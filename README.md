@@ -26,14 +26,16 @@ Computational supplements are supplied where indicated.
 - [The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap](articles/the-spectrum-of-a-compact-internal-space-i/README.md)
   - Generated gauge–matter response, the equilibrium Yang–Mills spectral gap and finite-resolution field realizations.
   - SSRN: [10.2139/ssrn.7352020](https://doi.org/10.2139/ssrn.7352020)
+  - Zenodo: [10.5281/zenodo.22067117](https://doi.org/10.5281/zenodo.22067117)
 
 - [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](articles/the-spectrum-of-a-compact-internal-space-ii/README.md)
   - Common spectral responses for effective couplings, fermion mass relations, electroweak matching and finite cosmological comparisons.
   - SSRN: [10.2139/ssrn.7351999](https://doi.org/10.2139/ssrn.7351999)
+  - Zenodo: [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468)
 
 - [The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation](articles/the-spectrum-of-a-compact-internal-space-iii/README.md)
   - Reconstruction error bounds for changing spectral windows, object moments and memory, with finite Galerkin calculations and continuous particle and cold-sheet certificates.
-  - Article DOI: not yet assigned.
+  - Zenodo: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)
   - Includes the 80-page manuscript PDF and the complete computational supplement in `anc/`.
 
 - [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md)

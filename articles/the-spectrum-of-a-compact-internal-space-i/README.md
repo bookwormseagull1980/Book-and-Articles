@@ -6,7 +6,9 @@ Work type: Research article
 
 DOI: [10.2139/ssrn.7352020](https://doi.org/10.2139/ssrn.7352020)
 
-Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/the-spectrum-of-a-compact-internal-space-i-2026-10-23/articles/the-spectrum-of-a-compact-internal-space-i)
+Zenodo: [10.5281/zenodo.22067117](https://doi.org/10.5281/zenodo.22067117)
+
+Repository snapshot: [23 October 2026, DOI metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/the-spectrum-of-a-compact-internal-space-i-2026-10-23-doi-update/articles/the-spectrum-of-a-compact-internal-space-i)
 
 ## Abstract
 
@@ -74,6 +76,7 @@ Jinku Guo. *The Spectrum of a Compact Internal Space I: Gauge Structure and a Sc
 [doi:10.2139/ssrn.7352020](https://doi.org/10.2139/ssrn.7352020).
 
 - SSRN preprint DOI: [10.2139/ssrn.7352020](https://doi.org/10.2139/ssrn.7352020)
+- Zenodo DOI: [10.5281/zenodo.22067117](https://doi.org/10.5281/zenodo.22067117)
 
 The repository PDF is identified by its snapshot tag and checksum. The public
 article records identify the work or their respective deposited versions.

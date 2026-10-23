@@ -6,7 +6,9 @@ Work type: Research article
 
 DOI: [10.2139/ssrn.7351999](https://doi.org/10.2139/ssrn.7351999)
 
-Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/the-spectrum-of-a-compact-internal-space-ii-2026-10-23/articles/the-spectrum-of-a-compact-internal-space-ii)
+Zenodo: [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468)
+
+Repository snapshot: [23 October 2026, DOI metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/the-spectrum-of-a-compact-internal-space-ii-2026-10-23-doi-update/articles/the-spectrum-of-a-compact-internal-space-ii)
 
 ## Abstract
 
@@ -66,6 +68,7 @@ Jinku Guo. *The Spectrum of a Compact Internal Space II: Effective Couplings and
 [doi:10.2139/ssrn.7351999](https://doi.org/10.2139/ssrn.7351999).
 
 - SSRN preprint DOI: [10.2139/ssrn.7351999](https://doi.org/10.2139/ssrn.7351999)
+- Zenodo DOI: [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468)
 
 The repository PDF is identified by its snapshot tag and checksum. The public
 article records identify the work or their respective deposited versions.

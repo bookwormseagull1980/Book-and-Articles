@@ -1,17 +1,22 @@
 title: "The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation"
 canonical_slug: "the-spectrum-of-a-compact-internal-space-iii"
 work_type: "Research article and computational supplement"
-identifiers: {}
-article_doi_status: "Not yet assigned, as confirmed by the author on 2026-10-23"
+identifiers:
+  zenodo_doi: "10.5281/zenodo.23583996"
+  zenodo_url: "https://doi.org/10.5281/zenodo.23583996"
 related_works:
   - title: "The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap"
     relation: "Internal spectral and matter construction"
     ssrn_doi: "10.2139/ssrn.7352020"
     ssrn_url: "https://ssrn.com/abstract=7352020"
+    zenodo_doi: "10.5281/zenodo.22067117"
+    zenodo_url: "https://doi.org/10.5281/zenodo.22067117"
   - title: "The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales"
     relation: "Effective scales and common matter–source action"
     ssrn_doi: "10.2139/ssrn.7351999"
     ssrn_url: "https://ssrn.com/abstract=7351999"
+    zenodo_doi: "10.5281/zenodo.22067468"
+    zenodo_url: "https://doi.org/10.5281/zenodo.22067468"
 software:
   - title: "Coarse-Graining Genesis Framework"
     doi: "10.5281/zenodo.22067005"
@@ -20,7 +25,7 @@ software:
 github:
   repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
   path: "articles/the-spectrum-of-a-compact-internal-space-iii"
-  snapshot_tag: "the-spectrum-of-a-compact-internal-space-iii-2026-10-23"
+  snapshot_tag: "the-spectrum-of-a-compact-internal-space-iii-2026-10-23-doi-update"
   snapshot_date: "2026-10-23"
 pdf:
   filename: "The Spectrum of a Compact Internal Space III - Finite-Window Dynamics of Cosmic Structure Formation.pdf"

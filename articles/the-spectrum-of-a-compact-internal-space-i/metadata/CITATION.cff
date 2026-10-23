@@ -8,12 +8,15 @@ authors:
     orcid: "https://orcid.org/0009-0000-6600-6171"
 doi: "10.2139/ssrn.7352020"
 url: "https://ssrn.com/abstract=7352020"
-version: "2026-10-23"
+version: "2026-10-23-doi-update"
 date-released: "2026-10-23"
 identifiers:
   - type: doi
     value: "10.2139/ssrn.7352020"
     description: "SSRN preprint DOI"
+  - type: doi
+    value: "10.5281/zenodo.22067117"
+    description: "Zenodo DOI"
 abstract: >-
   We construct an internal gauge–matter response system and prove a positive
   spectral gap for its generated Yang–Mills operator from minimal unbiased

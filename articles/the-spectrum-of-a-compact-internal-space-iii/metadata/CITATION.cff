@@ -6,9 +6,14 @@ authors:
   - family-names: Guo
     given-names: Jinku
     orcid: "https://orcid.org/0009-0000-6600-6171"
-url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/the-spectrum-of-a-compact-internal-space-iii"
-version: "2026-10-23"
+doi: "10.5281/zenodo.23583996"
+url: "https://doi.org/10.5281/zenodo.23583996"
+version: "2026-10-23-doi-update"
 date-released: "2026-10-23"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23583996"
+    description: "Zenodo DOI"
 abstract: >-
   Cosmic matter forms concentrations whose external force can often be
   described by their mass and spatial moments. Encounters and material
