@@ -196,11 +196,14 @@ The declared finite comparison clock remains explicitly available with
 python -B anc/code/make_field_figures.py --run-dir anc/results/field512_protocol_001 --paper-figures-dir figures
 ```
 
-This regenerates the six manuscript figures directly in `figures`, with
+This regenerates the five data figures directly in `figures`, with
 PDF and editable SVG files. The endpoint, wavelength, mass and active-span
 histories share one four-panel figure. The present-epoch relation figure
 contains the shell distribution, peak mass--growth relation and alignment
 distribution; the power-budget history appears only in the residual figure.
+The two-panel histories use a single row and the peak-classification
+figure uses a shorter canvas. Axis and label font sizes are preserved.
+The optional `--figures 1` renders the observable-category diagram.
 The storage comparison is reported in the manuscript table, using the
 unchanged byte counts in `field_cost_table.csv`. It uses binary units
 (MiB and GiB) and compares the selected CSV observation tables with all

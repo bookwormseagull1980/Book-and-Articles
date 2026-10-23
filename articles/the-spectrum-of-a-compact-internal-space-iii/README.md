@@ -6,7 +6,7 @@ Work type: Research article with computational supplement
 
 Article DOI: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)
 
-Repository snapshot: [23 October 2026, DOI metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/the-spectrum-of-a-compact-internal-space-iii-2026-10-23-doi-update/articles/the-spectrum-of-a-compact-internal-space-iii)
+Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/the-spectrum-of-a-compact-internal-space-iii-2026-10-23-layout/articles/the-spectrum-of-a-compact-internal-space-iii)
 
 ## Abstract
 
@@ -55,7 +55,7 @@ The stored calculations retain these separate scopes.
 
 ## Public files
 
-- [Read or download the PDF](The%20Spectrum%20of%20a%20Compact%20Internal%20Space%20III%20-%20Finite-Window%20Dynamics%20of%20Cosmic%20Structure%20Formation.pdf) — 80 pages.
+- [Read or download the PDF](The%20Spectrum%20of%20a%20Compact%20Internal%20Space%20III%20-%20Finite-Window%20Dynamics%20of%20Cosmic%20Structure%20Formation.pdf) — 78 pages.
 - [Computational supplement and reproduction instructions](anc/README.md)
 - [Construction and checking programs](anc/code/)
 - [Saved calculations and verification results](anc/results/)
@@ -73,7 +73,7 @@ reconstruction certificates and their checking programs. Its README
 specifies Python dependencies and reproduction commands. Common-source
 calculations additionally use the identified release of the
 [Coarse-Graining Genesis Framework](https://github.com/bookwormseagull1980/coarse-graining-genesis).
-The supplied files retain their original bytes and calculation identities.
+Saved calculation data retain their original bytes and calculation identities.
 LaTeX sources remain outside this repository.
 
 ## Citation and archival record

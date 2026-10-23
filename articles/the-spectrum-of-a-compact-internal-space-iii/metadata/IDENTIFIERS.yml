@@ -25,12 +25,12 @@ software:
 github:
   repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
   path: "articles/the-spectrum-of-a-compact-internal-space-iii"
-  snapshot_tag: "the-spectrum-of-a-compact-internal-space-iii-2026-10-23-doi-update"
+  snapshot_tag: "the-spectrum-of-a-compact-internal-space-iii-2026-10-23-layout"
   snapshot_date: "2026-10-23"
 pdf:
   filename: "The Spectrum of a Compact Internal Space III - Finite-Window Dynamics of Cosmic Structure Formation.pdf"
-  pages: 80
+  pages: 78
 supplement:
   path: "anc"
   files: 120
-  bytes: 35170940
+  bytes: 35171447

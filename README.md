@@ -62,7 +62,7 @@ Computational supplements are supplied where indicated.
 - [The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation](articles/the-spectrum-of-a-compact-internal-space-iii/README.md)
   - Reconstruction error bounds for changing spectral windows, object moments and memory, with finite Galerkin calculations and continuous particle and cold-sheet certificates.
   - Zenodo: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)
-  - Includes the 80-page manuscript PDF and the complete computational supplement in `anc/`.
+  - Includes the 78-page manuscript PDF and the complete computational supplement in `anc/`.
 
 ### Engineering
 

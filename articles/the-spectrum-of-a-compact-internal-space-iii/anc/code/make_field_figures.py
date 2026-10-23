@@ -48,16 +48,17 @@ COLORS = {
 
 
 class Figure:
-    def __init__(self, path: Path, title: str):
+    def __init__(self, path: Path, title: str, *, height: float = HEIGHT):
         self.path = path
         self.title = title
+        self.height = height
         self.svg: list[str] = [
-            f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH:.0f}" height="{HEIGHT:.0f}" viewBox="0 0 {WIDTH:.0f} {HEIGHT:.0f}">',
+            f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH:.2f}" height="{height:.2f}" viewBox="0 0 {WIDTH:.2f} {height:.2f}">',
             '<rect x="0" y="0" width="100%" height="100%" fill="white"/>',
         ]
         self.pdf = None
         if pdf_canvas is not None:
-            self.pdf = pdf_canvas.Canvas(str(path.with_suffix(".pdf")), pagesize=(WIDTH, HEIGHT))
+            self.pdf = pdf_canvas.Canvas(str(path.with_suffix(".pdf")), pagesize=(WIDTH, height))
             self.pdf.setTitle(title)
             self.pdf.setFillColor(_pdf_color(COLORS["ink"]))
             self.pdf.setStrokeColor(_pdf_color(COLORS["ink"]))
@@ -80,7 +81,7 @@ class Figure:
             self.pdf.saveState()
             self.pdf.setFillColor(_pdf_color(COLORS[color]))
             self.pdf.setFont("Helvetica", size)
-            px, py = x, HEIGHT - y
+            px, py = x, self.height - y
             if vertical:
                 self.pdf.translate(px, py)
                 self.pdf.rotate(90)
@@ -101,7 +102,7 @@ class Figure:
         if self.pdf is not None:
             self.pdf.setStrokeColor(_pdf_color(COLORS[color]))
             self.pdf.setLineWidth(width)
-            self.pdf.line(x1, HEIGHT - y1, x2, HEIGHT - y2)
+            self.pdf.line(x1, self.height - y1, x2, self.height - y2)
 
     def rect(self, x: float, y: float, w: float, h: float, fill: str = "gray", stroke: str | None = None, width: float = 0.7) -> None:
         stroke_value = "none" if stroke is None else COLORS[stroke]
@@ -113,7 +114,7 @@ class Figure:
             self.pdf.setFillColor(_pdf_color(COLORS[fill]))
             self.pdf.setStrokeColor(_pdf_color(COLORS[stroke] if stroke else COLORS[fill]))
             self.pdf.setLineWidth(width)
-            self.pdf.rect(x, HEIGHT - y - h, w, h, stroke=1 if stroke else 0, fill=1)
+            self.pdf.rect(x, self.height - y - h, w, h, stroke=1 if stroke else 0, fill=1)
 
     def circle(self, x: float, y: float, r: float, fill: str = "blue", stroke: str | None = None, width: float = 0.6) -> None:
         stroke_value = "none" if stroke is None else COLORS[stroke]
@@ -125,7 +126,7 @@ class Figure:
             self.pdf.setFillColor(_pdf_color(COLORS[fill]))
             self.pdf.setStrokeColor(_pdf_color(COLORS[stroke] if stroke else COLORS[fill]))
             self.pdf.setLineWidth(width)
-            self.pdf.circle(x, HEIGHT - y, r, stroke=1 if stroke else 0, fill=1)
+            self.pdf.circle(x, self.height - y, r, stroke=1 if stroke else 0, fill=1)
 
     def polyline(self, points: Sequence[tuple[float, float]], color: str = "blue", width: float = 1.5) -> None:
         if not points:
@@ -139,9 +140,9 @@ class Figure:
             self.pdf.setStrokeColor(_pdf_color(COLORS[color]))
             self.pdf.setLineWidth(width)
             path = self.pdf.beginPath()
-            path.moveTo(points[0][0], HEIGHT - points[0][1])
+            path.moveTo(points[0][0], self.height - points[0][1])
             for x, y in points[1:]:
-                path.lineTo(x, HEIGHT - y)
+                path.lineTo(x, self.height - y)
             self.pdf.drawPath(path, stroke=1, fill=0)
 
     def polygon(self, points: Sequence[tuple[float, float]], fill: str = "lightblue", stroke: str | None = None) -> None:
@@ -154,9 +155,9 @@ class Figure:
             self.pdf.setFillColor(_pdf_color(COLORS[fill]))
             self.pdf.setStrokeColor(_pdf_color(COLORS[stroke] if stroke else COLORS[fill]))
             path = self.pdf.beginPath()
-            path.moveTo(points[0][0], HEIGHT - points[0][1])
+            path.moveTo(points[0][0], self.height - points[0][1])
             for x, y in points[1:]:
-                path.lineTo(x, HEIGHT - y)
+                path.lineTo(x, self.height - y)
             path.close()
             self.pdf.drawPath(path, stroke=1 if stroke else 0, fill=1)
 
@@ -193,7 +194,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--run-dir", required=True)
     parser.add_argument("--output-dir", default="", help="Override the rendering destination.")
     parser.add_argument("--paper-figures-dir", default="", help="Render here unless --output-dir is set; otherwise copy here. Defaults to RUN_DIR/figures.")
-    parser.add_argument("--figures", type=int, nargs="+", choices=(1, 2, 4, 5, 6, 8), default=(1, 2, 4, 5, 6, 8))
+    parser.add_argument("--figures", type=int, nargs="+", choices=(1, 2, 4, 5, 6, 8), default=(2, 4, 5, 6, 8))
     return parser.parse_args()
 
 
@@ -264,15 +265,16 @@ def _figure2(output_dir: Path, tables: Mapping[str, Sequence[Mapping[str, str]]]
 
 def _figure4(output_dir: Path, tables: Mapping[str, Sequence[Mapping[str, str]]]) -> Path:
     path = output_dir / "fig04_residual_tail_audit"
-    fig = Figure(path, "Residual spectral power")
+    fig = Figure(path, "Residual spectral power", height=3.4 * 72.0)
     fig.text(34, 34, "Residual spectral power", 13)
     rows = _sort_by_a(tables["window"])
-    panels = _stacked_panels(2)
+    panels = _grid_panels(1, 2, total_height=120.0)
     panel = panels[0]
     a = _values(rows, "a")
     active = _values(rows, "active_power_fraction")
     tail = _values(rows, "tail_power_fraction")
     _draw_axes(fig, panel, a, [0.0, 1.0], "log10 a", "power fraction", log_x=True, log_y=False, y_limits=(0.0, 1.0))
+    fig.text(panel[0] + 5, panel[1] + 14, "A", 10, "ink")
     points_tail = _panel_points(panel, a, tail, log_x=True, log_y=False, y_domain=(0.0, 1.0))
     bottom = panel[1] + panel[3]
     polygon = [(points_tail[0][0], bottom)] + points_tail + [(points_tail[-1][0], bottom)]
@@ -306,11 +308,11 @@ def _figure4(output_dir: Path, tables: Mapping[str, Sequence[Mapping[str, str]]]
 
 def _figure5(output_dir: Path, tables: Mapping[str, Sequence[Mapping[str, str]]]) -> Path:
     path = output_dir / "fig05_object_fate"
-    fig = Figure(path, "Peak growth classification")
+    fig = Figure(path, "Peak growth classification", height=3.6 * 72.0)
     fig.text(34, 34, "Peak growth classification", 13)
     fig.text(34, 54, "Scale-band and rank matching", 8, "muted")
     rows = _aggregate_summary_by_a(tables["summary"])
-    panel = (62.0, 78.0, 420.0, 236.0)
+    panel = (62.0, 78.0, 420.0, 132.0)
     a = [row["a"] for row in rows]
     forming = [row["forming_fraction"] for row in rows]
     balanced = [row["balanced_fraction"] for row in rows]
@@ -329,10 +331,10 @@ def _figure5(output_dir: Path, tables: Mapping[str, Sequence[Mapping[str, str]]]
 
 def _figure6(output_dir: Path, tables: Mapping[str, Sequence[Mapping[str, str]]]) -> Path:
     path = output_dir / "fig06_transfer_channels"
-    fig = Figure(path, "Transfer channels")
-    fig.text(34, 34, "Transfer channels", 13)
+    fig = Figure(path, "Peak-neighbour geometry", height=3.4 * 72.0)
+    fig.text(34, 34, "Peak-neighbour geometry", 13)
     rows = _aggregate_transfer_by_a(tables["transfer"])
-    panels = _stacked_panels(2)
+    panels = _grid_panels(1, 2, total_height=120.0)
     a = [row["a"] for row in rows]
     _draw_line_panel(fig, panels[0], a, [row["a_pq_median"] for row in rows], "median A_fld", "blue", log_x=True, log_y=True, panel_label="A")
     _draw_line_panel(fig, panels[1], a, [row["abs_g_pq_median"] for row in rows], "median |G_fld|", "purple", log_x=True, log_y=False, panel_label="B")
@@ -531,11 +533,11 @@ def _stacked_panels(count: int) -> list[tuple[float, float, float, float]]:
     return [(left, top + i * (height + PANEL_GAP), width, height) for i in range(count)]
 
 
-def _grid_panels(rows: int, cols: int) -> list[tuple[float, float, float, float]]:
+def _grid_panels(rows: int, cols: int, *, total_height: float = 266.0) -> list[tuple[float, float, float, float]]:
     left, top = 64.0, 66.0
     column_gap, row_gap = 64.0, 54.0
     width = (430.0 - column_gap * (cols - 1)) / cols
-    height = (266.0 - row_gap * (rows - 1)) / rows
+    height = (total_height - row_gap * (rows - 1)) / rows
     panels = []
     for r in range(rows):
         for c in range(cols):
