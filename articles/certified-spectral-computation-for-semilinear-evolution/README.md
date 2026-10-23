@@ -4,6 +4,8 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Computational supplement to a research article
 
+Associated article DOI: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
+
 ## Contents
 
 This directory supplies the article's `anc` folder. It contains construction
@@ -44,7 +46,8 @@ arithmetic; Proof-carrying computation; Bit complexity.
 ## Associated manuscript
 
 Jinku Guo. *Certified Spectral Computation for Semilinear Evolution:
-Finite Records and Polynomial Bit Cost*. Manuscript, 2026.
+Finite Records and Polynomial Bit Cost*. Zenodo, 2026.
+[doi:10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642).
 
 The theoretical companion is
 [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](../dynamics-of-generated-spectra-from-minimal-change/README.md),

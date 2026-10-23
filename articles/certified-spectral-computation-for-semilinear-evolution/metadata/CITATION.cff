@@ -10,13 +10,15 @@ url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/article
 version: "2026-10-23"
 date-released: "2026-10-23"
 preferred-citation:
-  type: unpublished
+  type: article
   title: "Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost"
   authors:
     - family-names: Guo
       given-names: Jinku
       orcid: "https://orcid.org/0009-0000-6600-6171"
   year: 2026
+  doi: "10.5281/zenodo.23582642"
+  url: "https://doi.org/10.5281/zenodo.23582642"
 abstract: >-
   Construction and checking programs for finite rational trajectory records
   for a Neumann reaction-diffusion equation and for quantized Picard
