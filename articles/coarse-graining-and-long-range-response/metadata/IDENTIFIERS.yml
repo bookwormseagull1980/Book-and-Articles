@@ -5,7 +5,12 @@ identifiers:
   zenodo_concept_doi: "10.5281/zenodo.22093524"
   zenodo_current_version_doi: "10.5281/zenodo.22704837"
   ssrn_doi: "10.2139/ssrn.7352038"
+  arxiv_url: "https://arxiv.org/abs/2608.01989"
 github:
   repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
   path: "articles/coarse-graining-and-long-range-response"
-  snapshot_tag: "coarse-graining-and-long-range-response-in-generated-systems-2026-10-21"
+  snapshot_tag: "coarse-graining-and-long-range-response-in-generated-systems-2026-10-23"
+  snapshot_date: "2026-10-23"
+pdf:
+  filename: "Coarse-Graining and Long-Range Response in Generated Systems.pdf"
+  pages: 80

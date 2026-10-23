@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this article, cite the appropriate public record listed below."
+message: "If you use this article, cite its public record and identify the relevant version."
 title: "A Spectral Criterion for Emergent Gravity"
 type: article
 authors:
@@ -8,6 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0000-6600-6171"
 doi: "10.48550/arXiv.2607.21621"
 url: "https://arxiv.org/abs/2607.21621"
+version: "2026-10-23"
+date-released: "2026-10-23"
 identifiers:
   - type: doi
     value: "10.48550/arXiv.2607.21621"
@@ -22,33 +24,28 @@ identifiers:
     value: "10.2139/ssrn.7352000"
     description: "SSRN record"
 abstract: >-
-  We develop a source-resolved spectral criterion for long-range tensor exchange
-  coupled to conserved stress-tensor sources. Exact channel elimination carries
-  the propagation kernel, physical source, readout and direct response together,
-  so that the observable residue is independent of the chosen intermediate
-  variables. For an isolated critical subspace, common-space operator estimates
-  control the residue at the displaced root of a finite approximation. A positive
-  Källén–Lehmann representation then identifies the residue with the weight of a
-  zero-invariant-mass atom, including the case in which the atom lies at the
-  endpoint of continuous support. We prove separately that the null-shell part of
-  a complete positive, Lorentz-covariant conserved stress-tensor measure is
-  longitudinal and therefore has no transverse-traceless atomic weight. In a
-  compact spectral realisation, the internal tensor vertices are carried into an
-  external two-helicity response. For localised stationary matter, the conserved
-  energy vertex gives a mixed residue proportional to the two total energies, and
-  spatial resolvent estimates determine the leading potential and force together
-  with their finite-size corrections. After the collective tensor is normalised
-  through its matter vertex, a single dimensional calibration fixes the overall
-  Planck scale, while the spectral residue fixes the corresponding dimensionless
-  exchange strength. Together, these results specify the positivity, helicity,
-  universality and nonlinear consistency conditions under which the collective
-  tensor admits an Einstein–matter effective description.
+  We give a source-resolved spectral criterion for long-range tensor exchange
+  between conserved matter sources. Exact channel elimination preserves the
+  propagation kernel together with the source and readout maps and the direct
+  response. Common-space estimates control the residue at the displaced
+  critical root of a finite approximation. A positive Källén–Lehmann
+  representation identifies this residue with a zero-invariant-mass atom even
+  at a continuum endpoint. For a complete positive Lorentz-covariant conserved
+  stress tensor we classify the null-shell measure and prove that its TT
+  atomic weight vanishes. A reduced compact spectral realisation instead
+  carries internal tensor vertices into an external two-helicity response.
+  Conservation reduces the leading vertex of localised stationary matter to
+  its total energy. The mixed residue then factorises into the two energies
+  and a common propagation coefficient. Spatial resolvent estimates determine
+  the potential and force with finite-size corrections. Normalisation through
+  the matter vertex leaves one dimensional calibration for the overall Planck
+  scale. The spectral residue fixes the dimensionless exchange strength. The
+  resulting response admits an Einstein–matter effective description under the
+  stated positivity and helicity assumptions together with universal soft
+  coupling and local nonlinear consistency.
 keywords:
-  - "Emergent gravity"
-  - "Stress-tensor correlation functions"
   - "Källén–Lehmann representation"
-  - "Massless spectral atoms"
-  - "Long-range tensor exchange"
-  - "Schur–Feshbach reduction"
+  - "Stress-tensor correlators"
   - "Analytic Fredholm theory"
-  - "Matter coupling"
+  - "Long-range tensor exchange"
+  - "Emergent gravity"

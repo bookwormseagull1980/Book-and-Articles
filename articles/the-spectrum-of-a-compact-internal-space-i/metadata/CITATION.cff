@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this article, cite its public record and identify the relevant version."
+title: "The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap"
+type: article
+authors:
+  - family-names: Guo
+    given-names: Jinku
+    orcid: "https://orcid.org/0009-0000-6600-6171"
+doi: "10.2139/ssrn.7352020"
+url: "https://ssrn.com/abstract=7352020"
+version: "2026-10-23"
+date-released: "2026-10-23"
+identifiers:
+  - type: doi
+    value: "10.2139/ssrn.7352020"
+    description: "SSRN preprint DOI"
+abstract: >-
+  We construct an internal gauge–matter response system and prove a positive
+  spectral gap for its generated Yang–Mills operator from minimal unbiased
+  compositional change. Independent composition and square-root scaling with
+  unit covariance fix a centred Gaussian law on the least-dimensional compact
+  connected faithful irreducible orthogonal carrier. Its ladder operations and
+  coherent comparisons generate the round SU(2) process spectrum. Complete
+  centre-invariant observations give RP³. The relative-frame continuation
+  together with the least-matter and elementary-connector continuations
+  preserves the generated adjoint and exchange structures and the source phase
+  and reversal. They determine (SU(3)× SU(2)× U(1))/ℤ₆ acting on a
+  sixteen-dimensional full matter module with a fifteen-dimensional charged
+  quotient. The elementary connector has one complex scalar doublet
+  coordinate. The colour connection supplies the collective intensity together
+  with Casimir feedback and the long-root drive. The complete spectral
+  response has a unique positive equilibrium at the source-calibrated IR
+  radius L_src=√(2π)>L_c=√π. Its normalized radial curvature and common-frame
+  coexact response form the Yang–Mills mass operator. Its equilibrium Gaussian
+  response completion has a unique vacuum and an attained positive gap. The
+  original connection polynomials retain their source state and products under
+  the intertwined equilibrium update. The curvature mean has a nonzero radial
+  differential. The first source corner also generates a Lorentz event carrier
+  and a phase clock. Osterwalder–Schrader reconstruction gives free local
+  fields. Native vertices admit causal perturbative reconstruction at
+  gauge-compatible finite internal resolution. Anomaly cancellation gives the
+  physical BRST net at every perturbative order in the renormalizable
+  gauge–matter realization. In the quadratic field realization colour
+  intensity has a radial pole and explicit multiparticle continua.
+keywords:
+  - "Emergent gauge symmetry"
+  - "Yang–Mills mass gap"
+  - "Spectral geometry"
+  - "Chiral matter representations"
+  - "Lorentzian geometry"
+  - "Causal perturbation theory"
+  - "Minimal unbiased compositional change"

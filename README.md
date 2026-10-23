@@ -23,6 +23,14 @@ Computational supplements are supplied where indicated.
   - Zenodo: [10.5281/zenodo.22093524](https://doi.org/10.5281/zenodo.22093524)
   - SSRN: [10.2139/ssrn.7352038](https://doi.org/10.2139/ssrn.7352038)
 
+- [The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap](articles/the-spectrum-of-a-compact-internal-space-i/README.md)
+  - Generated gauge–matter response, the equilibrium Yang–Mills spectral gap and finite-resolution field realizations.
+  - SSRN: [10.2139/ssrn.7352020](https://doi.org/10.2139/ssrn.7352020)
+
+- [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](articles/the-spectrum-of-a-compact-internal-space-ii/README.md)
+  - Common spectral responses for effective couplings, fermion mass relations, electroweak matching and finite cosmological comparisons.
+  - SSRN: [10.2139/ssrn.7351999](https://doi.org/10.2139/ssrn.7351999)
+
 - [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md)
   - Natural-number arithmetic from a correlation source, with ordered expression histories, conditional readout and history-assembly dynamics.
   - SSRN: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
@@ -40,9 +48,9 @@ Computational supplements are supplied where indicated.
   - Includes the computational supplement in `anc/`.
 
 - [Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost](articles/certified-spectral-computation-for-semilinear-evolution/README.md)
-  - Computational supplement with exact rational Neumann trajectory records and quantized Picard executions, including separate checking programs and recorded results.
+  - Finite rational Neumann trajectories and quantized Picard executions, with separate residual checks and bit-cost bounds.
   - Article DOI: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
-  - Contains `anc/`; the manuscript PDF is not included in this snapshot.
+  - Includes the manuscript PDF and the computational supplement in `anc/`.
 
 ## Archival Policy
 

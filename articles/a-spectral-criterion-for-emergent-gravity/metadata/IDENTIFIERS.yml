@@ -5,7 +5,12 @@ identifiers:
   zenodo_concept_doi: "10.5281/zenodo.22093341"
   zenodo_current_version_doi: "10.5281/zenodo.22704806"
   ssrn_doi: "10.2139/ssrn.7352000"
+  arxiv_url: "https://arxiv.org/abs/2607.21621"
 github:
   repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
   path: "articles/a-spectral-criterion-for-emergent-gravity"
-  snapshot_tag: "a-spectral-criterion-for-emergent-gravity-2026-10-21"
+  snapshot_tag: "a-spectral-criterion-for-emergent-gravity-2026-10-23"
+  snapshot_date: "2026-10-23"
+pdf:
+  filename: "A Spectral Criterion for Emergent Gravity.pdf"
+  pages: 71

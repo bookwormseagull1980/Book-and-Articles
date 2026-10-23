@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this article, cite its SSRN record or the appropriate deposited version listed below."
+message: "If you use this article, cite its public record and identify the relevant version."
 title: "Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows"
 type: article
 authors:
@@ -8,7 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0000-6600-6171"
 doi: "10.2139/ssrn.7649818"
 url: "https://ssrn.com/abstract=7649818"
-date-released: "2026-10-21"
+version: "2026-10-23"
+date-released: "2026-10-23"
 identifiers:
   - type: doi
     value: "10.2139/ssrn.7649818"
@@ -21,27 +22,28 @@ identifiers:
     description: "Zenodo DOI for an archived version"
 abstract: >-
   Nonlinear spectral evolution requires control of the frequencies present
-  initially and those created by interaction. We study how spectral bounds can be
-  retained with the construction of a state and reused in later operations and
-  observations. A declared source and its native operations determine a generated
-  class under fixed admissibility rules. Finite constructions pass to limits
-  through a common stronger bound and convergence in a weaker norm. For a
-  nonnegative self-adjoint generator with compact resolvent we prove a Galerkin
-  error estimate on one local interval common to all cutoffs. The same
-  spectral-weight gap controls the initial tail and the discarded nonlinear
-  source. Stability and a common observation modulus then give the least cutoff
-  certified by the estimate. Conditions on the interaction support determine which
-  exponential reserves propagate without loss. Single-mode tests make the analytic
-  threshold sharp in the Neumann and Stokes realizations. Compatible
-  approximations of the source and time integrals preserve generated presentations
-  along the local flow. Quadratic observations carry a complementary account of
-  retained energy and transport defect together with signed injection and
-  approximation increments. The cross terms are kept throughout composition and
-  passage to limits. History-resolved Neumann readouts give response bounds
-  without a multiplicity factor and identify the invariance condition for closed
-  evolution of the observed values. The realizations have explicit constants. The
-  Neumann source is derived within the paper under the stated composition and
-  scaling assumptions with the endpoint and reflecting conditions.
+  initially and those created by interaction. We study how spectral bounds can
+  be retained with the construction of a state and reused in later operations
+  and observations. A declared source and its native operations determine a
+  generated class under fixed admissibility rules. Finite constructions pass
+  to limits through a common stronger bound and convergence in a weaker norm.
+  For a nonnegative self-adjoint generator with compact resolvent we prove a
+  Galerkin error estimate on one local interval common to all cutoffs. The
+  same spectral-weight gap controls the initial tail and the discarded
+  nonlinear source. Stability and a common observation modulus then give the
+  least cutoff certified by the estimate. Conditions on the interaction
+  support determine which exponential reserves propagate without loss.
+  Single-mode tests make the analytic threshold sharp in the Neumann and
+  Stokes realizations. Compatible approximations of the source and time
+  integrals preserve generated presentations along the local flow. Quadratic
+  observations carry a complementary account of retained energy and transport
+  defect together with signed injection and approximation increments. The
+  cross terms are kept throughout composition and passage to limits.
+  History-resolved Neumann readouts give response bounds without a
+  multiplicity factor and identify the invariance condition for closed
+  evolution of the observed values. The realizations have explicit constants.
+  The Neumann source is derived within the paper under the stated composition
+  and scaling assumptions with the endpoint and reflecting conditions.
 keywords:
   - "Nonlinear evolution equations"
   - "Spectral Galerkin approximation"
@@ -49,8 +51,5 @@ keywords:
   - "Analytic semigroups"
   - "Exponential weights"
   - "Bilinear estimates"
-  - "Certified function classes"
-  - "Construction histories"
   - "Quadratic forms"
   - "A posteriori error estimates"
-  - "Finite spectral windows"
