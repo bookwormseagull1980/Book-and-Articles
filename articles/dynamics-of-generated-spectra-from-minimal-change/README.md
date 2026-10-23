@@ -4,7 +4,7 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article
 
-DOI: [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976)
+DOI: [10.2139/ssrn.7649818](https://doi.org/10.2139/ssrn.7649818)
 
 Repository snapshot: [21 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/dynamics-of-generated-spectra-from-minimal-change-2026-10-21/articles/dynamics-of-generated-spectra-from-minimal-change)
 
@@ -57,8 +57,9 @@ files remain outside this repository.
 
 ## Citation and archival records
 
-Jinku Guo. *Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows*. Public manuscript snapshot, 21 October 2026.
+Jinku Guo. *Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows*. SSRN, 2026. [doi:10.2139/ssrn.7649818](https://doi.org/10.2139/ssrn.7649818).
 
+- SSRN record: [Abstract 7649818](https://ssrn.com/abstract=7649818)
 - Zenodo concept DOI: [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976)
 - Zenodo archived version DOI: [10.5281/zenodo.23536977](https://doi.org/10.5281/zenodo.23536977)
 

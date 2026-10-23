@@ -4,6 +4,8 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article with a computational supplement
 
+DOI: [10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn.7650278)
+
 Repository snapshot: [21 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21-doi-correction/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
 
 ## Abstract
@@ -60,9 +62,13 @@ README specifies the recorded Python version and reproduction procedure.
 ## Citation and Related Records
 
 Jinku Guo. *Prime Decomposition and Operator Responses in Spectral Natural-Number
-Arithmetic*. Public manuscript snapshot, 21 October 2026. 117 pages.
+Arithmetic*. SSRN, 2026. [doi:10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn.7650278).
 
-DOI: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
+- SSRN record: [Abstract 7650278](https://ssrn.com/abstract=7650278)
+- Zenodo record: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
+
+The repository snapshot contains the 117-page manuscript and its computational
+supplement. The snapshot tag and checksums identify the files supplied here.
 
 Related records cited in the manuscript:
 
@@ -70,5 +76,5 @@ Related records cited in the manuscript:
 - Lean proof library, concept DOI: [10.5281/zenodo.23254521](https://doi.org/10.5281/zenodo.23254521)
 
 These identifiers belong to the companion article and proof library,
-respectively. The present article's DOI is recorded above; its repository
-snapshot and file checksums identify the files supplied here.
+respectively. The present article's SSRN and Zenodo records are listed separately
+above.
