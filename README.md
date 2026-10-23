@@ -12,11 +12,37 @@ Computational supplements are supplied where indicated.
 
 ## Articles
 
+### Mathematics
+
+- [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md)
+  - Natural-number arithmetic from a correlation source, with ordered expression histories, conditional readout and history-assembly dynamics.
+  - SSRN: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
+  - Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
+
+- [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md)
+  - Prime localization by Hodge operators, occupation traces, additive relative inputs and signed Gaussian responses, with endpoint fixed-point certificates and reproducible computation.
+  - SSRN: [10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn.7650278)
+  - Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
+  - Includes the computational supplement in `anc/`.
+
+- [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md)
+  - Interaction-compatible spectral weights, certified constructions, quadratic ledgers and nonlinear Galerkin error bounds for finite observations.
+  - SSRN: [10.2139/ssrn.7649818](https://doi.org/10.2139/ssrn.7649818)
+  - Zenodo: [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976)
+
+- [Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost](articles/certified-spectral-computation-for-semilinear-evolution/README.md)
+  - Finite rational Neumann trajectories and quantized Picard executions, with separate residual checks and bit-cost bounds.
+  - Article DOI: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
+  - Includes the manuscript PDF and the computational supplement in `anc/`.
+
+### Physics
+
 - [A Spectral Criterion for Emergent Gravity](articles/a-spectral-criterion-for-emergent-gravity/README.md)
   - Source-resolved tensor exchange, positive spectral measures and the conditions for an emergent gravitational response.
   - arXiv: [10.48550/arXiv.2607.21621](https://doi.org/10.48550/arXiv.2607.21621)
   - Zenodo: [10.5281/zenodo.22093341](https://doi.org/10.5281/zenodo.22093341)
   - SSRN: [10.2139/ssrn.7352000](https://doi.org/10.2139/ssrn.7352000)
+
 - [Coarse-Graining and Long-Range Response in Generated Systems](articles/coarse-graining-and-long-range-response/README.md)
   - Preservation of source-to-observation response under coarse-graining, including memory and the stability of visible poles and residues.
   - arXiv: [10.48550/arXiv.2608.01989](https://doi.org/10.48550/arXiv.2608.01989)
@@ -38,26 +64,9 @@ Computational supplements are supplied where indicated.
   - Zenodo: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)
   - Includes the 80-page manuscript PDF and the complete computational supplement in `anc/`.
 
-- [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md)
-  - Natural-number arithmetic from a correlation source, with ordered expression histories, conditional readout and history-assembly dynamics.
-  - SSRN: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
-  - Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
+### Engineering
 
-- [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md)
-  - Interaction-compatible spectral weights, certified constructions, quadratic ledgers and nonlinear Galerkin error bounds for finite observations.
-  - SSRN: [10.2139/ssrn.7649818](https://doi.org/10.2139/ssrn.7649818)
-  - Zenodo: [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976)
-
-- [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md)
-  - Prime localization by Hodge operators, occupation traces, additive relative inputs and signed Gaussian responses, with endpoint fixed-point certificates and reproducible computation.
-  - SSRN: [10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn.7650278)
-  - Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
-  - Includes the computational supplement in `anc/`.
-
-- [Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost](articles/certified-spectral-computation-for-semilinear-evolution/README.md)
-  - Finite rational Neumann trajectories and quantized Picard executions, with separate residual checks and bit-cost bounds.
-  - Article DOI: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
-  - Includes the manuscript PDF and the computational supplement in `anc/`.
+No engineering papers have been uploaded yet.
 
 ## Archival Policy
 
