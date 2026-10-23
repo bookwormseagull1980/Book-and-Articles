@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these programs or records, cite the associated manuscript and identify this computational supplement."
+title: "Computational supplement to Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost"
+type: software
+authors:
+  - family-names: Guo
+    given-names: Jinku
+    orcid: "https://orcid.org/0009-0000-6600-6171"
+url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/certified-spectral-computation-for-semilinear-evolution"
+version: "2026-10-23"
+date-released: "2026-10-23"
+preferred-citation:
+  type: unpublished
+  title: "Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost"
+  authors:
+    - family-names: Guo
+      given-names: Jinku
+      orcid: "https://orcid.org/0009-0000-6600-6171"
+  year: 2026
+abstract: >-
+  Construction and checking programs for finite rational trajectory records
+  for a Neumann reaction-diffusion equation and for quantized Picard
+  executions of a rational coupled linear system. The supplement includes
+  input data, saved records, exact reports and reproduction instructions.
+keywords:
+  - "Validated numerics"
+  - "Spectral Galerkin methods"
+  - "Exact rational arithmetic"
+  - "A posteriori error estimates"
+  - "Proof-carrying computation"
+  - "Bit complexity"

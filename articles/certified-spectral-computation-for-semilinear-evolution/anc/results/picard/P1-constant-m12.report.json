@@ -1,0 +1,82 @@
+{
+  "status": "ACCEPT",
+  "dimension": 1,
+  "source_degree": 0,
+  "m": 12,
+  "working_bits": 16,
+  "degree": 19,
+  "fractional_bits": 39,
+  "iterations": 32,
+  "max_strong_norm": {
+    "exact": "1/2",
+    "decimal": 0.5
+  },
+  "max_exact_image_norm": {
+    "exact": "1/2",
+    "decimal": 0.5
+  },
+  "max_weak_step_error": {
+    "exact": "0",
+    "decimal": 0.0
+  },
+  "max_strong_step_difference": {
+    "exact": "0",
+    "decimal": 0.0
+  },
+  "step_errors": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "certified_path_error": {
+    "exact": "1/79228162514264337593543950336",
+    "decimal": 1.262177448353619e-29
+  },
+  "uniform_path_error": {
+    "exact": "9671406556917033397649415/554597137599850363154807652352",
+    "decimal": 1.743861607142857e-05
+  },
+  "target": {
+    "exact": "1/16384",
+    "decimal": 6.103515625e-05
+  },
+  "terminal_centers": [
+    "1/2"
+  ],
+  "terminal_intervals": [
+    [
+      "39614081257132168796771975167/79228162514264337593543950336",
+      "39614081257132168796771975169/79228162514264337593543950336"
+    ]
+  ],
+  "verifier_seconds": 0.253778100001
+}

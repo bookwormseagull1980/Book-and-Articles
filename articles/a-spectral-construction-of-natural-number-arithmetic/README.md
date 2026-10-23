@@ -4,6 +4,8 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article
 
+DOI: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
+
 Repository snapshot: [21 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/a-spectral-construction-of-natural-number-arithmetic-2026-10-21/articles/a-spectral-construction-of-natural-number-arithmetic)
 
 ## Abstract
@@ -57,12 +59,13 @@ files remain outside this repository.
 ## Citation and archival records
 
 Jinku Guo. *A Spectral Construction of Natural-Number Arithmetic*. Public
-manuscript snapshot, 21 October 2026. 93 pages.
+manuscript, SSRN, 2026. [doi:10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398).
 
 Public records:
 
+- SSRN record: [Abstract 7421398](https://ssrn.com/abstract=7421398)
 - Zenodo concept DOI: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
-- SSRN record: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
 
 The Zenodo concept DOI identifies the work across its deposited versions.
-The repository PDF is identified separately by its snapshot tag and checksum.
+The repository snapshot contains the 93-page manuscript and is identified
+separately by its snapshot tag and checksum.

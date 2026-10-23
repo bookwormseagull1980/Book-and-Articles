@@ -7,6 +7,8 @@ identifiers:
 related_works:
   - title: "A Spectral Construction of Natural-Number Arithmetic"
     relation: "Companion article supplying the source arithmetic and history construction"
+    ssrn_doi: "10.2139/ssrn.7421398"
+    ssrn_url: "https://ssrn.com/abstract=7421398"
     concept_doi: "10.5281/zenodo.22512592"
   - title: "Lean Formalization of Arithmetic and Basic Physical Interfaces"
     relation: "Referenced formal proof library"

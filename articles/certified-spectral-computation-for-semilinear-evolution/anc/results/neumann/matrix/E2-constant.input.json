@@ -1,0 +1,8 @@
+{
+  "format": "neumann-input-v1",
+  "equation_id": "u_t=u_xx+u^2; Neumann [0,pi]",
+  "T": "1/16",
+  "initial": [
+    "1/2"
+  ]
+}

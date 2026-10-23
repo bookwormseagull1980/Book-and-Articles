@@ -25,8 +25,8 @@ Computational supplements are supplied where indicated.
 
 - [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md)
   - Natural-number arithmetic from a correlation source, with ordered expression histories, conditional readout and history-assembly dynamics.
-  - Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
   - SSRN: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
+  - Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 - [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md)
   - Interaction-compatible spectral weights, certified constructions, quadratic ledgers and nonlinear Galerkin error bounds for finite observations.
@@ -38,6 +38,10 @@ Computational supplements are supplied where indicated.
   - SSRN: [10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn.7650278)
   - Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
   - Includes the computational supplement in `anc/`.
+
+- [Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost](articles/certified-spectral-computation-for-semilinear-evolution/README.md)
+  - Computational supplement with exact rational Neumann trajectory records and quantized Picard executions, including separate checking programs and recorded results.
+  - Contains `anc/`; the manuscript PDF is not included in this snapshot.
 
 ## Archival Policy
 

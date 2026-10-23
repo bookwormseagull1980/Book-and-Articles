@@ -1,0 +1,14 @@
+{
+  "format": "picard-linear-input-v1",
+  "equation_id": "y'=B*y+p'; y(0)=p(0); t in [0,1]",
+  "matrix_B": [
+    [
+      "0"
+    ]
+  ],
+  "polynomial_p": [
+    [
+      "1/2"
+    ]
+  ]
+}

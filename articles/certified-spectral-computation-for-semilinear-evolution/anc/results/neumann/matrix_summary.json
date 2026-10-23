@@ -1,0 +1,2330 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "arithmetic": "exact integers and rationals; times are descriptive",
+  "practical_parameters": "J=16, r=m+8, b=64, K=m+3",
+  "rows": [
+    {
+      "case": "E1-baseline",
+      "input_file": "E1-baseline.input.json",
+      "record_file": "E1-baseline-m1-practical.record.json",
+      "report_file": "E1-baseline-m1-practical.report.json",
+      "m": 1,
+      "mode": "practical",
+      "input_bytes": 163,
+      "record_bytes": 9329,
+      "producer_seconds": 0.011482700000669865,
+      "verifier_seconds": 0.00869059999968158,
+      "record_sha256": "c9276117b6e48c1c17e47f12ea053328a56ae32b554d2fba4b2b7c1b45f422bb",
+      "cutoff": 4,
+      "steps": 16,
+      "degree": 9,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "147713539888597022730187/42535295865117307932921825928971026432",
+        "decimal": 3.4727286335801685e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "13916631893971803169/18446744073709551616",
+        "decimal": 0.7544221266562645
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "147713539888597022730187/467888254516290387262140085218681290752",
+        "decimal": 3.157026030527426e-16
+      },
+      "total_error": {
+        "exact": "73107539768170816150329054106487142241/1403664763548871161786420255656043872256",
+        "decimal": 0.05208333333333365
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2343612331068790419/9223372036854775808",
+          "decimal": 0.25409495808085997
+        },
+        "value_at_zero": {
+          "exact": "1510101548454745375/4611686018427387904",
+          "decimal": 0.32745107590167183
+        },
+        "common_absolute_error": {
+          "exact": "73107539768170816150329054106487142241/1403664763548871161786420255656043872256",
+          "decimal": 0.05208333333333365
+        }
+      }
+    },
+    {
+      "case": "E1-baseline",
+      "input_file": "E1-baseline.input.json",
+      "record_file": "E1-baseline-m4-practical.record.json",
+      "report_file": "E1-baseline-m4-practical.report.json",
+      "m": 4,
+      "mode": "practical",
+      "input_bytes": 163,
+      "record_bytes": 14848,
+      "producer_seconds": 0.03497299999980896,
+      "verifier_seconds": 0.016313300000547315,
+      "record_sha256": "e734c3609043bbaa276f21f45b0ad3f8e82def12fc8b6db2c7d3cda9f617eb41",
+      "cutoff": 7,
+      "steps": 16,
+      "degree": 12,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "2771731300356628734703103/340282366920938463463374607431768211456",
+        "decimal": 8.145386213916325e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "13916636586877102469/18446744073709551616",
+        "decimal": 0.7544223810591705
+      },
+      "spatial_error": {
+        "exact": "5/768",
+        "decimal": 0.006510416666666667
+      },
+      "time_and_rounding_error": {
+        "exact": "2771731300356628734703103/3743106036130323098097120681749450326016",
+        "decimal": 7.40489655810575e-16
+      },
+      "total_error": {
+        "exact": "73107539768178688203610458201623060989/11229318108390969294291362045248350978048",
+        "decimal": 0.006510416666667407
+      },
+      "target": {
+        "exact": "1/64",
+        "decimal": 0.015625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2343612331068790569/9223372036854775808",
+          "decimal": 0.25409495808086
+        },
+        "value_at_zero": {
+          "exact": "6040406547190878193/18446744073709551616",
+          "decimal": 0.32745109505800074
+        },
+        "common_absolute_error": {
+          "exact": "73107539768178688203610458201623060989/11229318108390969294291362045248350978048",
+          "decimal": 0.006510416666667407
+        }
+      }
+    },
+    {
+      "case": "E1-baseline",
+      "input_file": "E1-baseline.input.json",
+      "record_file": "E1-baseline-m8-practical.record.json",
+      "report_file": "E1-baseline-m8-practical.report.json",
+      "m": 8,
+      "mode": "practical",
+      "input_bytes": 163,
+      "record_bytes": 21858,
+      "producer_seconds": 0.20498789999965084,
+      "verifier_seconds": 0.025521499999740627,
+      "record_sha256": "8376d6bd0f415c3e1daf1d1d3036674ae5b1c7aa1c0a4e65cadf0c852dfa193a",
+      "cutoff": 11,
+      "steps": 16,
+      "degree": 16,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "7716026863740511480253445/680564733841876926926749214863536422912",
+        "decimal": 1.133768248639998e-14
+      },
+      "max_polynomial_A4": {
+        "exact": "13916636587489012101/18446744073709551616",
+        "decimal": 0.7544223810923422
+      },
+      "spatial_error": {
+        "exact": "5/12288",
+        "decimal": 0.0004069010416666667
+      },
+      "time_and_rounding_error": {
+        "exact": "7716026863740511480253445/7486212072260646196194241363498900652032",
+        "decimal": 1.0306984078545435e-15
+      },
+      "total_error": {
+        "exact": "9138442471044444706804895073868129295/22458636216781938588582724090496701956096",
+        "decimal": 0.0004069010416676974
+      },
+      "target": {
+        "exact": "1/1024",
+        "decimal": 0.0009765625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2343612331068790569/9223372036854775808",
+          "decimal": 0.25409495808086
+        },
+        "value_at_zero": {
+          "exact": "6040406547195886059/18446744073709551616",
+          "decimal": 0.3274510950582722
+        },
+        "common_absolute_error": {
+          "exact": "9138442471044444706804895073868129295/22458636216781938588582724090496701956096",
+          "decimal": 0.0004069010416676974
+        }
+      }
+    },
+    {
+      "case": "E1-baseline",
+      "input_file": "E1-baseline.input.json",
+      "record_file": "E1-baseline-m12-practical.record.json",
+      "report_file": "E1-baseline-m12-practical.report.json",
+      "m": 12,
+      "mode": "practical",
+      "input_bytes": 163,
+      "record_bytes": 30435,
+      "producer_seconds": 0.5593745000005583,
+      "verifier_seconds": 0.03510779999942315,
+      "record_sha256": "16ebcce8f78f698095a9112c232df1e7d0508fe17f5faeff650af653cfa1ba86",
+      "cutoff": 15,
+      "steps": 16,
+      "degree": 20,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "7718212878360629527167165/680564733841876926926749214863536422912",
+        "decimal": 1.1340894546195935e-14
+      },
+      "max_polynomial_A4": {
+        "exact": "13916636587489012101/18446744073709551616",
+        "decimal": 0.7544223810923422
+      },
+      "spatial_error": {
+        "exact": "5/196608",
+        "decimal": 2.5431315104166668e-05
+      },
+      "time_and_rounding_error": {
+        "exact": "7718212878360629527167165/7486212072260646196194241363498900652032",
+        "decimal": 1.0309904132905395e-15
+      },
+      "total_error": {
+        "exact": "571152654461985677773436484795712055/22458636216781938588582724090496701956096",
+        "decimal": 2.5431315105197656e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2343612331068790569/9223372036854775808",
+          "decimal": 0.25409495808086
+        },
+        "value_at_zero": {
+          "exact": "6040406547195886059/18446744073709551616",
+          "decimal": 0.3274510950582722
+        },
+        "common_absolute_error": {
+          "exact": "571152654461985677773436484795712055/22458636216781938588582724090496701956096",
+          "decimal": 2.5431315105197656e-05
+        }
+      }
+    },
+    {
+      "case": "E2-constant",
+      "input_file": "E2-constant.input.json",
+      "record_file": "E2-constant-m1-practical.record.json",
+      "report_file": "E2-constant-m1-practical.report.json",
+      "m": 1,
+      "mode": "practical",
+      "input_bytes": 137,
+      "record_bytes": 4947,
+      "producer_seconds": 0.0041442000001552515,
+      "verifier_seconds": 0.0038924000000406522,
+      "record_sha256": "61fd3b903dd494aa4b4c484eb32470c992577046559c45e71c374ee8c2e46d51",
+      "cutoff": 4,
+      "steps": 16,
+      "degree": 9,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "76185242844305918195329/340282366920938463463374607431768211456",
+        "decimal": 2.238883064487643e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "9520900167075897563/18446744073709551616",
+        "decimal": 0.5161290322580645
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "76185242844305918195329/3743106036130323098097120681749450326016",
+        "decimal": 2.0353482404433115e-17
+      },
+      "total_error": {
+        "exact": "584860318145363212633403639441106199427/11229318108390969294291362045248350978048",
+        "decimal": 0.052083333333333356
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "9520900167075897563/18446744073709551616",
+          "decimal": 0.5161290322580645
+        },
+        "value_at_zero": {
+          "exact": "9520900167075897563/18446744073709551616",
+          "decimal": 0.5161290322580645
+        },
+        "common_absolute_error": {
+          "exact": "584860318145363212633403639441106199427/11229318108390969294291362045248350978048",
+          "decimal": 0.052083333333333356
+        }
+      },
+      "exact_constant_error": "1403/571849066284996100096"
+    },
+    {
+      "case": "E2-constant",
+      "input_file": "E2-constant.input.json",
+      "record_file": "E2-constant-m4-practical.record.json",
+      "report_file": "E2-constant-m4-practical.report.json",
+      "m": 4,
+      "mode": "practical",
+      "input_bytes": 137,
+      "record_bytes": 8500,
+      "producer_seconds": 0.005993800000396732,
+      "verifier_seconds": 0.005243700000391982,
+      "record_sha256": "eaed483abae0a384b304947a27d320e9abc5d091be854d122f1b1e66983ec205",
+      "cutoff": 7,
+      "steps": 16,
+      "degree": 12,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "76185242844305918195329/340282366920938463463374607431768211456",
+        "decimal": 2.238883064487643e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "9520900167075897563/18446744073709551616",
+        "decimal": 0.5161290322580645
+      },
+      "spatial_error": {
+        "exact": "5/768",
+        "decimal": 0.006510416666666667
+      },
+      "time_and_rounding_error": {
+        "exact": "76185242844305918195329/3743106036130323098097120681749450326016",
+        "decimal": 2.0353482404433115e-17
+      },
+      "total_error": {
+        "exact": "73107539768170601565437921233173537667/11229318108390969294291362045248350978048",
+        "decimal": 0.006510416666666687
+      },
+      "target": {
+        "exact": "1/64",
+        "decimal": 0.015625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "9520900167075897563/18446744073709551616",
+          "decimal": 0.5161290322580645
+        },
+        "value_at_zero": {
+          "exact": "9520900167075897563/18446744073709551616",
+          "decimal": 0.5161290322580645
+        },
+        "common_absolute_error": {
+          "exact": "73107539768170601565437921233173537667/11229318108390969294291362045248350978048",
+          "decimal": 0.006510416666666687
+        }
+      },
+      "exact_constant_error": "1403/571849066284996100096"
+    },
+    {
+      "case": "E2-constant",
+      "input_file": "E2-constant.input.json",
+      "record_file": "E2-constant-m8-practical.record.json",
+      "report_file": "E2-constant-m8-practical.report.json",
+      "m": 8,
+      "mode": "practical",
+      "input_bytes": 137,
+      "record_bytes": 15029,
+      "producer_seconds": 0.009971499999664957,
+      "verifier_seconds": 0.011803499999587075,
+      "record_sha256": "8db707bcdc547ca337fdbb0031c4dd9d40b3d0acb1b8e17be57a5ad6a45dc3aa",
+      "cutoff": 11,
+      "steps": 16,
+      "degree": 16,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "76185242844305918195329/340282366920938463463374607431768211456",
+        "decimal": 2.238883064487643e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "9520900167075897563/18446744073709551616",
+        "decimal": 0.5161290322580645
+      },
+      "spatial_error": {
+        "exact": "5/12288",
+        "decimal": 0.0004069010416666667
+      },
+      "time_and_rounding_error": {
+        "exact": "76185242844305918195329/3743106036130323098097120681749450326016",
+        "decimal": 2.0353482404433115e-17
+      },
+      "total_error": {
+        "exact": "4569221235510876868835369687468270467/11229318108390969294291362045248350978048",
+        "decimal": 0.000406901041666687
+      },
+      "target": {
+        "exact": "1/1024",
+        "decimal": 0.0009765625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "9520900167075897563/18446744073709551616",
+          "decimal": 0.5161290322580645
+        },
+        "value_at_zero": {
+          "exact": "9520900167075897563/18446744073709551616",
+          "decimal": 0.5161290322580645
+        },
+        "common_absolute_error": {
+          "exact": "4569221235510876868835369687468270467/11229318108390969294291362045248350978048",
+          "decimal": 0.000406901041666687
+        }
+      },
+      "exact_constant_error": "1403/571849066284996100096"
+    },
+    {
+      "case": "E2-constant",
+      "input_file": "E2-constant.input.json",
+      "record_file": "E2-constant-m12-practical.record.json",
+      "report_file": "E2-constant-m12-practical.report.json",
+      "m": 12,
+      "mode": "practical",
+      "input_bytes": 137,
+      "record_bytes": 23606,
+      "producer_seconds": 0.013093800000206102,
+      "verifier_seconds": 0.011496499999338994,
+      "record_sha256": "c7252557ef1f1a608af831f2509d7fcb168356c8f70ee19ba33b234bd5a20939",
+      "cutoff": 15,
+      "steps": 16,
+      "degree": 20,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "76185242844305918195329/340282366920938463463374607431768211456",
+        "decimal": 2.238883064487643e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "9520900167075897563/18446744073709551616",
+        "decimal": 0.5161290322580645
+      },
+      "spatial_error": {
+        "exact": "5/196608",
+        "decimal": 2.5431315104166668e-05
+      },
+      "time_and_rounding_error": {
+        "exact": "76185242844305918195329/3743106036130323098097120681749450326016",
+        "decimal": 2.0353482404433115e-17
+      },
+      "total_error": {
+        "exact": "285576327219644075297710215861691267/11229318108390969294291362045248350978048",
+        "decimal": 2.543131510418702e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "9520900167075897563/18446744073709551616",
+          "decimal": 0.5161290322580645
+        },
+        "value_at_zero": {
+          "exact": "9520900167075897563/18446744073709551616",
+          "decimal": 0.5161290322580645
+        },
+        "common_absolute_error": {
+          "exact": "285576327219644075297710215861691267/11229318108390969294291362045248350978048",
+          "decimal": 2.543131510418702e-05
+        }
+      },
+      "exact_constant_error": "1403/571849066284996100096"
+    },
+    {
+      "case": "E3-signed",
+      "input_file": "E3-signed.input.json",
+      "record_file": "E3-signed-m1-practical.record.json",
+      "report_file": "E3-signed-m1-practical.report.json",
+      "m": 1,
+      "mode": "practical",
+      "input_bytes": 181,
+      "record_bytes": 9373,
+      "producer_seconds": 0.010411799999928917,
+      "verifier_seconds": 0.0076381999997465755,
+      "record_sha256": "1d3a5ec2b91aab785af8303eed69d483eed6d4bf23c2c729a8b6b016fa78e5cb",
+      "cutoff": 4,
+      "steps": 16,
+      "degree": 9,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "2601394595504173821114149/680564733841876926926749214863536422912",
+        "decimal": 3.8224058140934825e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "1595144482408562989/2305843009213693952",
+        "decimal": 0.6917836453022518
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "2601394595504173821114149/7486212072260646196194241363498900652032",
+        "decimal": 3.4749143764486207e-16
+      },
+      "total_error": {
+        "exact": "1169720636290733772339136725568166569327/22458636216781938588582724090496701956096",
+        "decimal": 0.05208333333333368
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "7084148067262713455/18446744073709551616",
+          "decimal": 0.3840324362367611
+        },
+        "value_at_zero": {
+          "exact": "206979393112351469/576460752303423488",
+          "decimal": 0.3590520122754283
+        },
+        "common_absolute_error": {
+          "exact": "1169720636290733772339136725568166569327/22458636216781938588582724090496701956096",
+          "decimal": 0.05208333333333368
+        }
+      }
+    },
+    {
+      "case": "E3-signed",
+      "input_file": "E3-signed.input.json",
+      "record_file": "E3-signed-m4-practical.record.json",
+      "report_file": "E3-signed-m4-practical.report.json",
+      "m": 4,
+      "mode": "practical",
+      "input_bytes": 181,
+      "record_bytes": 15323,
+      "producer_seconds": 0.03817170000002079,
+      "verifier_seconds": 0.018140900000616966,
+      "record_sha256": "d276a13c2bf8335d8097f7dab08af655b6e1d48615b40a511b3ff0ffb0b40f20",
+      "cutoff": 7,
+      "steps": 16,
+      "degree": 12,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "804658891451243368074049/85070591730234615865843651857942052864",
+        "decimal": 9.458719812398609e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "12761914404410321781/18446744073709551616",
+        "decimal": 0.6918247661167861
+      },
+      "spatial_error": {
+        "exact": "5/768",
+        "decimal": 0.006510416666666667
+      },
+      "time_and_rounding_error": {
+        "exact": "804658891451243368074049/935776509032580774524280170437362581504",
+        "decimal": 8.598836193089644e-16
+      },
+      "total_error": {
+        "exact": "18276884942045007229101700808958960067/2807329527097742323572840511312087744512",
+        "decimal": 0.0065104166666675265
+      },
+      "target": {
+        "exact": "1/64",
+        "decimal": 0.015625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "7084148067262756417/18446744073709551616",
+          "decimal": 0.3840324362367634
+        },
+        "value_at_zero": {
+          "exact": "6623337685767316841/18446744073709551616",
+          "decimal": 0.3590518554007019
+        },
+        "common_absolute_error": {
+          "exact": "18276884942045007229101700808958960067/2807329527097742323572840511312087744512",
+          "decimal": 0.0065104166666675265
+        }
+      }
+    },
+    {
+      "case": "E3-signed",
+      "input_file": "E3-signed.input.json",
+      "record_file": "E3-signed-m8-practical.record.json",
+      "report_file": "E3-signed-m8-practical.report.json",
+      "m": 8,
+      "mode": "practical",
+      "input_bytes": 181,
+      "record_bytes": 22814,
+      "producer_seconds": 0.14994870000009541,
+      "verifier_seconds": 0.028780399999959627,
+      "record_sha256": "242a8d3655c09c125e0b40ebce8f6827e0d92a7cc2400443f40e26c8fa41ee66",
+      "cutoff": 11,
+      "steps": 16,
+      "degree": 16,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "2386848969149714405896835/170141183460469231731687303715884105728",
+        "decimal": 1.4028637397507448e-14
+      },
+      "max_polynomial_A4": {
+        "exact": "12761914545042925429/18446744073709551616",
+        "decimal": 0.6918247737404949
+      },
+      "spatial_error": {
+        "exact": "5/12288",
+        "decimal": 0.0004069010416666667
+      },
+      "time_and_rounding_error": {
+        "exact": "216986269922701309626985/170141183460469231731687303715884105728",
+        "decimal": 1.275330672500677e-15
+      },
+      "total_error": {
+        "exact": "207691874342044063950987957097684795/510423550381407695195061911147652317184",
+        "decimal": 0.000406901041667942
+      },
+      "target": {
+        "exact": "1/1024",
+        "decimal": 0.0009765625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "7084148067262756417/18446744073709551616",
+          "decimal": 0.3840324362367634
+        },
+        "value_at_zero": {
+          "exact": "6623337685809036597/18446744073709551616",
+          "decimal": 0.3590518554029635
+        },
+        "common_absolute_error": {
+          "exact": "207691874342044063950987957097684795/510423550381407695195061911147652317184",
+          "decimal": 0.000406901041667942
+        }
+      }
+    },
+    {
+      "case": "E3-signed",
+      "input_file": "E3-signed.input.json",
+      "record_file": "E3-signed-m12-practical.record.json",
+      "report_file": "E3-signed-m12-practical.report.json",
+      "m": 12,
+      "mode": "practical",
+      "input_bytes": 181,
+      "record_bytes": 31396,
+      "producer_seconds": 0.5272578000003705,
+      "verifier_seconds": 0.035194899999623885,
+      "record_sha256": "e5e2d302ddad3a427a231f994cbd772009db87f878197aef8ef880c2cd3e028b",
+      "cutoff": 15,
+      "steps": 16,
+      "degree": 20,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "9653991739710293536529691/680564733841876926926749214863536422912",
+        "decimal": 1.4185265941143097e-14
+      },
+      "max_polynomial_A4": {
+        "exact": "12761914545042925429/18446744073709551616",
+        "decimal": 0.6918247737404949
+      },
+      "spatial_error": {
+        "exact": "5/196608",
+        "decimal": 2.5431315104166668e-05
+      },
+      "time_and_rounding_error": {
+        "exact": "9653991739710293536529691/7486212072260646196194241363498900652032",
+        "decimal": 1.2895696310130089e-15
+      },
+      "total_error": {
+        "exact": "571152654467793014357485476823799633/22458636216781938588582724090496701956096",
+        "decimal": 2.5431315105456235e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "7084148067262756417/18446744073709551616",
+          "decimal": 0.3840324362367634
+        },
+        "value_at_zero": {
+          "exact": "6623337685809036607/18446744073709551616",
+          "decimal": 0.3590518554029635
+        },
+        "common_absolute_error": {
+          "exact": "571152654467793014357485476823799633/22458636216781938588582724090496701956096",
+          "decimal": 2.5431315105456235e-05
+        }
+      }
+    },
+    {
+      "case": "E4-boundary",
+      "input_file": "E4-boundary.input.json",
+      "record_file": "E4-boundary-m1-practical.record.json",
+      "report_file": "E4-boundary-m1-practical.report.json",
+      "m": 1,
+      "mode": "practical",
+      "input_bytes": 153,
+      "record_bytes": 7737,
+      "producer_seconds": 0.01090479999948002,
+      "verifier_seconds": 0.0094106999995347,
+      "record_sha256": "5aaf33ddecd825ec9b70995331c96786bbaf75cfce80ffde6f0ae35ccea822d4",
+      "cutoff": 4,
+      "steps": 16,
+      "degree": 9,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "1648076884677851995177121/680564733841876926926749214863536422912",
+        "decimal": 2.421631334574512e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "9818098867567111409/9223372036854775808",
+        "decimal": 1.0644804121893734
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "1648076884677851995177121/7486212072260646196194241363498900652032",
+        "decimal": 2.2014830314313746e-16
+      },
+      "total_error": {
+        "exact": "1169720636290730912386004246602688758243/22458636216781938588582724090496701956096",
+        "decimal": 0.05208333333333355
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "9511023100514212547/9223372036854775808",
+          "decimal": 1.0311871908137327
+        },
+        "value_at_zero": {
+          "exact": "19175478221781734371/18446744073709551616",
+          "decimal": 1.0395047573252116
+        },
+        "common_absolute_error": {
+          "exact": "1169720636290730912386004246602688758243/22458636216781938588582724090496701956096",
+          "decimal": 0.05208333333333355
+        }
+      }
+    },
+    {
+      "case": "E4-boundary",
+      "input_file": "E4-boundary.input.json",
+      "record_file": "E4-boundary-m4-practical.record.json",
+      "report_file": "E4-boundary-m4-practical.report.json",
+      "m": 4,
+      "mode": "practical",
+      "input_bytes": 153,
+      "record_bytes": 11311,
+      "producer_seconds": 0.03781440000057046,
+      "verifier_seconds": 0.008883699999387318,
+      "record_sha256": "3315fad2469bed05f0f1eacc4d58e6ac2661a88616521ca34cea903bdbd3823c",
+      "cutoff": 7,
+      "steps": 16,
+      "degree": 12,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "449455095310797255903007/170141183460469231731687303715884105728",
+        "decimal": 2.641659627430675e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "9818098867567287025/9223372036854775808",
+        "decimal": 1.0644804121893923
+      },
+      "spatial_error": {
+        "exact": "5/768",
+        "decimal": 0.006510416666666667
+      },
+      "time_and_rounding_error": {
+        "exact": "449455095310797255903007/1871553018065161549048560340874725163008",
+        "decimal": 2.4015087522097045e-16
+      },
+      "total_error": {
+        "exact": "36553769884086534870140626549477184861/5614659054195484647145681022624175489024",
+        "decimal": 0.006510416666666907
+      },
+      "target": {
+        "exact": "1/64",
+        "decimal": 0.015625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "9511023100514212547/9223372036854775808",
+          "decimal": 1.0311871908137327
+        },
+        "value_at_zero": {
+          "exact": "9587739110890867357/9223372036854775808",
+          "decimal": 1.0395047573252116
+        },
+        "common_absolute_error": {
+          "exact": "36553769884086534870140626549477184861/5614659054195484647145681022624175489024",
+          "decimal": 0.006510416666666907
+        }
+      }
+    },
+    {
+      "case": "E4-boundary",
+      "input_file": "E4-boundary.input.json",
+      "record_file": "E4-boundary-m8-practical.record.json",
+      "report_file": "E4-boundary-m8-practical.report.json",
+      "m": 8,
+      "mode": "practical",
+      "input_bytes": 153,
+      "record_bytes": 17840,
+      "producer_seconds": 0.14513019999958487,
+      "verifier_seconds": 0.012198699999316887,
+      "record_sha256": "4418df41cdc2406a29cab9b7888d7c42c572ffd34f44cb2712aea23d4f8aef15",
+      "cutoff": 11,
+      "steps": 16,
+      "degree": 16,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "449455095310808830476267/170141183460469231731687303715884105728",
+        "decimal": 2.641659627430743e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "9818098867567287025/9223372036854775808",
+        "decimal": 1.0644804121893923
+      },
+      "spatial_error": {
+        "exact": "5/12288",
+        "decimal": 0.0004069010416666667
+      },
+      "time_and_rounding_error": {
+        "exact": "449455095310808830476267/1871553018065161549048560340874725163008",
+        "decimal": 2.401508752209766e-16
+      },
+      "total_error": {
+        "exact": "2284610617756672521839350811348271041/5614659054195484647145681022624175489024",
+        "decimal": 0.00040690104166690684
+      },
+      "target": {
+        "exact": "1/1024",
+        "decimal": 0.0009765625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "9511023100514212547/9223372036854775808",
+          "decimal": 1.0311871908137327
+        },
+        "value_at_zero": {
+          "exact": "9587739110890867357/9223372036854775808",
+          "decimal": 1.0395047573252116
+        },
+        "common_absolute_error": {
+          "exact": "2284610617756672521839350811348271041/5614659054195484647145681022624175489024",
+          "decimal": 0.00040690104166690684
+        }
+      }
+    },
+    {
+      "case": "E4-boundary",
+      "input_file": "E4-boundary.input.json",
+      "record_file": "E4-boundary-m12-practical.record.json",
+      "report_file": "E4-boundary-m12-practical.report.json",
+      "m": 12,
+      "mode": "practical",
+      "input_bytes": 153,
+      "record_bytes": 26417,
+      "producer_seconds": 0.4184512000001632,
+      "verifier_seconds": 0.014967199999773584,
+      "record_sha256": "b0f980fe20a3c374eb931f6ef210f8792ba316c63298043cc0815710c9ccc587",
+      "cutoff": 15,
+      "steps": 16,
+      "degree": 20,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "449455095310808830476267/170141183460469231731687303715884105728",
+        "decimal": 2.641659627430743e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "9818098867567287025/9223372036854775808",
+        "decimal": 1.0644804121893923
+      },
+      "spatial_error": {
+        "exact": "5/196608",
+        "decimal": 2.5431315104166668e-05
+      },
+      "time_and_rounding_error": {
+        "exact": "449455095310808830476267/1871553018065161549048560340874725163008",
+        "decimal": 2.401508752209766e-16
+      },
+      "total_error": {
+        "exact": "142788163611056125070521075544981441/5614659054195484647145681022624175489024",
+        "decimal": 2.543131510440682e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "9511023100514212547/9223372036854775808",
+          "decimal": 1.0311871908137327
+        },
+        "value_at_zero": {
+          "exact": "9587739110890867357/9223372036854775808",
+          "decimal": 1.0395047573252116
+        },
+        "common_absolute_error": {
+          "exact": "142788163611056125070521075544981441/5614659054195484647145681022624175489024",
+          "decimal": 2.543131510440682e-05
+        }
+      }
+    },
+    {
+      "case": "E5-high-tail",
+      "input_file": "E5-high-tail.input.json",
+      "record_file": "E5-high-tail-m1-practical.record.json",
+      "report_file": "E5-high-tail-m1-practical.report.json",
+      "m": 1,
+      "mode": "practical",
+      "input_bytes": 351,
+      "record_bytes": 4897,
+      "producer_seconds": 0.0039499000004070695,
+      "verifier_seconds": 0.007035900000119,
+      "record_sha256": "45c223b2d8c6313b6338bd307e018bb96ebe1bd635624a4275084ea46164f4fe",
+      "cutoff": 4,
+      "steps": 16,
+      "degree": 9,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "16842750532517578794529/85070591730234615865843651857942052864",
+        "decimal": 1.979855810328349e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "2342443691899625583/9223372036854775808",
+        "decimal": 0.25396825396825395
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "16842750532517578794529/935776509032580774524280170437362581504",
+        "decimal": 1.7998689184803172e-17
+      },
+      "total_error": {
+        "exact": "146215079536340796547670374183574286947/2807329527097742323572840511312087744512",
+        "decimal": 0.05208333333333335
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "value_at_zero": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "common_absolute_error": {
+          "exact": "146215079536340796547670374183574286947/2807329527097742323572840511312087744512",
+          "decimal": 0.05208333333333335
+        }
+      }
+    },
+    {
+      "case": "E5-high-tail",
+      "input_file": "E5-high-tail.input.json",
+      "record_file": "E5-high-tail-m4-practical.record.json",
+      "report_file": "E5-high-tail-m4-practical.report.json",
+      "m": 4,
+      "mode": "practical",
+      "input_bytes": 351,
+      "record_bytes": 8450,
+      "producer_seconds": 0.005220600000029663,
+      "verifier_seconds": 0.006238400000256661,
+      "record_sha256": "61029aa870a0826bf72d371167b750b7cc5564023b0011642a51c440a1b34714",
+      "cutoff": 7,
+      "steps": 16,
+      "degree": 12,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "16842750532517578794529/85070591730234615865843651857942052864",
+        "decimal": 1.979855810328349e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "2342443691899625583/9223372036854775808",
+        "decimal": 0.25396825396825395
+      },
+      "spatial_error": {
+        "exact": "5/768",
+        "decimal": 0.006510416666666667
+      },
+      "time_and_rounding_error": {
+        "exact": "16842750532517578794529/935776509032580774524280170437362581504",
+        "decimal": 1.7998689184803172e-17
+      },
+      "total_error": {
+        "exact": "18276884942042643780678944631591121507/2807329527097742323572840511312087744512",
+        "decimal": 0.006510416666666684
+      },
+      "target": {
+        "exact": "1/64",
+        "decimal": 0.015625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "value_at_zero": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "common_absolute_error": {
+          "exact": "18276884942042643780678944631591121507/2807329527097742323572840511312087744512",
+          "decimal": 0.006510416666666684
+        }
+      }
+    },
+    {
+      "case": "E5-high-tail",
+      "input_file": "E5-high-tail.input.json",
+      "record_file": "E5-high-tail-m8-practical.record.json",
+      "report_file": "E5-high-tail-m8-practical.report.json",
+      "m": 8,
+      "mode": "practical",
+      "input_bytes": 351,
+      "record_bytes": 14979,
+      "producer_seconds": 0.011205799999515875,
+      "verifier_seconds": 0.010077300000375544,
+      "record_sha256": "9fb9f68f36b888dc83c6d636a410ecf4d9e87b3f26fa27b033938b4c425b816e",
+      "cutoff": 11,
+      "steps": 16,
+      "degree": 16,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "16842750532517578794529/85070591730234615865843651857942052864",
+        "decimal": 1.979855810328349e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "2342443691899625583/9223372036854775808",
+        "decimal": 0.25396825396825395
+      },
+      "spatial_error": {
+        "exact": "5/12288",
+        "decimal": 0.0004069010416666667
+      },
+      "time_and_rounding_error": {
+        "exact": "16842750532517578794529/935776509032580774524280170437362581504",
+        "decimal": 1.7998689184803172e-17
+      },
+      "total_error": {
+        "exact": "1142305308877712606528306745164804707/2807329527097742323572840511312087744512",
+        "decimal": 0.0004069010416666847
+      },
+      "target": {
+        "exact": "1/1024",
+        "decimal": 0.0009765625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "value_at_zero": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "common_absolute_error": {
+          "exact": "1142305308877712606528306745164804707/2807329527097742323572840511312087744512",
+          "decimal": 0.0004069010416666847
+        }
+      }
+    },
+    {
+      "case": "E5-high-tail",
+      "input_file": "E5-high-tail.input.json",
+      "record_file": "E5-high-tail-m12-practical.record.json",
+      "report_file": "E5-high-tail-m12-practical.report.json",
+      "m": 12,
+      "mode": "practical",
+      "input_bytes": 351,
+      "record_bytes": 23556,
+      "producer_seconds": 0.01499100000000908,
+      "verifier_seconds": 0.01324419999946258,
+      "record_sha256": "8c49150f30291fffd2cc1803f2383c87fb87b16c7ea9e003a84c95d3ba5b992b",
+      "cutoff": 15,
+      "steps": 16,
+      "degree": 20,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "16842750532517578794529/85070591730234615865843651857942052864",
+        "decimal": 1.979855810328349e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "2342443691899625583/9223372036854775808",
+        "decimal": 0.25396825396825395
+      },
+      "spatial_error": {
+        "exact": "5/196608",
+        "decimal": 2.5431315104166668e-05
+      },
+      "time_and_rounding_error": {
+        "exact": "16842750532517578794529/935776509032580774524280170437362581504",
+        "decimal": 1.7998689184803172e-17
+      },
+      "total_error": {
+        "exact": "71394081804904408143891877263159907/2807329527097742323572840511312087744512",
+        "decimal": 2.5431315104184666e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "value_at_zero": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "common_absolute_error": {
+          "exact": "71394081804904408143891877263159907/2807329527097742323572840511312087744512",
+          "decimal": 2.5431315104184666e-05
+        }
+      }
+    },
+    {
+      "case": "E6-den8",
+      "input_file": "E6-den8.input.json",
+      "record_file": "E6-den8-m1-practical.record.json",
+      "report_file": "E6-den8-m1-practical.report.json",
+      "m": 1,
+      "mode": "practical",
+      "input_bytes": 168,
+      "record_bytes": 8077,
+      "producer_seconds": 0.013742699999966135,
+      "verifier_seconds": 0.009425599999303813,
+      "record_sha256": "3dbb2b7cd22c30fbccc7be280b4f2dc9a471bfbc6a7de90b57848fe124746f1d",
+      "cutoff": 4,
+      "steps": 16,
+      "degree": 9,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "7/27778202501621219328",
+        "decimal": 2.5199614696420546e-19
+      },
+      "max_residual_Alin": {
+        "exact": "1665905787205976273652175/680564733841876926926749214863536422912",
+        "decimal": 2.447828552328476e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "6410092661622932647/18446744073709551616",
+        "decimal": 0.34749181947824864
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "1286528982120133308041562733/5771869507712958217265760091257652402716672",
+        "decimal": 2.2289640824362756e-16
+      },
+      "total_error": {
+        "exact": "100206067842239286781635708295436923623631/1923956502570986072421920030419217467572224",
+        "decimal": 0.05208333333333356
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "6279743237869841403/18446744073709551616",
+          "decimal": 0.3404255630574819
+        },
+        "value_at_zero": {
+          "exact": "1573420341155487537/4611686018427387904",
+          "decimal": 0.3411811504227326
+        },
+        "common_absolute_error": {
+          "exact": "100206067842239286781635708295436923623631/1923956502570986072421920030419217467572224",
+          "decimal": 0.05208333333333356
+        }
+      }
+    },
+    {
+      "case": "E6-den8",
+      "input_file": "E6-den8.input.json",
+      "record_file": "E6-den8-m4-practical.record.json",
+      "report_file": "E6-den8-m4-practical.report.json",
+      "m": 4,
+      "mode": "practical",
+      "input_bytes": 168,
+      "record_bytes": 12065,
+      "producer_seconds": 0.03935300000011921,
+      "verifier_seconds": 0.011703899999702116,
+      "record_sha256": "8d35a29e1dd7bac8ac1a409829ddd2d210e31eef706742e5b476806c27ad716c",
+      "cutoff": 7,
+      "steps": 16,
+      "degree": 12,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "7/27778202501621219328",
+        "decimal": 2.5199614696420546e-19
+      },
+      "max_residual_Alin": {
+        "exact": "607545425613439765978031/170141183460469231731687303715884105728",
+        "decimal": 3.5708310783826035e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "6410092663220343335/18446744073709551616",
+        "decimal": 0.3474918195648445
+      },
+      "spatial_error": {
+        "exact": "5/768",
+        "decimal": 0.006510416666666667
+      },
+      "time_and_rounding_error": {
+        "exact": "468946428194043459832995853/1442967376928239554316440022814413100679168",
+        "decimal": 3.24987546975821e-16
+      },
+      "total_error": {
+        "exact": "9394318860210361878175850441991168286733/1442967376928239554316440022814413100679168",
+        "decimal": 0.006510416666666991
+      },
+      "target": {
+        "exact": "1/64",
+        "decimal": 0.015625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "6279743237869841403/18446744073709551616",
+          "decimal": 0.3404255630574819
+        },
+        "value_at_zero": {
+          "exact": "1573420341155786453/4611686018427387904",
+          "decimal": 0.34118115042279745
+        },
+        "common_absolute_error": {
+          "exact": "9394318860210361878175850441991168286733/1442967376928239554316440022814413100679168",
+          "decimal": 0.006510416666666991
+        }
+      }
+    },
+    {
+      "case": "E6-den8",
+      "input_file": "E6-den8.input.json",
+      "record_file": "E6-den8-m8-practical.record.json",
+      "report_file": "E6-den8-m8-practical.report.json",
+      "m": 8,
+      "mode": "practical",
+      "input_bytes": 168,
+      "record_bytes": 18594,
+      "producer_seconds": 0.15437179999935324,
+      "verifier_seconds": 0.015346000000135973,
+      "record_sha256": "e025bbcea80b6e775b72638de1ebbbd3695cbeb7523ea693fbee26973ccede61",
+      "cutoff": 11,
+      "steps": 16,
+      "degree": 16,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "7/27778202501621219328",
+        "decimal": 2.5199614696420546e-19
+      },
+      "max_residual_Alin": {
+        "exact": "609151478303030195325587/170141183460469231731687303715884105728",
+        "decimal": 3.580270607701286e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "6410092663220343335/18446744073709551616",
+        "decimal": 0.3474918195648445
+      },
+      "spatial_error": {
+        "exact": "5/12288",
+        "decimal": 0.0004069010416666667
+      },
+      "time_and_rounding_error": {
+        "exact": "42744063165247061896360139/131178852448021777665130911164946645516288",
+        "decimal": 3.2584568600479215e-16
+      },
+      "total_error": {
+        "exact": "53376811705780772084458749326278947019/131178852448021777665130911164946645516288",
+        "decimal": 0.0004069010416669925
+      },
+      "target": {
+        "exact": "1/1024",
+        "decimal": 0.0009765625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "6279743237869841403/18446744073709551616",
+          "decimal": 0.3404255630574819
+        },
+        "value_at_zero": {
+          "exact": "1573420341155786453/4611686018427387904",
+          "decimal": 0.34118115042279745
+        },
+        "common_absolute_error": {
+          "exact": "53376811705780772084458749326278947019/131178852448021777665130911164946645516288",
+          "decimal": 0.0004069010416669925
+        }
+      }
+    },
+    {
+      "case": "E6-den8",
+      "input_file": "E6-den8.input.json",
+      "record_file": "E6-den8-m12-practical.record.json",
+      "report_file": "E6-den8-m12-practical.report.json",
+      "m": 12,
+      "mode": "practical",
+      "input_bytes": 168,
+      "record_bytes": 27171,
+      "producer_seconds": 0.4889984999999797,
+      "verifier_seconds": 0.017146499999398657,
+      "record_sha256": "ab350dcf3eb936a04a2e57a462721137e4b0452c62f36cd813db8b79904f18a8",
+      "cutoff": 15,
+      "steps": 16,
+      "degree": 20,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "7/27778202501621219328",
+        "decimal": 2.5199614696420546e-19
+      },
+      "max_residual_Alin": {
+        "exact": "152287869575760464864859/42535295865117307932921825928971026432",
+        "decimal": 3.580270607701355e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "6410092663220343335/18446744073709551616",
+        "decimal": 0.3474918195648445
+      },
+      "spatial_error": {
+        "exact": "5/196608",
+        "decimal": 2.5431315104166668e-05
+      },
+      "time_and_rounding_error": {
+        "exact": "117546173704431668476789777/360741844232059888579110005703603275169792",
+        "decimal": 3.2584568600479836e-16
+      },
+      "total_error": {
+        "exact": "9174139512041269739864252370167546897/360741844232059888579110005703603275169792",
+        "decimal": 2.543131510449251e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "6279743237869841403/18446744073709551616",
+          "decimal": 0.3404255630574819
+        },
+        "value_at_zero": {
+          "exact": "1573420341155786453/4611686018427387904",
+          "decimal": 0.34118115042279745
+        },
+        "common_absolute_error": {
+          "exact": "9174139512041269739864252370167546897/360741844232059888579110005703603275169792",
+          "decimal": 2.543131510449251e-05
+        }
+      }
+    },
+    {
+      "case": "E6-den128",
+      "input_file": "E6-den128.input.json",
+      "record_file": "E6-den128-m1-practical.record.json",
+      "report_file": "E6-den128-m1-practical.report.json",
+      "m": 1,
+      "mode": "practical",
+      "input_bytes": 240,
+      "record_bytes": 4974,
+      "producer_seconds": 0.006233499999325431,
+      "verifier_seconds": 0.0032213999993473408,
+      "record_sha256": "fe1dc902002b66e5f60498e93e804f8ac629440b61144afcd9301594a80d201f",
+      "cutoff": 4,
+      "steps": 16,
+      "degree": 9,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "340282366920938463501421017083794161665/18831305206160042291507368269622999248362406565613232193536",
+        "decimal": 1.807003620809174e-20
+      },
+      "max_residual_Alin": {
+        "exact": "78681709867159421397449/340282366920938463463374607431768211456",
+        "decimal": 2.3122476365471035e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "6279742663390485599/18446744073709551616",
+        "decimal": 0.3404255319148936
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "80422429028716886692376032620355536894950225043281443073129819/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+        "decimal": 2.1046716748549074e-17
+      },
+      "total_error": {
+        "exact": "66339217792212430435563886400189677999808422272583992459040146967189038770633/1273712981610478149659280835095566986389712937358176527532130544768793876365312",
+        "decimal": 0.052083333333333356
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "6279742663390485599/18446744073709551616",
+          "decimal": 0.3404255319148936
+        },
+        "value_at_zero": {
+          "exact": "6279742663390485599/18446744073709551616",
+          "decimal": 0.3404255319148936
+        },
+        "common_absolute_error": {
+          "exact": "66339217792212430435563886400189677999808422272583992459040146967189038770633/1273712981610478149659280835095566986389712937358176527532130544768793876365312",
+          "decimal": 0.052083333333333356
+        }
+      }
+    },
+    {
+      "case": "E6-den128",
+      "input_file": "E6-den128.input.json",
+      "record_file": "E6-den128-m4-practical.record.json",
+      "report_file": "E6-den128-m4-practical.report.json",
+      "m": 4,
+      "mode": "practical",
+      "input_bytes": 240,
+      "record_bytes": 8527,
+      "producer_seconds": 0.009334999999737192,
+      "verifier_seconds": 0.00820449999991979,
+      "record_sha256": "f6d7fedc22cf67fcc93bee1212e036b053a72e94dbf018cb721bb089991020a2",
+      "cutoff": 7,
+      "steps": 16,
+      "degree": 12,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "340282366920938463501421017083794161665/18831305206160042291507368269622999248362406565613232193536",
+        "decimal": 1.807003620809174e-20
+      },
+      "max_residual_Alin": {
+        "exact": "78681709867159421397449/340282366920938463463374607431768211456",
+        "decimal": 2.3122476365471035e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "6279742663390485599/18446744073709551616",
+        "decimal": 0.3404255319148936
+      },
+      "spatial_error": {
+        "exact": "5/768",
+        "decimal": 0.006510416666666667
+      },
+      "time_and_rounding_error": {
+        "exact": "80422429028716886692376032620355536894950225043281443073129819/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+        "decimal": 2.1046716748549074e-17
+      },
+      "total_error": {
+        "exact": "24877206672079731782961857527346985078956701163313780253586967983958578527579/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+        "decimal": 0.006510416666666688
+      },
+      "target": {
+        "exact": "1/64",
+        "decimal": 0.015625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "6279742663390485599/18446744073709551616",
+          "decimal": 0.3404255319148936
+        },
+        "value_at_zero": {
+          "exact": "6279742663390485599/18446744073709551616",
+          "decimal": 0.3404255319148936
+        },
+        "common_absolute_error": {
+          "exact": "24877206672079731782961857527346985078956701163313780253586967983958578527579/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+          "decimal": 0.006510416666666688
+        }
+      }
+    },
+    {
+      "case": "E6-den128",
+      "input_file": "E6-den128.input.json",
+      "record_file": "E6-den128-m8-practical.record.json",
+      "report_file": "E6-den128-m8-practical.report.json",
+      "m": 8,
+      "mode": "practical",
+      "input_bytes": 240,
+      "record_bytes": 15056,
+      "producer_seconds": 0.008697899999788206,
+      "verifier_seconds": 0.007918699999208911,
+      "record_sha256": "e2a8b64b1b0070fc52b34425c4afd6f882f8828b0071ff3300e9d832a1d78747",
+      "cutoff": 11,
+      "steps": 16,
+      "degree": 16,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "340282366920938463501421017083794161665/18831305206160042291507368269622999248362406565613232193536",
+        "decimal": 1.807003620809174e-20
+      },
+      "max_residual_Alin": {
+        "exact": "78681709867159421397449/340282366920938463463374607431768211456",
+        "decimal": 2.3122476365471035e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "6279742663390485599/18446744073709551616",
+        "decimal": 0.3404255319148936
+      },
+      "spatial_error": {
+        "exact": "5/12288",
+        "decimal": 0.0004069010416666667
+      },
+      "time_and_rounding_error": {
+        "exact": "80422429028716886692376032620355536894950225043281443073129819/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+        "decimal": 2.1046716748549074e-17
+      },
+      "total_error": {
+        "exact": "1554825417005058632462330517540460669965375406022950281685163575350292217179/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+        "decimal": 0.0004069010416666877
+      },
+      "target": {
+        "exact": "1/1024",
+        "decimal": 0.0009765625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "6279742663390485599/18446744073709551616",
+          "decimal": 0.3404255319148936
+        },
+        "value_at_zero": {
+          "exact": "6279742663390485599/18446744073709551616",
+          "decimal": 0.3404255319148936
+        },
+        "common_absolute_error": {
+          "exact": "1554825417005058632462330517540460669965375406022950281685163575350292217179/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+          "decimal": 0.0004069010416666877
+        }
+      }
+    },
+    {
+      "case": "E6-den128",
+      "input_file": "E6-den128.input.json",
+      "record_file": "E6-den128-m12-practical.record.json",
+      "report_file": "E6-den128-m12-practical.report.json",
+      "m": 12,
+      "mode": "practical",
+      "input_bytes": 240,
+      "record_bytes": 23633,
+      "producer_seconds": 0.014633699999649252,
+      "verifier_seconds": 0.01161729999967065,
+      "record_sha256": "c4199d4233ab4ec3530abbf044eb11a81679852757e9ba4b69717fd8b1d9ee7e",
+      "cutoff": 15,
+      "steps": 16,
+      "degree": 20,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "340282366920938463501421017083794161665/18831305206160042291507368269622999248362406565613232193536",
+        "decimal": 1.807003620809174e-20
+      },
+      "max_residual_Alin": {
+        "exact": "78681709867159421397449/340282366920938463463374607431768211456",
+        "decimal": 2.3122476365471035e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "6279742663390485599/18446744073709551616",
+        "decimal": 0.3404255319148936
+      },
+      "spatial_error": {
+        "exact": "5/196608",
+        "decimal": 2.5431315104166668e-05
+      },
+      "time_and_rounding_error": {
+        "exact": "80422429028716886692376032620355536894950225043281443073129819/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+        "decimal": 2.1046716748549074e-17
+      },
+      "total_error": {
+        "exact": "97176588562891560556110079427552894403417546192273408441300799812274322779/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+        "decimal": 2.5431315104187715e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "6279742663390485599/18446744073709551616",
+          "decimal": 0.3404255319148936
+        },
+        "value_at_zero": {
+          "exact": "6279742663390485599/18446744073709551616",
+          "decimal": 0.3404255319148936
+        },
+        "common_absolute_error": {
+          "exact": "97176588562891560556110079427552894403417546192273408441300799812274322779/3821138944831434448977842505286700959169138812074529582596391634306381629095936",
+          "decimal": 2.5431315104187715e-05
+        }
+      }
+    },
+    {
+      "case": "E7-sparse",
+      "input_file": "E7-sparse.input.json",
+      "record_file": "E7-sparse-m1-practical.record.json",
+      "report_file": "E7-sparse-m1-practical.report.json",
+      "m": 1,
+      "mode": "practical",
+      "input_bytes": 203,
+      "record_bytes": 4833,
+      "producer_seconds": 0.004724800000076357,
+      "verifier_seconds": 0.004754900000079942,
+      "record_sha256": "8a83003e0387269bdf83438dab8a4199960f7d1e43b9ff90ca4049000c8d0696",
+      "cutoff": 4,
+      "steps": 16,
+      "degree": 9,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "16842750532517578794529/85070591730234615865843651857942052864",
+        "decimal": 1.979855810328349e-16
+      },
+      "max_polynomial_A4": {
+        "exact": "2342443691899625583/9223372036854775808",
+        "decimal": 0.25396825396825395
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "16842750532517578794529/935776509032580774524280170437362581504",
+        "decimal": 1.7998689184803172e-17
+      },
+      "total_error": {
+        "exact": "146215079536340796547670374183574286947/2807329527097742323572840511312087744512",
+        "decimal": 0.05208333333333335
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "value_at_zero": {
+          "exact": "2342443691899625583/9223372036854775808",
+          "decimal": 0.25396825396825395
+        },
+        "common_absolute_error": {
+          "exact": "146215079536340796547670374183574286947/2807329527097742323572840511312087744512",
+          "decimal": 0.05208333333333335
+        }
+      }
+    },
+    {
+      "case": "E7-sparse",
+      "input_file": "E7-sparse.input.json",
+      "record_file": "E7-sparse-m4-practical.record.json",
+      "report_file": "E7-sparse-m4-practical.report.json",
+      "m": 4,
+      "mode": "practical",
+      "input_bytes": 203,
+      "record_bytes": 9795,
+      "producer_seconds": 0.01030079999964073,
+      "verifier_seconds": 0.006222699999852921,
+      "record_sha256": "95a0ffd9095dc59b537c2a7e793a825072413746c361ed08de2f308f8c54a14f",
+      "cutoff": 7,
+      "steps": 16,
+      "degree": 12,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "2429598497908663194225463/680564733841876926926749214863536422912",
+        "decimal": 3.569974136322436e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "2478465008669216705/4611686018427387904",
+        "decimal": 0.5374314293656939
+      },
+      "spatial_error": {
+        "exact": "5/768",
+        "decimal": 0.006510416666666667
+      },
+      "time_and_rounding_error": {
+        "exact": "2429598497908663194225463/7486212072260646196194241363498900652032",
+        "decimal": 3.2454310330203964e-16
+      },
+      "total_error": {
+        "exact": "146215079536348034814912502620420579749/22458636216781938588582724090496701956096",
+        "decimal": 0.006510416666666991
+      },
+      "target": {
+        "exact": "1/64",
+        "decimal": 0.015625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "1171221846072377401/4611686018427387904",
+          "decimal": 0.2539682539948309
+        },
+        "value_at_zero": {
+          "exact": "2342504925217350709/9223372036854775808",
+          "decimal": 0.25397489289786457
+        },
+        "common_absolute_error": {
+          "exact": "146215079536348034814912502620420579749/22458636216781938588582724090496701956096",
+          "decimal": 0.006510416666666991
+        }
+      }
+    },
+    {
+      "case": "E7-sparse",
+      "input_file": "E7-sparse.input.json",
+      "record_file": "E7-sparse-m8-practical.record.json",
+      "report_file": "E7-sparse-m8-practical.report.json",
+      "m": 8,
+      "mode": "practical",
+      "input_bytes": 203,
+      "record_bytes": 16324,
+      "producer_seconds": 0.046998099999655096,
+      "verifier_seconds": 0.010092200000144658,
+      "record_sha256": "52b656f8809ea439e84140ad16437d882151537758e01a9ddb587de51d539443",
+      "cutoff": 11,
+      "steps": 16,
+      "degree": 16,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "2429598497908663194225463/680564733841876926926749214863536422912",
+        "decimal": 3.569974136322436e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "2478465008669216705/4611686018427387904",
+        "decimal": 0.5374314293656939
+      },
+      "spatial_error": {
+        "exact": "5/12288",
+        "decimal": 0.0004069010416666667
+      },
+      "time_and_rounding_error": {
+        "exact": "2429598497908663194225463/7486212072260646196194241363498900652032",
+        "decimal": 3.2454310330203964e-16
+      },
+      "total_error": {
+        "exact": "9138442471028585421707399529010045349/22458636216781938588582724090496701956096",
+        "decimal": 0.0004069010416669912
+      },
+      "target": {
+        "exact": "1/1024",
+        "decimal": 0.0009765625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "1171221846072377401/4611686018427387904",
+          "decimal": 0.2539682539948309
+        },
+        "value_at_zero": {
+          "exact": "2342504925217350709/9223372036854775808",
+          "decimal": 0.25397489289786457
+        },
+        "common_absolute_error": {
+          "exact": "9138442471028585421707399529010045349/22458636216781938588582724090496701956096",
+          "decimal": 0.0004069010416669912
+        }
+      }
+    },
+    {
+      "case": "E7-sparse",
+      "input_file": "E7-sparse.input.json",
+      "record_file": "E7-sparse-m12-practical.record.json",
+      "report_file": "E7-sparse-m12-practical.report.json",
+      "m": 12,
+      "mode": "practical",
+      "input_bytes": 203,
+      "record_bytes": 25500,
+      "producer_seconds": 0.03277440000056231,
+      "verifier_seconds": 0.013116300000547199,
+      "record_sha256": "a5944cbdac88ff42f4099f222146b2c5723267feabfa9ae28bbd6aac5201cf0a",
+      "cutoff": 15,
+      "steps": 16,
+      "degree": 20,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "315689958153652772806665/42535295865117307932921825928971026432",
+        "decimal": 7.421835248418863e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "2479323757843788737/4611686018427387904",
+        "decimal": 0.5376176409098321
+      },
+      "spatial_error": {
+        "exact": "5/196608",
+        "decimal": 2.5431315104166668e-05
+      },
+      "time_and_rounding_error": {
+        "exact": "315689958153652772806665/467888254516290387262140085218681290752",
+        "decimal": 6.747122953108057e-16
+      },
+      "total_error": {
+        "exact": "35697040903374009820608120581808155/1403664763548871161786420255656043872256",
+        "decimal": 2.543131510484138e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "1171221846072377401/4611686018427387904",
+          "decimal": 0.2539682539948309
+        },
+        "value_at_zero": {
+          "exact": "4685009850440247783/18446744073709551616",
+          "decimal": 0.2539748928981652
+        },
+        "common_absolute_error": {
+          "exact": "35697040903374009820608120581808155/1403664763548871161786420255656043872256",
+          "decimal": 2.543131510484138e-05
+        }
+      }
+    },
+    {
+      "case": "E7-dense",
+      "input_file": "E7-dense.input.json",
+      "record_file": "E7-dense-m1-practical.record.json",
+      "report_file": "E7-dense-m1-practical.report.json",
+      "m": 1,
+      "mode": "practical",
+      "input_bytes": 227,
+      "record_bytes": 9786,
+      "producer_seconds": 0.011059800000111863,
+      "verifier_seconds": 0.009639299999435025,
+      "record_sha256": "dfa75b72e754772c28eebd7f2abac1e0f31c0f118c408a74e40d68388427417d",
+      "cutoff": 4,
+      "steps": 16,
+      "degree": 9,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "2712018878961103642450501/680564733841876926926749214863536422912",
+        "decimal": 3.984953589427713e-15
+      },
+      "max_polynomial_A4": {
+        "exact": "5896971849771489467/9223372036854775808",
+        "decimal": 0.6393509690608112
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "2712018878961103642450501/7486212072260646196194241363498900652032",
+        "decimal": 3.6226850812979207e-16
+      },
+      "total_error": {
+        "exact": "1169720636290734104211987096357630578383/22458636216781938588582724090496701956096",
+        "decimal": 0.052083333333333696
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2324571074935393465/18446744073709551616",
+          "decimal": 0.12601525047709589
+        },
+        "value_at_zero": {
+          "exact": "467781884257071195/4611686018427387904",
+          "decimal": 0.10143402703217587
+        },
+        "common_absolute_error": {
+          "exact": "1169720636290734104211987096357630578383/22458636216781938588582724090496701956096",
+          "decimal": 0.052083333333333696
+        }
+      }
+    },
+    {
+      "case": "E7-dense",
+      "input_file": "E7-dense.input.json",
+      "record_file": "E7-dense-m4-practical.record.json",
+      "report_file": "E7-dense-m4-practical.report.json",
+      "m": 4,
+      "mode": "practical",
+      "input_bytes": 227,
+      "record_bytes": 17031,
+      "producer_seconds": 0.034632399999281915,
+      "verifier_seconds": 0.019315899999128305,
+      "record_sha256": "392fd873dd28d6c4a1505af4bb970a2c8ebbdb181e12c79dea8ced1e3572cc5d",
+      "cutoff": 7,
+      "steps": 16,
+      "degree": 12,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "4068841237662963947766915/340282366920938463463374607431768211456",
+        "decimal": 1.1957249723163946e-14
+      },
+      "max_polynomial_A4": {
+        "exact": "2122932592871245011/2305843009213693952",
+        "decimal": 0.9206752516925155
+      },
+      "spatial_error": {
+        "exact": "5/768",
+        "decimal": 0.006510416666666667
+      },
+      "time_and_rounding_error": {
+        "exact": "4068841237662963947766915/3743106036130323098097120681749450326016",
+        "decimal": 1.0870227021058133e-15
+      },
+      "total_error": {
+        "exact": "73107539768182579533422377207262252425/11229318108390969294291362045248350978048",
+        "decimal": 0.006510416666667754
+      },
+      "target": {
+        "exact": "1/64",
+        "decimal": 0.015625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "290571384734538801/2305843009213693952",
+          "decimal": 0.12601525063652333
+        },
+        "value_at_zero": {
+          "exact": "1870700182271082579/18446744073709551616",
+          "decimal": 0.10141086008436684
+        },
+        "common_absolute_error": {
+          "exact": "73107539768182579533422377207262252425/11229318108390969294291362045248350978048",
+          "decimal": 0.006510416666667754
+        }
+      }
+    },
+    {
+      "case": "E7-dense",
+      "input_file": "E7-dense.input.json",
+      "record_file": "E7-dense-m8-practical.record.json",
+      "report_file": "E7-dense-m8-practical.report.json",
+      "m": 8,
+      "mode": "practical",
+      "input_bytes": 227,
+      "record_bytes": 26693,
+      "producer_seconds": 0.15362090000053286,
+      "verifier_seconds": 0.045435400000314985,
+      "record_sha256": "710f236900c2e30879716a8e0df3873d622c4e405777991fb5e00d33a0a99c62",
+      "cutoff": 11,
+      "steps": 16,
+      "degree": 16,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "16234745647600823504206091/680564733841876926926749214863536422912",
+        "decimal": 2.385481474473936e-14
+      },
+      "max_polynomial_A4": {
+        "exact": "4248401615336252657/4611686018427387904",
+        "decimal": 0.9212252521876982
+      },
+      "spatial_error": {
+        "exact": "5/12288",
+        "decimal": 0.0004069010416666667
+      },
+      "time_and_rounding_error": {
+        "exact": "16234745647600823504206091/7486212072260646196194241363498900652032",
+        "decimal": 2.1686195222490328e-15
+      },
+      "total_error": {
+        "exact": "9138442471070000863156476009939987233/22458636216781938588582724090496701956096",
+        "decimal": 0.0004069010416688353
+      },
+      "target": {
+        "exact": "1/1024",
+        "decimal": 0.0009765625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "1162285538938155229/9223372036854775808",
+          "decimal": 0.12601525063652333
+        },
+        "value_at_zero": {
+          "exact": "116918763442649877/1152921504606846976",
+          "decimal": 0.10141086186307181
+        },
+        "common_absolute_error": {
+          "exact": "9138442471070000863156476009939987233/22458636216781938588582724090496701956096",
+          "decimal": 0.0004069010416688353
+        }
+      }
+    },
+    {
+      "case": "E7-dense",
+      "input_file": "E7-dense.input.json",
+      "record_file": "E7-dense-m12-practical.record.json",
+      "report_file": "E7-dense-m12-practical.report.json",
+      "m": 12,
+      "mode": "practical",
+      "input_bytes": 227,
+      "record_bytes": 36402,
+      "producer_seconds": 0.5405954999996538,
+      "verifier_seconds": 0.05695519999972021,
+      "record_sha256": "b04173ebaa063dd4a53477b3498802e6a0a2153a391c2db4dcaa0817609f493a",
+      "cutoff": 15,
+      "steps": 16,
+      "degree": 20,
+      "fractional_bits": 64,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "13144570474807289882917017/340282366920938463463374607431768211456",
+        "decimal": 3.8628420842803506e-14
+      },
+      "max_polynomial_A4": {
+        "exact": "4248617921443467505/4611686018427387904",
+        "decimal": 0.9212721560979711
+      },
+      "spatial_error": {
+        "exact": "5/196608",
+        "decimal": 2.5431315104166668e-05
+      },
+      "time_and_rounding_error": {
+        "exact": "13144570474807289882917017/3743106036130323098097120681749450326016",
+        "decimal": 3.511674622073046e-15
+      },
+      "total_error": {
+        "exact": "285576327258849230993599167755856331/11229318108390969294291362045248350978048",
+        "decimal": 2.543131510767834e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "1162285538938155229/9223372036854775808",
+          "decimal": 0.12601525063652333
+        },
+        "value_at_zero": {
+          "exact": "1870700215084004867/18446744073709551616",
+          "decimal": 0.10141086186315892
+        },
+        "common_absolute_error": {
+          "exact": "285576327258849230993599167755856331/11229318108390969294291362045248350978048",
+          "decimal": 2.543131510767834e-05
+        }
+      }
+    },
+    {
+      "case": "E2-constant",
+      "input_file": "E2-constant.input.json",
+      "record_file": "E2-constant-m1-guaranteed.record.json",
+      "report_file": "E2-constant-m1-guaranteed.report.json",
+      "m": 1,
+      "mode": "guaranteed",
+      "input_bytes": 137,
+      "record_bytes": 1819895,
+      "producer_seconds": 2.3197397999992972,
+      "verifier_seconds": 0.8239395000000513,
+      "record_sha256": "556a27555d412b88bdb5f7d3fca7ffcf93fe77ca9f079b2b51067d648dc6665b",
+      "cutoff": 4,
+      "steps": 1024,
+      "degree": 75,
+      "fractional_bits": 96,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "24651712081570742523142558859075745/6277101735386680763835789423207666416102355444464034512896",
+        "decimal": 3.92724431127165e-24
+      },
+      "max_polynomial_A4": {
+        "exact": "40891954846071916177313003447/79228162514264337593543950336",
+        "decimal": 0.5161290322580645
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "24651712081570742523142558859075745/69048119089253488402193683655284330577125909889104379641856",
+        "decimal": 3.5702221011560454e-25
+      },
+      "total_error": {
+        "exact": "10788768607695857562842837026274421364903492847849136546275/207144357267760465206581050965852991731377729667313138925568",
+        "decimal": 0.052083333333333336
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "40891954846071916177313003447/79228162514264337593543950336",
+          "decimal": 0.5161290322580645
+        },
+        "value_at_zero": {
+          "exact": "40891954846071916177313003447/79228162514264337593543950336",
+          "decimal": 0.5161290322580645
+        },
+        "common_absolute_error": {
+          "exact": "10788768607695857562842837026274421364903492847849136546275/207144357267760465206581050965852991731377729667313138925568",
+          "decimal": 0.052083333333333336
+        }
+      },
+      "theorem_strong_checks": {
+        "xi": "1/19140298416324608",
+        "initial_below_xi": true,
+        "residual_below_xi": true
+      },
+      "exact_constant_error": "98519/2456073037942194465399862460416"
+    },
+    {
+      "case": "E2-constant",
+      "input_file": "E2-constant.input.json",
+      "record_file": "E2-constant-m2-guaranteed.record.json",
+      "report_file": "E2-constant-m2-guaranteed.report.json",
+      "m": 2,
+      "mode": "guaranteed",
+      "input_bytes": 137,
+      "record_bytes": 5641558,
+      "producer_seconds": 12.845564500000364,
+      "verifier_seconds": 2.6717827000002217,
+      "record_sha256": "c0b4568b2f3c61190145e61fb2339409d1d128c0869088cfb899b2b01bfb2021",
+      "cutoff": 5,
+      "steps": 2048,
+      "degree": 99,
+      "fractional_bits": 122,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "4251096246598315168926612690012567203199825/28269553036454149273332760011886696253239742350009903329945699220681916416",
+        "decimal": 1.5037720055624658e-31
+      },
+      "max_polynomial_A4": {
+        "exact": "2744212636459181156962698447030381381/5316911983139663491615228241121378304",
+        "decimal": 0.5161290322580645
+      },
+      "spatial_error": {
+        "exact": "5/192",
+        "decimal": 0.026041666666666668
+      },
+      "time_and_rounding_error": {
+        "exact": "4251096246598315168926612690012567203199825/310965083400995642006660360130753658785637165850108936629402691427501080576",
+        "decimal": 1.3670654596022417e-32
+      },
+      "total_error": {
+        "exact": "24294147140702784531770340635227882881367698527546540512242122969383121395/932895250202986926019981080392260976356911497550326809888208074282503241728",
+        "decimal": 0.026041666666666668
+      },
+      "target": {
+        "exact": "1/16",
+        "decimal": 0.0625
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "2744212636459181156962698447030381381/5316911983139663491615228241121378304",
+          "decimal": 0.5161290322580645
+        },
+        "value_at_zero": {
+          "exact": "2744212636459181156962698447030381381/5316911983139663491615228241121378304",
+          "decimal": 0.5161290322580645
+        },
+        "common_absolute_error": {
+          "exact": "24294147140702784531770340635227882881367698527546540512242122969383121395/932895250202986926019981080392260976356911497550326809888208074282503241728",
+          "decimal": 0.026041666666666668
+        }
+      },
+      "theorem_strong_checks": {
+        "xi": "1/160560460417567937265664",
+        "initial_below_xi": true,
+        "residual_below_xi": true
+      },
+      "exact_constant_error": "230053/164824271477329568240072075474762727424"
+    },
+    {
+      "case": "E3-signed",
+      "input_file": "E3-signed.input.json",
+      "record_file": "E3-signed-m1-guaranteed.record.json",
+      "report_file": "E3-signed-m1-guaranteed.report.json",
+      "m": 1,
+      "mode": "guaranteed",
+      "input_bytes": 181,
+      "record_bytes": 2219525,
+      "producer_seconds": 47.12903869999991,
+      "verifier_seconds": 1.2907367999996495,
+      "record_sha256": "54ec554e664b74c437daeac7def1426d387e3a5229caedec7799836d28f47e49",
+      "cutoff": 4,
+      "steps": 1024,
+      "degree": 75,
+      "fractional_bits": 96,
+      "initial_error_Alin": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_residual_Alin": {
+        "exact": "599384139438202457938305532845128183/12554203470773361527671578846415332832204710888928069025792",
+        "decimal": 4.774370121000431e-23
+      },
+      "max_polynomial_A4": {
+        "exact": "13618652287971850156227752859/19807040628566084398385987584",
+        "decimal": 0.6875662317938993
+      },
+      "spatial_error": {
+        "exact": "5/96",
+        "decimal": 0.052083333333333336
+      },
+      "time_and_rounding_error": {
+        "exact": "599384139438202457938305532845128183/138096238178506976804387367310568661154251819778208759283712",
+        "decimal": 4.340336473636755e-24
+      },
+      "total_error": {
+        "exact": "21577537215391715125687324294694667912725661756943654022629/414288714535520930413162101931705983462755459334626277851136",
+        "decimal": 0.052083333333333336
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "endpoint_observations": {
+        "mean": {
+          "exact": "30426184268914962737865015903/79228162514264337593543950336",
+          "decimal": 0.3840324362367611
+        },
+        "value_at_zero": {
+          "exact": "14223515589815635495048945715/39614081257132168796771975168",
+          "decimal": 0.3590520122754283
+        },
+        "common_absolute_error": {
+          "exact": "21577537215391715125687324294694667912725661756943654022629/414288714535520930413162101931705983462755459334626277851136",
+          "decimal": 0.052083333333333336
+        }
+      },
+      "theorem_strong_checks": {
+        "xi": "1/19140298416324608",
+        "initial_below_xi": true,
+        "residual_below_xi": true
+      }
+    }
+  ]
+}

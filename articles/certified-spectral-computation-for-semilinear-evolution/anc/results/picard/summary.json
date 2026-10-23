@@ -1,0 +1,2071 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "arithmetic": "exact rational and integer; decimal bounds are descriptive only",
+  "rows": [
+    {
+      "case": "P1-constant",
+      "m": 1,
+      "input_file": "P1-constant.input.json",
+      "record_file": "P1-constant-m1.record.json",
+      "report_file": "P1-constant-m1.report.json",
+      "input_bytes": 200,
+      "record_bytes": 1023,
+      "producer_seconds": 0.10244020000027376,
+      "verifier_seconds": 0.06528289999914705,
+      "record_sha256": "ae5ec7c56432855203e473eacc4cdd5596035562ac6b95ad4bde2dc54f47a5d2",
+      "dimension": 1,
+      "source_degree": 0,
+      "working_bits": 5,
+      "degree": 8,
+      "fractional_bits": 17,
+      "iterations": 10,
+      "max_strong_norm": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "max_exact_image_norm": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/1073741824",
+        "decimal": 9.313225746154785e-10
+      },
+      "uniform_path_error": {
+        "exact": "268435463/7516192768",
+        "decimal": 0.03571428664560829
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "terminal_centers": [
+        "1/2"
+      ],
+      "terminal_intervals": [
+        [
+          "536870911/1073741824",
+          "536870913/1073741824"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "1/2"
+      ]
+    },
+    {
+      "case": "P1-constant",
+      "m": 6,
+      "input_file": "P1-constant.input.json",
+      "record_file": "P1-constant-m6.record.json",
+      "report_file": "P1-constant-m6.report.json",
+      "input_bytes": 200,
+      "record_bytes": 2318,
+      "producer_seconds": 0.07238640000105079,
+      "verifier_seconds": 0.1843062000007194,
+      "record_sha256": "f064e75e0c522fe4d1a80df85f6dbf409f670a2a052aa2cab504aa87f00c99c2",
+      "dimension": 1,
+      "source_degree": 0,
+      "working_bits": 10,
+      "degree": 13,
+      "fractional_bits": 27,
+      "iterations": 20,
+      "max_strong_norm": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "max_exact_image_norm": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/1152921504606846976",
+        "decimal": 8.673617379884035e-19
+      },
+      "uniform_path_error": {
+        "exact": "9007199254740999/8070450532247928832",
+        "decimal": 0.0011160714285714294
+      },
+      "target": {
+        "exact": "1/256",
+        "decimal": 0.00390625
+      },
+      "terminal_centers": [
+        "1/2"
+      ],
+      "terminal_intervals": [
+        [
+          "576460752303423487/1152921504606846976",
+          "576460752303423489/1152921504606846976"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "1/2"
+      ]
+    },
+    {
+      "case": "P1-constant",
+      "m": 12,
+      "input_file": "P1-constant.input.json",
+      "record_file": "P1-constant-m12.record.json",
+      "report_file": "P1-constant-m12.report.json",
+      "input_bytes": 200,
+      "record_bytes": 4755,
+      "producer_seconds": 0.13074129999949946,
+      "verifier_seconds": 0.253778100001,
+      "record_sha256": "88f50a9b993bd38654b23f8282c3ce47bfb6c0c90a8f128936f8fe458ad7f1c7",
+      "dimension": 1,
+      "source_degree": 0,
+      "working_bits": 16,
+      "degree": 19,
+      "fractional_bits": 39,
+      "iterations": 32,
+      "max_strong_norm": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "max_exact_image_norm": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/79228162514264337593543950336",
+        "decimal": 1.262177448353619e-29
+      },
+      "uniform_path_error": {
+        "exact": "9671406556917033397649415/554597137599850363154807652352",
+        "decimal": 1.743861607142857e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "terminal_centers": [
+        "1/2"
+      ],
+      "terminal_intervals": [
+        [
+          "39614081257132168796771975167/79228162514264337593543950336",
+          "39614081257132168796771975169/79228162514264337593543950336"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "1/2"
+      ]
+    },
+    {
+      "case": "P1-constant",
+      "m": 20,
+      "input_file": "P1-constant.input.json",
+      "record_file": "P1-constant-m20.record.json",
+      "report_file": "P1-constant-m20.report.json",
+      "input_bytes": 200,
+      "record_bytes": 9480,
+      "producer_seconds": 0.22517359999983455,
+      "verifier_seconds": 0.5391796999992948,
+      "record_sha256": "71a0779ddc5804c1fa29d30762d4aa802445332ed64219bf109d818046711853",
+      "dimension": 1,
+      "source_degree": 0,
+      "working_bits": 24,
+      "degree": 27,
+      "fractional_bits": 55,
+      "iterations": 48,
+      "max_strong_norm": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "max_exact_image_norm": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/22300745198530623141535718272648361505980416",
+        "decimal": 4.484155085839415e-44
+      },
+      "uniform_path_error": {
+        "exact": "10633823966279326983230456482242756615/156105216389714361990750027908538530541862912",
+        "decimal": 6.811959402901785e-08
+      },
+      "target": {
+        "exact": "1/4194304",
+        "decimal": 2.384185791015625e-07
+      },
+      "terminal_centers": [
+        "1/2"
+      ],
+      "terminal_intervals": [
+        [
+          "11150372599265311570767859136324180752990207/22300745198530623141535718272648361505980416",
+          "11150372599265311570767859136324180752990209/22300745198530623141535718272648361505980416"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "1/2"
+      ]
+    },
+    {
+      "case": "P2-forcing",
+      "m": 1,
+      "input_file": "P2-forcing.input.json",
+      "record_file": "P2-forcing-m1.record.json",
+      "report_file": "P2-forcing-m1.report.json",
+      "input_bytes": 399,
+      "record_bytes": 1688,
+      "producer_seconds": 0.104137800000899,
+      "verifier_seconds": 0.08701099999962025,
+      "record_sha256": "a5dbefb626fc88248617f14d9ede2d27f7d8a7ad316ff338fe2fca5602988182",
+      "dimension": 2,
+      "source_degree": 3,
+      "working_bits": 5,
+      "degree": 8,
+      "fractional_bits": 17,
+      "iterations": 10,
+      "max_strong_norm": {
+        "exact": "15/64",
+        "decimal": 0.234375
+      },
+      "max_exact_image_norm": {
+        "exact": "15/64",
+        "decimal": 0.234375
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/1073741824",
+        "decimal": 9.313225746154785e-10
+      },
+      "uniform_path_error": {
+        "exact": "268435463/7516192768",
+        "decimal": 0.03571428664560829
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "terminal_centers": [
+        "77/512",
+        "-5/128"
+      ],
+      "terminal_intervals": [
+        [
+          "161480703/1073741824",
+          "161480705/1073741824"
+        ],
+        [
+          "-41943041/1073741824",
+          "-41943039/1073741824"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "77/512",
+        "-5/128"
+      ]
+    },
+    {
+      "case": "P2-forcing",
+      "m": 6,
+      "input_file": "P2-forcing.input.json",
+      "record_file": "P2-forcing-m6.record.json",
+      "report_file": "P2-forcing-m6.report.json",
+      "input_bytes": 399,
+      "record_bytes": 4316,
+      "producer_seconds": 0.15646059999926365,
+      "verifier_seconds": 0.19723789999989094,
+      "record_sha256": "1effecf45d61bd1bab5630eeb0c18b96aa8bae576cb035433d2a4c7b26c024c9",
+      "dimension": 2,
+      "source_degree": 3,
+      "working_bits": 10,
+      "degree": 13,
+      "fractional_bits": 27,
+      "iterations": 20,
+      "max_strong_norm": {
+        "exact": "15/64",
+        "decimal": 0.234375
+      },
+      "max_exact_image_norm": {
+        "exact": "15/64",
+        "decimal": 0.234375
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/1152921504606846976",
+        "decimal": 8.673617379884035e-19
+      },
+      "uniform_path_error": {
+        "exact": "9007199254740999/8070450532247928832",
+        "decimal": 0.0011160714285714294
+      },
+      "target": {
+        "exact": "1/256",
+        "decimal": 0.00390625
+      },
+      "terminal_centers": [
+        "77/512",
+        "-5/128"
+      ],
+      "terminal_intervals": [
+        [
+          "173388585653764095/1152921504606846976",
+          "173388585653764097/1152921504606846976"
+        ],
+        [
+          "-45035996273704961/1152921504606846976",
+          "-45035996273704959/1152921504606846976"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "77/512",
+        "-5/128"
+      ]
+    },
+    {
+      "case": "P2-forcing",
+      "m": 12,
+      "input_file": "P2-forcing.input.json",
+      "record_file": "P2-forcing-m12.record.json",
+      "report_file": "P2-forcing-m12.report.json",
+      "input_bytes": 399,
+      "record_bytes": 9304,
+      "producer_seconds": 0.2892616999997699,
+      "verifier_seconds": 0.5629950999991706,
+      "record_sha256": "a27ae373f70e6c7b3974108ca1fa6dac503e6769b62d5e05a6393cf62c45175a",
+      "dimension": 2,
+      "source_degree": 3,
+      "working_bits": 16,
+      "degree": 19,
+      "fractional_bits": 39,
+      "iterations": 32,
+      "max_strong_norm": {
+        "exact": "15/64",
+        "decimal": 0.234375
+      },
+      "max_exact_image_norm": {
+        "exact": "15/64",
+        "decimal": 0.234375
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/79228162514264337593543950336",
+        "decimal": 1.262177448353619e-29
+      },
+      "uniform_path_error": {
+        "exact": "9671406556917033397649415/554597137599850363154807652352",
+        "decimal": 1.743861607142857e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "terminal_centers": [
+        "77/512",
+        "-5/128"
+      ],
+      "terminal_intervals": [
+        [
+          "11915172878121785145904070655/79228162514264337593543950336",
+          "11915172878121785145904070657/79228162514264337593543950336"
+        ],
+        [
+          "-3094850098213450687247810561/79228162514264337593543950336",
+          "-3094850098213450687247810559/79228162514264337593543950336"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "77/512",
+        "-5/128"
+      ]
+    },
+    {
+      "case": "P2-forcing",
+      "m": 20,
+      "input_file": "P2-forcing.input.json",
+      "record_file": "P2-forcing-m20.record.json",
+      "report_file": "P2-forcing-m20.report.json",
+      "input_bytes": 399,
+      "record_bytes": 19186,
+      "producer_seconds": 0.5129211000003124,
+      "verifier_seconds": 1.134614300000976,
+      "record_sha256": "6ee3ce829ea05f8989b6df25321db9450ab4d0b782784035886ef42813fc47c9",
+      "dimension": 2,
+      "source_degree": 3,
+      "working_bits": 24,
+      "degree": 27,
+      "fractional_bits": 55,
+      "iterations": 48,
+      "max_strong_norm": {
+        "exact": "15/64",
+        "decimal": 0.234375
+      },
+      "max_exact_image_norm": {
+        "exact": "15/64",
+        "decimal": 0.234375
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/22300745198530623141535718272648361505980416",
+        "decimal": 4.484155085839415e-44
+      },
+      "uniform_path_error": {
+        "exact": "10633823966279326983230456482242756615/156105216389714361990750027908538530541862912",
+        "decimal": 6.811959402901785e-08
+      },
+      "target": {
+        "exact": "1/4194304",
+        "decimal": 2.384185791015625e-07
+      },
+      "terminal_centers": [
+        "77/512",
+        "-5/128"
+      ],
+      "terminal_intervals": [
+        [
+          "3353823008372769495895020130847507492110335/22300745198530623141535718272648361505980416",
+          "3353823008372769495895020130847507492110337/22300745198530623141535718272648361505980416"
+        ],
+        [
+          "-871122859317602466466238995025326621327361/22300745198530623141535718272648361505980416",
+          "-871122859317602466466238995025326621327359/22300745198530623141535718272648361505980416"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "77/512",
+        "-5/128"
+      ]
+    },
+    {
+      "case": "P3-nilpotent2",
+      "m": 1,
+      "input_file": "P3-nilpotent2.input.json",
+      "record_file": "P3-nilpotent2-m1.record.json",
+      "report_file": "P3-nilpotent2-m1.report.json",
+      "input_bytes": 311,
+      "record_bytes": 1595,
+      "producer_seconds": 0.07120519999989483,
+      "verifier_seconds": 0.10001820000070438,
+      "record_sha256": "5f6fa3525e005a3dc666e88c9b4f05c635203e1f426f5a03eab2b50f5fa551b2",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 5,
+      "degree": 8,
+      "fractional_bits": 17,
+      "iterations": 10,
+      "max_strong_norm": {
+        "exact": "3/8",
+        "decimal": 0.375
+      },
+      "max_exact_image_norm": {
+        "exact": "3/8",
+        "decimal": 0.375
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/1073741824",
+        "decimal": 9.313225746154785e-10
+      },
+      "uniform_path_error": {
+        "exact": "268435463/7516192768",
+        "decimal": 0.03571428664560829
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "terminal_centers": [
+        "153/512",
+        "-3/32"
+      ],
+      "terminal_intervals": [
+        [
+          "320864255/1073741824",
+          "320864257/1073741824"
+        ],
+        [
+          "-100663297/1073741824",
+          "-100663295/1073741824"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "153/512",
+        "-3/32"
+      ]
+    },
+    {
+      "case": "P3-nilpotent2",
+      "m": 6,
+      "input_file": "P3-nilpotent2.input.json",
+      "record_file": "P3-nilpotent2-m6.record.json",
+      "report_file": "P3-nilpotent2-m6.report.json",
+      "input_bytes": 311,
+      "record_bytes": 4040,
+      "producer_seconds": 0.18504659999962314,
+      "verifier_seconds": 0.2297484999999142,
+      "record_sha256": "ed48f071b7a56a83d66d13945e15652655c9b899b52be7f09be2b9c1ba116d19",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 10,
+      "degree": 13,
+      "fractional_bits": 27,
+      "iterations": 20,
+      "max_strong_norm": {
+        "exact": "3/8",
+        "decimal": 0.375
+      },
+      "max_exact_image_norm": {
+        "exact": "3/8",
+        "decimal": 0.375
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/1152921504606846976",
+        "decimal": 8.673617379884035e-19
+      },
+      "uniform_path_error": {
+        "exact": "9007199254740999/8070450532247928832",
+        "decimal": 0.0011160714285714294
+      },
+      "target": {
+        "exact": "1/256",
+        "decimal": 0.00390625
+      },
+      "terminal_centers": [
+        "153/512",
+        "-3/32"
+      ],
+      "terminal_intervals": [
+        [
+          "344525371493842943/1152921504606846976",
+          "344525371493842945/1152921504606846976"
+        ],
+        [
+          "-108086391056891905/1152921504606846976",
+          "-108086391056891903/1152921504606846976"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "153/512",
+        "-3/32"
+      ]
+    },
+    {
+      "case": "P3-nilpotent2",
+      "m": 12,
+      "input_file": "P3-nilpotent2.input.json",
+      "record_file": "P3-nilpotent2-m12.record.json",
+      "report_file": "P3-nilpotent2-m12.report.json",
+      "input_bytes": 311,
+      "record_bytes": 8720,
+      "producer_seconds": 0.2836775000014313,
+      "verifier_seconds": 0.46467309999934514,
+      "record_sha256": "829ea510dbdba1db94b703e352bbe8197eb6c1d4955978e6bc350ee89ce29de2",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 16,
+      "degree": 19,
+      "fractional_bits": 39,
+      "iterations": 32,
+      "max_strong_norm": {
+        "exact": "3/8",
+        "decimal": 0.375
+      },
+      "max_exact_image_norm": {
+        "exact": "3/8",
+        "decimal": 0.375
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/79228162514264337593543950336",
+        "decimal": 1.262177448353619e-29
+      },
+      "uniform_path_error": {
+        "exact": "9671406556917033397649415/554597137599850363154807652352",
+        "decimal": 1.743861607142857e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "terminal_centers": [
+        "153/512",
+        "-3/32"
+      ],
+      "terminal_intervals": [
+        [
+          "23675603251332897757445750783/79228162514264337593543950336",
+          "23675603251332897757445750785/79228162514264337593543950336"
+        ],
+        [
+          "-7427640235712281649394745345/79228162514264337593543950336",
+          "-7427640235712281649394745343/79228162514264337593543950336"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "153/512",
+        "-3/32"
+      ]
+    },
+    {
+      "case": "P3-nilpotent2",
+      "m": 20,
+      "input_file": "P3-nilpotent2.input.json",
+      "record_file": "P3-nilpotent2-m20.record.json",
+      "report_file": "P3-nilpotent2-m20.report.json",
+      "input_bytes": 311,
+      "record_bytes": 17798,
+      "producer_seconds": 0.6506776999995054,
+      "verifier_seconds": 0.9655108000006294,
+      "record_sha256": "49e190b5941a8c5fade988be6b8dd0e2165bf11ba763e18728cd9230df6f9132",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 24,
+      "degree": 27,
+      "fractional_bits": 55,
+      "iterations": 48,
+      "max_strong_norm": {
+        "exact": "3/8",
+        "decimal": 0.375
+      },
+      "max_exact_image_norm": {
+        "exact": "3/8",
+        "decimal": 0.375
+      },
+      "max_weak_step_error": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "max_strong_step_difference": {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      "certified_path_error": {
+        "exact": "1/22300745198530623141535718272648361505980416",
+        "decimal": 4.484155085839415e-44
+      },
+      "uniform_path_error": {
+        "exact": "10633823966279326983230456482242756615/156105216389714361990750027908538530541862912",
+        "decimal": 6.811959402901785e-08
+      },
+      "target": {
+        "exact": "1/4194304",
+        "decimal": 2.384185791015625e-07
+      },
+      "terminal_centers": [
+        "153/512",
+        "-3/32"
+      ],
+      "terminal_intervals": [
+        [
+          "6664089873779658868466728311943748653154303/22300745198530623141535718272648361505980416",
+          "6664089873779658868466728311943748653154305/22300745198530623141535718272648361505980416"
+        ],
+        [
+          "-2090694862362245919518973588060783891185665/22300745198530623141535718272648361505980416",
+          "-2090694862362245919518973588060783891185663/22300745198530623141535718272648361505980416"
+        ]
+      ],
+      "exact_polynomial_error_bound": "0",
+      "exact_terminal": [
+        "153/512",
+        "-3/32"
+      ]
+    },
+    {
+      "case": "P4-nilpotent4",
+      "m": 1,
+      "input_file": "P4-nilpotent4.input.json",
+      "record_file": "P4-nilpotent4-m1.record.json",
+      "report_file": "P4-nilpotent4-m1.report.json",
+      "input_bytes": 640,
+      "record_bytes": 2770,
+      "producer_seconds": 0.18385250000028464,
+      "verifier_seconds": 0.19929489999958605,
+      "record_sha256": "228a7e0f86e8db4a04942b89e495fc2ef66fa80355334767e327ad307a7ffdd4",
+      "dimension": 4,
+      "source_degree": 2,
+      "working_bits": 5,
+      "degree": 8,
+      "fractional_bits": 17,
+      "iterations": 10,
+      "max_strong_norm": {
+        "exact": "837/8192",
+        "decimal": 0.1021728515625
+      },
+      "max_exact_image_norm": {
+        "exact": "10051/98304",
+        "decimal": 0.10224405924479167
+      },
+      "max_weak_step_error": {
+        "exact": "11/1572864",
+        "decimal": 6.993611653645833e-06
+      },
+      "max_strong_step_difference": {
+        "exact": "7/98304",
+        "decimal": 7.120768229166667e-05
+      },
+      "certified_path_error": {
+        "exact": "210938099/26388279066624",
+        "decimal": 7.99362847677306e-06
+      },
+      "uniform_path_error": {
+        "exact": "268435463/7516192768",
+        "decimal": 0.03571428664560829
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "terminal_centers": [
+        "3195/65536",
+        "-799/16384",
+        "6331/131072",
+        "-57/1024"
+      ],
+      "terminal_intervals": [
+        [
+          "1286265984781/26388279066624",
+          "1286687860979/26388279066624"
+        ],
+        [
+          "-1287090514163/26388279066624",
+          "-1286668637965/26388279066624"
+        ],
+        [
+          "1274387715853/26388279066624",
+          "1274809592051/26388279066624"
+        ],
+        [
+          "-1469089753331/26388279066624",
+          "-1468667877133/26388279066624"
+        ]
+      ],
+      "exact_polynomial_error_bound": "221/31457280",
+      "exact_terminal": [
+        "1533499/31457280",
+        "-38353/786432",
+        "1187/24576",
+        "-57/1024"
+      ]
+    },
+    {
+      "case": "P4-nilpotent4",
+      "m": 6,
+      "input_file": "P4-nilpotent4.input.json",
+      "record_file": "P4-nilpotent4-m6.record.json",
+      "report_file": "P4-nilpotent4-m6.report.json",
+      "input_bytes": 640,
+      "record_bytes": 7722,
+      "producer_seconds": 0.3453160000008211,
+      "verifier_seconds": 0.5022681999998895,
+      "record_sha256": "5d845738fa8dea134dc2a2bfd39b0f2b92da1d649b08a49110569dcba960962b",
+      "dimension": 4,
+      "source_degree": 2,
+      "working_bits": 10,
+      "degree": 13,
+      "fractional_bits": 27,
+      "iterations": 20,
+      "max_strong_norm": {
+        "exact": "857693/8388608",
+        "decimal": 0.10224497318267822
+      },
+      "max_exact_image_norm": {
+        "exact": "5146163/50331648",
+        "decimal": 0.10224507252375285
+      },
+      "max_weak_step_error": {
+        "exact": "151/12884901888",
+        "decimal": 1.1719142397244772e-08
+      },
+      "max_strong_step_difference": {
+        "exact": "143/805306368",
+        "decimal": 1.7757217089335123e-07
+      },
+      "certified_path_error": {
+        "exact": "388596310729705691/29014219670751100192948224",
+        "decimal": 1.3393305597718526e-08
+      },
+      "uniform_path_error": {
+        "exact": "9007199254740999/8070450532247928832",
+        "decimal": 0.0011160714285714294
+      },
+      "target": {
+        "exact": "1/256",
+        "decimal": 0.00390625
+      },
+      "terminal_centers": [
+        "3271465/67108864",
+        "-3272789/67108864",
+        "6482603/134217728",
+        "-57/1024"
+      ],
+      "terminal_intervals": [
+        [
+          "1414402992679428761171749/29014219670751100192948224",
+          "1414403769872050220583131/29014219670751100192948224"
+        ],
+        [
+          "-1414976195399087520106715/29014219670751100192948224",
+          "-1414975418206466060695333/29014219670751100192948224"
+        ],
+        [
+          "1401361937252850525386533/29014219670751100192948224",
+          "1401362714445471984797915/29014219670751100192948224"
+        ],
+        [
+          "-1615049725737729392789723/29014219670751100192948224",
+          "-1615048948545107933378341/29014219670751100192948224"
+        ]
+      ],
+      "exact_polynomial_error_bound": "1/83886080",
+      "exact_terminal": [
+        "1533499/31457280",
+        "-38353/786432",
+        "1187/24576",
+        "-57/1024"
+      ]
+    },
+    {
+      "case": "P4-nilpotent4",
+      "m": 12,
+      "input_file": "P4-nilpotent4.input.json",
+      "record_file": "P4-nilpotent4-m12.record.json",
+      "report_file": "P4-nilpotent4-m12.report.json",
+      "input_bytes": 640,
+      "record_bytes": 17463,
+      "producer_seconds": 0.7704597000010835,
+      "verifier_seconds": 1.114882800000487,
+      "record_sha256": "176718c93bdeabf7e0aa7f61a9b562e1e9c630f575ab7842a0f118f20bba16f4",
+      "dimension": 4,
+      "source_degree": 2,
+      "working_bits": 16,
+      "degree": 19,
+      "fractional_bits": 39,
+      "iterations": 32,
+      "max_strong_norm": {
+        "exact": "3513114077/34359738368",
+        "decimal": 0.10224507647217251
+      },
+      "max_exact_image_norm": {
+        "exact": "21078684467/206158430208",
+        "decimal": 0.10224507649642571
+      },
+      "max_weak_step_error": {
+        "exact": "151/52776558133248",
+        "decimal": 2.861118749327337e-12
+      },
+      "max_strong_step_difference": {
+        "exact": "143/3298534883328",
+        "decimal": 4.335258078450958e-11
+      },
+      "certified_path_error": {
+        "exact": "26704135133156060318760323291/8166776806102523123120990578362437074944",
+        "decimal": 3.269849999231242e-12
+      },
+      "uniform_path_error": {
+        "exact": "9671406556917033397649415/554597137599850363154807652352",
+        "decimal": 1.743861607142857e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "terminal_centers": [
+        "13399918729/274877906944",
+        "-13405345109/274877906944",
+        "26552740523/549755813888",
+        "-57/1024"
+      ],
+      "terminal_intervals": [
+        [
+          "398119102000475774983034578278244267813/8166776806102523123120990578362437074944",
+          "398119102053884045249346698915764914395/8166776806102523123120990578362437074944"
+        ],
+        [
+          "-398280322847573102892933269548724013275/8166776806102523123120990578362437074944",
+          "-398280322794164832626621148911203366693/8166776806102523123120990578362437074944"
+        ],
+        [
+          "394448407727421410308190205919028426533/8166776806102523123120990578362437074944",
+          "394448407780829680574502326556549073115/8166776806102523123120990578362437074944"
+        ],
+        [
+          "-454595974585145363666258074934638168283/8166776806102523123120990578362437074944",
+          "-454595974531737093399945954297117521701/8166776806102523123120990578362437074944"
+        ]
+      ],
+      "exact_polynomial_error_bound": "1/343597383680",
+      "exact_terminal": [
+        "1533499/31457280",
+        "-38353/786432",
+        "1187/24576",
+        "-57/1024"
+      ]
+    },
+    {
+      "case": "P4-nilpotent4",
+      "m": 20,
+      "input_file": "P4-nilpotent4.input.json",
+      "record_file": "P4-nilpotent4-m20.record.json",
+      "report_file": "P4-nilpotent4-m20.report.json",
+      "input_bytes": 640,
+      "record_bytes": 36960,
+      "producer_seconds": 1.4892657000000327,
+      "verifier_seconds": 2.3220172000001185,
+      "record_sha256": "2ff500c4220825d4f0b00e708a956392d4f1f28dbf400dec2bcdfeda0f3f9ff7",
+      "dimension": 4,
+      "source_degree": 2,
+      "working_bits": 24,
+      "degree": 27,
+      "fractional_bits": 55,
+      "iterations": 48,
+      "max_strong_norm": {
+        "exact": "230235444207069/2251799813685248",
+        "decimal": 0.10224507649739545
+      },
+      "max_exact_image_norm": {
+        "exact": "1381412665242419/13510798882111488",
+        "decimal": 0.10224507649739582
+      },
+      "max_weak_step_error": {
+        "exact": "151/3458764513820540928",
+        "decimal": 4.365720747874965e-17
+      },
+      "max_strong_step_difference": {
+        "exact": "143/216172782113783808",
+        "decimal": 6.615078855058224e-16
+      },
+      "certified_path_error": {
+        "exact": "7516545814683312710651547906688217716508891/150650441649280338332058946156983993986456530667136828309504",
+        "decimal": 4.989395140428531e-17
+      },
+      "uniform_path_error": {
+        "exact": "10633823966279326983230456482242756615/156105216389714361990750027908538530541862912",
+        "decimal": 6.811959402901785e-08
+      },
+      "target": {
+        "exact": "1/4194304",
+        "decimal": 2.384185791015625e-07
+      },
+      "terminal_centers": [
+        "878177073793161/18014398509481984",
+        "-878532697085269/18014398509481984",
+        "1740160402893483/36028797018963968",
+        "-57/1024"
+      ],
+      "terminal_intervals": [
+        [
+          "7344001185694682943596053833883751563359518603775021266725/150650441649280338332058946156983993986456530667136828309504",
+          "7344001185694697976687683200509172866455331980210454284507/150650441649280338332058946156983993986456530667136828309504"
+        ],
+        [
+          "-7346975184853684152029875308521793974499310301310990043355/150650441649280338332058946156983993986456530667136828309504",
+          "-7346975184853669118938245941896372671403496924875557025573/150650441649280338332058946156983993986456530667136828309504"
+        ],
+        [
+          "7276288828031234176736191909760903698256258704432620746533/150650441649280338332058946156983993986456530667136828309504",
+          "7276288828031249209827821276386325001352072080868053764315/150650441649280338332058946156983993986456530667136828309504"
+        ],
+        [
+          "-8385815599618151349482689615879202504309647164806387615963/150650441649280338332058946156983993986456530667136828309504",
+          "-8385815599618136316391060249253781201213833788370954598181/150650441649280338332058946156983993986456530667136828309504"
+        ]
+      ],
+      "exact_polynomial_error_bound": "1/22517998136852480",
+      "exact_terminal": [
+        "1533499/31457280",
+        "-38353/786432",
+        "1187/24576",
+        "-57/1024"
+      ]
+    },
+    {
+      "case": "P5-dense5",
+      "m": 1,
+      "input_file": "P5-dense5.input.json",
+      "record_file": "P5-dense5-m1.record.json",
+      "report_file": "P5-dense5-m1.report.json",
+      "input_bytes": 1100,
+      "record_bytes": 3419,
+      "producer_seconds": 0.2552739000002475,
+      "verifier_seconds": 0.41451170000073034,
+      "record_sha256": "760fd062b62ed3cd4bd340229591fed959f4ba1a0f5a5944fdad8ce297cf6b95",
+      "dimension": 5,
+      "source_degree": 4,
+      "working_bits": 5,
+      "degree": 8,
+      "fractional_bits": 17,
+      "iterations": 10,
+      "max_strong_norm": {
+        "exact": "341/4096",
+        "decimal": 0.083251953125
+      },
+      "max_exact_image_norm": {
+        "exact": "341/4096",
+        "decimal": 0.083251953125
+      },
+      "max_weak_step_error": {
+        "exact": "331/31457280",
+        "decimal": 1.0522206624348958e-05
+      },
+      "max_strong_step_difference": {
+        "exact": "257/1966080",
+        "decimal": 0.00013071695963541666
+      },
+      "certified_path_error": {
+        "exact": "528922541/43980465111040",
+        "decimal": 1.202630621719436e-05
+      },
+      "uniform_path_error": {
+        "exact": "268435463/7516192768",
+        "decimal": 0.03571428664560829
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "terminal_centers": [
+        "8311/131072",
+        "-8311/131072",
+        "8311/131072",
+        "-8311/131072",
+        "8311/131072"
+      ],
+      "terminal_intervals": [
+        [
+          "2788179920979/43980465111040",
+          "2789237766061/43980465111040"
+        ],
+        [
+          "-2789237766061/43980465111040",
+          "-2788179920979/43980465111040"
+        ],
+        [
+          "2788179920979/43980465111040",
+          "2789237766061/43980465111040"
+        ],
+        [
+          "-2789237766061/43980465111040",
+          "-2788179920979/43980465111040"
+        ],
+        [
+          "2788179920979/43980465111040",
+          "2789237766061/43980465111040"
+        ]
+      ]
+    },
+    {
+      "case": "P5-dense5",
+      "m": 6,
+      "input_file": "P5-dense5.input.json",
+      "record_file": "P5-dense5-m6.record.json",
+      "report_file": "P5-dense5-m6.report.json",
+      "input_bytes": 1100,
+      "record_bytes": 9486,
+      "producer_seconds": 0.8348516000005475,
+      "verifier_seconds": 0.9540802000010444,
+      "record_sha256": "a78e6b98c2b3ef320da5b689c72d2af91e55f0fb548b1a33fe2e0f5b3171f67c",
+      "dimension": 5,
+      "source_degree": 4,
+      "working_bits": 10,
+      "degree": 13,
+      "fractional_bits": 27,
+      "iterations": 20,
+      "max_strong_norm": {
+        "exact": "341/4096",
+        "decimal": 0.083251953125
+      },
+      "max_exact_image_norm": {
+        "exact": "341/4096",
+        "decimal": 0.083251953125
+      },
+      "max_weak_step_error": {
+        "exact": "691/32212254720",
+        "decimal": 2.1451463301976523e-08
+      },
+      "max_strong_step_difference": {
+        "exact": "1397/2013265920",
+        "decimal": 6.938974062601726e-07
+      },
+      "certified_path_error": {
+        "exact": "414931645683079841/16924961474604808445886464",
+        "decimal": 2.4515958060268987e-08
+      },
+      "uniform_path_error": {
+        "exact": "9007199254740999/8070450532247928832",
+        "decimal": 0.0011160714285714294
+      },
+      "target": {
+        "exact": "1/256",
+        "decimal": 0.00390625
+      },
+      "terminal_centers": [
+        "4255253/67108864",
+        "-4255253/67108864",
+        "4255253/67108864",
+        "-4255253/67108864",
+        "4255253/67108864"
+      ],
+      "terminal_intervals": [
+        [
+          "1073181111277716688987487/16924961474604808445886464",
+          "1073181941141008055147169/16924961474604808445886464"
+        ],
+        [
+          "-1073181941141008055147169/16924961474604808445886464",
+          "-1073181111277716688987487/16924961474604808445886464"
+        ],
+        [
+          "1073181111277716688987487/16924961474604808445886464",
+          "1073181941141008055147169/16924961474604808445886464"
+        ],
+        [
+          "-1073181941141008055147169/16924961474604808445886464",
+          "-1073181111277716688987487/16924961474604808445886464"
+        ],
+        [
+          "1073181111277716688987487/16924961474604808445886464",
+          "1073181941141008055147169/16924961474604808445886464"
+        ]
+      ]
+    },
+    {
+      "case": "P5-dense5",
+      "m": 12,
+      "input_file": "P5-dense5.input.json",
+      "record_file": "P5-dense5-m12.record.json",
+      "report_file": "P5-dense5-m12.report.json",
+      "input_bytes": 1100,
+      "record_bytes": 22338,
+      "producer_seconds": 1.0438948999999411,
+      "verifier_seconds": 1.5408349999997881,
+      "record_sha256": "5d078c86d878c70bcccfe175d84d48c1733ad20da51f4ef49e957376dfd8ef7f",
+      "dimension": 5,
+      "source_degree": 4,
+      "working_bits": 16,
+      "degree": 19,
+      "fractional_bits": 39,
+      "iterations": 32,
+      "max_strong_norm": {
+        "exact": "341/4096",
+        "decimal": 0.083251953125
+      },
+      "max_exact_image_norm": {
+        "exact": "341/4096",
+        "decimal": 0.083251953125
+      },
+      "max_weak_step_error": {
+        "exact": "11077/1583296743997440",
+        "decimal": 6.996161674679671e-12
+      },
+      "max_strong_step_difference": {
+        "exact": "15491/24739011624960",
+        "decimal": 6.261769966739748e-10
+      },
+      "certified_path_error": {
+        "exact": "86418530909113588203976790675/14291859410679415465461733512134264881152",
+        "decimal": 6.0466961244062066e-12
+      },
+      "uniform_path_error": {
+        "exact": "9671406556917033397649415/554597137599850363154807652352",
+        "decimal": 1.743861607142857e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "terminal_centers": [
+        "8714759753/137438953472",
+        "-8714759753/137438953472",
+        "8714759753/137438953472",
+        "-8714759753/137438953472",
+        "8714759753/137438953472"
+      ],
+      "terminal_intervals": [
+        [
+          "906221402516865024774127381266077969773/14291859410679415465461733512134264881152",
+          "906221402689702086592354557674031551123/14291859410679415465461733512134264881152"
+        ],
+        [
+          "-906221402689702086592354557674031551123/14291859410679415465461733512134264881152",
+          "-906221402516865024774127381266077969773/14291859410679415465461733512134264881152"
+        ],
+        [
+          "906221402516865024774127381266077969773/14291859410679415465461733512134264881152",
+          "906221402689702086592354557674031551123/14291859410679415465461733512134264881152"
+        ],
+        [
+          "-906221402689702086592354557674031551123/14291859410679415465461733512134264881152",
+          "-906221402516865024774127381266077969773/14291859410679415465461733512134264881152"
+        ],
+        [
+          "906221402516865024774127381266077969773/14291859410679415465461733512134264881152",
+          "906221402689702086592354557674031551123/14291859410679415465461733512134264881152"
+        ]
+      ]
+    },
+    {
+      "case": "P5-dense5",
+      "m": 20,
+      "input_file": "P5-dense5.input.json",
+      "record_file": "P5-dense5-m20.record.json",
+      "report_file": "P5-dense5-m20.report.json",
+      "input_bytes": 1100,
+      "record_bytes": 51505,
+      "producer_seconds": 2.405845399998725,
+      "verifier_seconds": 3.10678850000113,
+      "record_sha256": "d1f1b34544dff43485a795287bac70aaa5231f78f61fbd6b1a4979b009592dec",
+      "dimension": 5,
+      "source_degree": 4,
+      "working_bits": 24,
+      "degree": 27,
+      "fractional_bits": 55,
+      "iterations": 48,
+      "max_strong_norm": {
+        "exact": "341/4096",
+        "decimal": 0.083251953125
+      },
+      "max_exact_image_norm": {
+        "exact": "341/4096",
+        "decimal": 0.083251953125
+      },
+      "max_weak_step_error": {
+        "exact": "215/1729382256910270464",
+        "decimal": 1.2432184911167118e-16
+      },
+      "max_strong_step_difference": {
+        "exact": "8711/180143985094819840",
+        "decimal": 4.8355763837548694e-14
+      },
+      "certified_path_error": {
+        "exact": "799168111137968502736127654314894871869279481/6214330718032813956197431528975589751941331890019394167767040",
+        "decimal": 1.286008336857473e-16
+      },
+      "uniform_path_error": {
+        "exact": "10633823966279326983230456482242756615/156105216389714361990750027908538530541862912",
+        "decimal": 6.811959402901785e-08
+      },
+      "target": {
+        "exact": "1/4194304",
+        "decimal": 2.384185791015625e-07
+      },
+      "terminal_centers": [
+        "2284521980795391/36028797018963968",
+        "-2284521980795391/36028797018963968",
+        "2284521980795391/36028797018963968",
+        "-2284521980795391/36028797018963968",
+        "2284521980795391/36028797018963968"
+      ],
+      "terminal_intervals": [
+        [
+          "394039665376709196544373827015253753343894376988452189876999/6214330718032813956197431528975589751941331890019394167767040",
+          "394039665376710794880596102952259225599203006778195928435961/6214330718032813956197431528975589751941331890019394167767040"
+        ],
+        [
+          "-394039665376710794880596102952259225599203006778195928435961/6214330718032813956197431528975589751941331890019394167767040",
+          "-394039665376709196544373827015253753343894376988452189876999/6214330718032813956197431528975589751941331890019394167767040"
+        ],
+        [
+          "394039665376709196544373827015253753343894376988452189876999/6214330718032813956197431528975589751941331890019394167767040",
+          "394039665376710794880596102952259225599203006778195928435961/6214330718032813956197431528975589751941331890019394167767040"
+        ],
+        [
+          "-394039665376710794880596102952259225599203006778195928435961/6214330718032813956197431528975589751941331890019394167767040",
+          "-394039665376709196544373827015253753343894376988452189876999/6214330718032813956197431528975589751941331890019394167767040"
+        ],
+        [
+          "394039665376709196544373827015253753343894376988452189876999/6214330718032813956197431528975589751941331890019394167767040",
+          "394039665376710794880596102952259225599203006778195928435961/6214330718032813956197431528975589751941331890019394167767040"
+        ]
+      ]
+    },
+    {
+      "case": "P6-den96",
+      "m": 1,
+      "input_file": "P6-den96.input.json",
+      "record_file": "P6-den96-m1.record.json",
+      "report_file": "P6-den96-m1.report.json",
+      "input_bytes": 381,
+      "record_bytes": 1622,
+      "producer_seconds": 0.08739439999953902,
+      "verifier_seconds": 0.11844609999934619,
+      "record_sha256": "1fa5c4fdabe901ab38ca7fa06b5ec029c55dca611b6dc08d2a18aeec87a773b9",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 5,
+      "degree": 8,
+      "fractional_bits": 17,
+      "iterations": 10,
+      "max_strong_norm": {
+        "exact": "15283/32768",
+        "decimal": 0.466400146484375
+      },
+      "max_exact_image_norm": {
+        "exact": "19376739273257362403525851465975939/41538374868278621028243970634285056",
+        "decimal": 0.46647802988688153
+      },
+      "max_weak_step_error": {
+        "exact": "28007155448792443339317786431843/996920996838686904677855295222841344",
+        "decimal": 2.8093655904134113e-05
+      },
+      "max_strong_step_difference": {
+        "exact": "29789789105363390935172525314421/249230249209671726169463823805710336",
+        "decimal": 0.00011952718098958333
+      },
+      "certified_path_error": {
+        "exact": "1074047253710871725047461132259452038077/33451117797795934712303577409394754724036608",
+        "decimal": 3.210796303439641e-05
+      },
+      "uniform_path_error": {
+        "exact": "268435463/7516192768",
+        "decimal": 0.03571428664560829
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "terminal_centers": [
+        "52141/131072",
+        "65/2048"
+      ],
+      "terminal_intervals": [
+        [
+          "13305923122964778445857814093610568200442947/33451117797795934712303577409394754724036608",
+          "13308071217472200189307909015875087104519101/33451117797795934712303577409394754724036608"
+        ],
+        [
+          "1060606937539617134280681314068257665668163/33451117797795934712303577409394754724036608",
+          "1062755032047038877730776236332776569744317/33451117797795934712303577409394754724036608"
+        ]
+      ]
+    },
+    {
+      "case": "P6-den96",
+      "m": 6,
+      "input_file": "P6-den96.input.json",
+      "record_file": "P6-den96-m6.record.json",
+      "report_file": "P6-den96-m6.report.json",
+      "input_bytes": 381,
+      "record_bytes": 4166,
+      "producer_seconds": 0.25649670000166225,
+      "verifier_seconds": 0.23723859999881824,
+      "record_sha256": "164f12727938033de64e921d1762f6275902320a806b93ad8469c80ad58235b7",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 10,
+      "degree": 13,
+      "fractional_bits": 27,
+      "iterations": 20,
+      "max_strong_norm": {
+        "exact": "15652527/33554432",
+        "decimal": 0.46648165583610535
+      },
+      "max_exact_image_norm": {
+        "exact": "297629108918093048729456623463989956011/638029437976759618993827388942618460160",
+        "decimal": 0.4664817815646529
+      },
+      "max_weak_step_error": {
+        "exact": "75694586466128148136871864986111/2041694201525630780780247644616379072512",
+        "decimal": 3.707439949115117e-08
+      },
+      "max_strong_step_difference": {
+        "exact": "90446870326284167796789761121647/255211775190703847597530955577047384064",
+        "decimal": 3.543992837270101e-07
+      },
+      "certified_path_error": {
+        "exact": "2429855214797146735827585567986340996835405464443/61299821634635554334333881086786079869302927559156039680",
+        "decimal": 3.963886272426334e-08
+      },
+      "uniform_path_error": {
+        "exact": "9007199254740999/8070450532247928832",
+        "decimal": 0.0011160714285714294
+      },
+      "target": {
+        "exact": "1/256",
+        "decimal": 0.00390625
+      },
+      "terminal_centers": [
+        "53395539/134217728",
+        "532739/16777216"
+      ],
+      "terminal_intervals": [
+        [
+          "24386768718477936038527846494288100686686156263916043397/61299821634635554334333881086786079869302927559156039680",
+          "24386773578188365632821318149459236659368149934726972283/61299821634635554334333881086786079869302927559156039680"
+        ],
+        [
+          "1946494872069854927205546307680100012657917664171654277/61299821634635554334333881086786079869302927559156039680",
+          "1946499731780284521499017962851235985339911334982583163/61299821634635554334333881086786079869302927559156039680"
+        ]
+      ]
+    },
+    {
+      "case": "P6-den96",
+      "m": 12,
+      "input_file": "P6-den96.input.json",
+      "record_file": "P6-den96-m12.record.json",
+      "report_file": "P6-den96-m12.report.json",
+      "input_bytes": 381,
+      "record_bytes": 9584,
+      "producer_seconds": 0.2789453000004869,
+      "verifier_seconds": 0.541421400001127,
+      "record_sha256": "03631625d992c38559470b39f8d781817ca9521ab77be879d148106ff1c03d87",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 16,
+      "degree": 19,
+      "fractional_bits": 39,
+      "iterations": 32,
+      "max_strong_norm": {
+        "exact": "64112768511/137438953472",
+        "decimal": 0.46648178621398984
+      },
+      "max_exact_image_norm": {
+        "exact": "8533621899290265331803702883352844350814997/18293580045669651795791018895762756489707520",
+        "decimal": 0.46648178639644095
+      },
+      "max_weak_step_error": {
+        "exact": "3452208725234039981959882775504831/292697280730714428732656302332204103835320320",
+        "decimal": 1.179446804772375e-11
+      },
+      "max_strong_step_difference": {
+        "exact": "10940775417919790906965867303659349/36587160091339303591582037791525512979415040",
+        "decimal": 2.990331960886362e-10
+      },
+      "certified_path_error": {
+        "exact": "1628048535214308578443100775473506634819150520928023087515741/120780561068834866280108227591372410421700211329297682956638495503810560",
+        "decimal": 1.347939205454143e-11
+      },
+      "uniform_path_error": {
+        "exact": "9671406556917033397649415/554597137599850363154807652352",
+        "decimal": 1.743861607142857e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "terminal_centers": [
+        "13669258857/34359738368",
+        "17456803987/549755813888"
+      ],
+      "terminal_intervals": [
+        [
+          "48049863954297647021286269747553630456163580512624349370875597226145699/120780561068834866280108227591372410421700211329297682956638495503810560",
+          "48049863957553744091714886904439832007110593782262650412731643401177181/120780561068834866280108227591372410421700211329297682956638495503810560"
+        ],
+        [
+          "3835234709410550435854559919177347441896008625636852716389956780193699/120780561068834866280108227591372410421700211329297682956638495503810560",
+          "3835234712666647506283177076063548992843021895275153758246002955225181/120780561068834866280108227591372410421700211329297682956638495503810560"
+        ]
+      ]
+    },
+    {
+      "case": "P6-den96",
+      "m": 20,
+      "input_file": "P6-den96.input.json",
+      "record_file": "P6-den96-m20.record.json",
+      "report_file": "P6-den96-m20.report.json",
+      "input_bytes": 381,
+      "record_bytes": 21219,
+      "producer_seconds": 0.7174187000000529,
+      "verifier_seconds": 1.2986251000002085,
+      "record_sha256": "b691f03305b45c022d0e822338106b54432f084383f46d2d82e6be1d84803619",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 24,
+      "degree": 27,
+      "fractional_bits": 55,
+      "iterations": 48,
+      "max_strong_norm": {
+        "exact": "4201694398813679/9007199254740992",
+        "decimal": 0.46648178640015014
+      },
+      "max_exact_image_norm": {
+        "exact": "239682619198433548242439986814859812484729327177/513809169374145557180982949008303432561202298880",
+        "decimal": 0.4664817864001595
+      },
+      "max_weak_step_error": {
+        "exact": "108651521367999249634159357330729/513809169374145557180982949008303432561202298880",
+        "decimal": 2.1146279172157277e-16
+      },
+      "max_strong_step_difference": {
+        "exact": "19612773174081108191941121607393961/1027618338748291114361965898016606865122404597760",
+        "decimal": 1.9085658979160295e-14
+      },
+      "certified_path_error": {
+        "exact": "4547422632973366385795433780941253942023136901543621721903752122183294377317/20052072892042597411705012245532909014821182968546918996743240658229437891066135573052784640",
+        "decimal": 2.267806753673807e-16
+      },
+      "uniform_path_error": {
+        "exact": "10633823966279326983230456482242756615/156105216389714361990750027908538530541862912",
+        "decimal": 6.811959402901785e-08
+      },
+      "target": {
+        "exact": "1/4194304",
+        "decimal": 2.384185791015625e-07
+      },
+      "terminal_centers": [
+        "7166628387760393/18014398509481984",
+        "572024553196885/18014398509481984"
+      ],
+      "terminal_intervals": [
+        [
+          "7977271888701289391102228886345868560920185496478497031396947201439910683309086585576759963/20052072892042597411705012245532909014821182968546918996743240658229437891066135573052784640",
+          "7977271888701298485947494833078640151787747378986381077670750288683354490813330952165514597/20052072892042597411705012245532909014821182968546918996743240658229437891066135573052784640"
+        ],
+        [
+          "636728338762157758038186082192501222095559635722658451531110644782704479722081258830832283/20052072892042597411705012245532909014821182968546918996743240658229437891066135573052784640",
+          "636728338762166852883452028925272812963121518230542497804913732026148287226325625419586917/20052072892042597411705012245532909014821182968546918996743240658229437891066135573052784640"
+        ]
+      ]
+    },
+    {
+      "case": "P7-boundary",
+      "m": 1,
+      "input_file": "P7-boundary.input.json",
+      "record_file": "P7-boundary-m1.record.json",
+      "report_file": "P7-boundary-m1.report.json",
+      "input_bytes": 321,
+      "record_bytes": 1684,
+      "producer_seconds": 0.10405120000177703,
+      "verifier_seconds": 0.11219370000071649,
+      "record_sha256": "add369df2c7e7492bd9228e803ae9564a517c498daa32ca89082f076da773a04",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 5,
+      "degree": 8,
+      "fractional_bits": 17,
+      "iterations": 10,
+      "max_strong_norm": {
+        "exact": "4357/8192",
+        "decimal": 0.5318603515625
+      },
+      "max_exact_image_norm": {
+        "exact": "817/1536",
+        "decimal": 0.5319010416666666
+      },
+      "max_weak_step_error": {
+        "exact": "1/196608",
+        "decimal": 5.086263020833333e-06
+      },
+      "max_strong_step_difference": {
+        "exact": "23/393216",
+        "decimal": 5.8492024739583336e-05
+      },
+      "certified_path_error": {
+        "exact": "41501347/8246337208320",
+        "decimal": 5.0327006950586416e-06
+      },
+      "uniform_path_error": {
+        "exact": "268435463/7516192768",
+        "decimal": 0.03571428664560829
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "terminal_centers": [
+        "6269/16384",
+        "2183/16384"
+      ],
+      "terminal_intervals": [
+        [
+          "3155249511773/8246337208320",
+          "3155332514467/8246337208320"
+        ],
+        [
+          "1098698374493/8246337208320",
+          "1098781377187/8246337208320"
+        ]
+      ]
+    },
+    {
+      "case": "P7-boundary",
+      "m": 6,
+      "input_file": "P7-boundary.input.json",
+      "record_file": "P7-boundary-m6.record.json",
+      "report_file": "P7-boundary-m6.report.json",
+      "input_bytes": 321,
+      "record_bytes": 4534,
+      "producer_seconds": 0.2262472999991587,
+      "verifier_seconds": 0.3205434999999852,
+      "record_sha256": "48fbcd6139b02b88df899b87c6ab5e77406cc9de3c7ff7c4934506d34d2edcaa",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 10,
+      "degree": 13,
+      "fractional_bits": 27,
+      "iterations": 20,
+      "max_strong_norm": {
+        "exact": "4461909/8388608",
+        "decimal": 0.5319010019302368
+      },
+      "max_exact_image_norm": {
+        "exact": "817/1536",
+        "decimal": 0.5319010416666666
+      },
+      "max_weak_step_error": {
+        "exact": "3827/257698037760",
+        "decimal": 1.4850714554389317e-08
+      },
+      "max_strong_step_difference": {
+        "exact": "2713/5368709120",
+        "decimal": 5.053356289863587e-07
+      },
+      "certified_path_error": {
+        "exact": "24843517588605843/1511157274518286468382720",
+        "decimal": 1.644006087753192e-08
+      },
+      "uniform_path_error": {
+        "exact": "9007199254740999/8070450532247928832",
+        "decimal": 0.0011160714285714294
+      },
+      "target": {
+        "exact": "1/256",
+        "decimal": 0.00390625
+      },
+      "terminal_centers": [
+        "51356249/134217728",
+        "17882879/134217728"
+      ],
+      "terminal_intervals": [
+        [
+          "578219934805348430967917/1511157274518286468382720",
+          "578219984492383608179603/1511157274518286468382720"
+        ],
+        [
+          "201343293158261581739117/1511157274518286468382720",
+          "201343342845296758950803/1511157274518286468382720"
+        ]
+      ]
+    },
+    {
+      "case": "P7-boundary",
+      "m": 12,
+      "input_file": "P7-boundary.input.json",
+      "record_file": "P7-boundary-m12.record.json",
+      "report_file": "P7-boundary-m12.report.json",
+      "input_bytes": 321,
+      "record_bytes": 10533,
+      "producer_seconds": 0.33490989999882004,
+      "verifier_seconds": 0.5114188000006834,
+      "record_sha256": "a0d70a0d062ee43ffd6df50558feec5647b14d62d949d8c3155eb02bf2b5ffed",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 16,
+      "degree": 19,
+      "fractional_bits": 39,
+      "iterations": 32,
+      "max_strong_norm": {
+        "exact": "18275980629/34359738368",
+        "decimal": 0.5319010416569654
+      },
+      "max_exact_image_norm": {
+        "exact": "817/1536",
+        "decimal": 0.5319010416666666
+      },
+      "max_weak_step_error": {
+        "exact": "18463/2462906046218240",
+        "decimal": 7.496428874479274e-12
+      },
+      "max_strong_step_difference": {
+        "exact": "324973/461794883665920",
+        "decimal": 7.037171945696519e-10
+      },
+      "certified_path_error": {
+        "exact": "25025455280776889456384206341/2977470710558211555304527815027971850240",
+        "decimal": 8.404937516945433e-12
+      },
+      "uniform_path_error": {
+        "exact": "9671406556917033397649415/554597137599850363154807652352",
+        "decimal": 1.743861607142857e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "terminal_centers": [
+        "210355202579/549755813888",
+        "36624132889/274877906944"
+      ],
+      "terminal_intervals": [
+        [
+          "1139281183857299358991843044608892803579/2977470710558211555304527815027971850240",
+          "1139281183907350269553396823521661216261/2977470710558211555304527815027971850240"
+        ],
+        [
+          "396711704414738962818765781226697071099/2977470710558211555304527815027971850240",
+          "396711704464789873380319560139465483781/2977470710558211555304527815027971850240"
+        ]
+      ]
+    },
+    {
+      "case": "P7-boundary",
+      "m": 20,
+      "input_file": "P7-boundary.input.json",
+      "record_file": "P7-boundary-m20.record.json",
+      "report_file": "P7-boundary-m20.report.json",
+      "input_bytes": 321,
+      "record_bytes": 23557,
+      "producer_seconds": 0.5935159000000567,
+      "verifier_seconds": 1.121012999999948,
+      "record_sha256": "4a2f365410ff28371712e713ec8fdb75f39ec391e19e180869624285cacbfa47",
+      "dimension": 2,
+      "source_degree": 1,
+      "working_bits": 24,
+      "degree": 27,
+      "fractional_bits": 55,
+      "iterations": 48,
+      "max_strong_norm": {
+        "exact": "1197734666523989/2251799813685248",
+        "decimal": 0.5319010416666665
+      },
+      "max_exact_image_norm": {
+        "exact": "817/1536",
+        "decimal": 0.5319010416666666
+      },
+      "max_weak_step_error": {
+        "exact": "204667/1452681095804627189760",
+        "decimal": 1.4088914668958141e-16
+      },
+      "max_strong_step_difference": {
+        "exact": "3564773/110968694818409021440",
+        "decimal": 3.212413199806894e-14
+      },
+      "certified_path_error": {
+        "exact": "860548438930234194740487430754094650121148399/5437539378278712211672752587853641032948665403766969896796160",
+        "decimal": 1.5826063575150535e-16
+      },
+      "uniform_path_error": {
+        "exact": "10633823966279326983230456482242756615/156105216389714361990750027908538530541862912",
+        "decimal": 6.811959402901785e-08
+      },
+      "target": {
+        "exact": "1/4194304",
+        "decimal": 2.384185791015625e-07
+      },
+      "terminal_centers": [
+        "13785838556422055/36028797018963968",
+        "4800398345797643/36028797018963968"
+      ],
+      "terminal_intervals": [
+        [
+          "2080586814310832183257967036267872050327696373332734852573201/5437539378278712211672752587853641032948665403766969896796160",
+          "2080586814310833904354844896736261531302557881522035094869999/5437539378278712211672752587853641032948665403766969896796160"
+        ],
+        [
+          "724485888967081416917839965665236507475471261869897692063761/5437539378278712211672752587853641032948665403766969896796160",
+          "724485888967083138014717826133625988450332770059197934360559/5437539378278712211672752587853641032948665403766969896796160"
+        ]
+      ]
+    },
+    {
+      "case": "P8-highdegree",
+      "m": 1,
+      "input_file": "P8-highdegree.input.json",
+      "record_file": "P8-highdegree-m1.record.json",
+      "report_file": "P8-highdegree-m1.report.json",
+      "input_bytes": 993,
+      "record_bytes": 3008,
+      "producer_seconds": 0.12254770000072313,
+      "verifier_seconds": 0.1533540999989782,
+      "record_sha256": "53e095869c279a883ecfdcee50a8b5376056187f60cc4a79b6e83a1ef3c177d8",
+      "dimension": 1,
+      "source_degree": 30,
+      "working_bits": 5,
+      "degree": 30,
+      "fractional_bits": 39,
+      "iterations": 10,
+      "max_strong_norm": {
+        "exact": "28209563513/68719476736",
+        "decimal": 0.4105031768704066
+      },
+      "max_exact_image_norm": {
+        "exact": "14060662986283/34084860461056",
+        "decimal": 0.41251930611093895
+      },
+      "max_weak_step_error": {
+        "exact": "905/204509162766336",
+        "decimal": 4.4252295973360215e-12
+      },
+      "max_strong_step_difference": {
+        "exact": "68719483835/34084860461056",
+        "decimal": 0.002016129240532351
+      },
+      "certified_path_error": {
+        "exact": "1568745347/1675339061381824512",
+        "decimal": 9.36374840867194e-10
+      },
+      "uniform_path_error": {
+        "exact": "268435463/7516192768",
+        "decimal": 0.03571428664560829
+      },
+      "target": {
+        "exact": "1/8",
+        "decimal": 0.125
+      },
+      "terminal_centers": [
+        "77869368885/549755813888"
+      ],
+      "terminal_intervals": [
+        [
+          "237300982036256893/1675339061381824512",
+          "237300985173747587/1675339061381824512"
+        ]
+      ]
+    },
+    {
+      "case": "P8-highdegree",
+      "m": 6,
+      "input_file": "P8-highdegree.input.json",
+      "record_file": "P8-highdegree-m6.record.json",
+      "report_file": "P8-highdegree-m6.report.json",
+      "input_bytes": 993,
+      "record_bytes": 5613,
+      "producer_seconds": 0.13443539999934728,
+      "verifier_seconds": 0.282590099999652,
+      "record_sha256": "c846e19aa3e6d2e52f423eac09a836c4a5a55b09f163ae82162714cfc7e07af4",
+      "dimension": 1,
+      "source_degree": 30,
+      "working_bits": 10,
+      "degree": 30,
+      "fractional_bits": 44,
+      "iterations": 20,
+      "max_strong_norm": {
+        "exact": "225676508217/549755813888",
+        "decimal": 0.4105031770759524
+      },
+      "max_exact_image_norm": {
+        "exact": "7873971272451253/19087521858191360",
+        "decimal": 0.41251930611789495
+      },
+      "max_weak_step_error": {
+        "exact": "998947/916201049193185280",
+        "decimal": 1.0903141847301762e-12
+      },
+      "max_strong_step_difference": {
+        "exact": "38482907157013/19087521858191360",
+        "decimal": 0.002016129041942559
+      },
+      "certified_path_error": {
+        "exact": "40168397040244421503/32235958622991302358373194792960",
+        "decimal": 1.2460742213385133e-12
+      },
+      "uniform_path_error": {
+        "exact": "9007199254740999/8070450532247928832",
+        "decimal": 0.0011160714285714294
+      },
+      "target": {
+        "exact": "1/256",
+        "decimal": 0.00390625
+      },
+      "terminal_centers": [
+        "622954951095/4398046511104"
+      ],
+      "terminal_intervals": [
+        [
+          "4566015838306459005437146631297/32235958622991302358373194792960",
+          "4566015838386795799517635474303/32235958622991302358373194792960"
+        ]
+      ]
+    },
+    {
+      "case": "P8-highdegree",
+      "m": 12,
+      "input_file": "P8-highdegree.input.json",
+      "record_file": "P8-highdegree-m12.record.json",
+      "report_file": "P8-highdegree-m12.report.json",
+      "input_bytes": 993,
+      "record_bytes": 9158,
+      "producer_seconds": 0.1925020000016957,
+      "verifier_seconds": 0.5117902999991202,
+      "record_sha256": "92c6a44a718f591653d2d1d2e8d0dc811edfa45f4ff898be21220ac3db34c1e1",
+      "dimension": 1,
+      "source_degree": 30,
+      "working_bits": 16,
+      "degree": 30,
+      "fractional_bits": 50,
+      "iterations": 32,
+      "max_strong_norm": {
+        "exact": "14443296526223/35184372088832",
+        "decimal": 0.4105031770854737
+      },
+      "max_exact_image_norm": {
+        "exact": "647915350419345287/1570630370045460480",
+        "decimal": 0.41251930611821286
+      },
+      "max_weak_step_error": {
+        "exact": "94582237/100520343682909470720",
+        "decimal": 9.409263193365e-13
+      },
+      "max_strong_step_difference": {
+        "exact": "3166593488750567/1570630370045460480",
+        "decimal": 0.0020161290327392004
+      },
+      "certified_path_error": {
+        "exact": "65338804792120060920722927732363/60760819437402772036020169903016531837583360",
+        "decimal": 1.0753443649559998e-12
+      },
+      "uniform_path_error": {
+        "exact": "9671406556917033397649415/554597137599850363154807652352",
+        "decimal": 1.743861607142857e-05
+      },
+      "target": {
+        "exact": "1/16384",
+        "decimal": 6.103515625e-05
+      },
+      "terminal_centers": [
+        "39869116870123/281474976710656"
+      ],
+      "terminal_intervals": [
+        [
+          "8606378583152224982909545942198993118214517/60760819437402772036020169903016531837583360",
+          "8606378583282902592493786064040438973679243/60760819437402772036020169903016531837583360"
+        ]
+      ]
+    },
+    {
+      "case": "P8-highdegree",
+      "m": 20,
+      "input_file": "P8-highdegree.input.json",
+      "record_file": "P8-highdegree-m20.record.json",
+      "report_file": "P8-highdegree-m20.report.json",
+      "input_bytes": 993,
+      "record_bytes": 14517,
+      "producer_seconds": 0.3396998000007443,
+      "verifier_seconds": 0.7594334000004892,
+      "record_sha256": "d38dabb18a71b4848d7c40dcdf224f1aa53ada7a8f5cccb77a77204abbe4c1b6",
+      "dimension": 1,
+      "source_degree": 30,
+      "working_bits": 24,
+      "degree": 30,
+      "fractional_bits": 58,
+      "iterations": 48,
+      "max_strong_norm": {
+        "exact": "3697483910717509/9007199254740992",
+        "decimal": 0.4105031770859645
+      },
+      "max_exact_image_norm": {
+        "exact": "12771707387466530333783/30960265854336116981760",
+        "decimal": 0.4125193061182257
+      },
+      "max_weak_step_error": {
+        "exact": "232534578161/247682126834688935854080",
+        "decimal": 9.388427866504922e-13
+      },
+      "max_strong_step_difference": {
+        "exact": "62419890835450998263/30960265854336116981760",
+        "decimal": 0.0020161290322611627
+      },
+      "certified_path_error": {
+        "exact": "361725333246112210467178630457913159105810951284687/337127441453280157123710660446925744042817255033552133601361920",
+        "decimal": 1.0729631847434195e-12
+      },
+      "uniform_path_error": {
+        "exact": "10633823966279326983230456482242756615/156105216389714361990750027908538530541862912",
+        "decimal": 6.811959402901785e-08
+      },
+      "target": {
+        "exact": "1/4194304",
+        "decimal": 2.384185791015625e-07
+      },
+      "terminal_centers": [
+        "40825975675006565/288230376151711744"
+      ],
+      "terminal_intervals": [
+        [
+          "47751929924277053950423810206798299193576588077162612442814513/337127441453280157123710660446925744042817255033552133601361920",
+          "47751929925000504616916034627732656454492414395374234345383887/337127441453280157123710660446925744042817255033552133601361920"
+        ]
+      ]
+    }
+  ]
+}

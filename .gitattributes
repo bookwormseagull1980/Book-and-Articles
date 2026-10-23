@@ -1,2 +1,3 @@
 *.pdf binary
 articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/anc/** -text
+articles/certified-spectral-computation-for-semilinear-evolution/anc/** -text whitespace=cr-at-eol

@@ -1,0 +1,65 @@
+{
+  "status": "ACCEPT",
+  "dimension": 2,
+  "source_degree": 1,
+  "m": 1,
+  "working_bits": 5,
+  "degree": 8,
+  "fractional_bits": 17,
+  "iterations": 10,
+  "max_strong_norm": {
+    "exact": "3/8",
+    "decimal": 0.375
+  },
+  "max_exact_image_norm": {
+    "exact": "3/8",
+    "decimal": 0.375
+  },
+  "max_weak_step_error": {
+    "exact": "0",
+    "decimal": 0.0
+  },
+  "max_strong_step_difference": {
+    "exact": "0",
+    "decimal": 0.0
+  },
+  "step_errors": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "certified_path_error": {
+    "exact": "1/1073741824",
+    "decimal": 9.313225746154785e-10
+  },
+  "uniform_path_error": {
+    "exact": "268435463/7516192768",
+    "decimal": 0.03571428664560829
+  },
+  "target": {
+    "exact": "1/8",
+    "decimal": 0.125
+  },
+  "terminal_centers": [
+    "153/512",
+    "-3/32"
+  ],
+  "terminal_intervals": [
+    [
+      "320864255/1073741824",
+      "320864257/1073741824"
+    ],
+    [
+      "-100663297/1073741824",
+      "-100663295/1073741824"
+    ]
+  ],
+  "verifier_seconds": 0.10001820000070438
+}

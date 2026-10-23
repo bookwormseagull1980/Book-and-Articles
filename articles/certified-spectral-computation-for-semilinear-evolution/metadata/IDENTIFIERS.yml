@@ -1,0 +1,13 @@
+title: "Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost"
+canonical_slug: "certified-spectral-computation-for-semilinear-evolution"
+work_type: "Computational supplement"
+identifiers: {}
+related_works:
+  - title: "Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows"
+    relation: "Theoretical companion"
+    ssrn_doi: "10.2139/ssrn.7649818"
+    ssrn_url: "https://ssrn.com/abstract=7649818"
+github:
+  repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
+  path: "articles/certified-spectral-computation-for-semilinear-evolution"
+  snapshot_date: "2026-10-23"

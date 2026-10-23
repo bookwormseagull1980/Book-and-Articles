@@ -72,7 +72,8 @@ supplement. The snapshot tag and checksums identify the files supplied here.
 
 Related records cited in the manuscript:
 
-- Companion article, concept DOI: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
+- Companion article, SSRN DOI: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
+- Companion article, Zenodo concept DOI: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 - Lean proof library, concept DOI: [10.5281/zenodo.23254521](https://doi.org/10.5281/zenodo.23254521)
 
 These identifiers belong to the companion article and proof library,

@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this article, cite the appropriate public record listed below."
+message: "If you use this article, cite its SSRN record or the appropriate deposited version listed below."
 title: "A Spectral Construction of Natural-Number Arithmetic"
 type: article
 authors:
   - family-names: Guo
     given-names: Jinku
     orcid: "https://orcid.org/0009-0000-6600-6171"
-doi: "10.5281/zenodo.22512592"
-url: "https://github.com/bookwormseagull1980/Book-and-Articles/tree/a-spectral-construction-of-natural-number-arithmetic-2026-10-21/articles/a-spectral-construction-of-natural-number-arithmetic"
+doi: "10.2139/ssrn.7421398"
+url: "https://ssrn.com/abstract=7421398"
 date-released: "2026-10-21"
 identifiers:
   - type: doi
