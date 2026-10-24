@@ -6,7 +6,7 @@ Work type: Research article
 
 DOI: [10.2139/ssrn.7649818](https://doi.org/10.2139/ssrn.7649818)
 
-Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/dynamics-of-generated-spectra-from-minimal-change-2026-10-23/articles/dynamics-of-generated-spectra-from-minimal-change)
+Repository snapshot: [24 October 2026, companion SSRN metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/dynamics-of-generated-spectra-from-minimal-change-2026-10-24-ssrn/articles/dynamics-of-generated-spectra-from-minimal-change)
 
 ## Abstract
 
@@ -63,7 +63,9 @@ files remain outside this repository.
 
 The companion article develops finite rational records and their independent
 checks for the encoded Neumann and Picard models:
-[doi:10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642).
+[doi:10.2139/ssrn.7659059](https://doi.org/10.2139/ssrn.7659059).
+The [SSRN page](https://ssrn.com/abstract=7659059) and
+[Zenodo record](https://doi.org/10.5281/zenodo.23582642) provide the public article records.
 Its [computational supplement](../certified-spectral-computation-for-semilinear-evolution/README.md)
 is supplied separately in this repository.
 

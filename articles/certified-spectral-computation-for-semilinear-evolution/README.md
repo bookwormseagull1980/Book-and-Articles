@@ -4,9 +4,13 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article with computational supplement
 
-DOI: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
+DOI: [10.2139/ssrn.7659059](https://doi.org/10.2139/ssrn.7659059)
 
-Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/certified-spectral-computation-for-semilinear-evolution-2026-10-23/articles/certified-spectral-computation-for-semilinear-evolution)
+SSRN: [Abstract and download page](https://ssrn.com/abstract=7659059)
+
+Zenodo: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
+
+Repository snapshot: [24 October 2026, SSRN metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/certified-spectral-computation-for-semilinear-evolution-2026-10-24-ssrn/articles/certified-spectral-computation-for-semilinear-evolution)
 
 ## Abstract
 
@@ -75,7 +79,11 @@ provides the spectral and generated-presentation framework.
 
 ## Citation and archival record
 
-Jinku Guo. *Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost*. Zenodo, 2026.
-[doi:10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642).
+Jinku Guo. *Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost*. SSRN, 10 February 2026.
+[doi:10.2139/ssrn.7659059](https://doi.org/10.2139/ssrn.7659059).
+
+- SSRN preprint DOI: [10.2139/ssrn.7659059](https://doi.org/10.2139/ssrn.7659059)
+- SSRN abstract page: [7659059](https://ssrn.com/abstract=7659059)
+- Zenodo DOI: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
 
 The repository snapshot is identified separately by its tag and file checksums.

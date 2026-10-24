@@ -32,7 +32,8 @@ Computational supplements are supplied where indicated.
 
 - [Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost](articles/certified-spectral-computation-for-semilinear-evolution/README.md)
   - Finite rational Neumann trajectories and quantized Picard executions, with separate residual checks and bit-cost bounds.
-  - Article DOI: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
+  - SSRN: [10.2139/ssrn.7659059](https://doi.org/10.2139/ssrn.7659059)
+  - Zenodo: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
   - Includes the manuscript PDF and the computational supplement in `anc/`.
 
 ### Physics

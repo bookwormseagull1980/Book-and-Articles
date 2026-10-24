@@ -8,8 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0000-6600-6171"
 doi: "10.2139/ssrn.7649818"
 url: "https://ssrn.com/abstract=7649818"
-version: "2026-10-23"
-date-released: "2026-10-23"
+version: "2026-10-24-ssrn"
+date-released: "2026-10-24"
 identifiers:
   - type: doi
     value: "10.2139/ssrn.7649818"
