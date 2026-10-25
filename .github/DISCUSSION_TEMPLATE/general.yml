@@ -1,0 +1,44 @@
+title: "[Reproduction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for help reading or reproducing a proof or computational record.
+        Specific corrections and reproducible failures can also be reported through the issue forms.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Material
+      options:
+        - Lean proof library
+        - V5 computational framework
+        - Article supplement
+        - Research portal or citation record
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Source record
+      description: Give the repository revision, release or article supplement being used.
+    validations:
+      required: true
+  - type: textarea
+    id: procedure
+    attributes:
+      label: Steps and environment
+      description: Include the relevant command, software versions and operating system.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Result and question
+      description: Identify the output, certificate or declaration involved and what needs clarification.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting output
+      description: Add the relevant log excerpt, record or calculation.

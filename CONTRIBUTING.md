@@ -1,8 +1,12 @@
 # Scientific feedback and corrections
 
 This repository welcomes precise questions about the construction and its results.
-Use [Discussions](https://github.com/bookwormseagull1980/Book-and-Articles/discussions)
-for mathematical interpretation, physical mechanisms and reading questions.
+The [research guide](https://github.com/bookwormseagull1980/Book-and-Articles/discussions/1)
+connects the papers, proofs and calculations. Use
+[mathematics and physics Q&A](https://github.com/bookwormseagull1980/Book-and-Articles/discussions/new?category=q-a)
+for questions about constructions and mechanisms, and
+[reproduction help](https://github.com/bookwormseagull1980/Book-and-Articles/discussions/new?category=general)
+for help with a proof build, calculation or published record.
 Use an issue for a specific textual correction, failed reproduction or discrepancy
 between a published statement and its implementation.
 

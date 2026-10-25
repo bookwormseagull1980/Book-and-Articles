@@ -1,0 +1,38 @@
+title: "[Theory] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions about the mathematical constructions and physical mechanisms are welcome here.
+        The paper catalogue and theorem-to-paper index provide the relevant source material.
+  - type: dropdown
+    id: subject
+    attributes:
+      label: Subject
+      options:
+        - Arithmetic and expression histories
+        - Prime decomposition and operators
+        - Gauge structure and spectral gaps
+        - Gravity and cosmology
+        - Generated computation and complexity
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Article and passage
+      description: Give the article title, section or theorem, and a link where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Explain the step, definition or interpretation you would like to discuss.
+    validations:
+      required: true
+  - type: textarea
+    id: calculation
+    attributes:
+      label: Supporting calculation or comparison
+      description: Include any calculation or related result that helps make the question precise.

@@ -43,3 +43,13 @@ records support their mathematical and physical conclusions.
 Each article page links the manuscript and any distributed computational
 supplement. Cite the article for its result and the relevant software record
 for a reproduction.
+
+## Questions and reproduction help
+
+The [research guide](https://github.com/bookwormseagull1980/Book-and-Articles/discussions/1)
+introduces the reading routes. Questions about a theorem or physical mechanism
+can be raised in [mathematics and physics Q&A](https://github.com/bookwormseagull1980/Book-and-Articles/discussions/new?category=q-a).
+For help rebuilding a proof, running a calculation or interpreting a certificate,
+use [reproduction help](https://github.com/bookwormseagull1980/Book-and-Articles/discussions/new?category=general).
+Include the source revision and the declaration or output concerned so that the
+discussion can be tied to the record being used.

@@ -128,7 +128,12 @@ links the paper records, the Lean proof library and the computational framework.
 Author: Jinku Guo · [ORCID 0009-0000-6600-6171](https://orcid.org/0009-0000-6600-6171)
 · [guojk@nwpu.edu.cn](mailto:guojk@nwpu.edu.cn).
 Questions about a mathematical statement, physical construction or numerical
-record are welcome in [Discussions](https://github.com/bookwormseagull1980/Book-and-Articles/discussions).
+record have three entry points in Discussions.
+
+- [Research guide](https://github.com/bookwormseagull1980/Book-and-Articles/discussions/1)
+- [Mathematics and physics Q&A](https://github.com/bookwormseagull1980/Book-and-Articles/discussions/new?category=q-a)
+- [Proofs, calculations and reproduction help](https://github.com/bookwormseagull1980/Book-and-Articles/discussions/new?category=general)
+
 Specific corrections can be submitted through [Issues](https://github.com/bookwormseagull1980/Book-and-Articles/issues/new/choose).
 
 PDFs, source supplements and their rights are recorded separately in each work's
