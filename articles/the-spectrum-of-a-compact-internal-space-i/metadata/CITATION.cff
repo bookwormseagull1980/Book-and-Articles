@@ -1,52 +1,51 @@
 cff-version: 1.2.0
-message: "If you use this article, cite its public record and identify the relevant version."
-title: "The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap"
+message: If you use this article, cite its public record and identify the relevant version.
+title: 'The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap'
 type: article
 authors:
-  - family-names: Guo
-    given-names: Jinku
-    orcid: "https://orcid.org/0009-0000-6600-6171"
-doi: "10.2139/ssrn.7352020"
-url: "https://ssrn.com/abstract=7352020"
-date-released: "2026-10-25"
+- family-names: Guo
+  given-names: Jinku
+  orcid: https://orcid.org/0009-0000-6600-6171
+doi: 10.2139/ssrn.7352020
+url: https://ssrn.com/abstract=7352020
+date-released: '2026-10-25'
 identifiers:
-  - type: doi
-    value: "10.2139/ssrn.7352020"
-    description: "SSRN preprint DOI"
-  - type: doi
-    value: "10.5281/zenodo.22067117"
-    description: "Zenodo DOI"
-abstract: >-
-  From minimal unbiased compositional change we construct compact internal
-  geometry and gauge–matter representations, and prove a mass gap for the
-  generated Yang–Mills response.
-  On the least-dimensional nontrivial compact connected faithful irreducible orthogonal
-  carrier, independent composition and square-root scaling with unit covariance
-  fix the centred Gaussian source. Ladder operations and coherent comparisons
-  generate the round SU(2) process spectrum; complete centre-invariant
-  observations give RP³. Within complete continuations preserving
-  adjoints, exchange structures, source phase and reversal, three theorems
-  characterize the faithfully acting group
-  (SU(3)×SU(2)×U(1))/ℤ₆,
-  a sixteen-dimensional full matter module with a fifteen-dimensional charged
-  quotient, and an elementary scalar connector parametrized by one complex doublet.
-  The colour connection determines a complete spectral response with a unique
-  positive equilibrium at the source-calibrated radius. Its normalized radial
-  and common-frame coexact responses define the generated Yang–Mills mass
-  operator. The Gaussian equilibrium completion has a unique vacuum and an
-  attained positive gap. Its representation preserves the original connection
-  state and polynomial products and intertwines the update. The curvature
-  susceptibility detects the collective radial response.
-  The same source algebra generates a Lorentzian event carrier with a phase
-  clock. Osterwalder–Schrader reconstruction gives free local fields.
-  For the renormalizable gauge–matter realization, causal perturbation theory
-  constructs the interacting net as a formal series at gauge-compatible finite
-  internal resolution.
+- type: doi
+  value: 10.2139/ssrn.7352020
+  description: SSRN preprint DOI
+- type: doi
+  value: 10.5281/zenodo.22067117
+  description: Zenodo DOI
+abstract: From minimal unbiased compositional change we construct compact internal geometry
+  and gauge–matter representations, and prove a mass gap for the generated Yang–Mills response.
+  On the least-dimensional nontrivial compact connected faithful irreducible orthogonal carrier,
+  independent composition and square-root scaling with unit covariance fix the centred Gaussian
+  source. Ladder operations and coherent comparisons generate the round SU(2) process spectrum;
+  complete centre-invariant observations give RP³. Within complete continuations preserving
+  adjoints, exchange structures, source phase and reversal, three theorems characterize the
+  faithfully acting group (SU(3)×SU(2)×U(1))/ℤ₆, a sixteen-dimensional full matter module with
+  a fifteen-dimensional charged quotient, and an elementary scalar connector parametrized by
+  one complex doublet. The colour connection determines a complete spectral response with a
+  unique positive equilibrium at the source-calibrated radius. Its normalized radial and common-frame
+  coexact responses define the generated Yang–Mills mass operator. The Gaussian equilibrium
+  completion has a unique vacuum and an attained positive gap. Its representation preserves
+  the original connection state and polynomial products and intertwines the update. The curvature
+  susceptibility detects the collective radial response. The same source algebra generates a
+  Lorentzian event carrier with a phase clock. Osterwalder–Schrader reconstruction gives free
+  local fields. For the renormalizable gauge–matter realization, causal perturbation theory
+  constructs the interacting net as a formal series at gauge-compatible finite internal resolution.
 keywords:
-  - "Emergent gauge symmetry"
-  - "Yang–Mills mass gap"
-  - "Spectral geometry"
-  - "Chiral matter representations"
-  - "Lorentzian geometry"
-  - "Causal perturbation theory"
-  - "Minimal unbiased compositional change"
+- Emergent gauge symmetry
+- Yang–Mills mass gap
+- Spectral geometry
+- Chiral matter representations
+- Lorentzian geometry
+- Causal perturbation theory
+- Minimal unbiased compositional change
+- Yang-Mills
+- Mass gap
+- Spectral gap
+- Gauge theory
+- Standard Model
+- Matter representations
+- Higgs doublet

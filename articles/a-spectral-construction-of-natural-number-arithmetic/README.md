@@ -78,3 +78,7 @@ Public records:
 The Zenodo concept DOI identifies the work across its deposited versions.
 The repository contains the current 91-page manuscript. Git history and
 the file checksum identify the reading copy supplied here.
+
+## Research context
+
+[Related research and results](../../topics/generated-arithmetic.md) · [Programme overview](../../README.md) · [Proofs and calculations](https://bookwormseagull1980.github.io/Book-and-Articles/verification.html)

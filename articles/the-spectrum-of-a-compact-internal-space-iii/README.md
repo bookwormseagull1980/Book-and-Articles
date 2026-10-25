@@ -95,3 +95,7 @@ Git history and file checksums identify the repository reading copy.
 The framework software DOI
 [10.5281/zenodo.22067005](https://doi.org/10.5281/zenodo.22067005)
 identifies a separate software record.
+
+## Research context
+
+[Related research and results](../../topics/gravity-and-cosmology.md) · [Programme overview](../../README.md) · [Proofs and calculations](https://bookwormseagull1980.github.io/Book-and-Articles/verification.html)

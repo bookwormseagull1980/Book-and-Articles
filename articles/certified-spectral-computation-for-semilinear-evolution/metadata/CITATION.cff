@@ -1,51 +1,54 @@
 cff-version: 1.2.0
-message: "If you use this article or its computational supplement, cite the article and identify the relevant version."
-title: "Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost"
+message: If you use this article or its computational supplement, cite the article and identify
+  the relevant version.
+title: 'Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial
+  Bit Cost'
 type: article
 authors:
-  - family-names: Guo
-    given-names: Jinku
-    orcid: "https://orcid.org/0009-0000-6600-6171"
-doi: "10.2139/ssrn.7659059"
-url: "https://ssrn.com/abstract=7659059"
-version: "2026-10-24-ssrn"
-date-released: "2026-10-24"
+- family-names: Guo
+  given-names: Jinku
+  orcid: https://orcid.org/0009-0000-6600-6171
+doi: 10.2139/ssrn.7659059
+url: https://ssrn.com/abstract=7659059
+version: 2026-10-24-ssrn
+date-released: '2026-10-24'
 identifiers:
-  - type: doi
-    value: "10.2139/ssrn.7659059"
-    description: "SSRN preprint DOI"
-  - type: doi
-    value: "10.5281/zenodo.23582642"
-    description: "Zenodo article DOI"
-abstract: >-
-  We study finite records whose accuracy for an infinite-dimensional nonlinear
-  evolution can be checked without rerunning the producing algorithm. The
-  model is a fixed Neumann reaction–diffusion equation with quadratic reaction
-  on a fixed time interval. Inputs are rational cosine polynomials satisfying
-  a common exponentially weighted coefficient bound. Exact rational tests of
-  continuity and coefficient bounds together with the initial discrepancy and
-  Galerkin residual certify the trajectory error for the original equation and
-  the error of its terminal mean and point value. Acceptance depends on the
-  submitted record independently of the algorithm that produced its
-  coefficients. A rational Taylor construction yields an accepted record for
-  every admissible input and requested accuracy. Construction cost and record
-  length are polynomial in the complete input length and the number of
-  requested accuracy bits. Checking is polynomial in the input and submitted
-  record lengths. The proof controls quantized restarts and the bit lengths of
-  intermediate numerators and denominators. A separate rational check
-  certifies quadratic accounts with positive transport defects and signed
-  injection and approximation increments. Finite response approximations also
-  include operator-tail and rounding bounds in the acceptance test. These
-  results give a computational realization of the generated spectral framework
-  for the encoded Neumann family. A rational finite-dimensional system
-  provides a second realization through quantized Picard iteration.
-  Construction and checking programs accompany both models.
+- type: doi
+  value: 10.2139/ssrn.7659059
+  description: SSRN preprint DOI
+- type: doi
+  value: 10.5281/zenodo.23582642
+  description: Zenodo article DOI
+abstract: We study finite records whose accuracy for an infinite-dimensional nonlinear evolution
+  can be checked without rerunning the producing algorithm. The model is a fixed Neumann reaction–diffusion
+  equation with quadratic reaction on a fixed time interval. Inputs are rational cosine polynomials
+  satisfying a common exponentially weighted coefficient bound. Exact rational tests of continuity
+  and coefficient bounds together with the initial discrepancy and Galerkin residual certify
+  the trajectory error for the original equation and the error of its terminal mean and point
+  value. Acceptance depends on the submitted record independently of the algorithm that produced
+  its coefficients. A rational Taylor construction yields an accepted record for every admissible
+  input and requested accuracy. Construction cost and record length are polynomial in the complete
+  input length and the number of requested accuracy bits. Checking is polynomial in the input
+  and submitted record lengths. The proof controls quantized restarts and the bit lengths of
+  intermediate numerators and denominators. A separate rational check certifies quadratic accounts
+  with positive transport defects and signed injection and approximation increments. Finite
+  response approximations also include operator-tail and rounding bounds in the acceptance test.
+  These results give a computational realization of the generated spectral framework for the
+  encoded Neumann family. A rational finite-dimensional system provides a second realization
+  through quantized Picard iteration. Construction and checking programs accompany both models.
 keywords:
-  - "Validated numerics"
-  - "Spectral Galerkin methods"
-  - "Semilinear parabolic equations"
-  - "Reaction-diffusion equations"
-  - "A posteriori error estimates"
-  - "Exact rational arithmetic"
-  - "Proof-carrying computation"
-  - "Bit complexity"
+- Validated numerics
+- Spectral Galerkin methods
+- Semilinear parabolic equations
+- Reaction-diffusion equations
+- A posteriori error estimates
+- Exact rational arithmetic
+- Proof-carrying computation
+- Bit complexity
+- P vs NP
+- Computational complexity
+- Polynomial bit complexity
+- Certified computation
+- Semilinear evolution
+- Residual certificates
+- Robust decoding

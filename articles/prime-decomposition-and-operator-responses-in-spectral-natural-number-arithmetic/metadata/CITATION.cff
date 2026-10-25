@@ -1,57 +1,57 @@
 cff-version: 1.2.0
-message: "If you use this article, cite its SSRN record or the appropriate Zenodo record listed below."
-title: "Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic"
+message: If you use this article, cite its SSRN record or the appropriate Zenodo record listed
+  below.
+title: Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic
 authors:
-  - family-names: Guo
-    given-names: Jinku
-    orcid: "https://orcid.org/0009-0000-6600-6171"
-doi: "10.2139/ssrn.7650278"
-url: "https://ssrn.com/abstract=7650278"
-date-released: "2026-10-25"
+- family-names: Guo
+  given-names: Jinku
+  orcid: https://orcid.org/0009-0000-6600-6171
+doi: 10.2139/ssrn.7650278
+url: https://ssrn.com/abstract=7650278
+date-released: '2026-10-25'
 identifiers:
-  - type: doi
-    value: "10.2139/ssrn.7650278"
-    description: "SSRN preprint DOI"
-  - type: doi
-    value: "10.5281/zenodo.23538151"
-    description: "Zenodo record DOI"
+- type: doi
+  value: 10.2139/ssrn.7650278
+  description: SSRN preprint DOI
+- type: doi
+  value: 10.5281/zenodo.23538151
+  description: Zenodo record DOI
 preferred-citation:
   type: article
-  title: "Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic"
+  title: Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic
   authors:
-    - family-names: Guo
-      given-names: Jinku
-      orcid: "https://orcid.org/0009-0000-6600-6171"
+  - family-names: Guo
+    given-names: Jinku
+    orcid: https://orcid.org/0009-0000-6600-6171
   year: 2026
-  doi: "10.2139/ssrn.7650278"
-  url: "https://ssrn.com/abstract=7650278"
-abstract: >-
-  We construct decomposition and occupation operators on a generated
-  correlation-spectral arithmetic system. Prime residue classes form the
-  augmentation cotangent basis, and the corresponding one-word vectors span
-  the degree-one kernel of a decomposition Hodge Laplacian. The complementary
-  spectral gap is exactly one, giving sharp heat and resolvent approximations
-  to the prime projection and summable Gaussian trace errors. Symmetric and
-  exterior occupations retain logarithmic arithmetic energy and quadratic
-  correlation energy on the same value space. A faithful extension of
-  addition records relative inputs; its charge defect intertwines input
-  multiplicative parity with the parity of the sum. Common-factor coordinates
-  and exact square-divisor identities give scale transforms of the resulting
-  signed responses. Combining additive and decomposition responses defines a
-  Gaussian endpoint map. Under diagonal self-consistency, this map has a
-  unique stable fixed point with an enclosure of the complete infinite
-  response. For compact Laplace realizations of square energy and quadratic
-  shell capacity, Weyl counting gives dimension three; further geometric and
-  central-sign classifications hold in their stated realization classes.
-  Counting applications recover Bertrand's theorem, the prime-number
-  asymptotic and square-free sign densities through the occupation traces
-  and their boundary responses.
+  doi: 10.2139/ssrn.7650278
+  url: https://ssrn.com/abstract=7650278
+abstract: We construct decomposition and occupation operators on a generated correlation-spectral
+  arithmetic system. Prime residue classes form the augmentation cotangent basis, and the corresponding
+  one-word vectors span the degree-one kernel of a decomposition Hodge Laplacian. The complementary
+  spectral gap is exactly one, giving sharp heat and resolvent approximations to the prime projection
+  and summable Gaussian trace errors. Symmetric and exterior occupations retain logarithmic
+  arithmetic energy and quadratic correlation energy on the same value space. A faithful extension
+  of addition records relative inputs; its charge defect intertwines input multiplicative parity
+  with the parity of the sum. Common-factor coordinates and exact square-divisor identities
+  give scale transforms of the resulting signed responses. Combining additive and decomposition
+  responses defines a Gaussian endpoint map. Under diagonal self-consistency, this map has a
+  unique stable fixed point with an enclosure of the complete infinite response. For compact
+  Laplace realizations of square energy and quadratic shell capacity, Weyl counting gives dimension
+  three; further geometric and central-sign classifications hold in their stated realization
+  classes. Counting applications recover Bertrand's theorem, the prime-number asymptotic and
+  square-free sign densities through the occupation traces and their boundary responses.
 keywords:
-  - "Spectral arithmetic"
-  - "Prime factorization"
-  - "Hodge Laplacians"
-  - "Fock spaces"
-  - "Möbius function"
-  - "Dirichlet series"
-  - "Heat semigroups"
-  - "Riemann zeta function"
+- Spectral arithmetic
+- Prime factorization
+- Hodge Laplacians
+- Fock spaces
+- Möbius function
+- Dirichlet series
+- Heat semigroups
+- Riemann zeta function
+- Prime numbers
+- Hodge Laplacian
+- Fock space
+- Moebius function
+- Gaussian dilation

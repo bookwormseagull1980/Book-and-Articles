@@ -1,0 +1,58 @@
+{
+  "title": "Foundations from Minimal Change",
+  "subtitle": "Mathematics, physics and computation",
+  "description": "Jinku Guo's research on generated arithmetic and histories, Yang-Mills spectral gaps, emergent gravity, cosmic structure and certified computation, with Lean proofs and reproducible code.",
+  "topics": [
+    {
+      "slug": "generated-arithmetic",
+      "short": "Arithmetic and histories",
+      "papers": [
+        "a-spectral-construction-of-natural-number-arithmetic",
+        "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
+      ]
+    },
+    {
+      "slug": "prime-operators",
+      "short": "Prime operators",
+      "papers": [
+        "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
+      ]
+    },
+    {
+      "slug": "gauge-and-mass-gap",
+      "short": "Gauge structure and mass gap",
+      "papers": [
+        "the-spectrum-of-a-compact-internal-space-i",
+        "the-spectrum-of-a-compact-internal-space-ii"
+      ]
+    },
+    {
+      "slug": "gravity-and-cosmology",
+      "short": "Gravity and cosmology",
+      "papers": [
+        "a-spectral-criterion-for-emergent-gravity",
+        "coarse-graining-and-long-range-response",
+        "the-spectrum-of-a-compact-internal-space-iii"
+      ]
+    },
+    {
+      "slug": "certified-computation",
+      "short": "Computation and P vs NP",
+      "papers": [
+        "dynamics-of-generated-spectra-from-minimal-change",
+        "certified-spectral-computation-for-semilinear-evolution"
+      ]
+    }
+  ],
+  "reading_order": [
+    "a-spectral-construction-of-natural-number-arithmetic",
+    "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic",
+    "dynamics-of-generated-spectra-from-minimal-change",
+    "certified-spectral-computation-for-semilinear-evolution",
+    "the-spectrum-of-a-compact-internal-space-i",
+    "the-spectrum-of-a-compact-internal-space-ii",
+    "a-spectral-criterion-for-emergent-gravity",
+    "coarse-graining-and-long-range-response",
+    "the-spectrum-of-a-compact-internal-space-iii"
+  ]
+}

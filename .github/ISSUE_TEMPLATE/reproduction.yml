@@ -1,0 +1,25 @@
+name: Reproduction problem
+description: Report a failed build, certificate check or numerical reproduction.
+title: "[Reproduction] "
+body:
+  - type: input
+    id: revision
+    attributes:
+      label: Repository revision and environment
+      description: Commit or release, operating system, and relevant tool versions.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and observed output
+      description: Include the relevant output and the record or declaration involved. Remove credentials and private information.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result and source
+      description: Identify the documented command, theorem, certificate or comparison you expected to reproduce.
+    validations:
+      required: true

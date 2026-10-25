@@ -1,49 +1,49 @@
 cff-version: 1.2.0
-message: "If you use this article, cite its public record and identify the relevant version."
-title: "The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales"
+message: If you use this article, cite its public record and identify the relevant version.
+title: 'The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales'
 type: article
 authors:
-  - family-names: Guo
-    given-names: Jinku
-    orcid: "https://orcid.org/0009-0000-6600-6171"
-doi: "10.2139/ssrn.7351999"
-url: "https://ssrn.com/abstract=7351999"
-date-released: "2026-10-25"
+- family-names: Guo
+  given-names: Jinku
+  orcid: https://orcid.org/0009-0000-6600-6171
+doi: 10.2139/ssrn.7351999
+url: https://ssrn.com/abstract=7351999
+date-released: '2026-10-25'
 identifiers:
-  - type: doi
-    value: "10.2139/ssrn.7351999"
-    description: "SSRN preprint DOI"
-  - type: doi
-    value: "10.5281/zenodo.22067468"
-    description: "Zenodo DOI"
-abstract: >-
-  Minimal unbiased compositional change generates the Gaussian source of the
-  compact internal construction. We derive joint constraints on effective
-  couplings and mass scales from its gauge and matter content, scalar sector,
-  spectral endpoint and kinetic normalizations. Compatibility of source and
-  colour screening selects three matter copies. Within the response family
-  indexed by integers, shell support and position retention select the level
-  R=5, whose transverse traceless endpoint equation has a unique positive
-  root. Eliminating shared transfer parameters gives a relation among six
-  geometric fermion masses. Bandwidth variation correlates the electron and
-  electroweak scales, while two cosmological ratios are independent of the
-  common neutrino mass normalization. Finite matching through one loop
-  implements the generated Fermi, top and Higgs conditions in a common action.
-  The absorptive top self energy gives the Born decay width as an additional
-  output. The compact source covariance and positive RMS amplitude determine
-  a local nonlinear flux that couples matter motion to source feedback. A
-  model with an auxiliary radius admits autonomous source evolution, positive
-  reduced propagation forms and a matter phase clock on a specified finite
-  cosmological interval. Physical comparisons use the stated mass definitions,
-  matching and thermal approximations. The fixed DESI DR2 distance comparison
-  gives χ²=29.5087 for thirteen components and p=0.00554, indicating tension in
-  the adopted cosmological mapping. Spectral tail and quadrature bounds
-  control the finite response calculation.
+- type: doi
+  value: 10.2139/ssrn.7351999
+  description: SSRN preprint DOI
+- type: doi
+  value: 10.5281/zenodo.22067468
+  description: Zenodo DOI
+abstract: Minimal unbiased compositional change generates the Gaussian source of the compact
+  internal construction. We derive joint constraints on effective couplings and mass scales
+  from its gauge and matter content, scalar sector, spectral endpoint and kinetic normalizations.
+  Compatibility of source and colour screening selects three matter copies. Within the response
+  family indexed by integers, shell support and position retention select the level R=5, whose
+  transverse traceless endpoint equation has a unique positive root. Eliminating shared transfer
+  parameters gives a relation among six geometric fermion masses. Bandwidth variation correlates
+  the electron and electroweak scales, while two cosmological ratios are independent of the
+  common neutrino mass normalization. Finite matching through one loop implements the generated
+  Fermi, top and Higgs conditions in a common action. The absorptive top self energy gives the
+  Born decay width as an additional output. The compact source covariance and positive RMS amplitude
+  determine a local nonlinear flux that couples matter motion to source feedback. A model with
+  an auxiliary radius admits autonomous source evolution, positive reduced propagation forms
+  and a matter phase clock on a specified finite cosmological interval. Physical comparisons
+  use the stated mass definitions, matching and thermal approximations. The fixed DESI DR2 distance
+  comparison gives χ²=29.5087 for thirteen components and p=0.00554, indicating tension in the
+  adopted cosmological mapping. Spectral tail and quadrature bounds control the finite response
+  calculation.
 keywords:
-  - "Gauge couplings"
-  - "Fermion mass hierarchies"
-  - "Fermion mass relations"
-  - "Fermion generations"
-  - "Electroweak symmetry breaking"
-  - "Particle cosmology"
-  - "Spectral geometry"
+- Gauge couplings
+- Fermion mass hierarchies
+- Fermion mass relations
+- Fermion generations
+- Electroweak symmetry breaking
+- Particle cosmology
+- Spectral geometry
+- Effective couplings
+- Mass scales
+- Particle physics
+- Electroweak matching
+- Charged leptons

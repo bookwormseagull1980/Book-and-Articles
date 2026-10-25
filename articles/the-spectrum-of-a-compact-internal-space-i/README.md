@@ -90,3 +90,7 @@ Jinku Guo. *The Spectrum of a Compact Internal Space I: Gauge Structure and a Sc
 
 The repository PDF is identified by its Git history and checksum. The public
 article records identify the work or their respective deposited versions.
+
+## Research context
+
+[Related research and results](../../topics/gauge-and-mass-gap.md) · [Programme overview](../../README.md) · [Proofs and calculations](https://bookwormseagull1980.github.io/Book-and-Articles/verification.html)

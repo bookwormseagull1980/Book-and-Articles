@@ -102,3 +102,7 @@ Jinku Guo. *Certified Spectral Computation for Semilinear Evolution: Finite Reco
 - Zenodo DOI: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
 
 The repository snapshot is identified separately by its tag and file checksums.
+
+## Research context
+
+[Related research and results](../../topics/certified-computation.md) · [Programme overview](../../README.md) · [Proofs and calculations](https://bookwormseagull1980.github.io/Book-and-Articles/verification.html)

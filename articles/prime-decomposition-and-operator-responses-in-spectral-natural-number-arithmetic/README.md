@@ -104,3 +104,7 @@ Related records cited in the manuscript:
 These identifiers belong to the companion article and proof library,
 respectively. The present article's SSRN and Zenodo records are listed separately
 above.
+
+## Research context
+
+[Related research and results](../../topics/prime-operators.md) · [Programme overview](../../README.md) · [Proofs and calculations](https://bookwormseagull1980.github.io/Book-and-Articles/verification.html)

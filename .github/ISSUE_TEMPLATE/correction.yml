@@ -1,0 +1,18 @@
+name: Scientific or textual correction
+description: Identify a precise statement, reference or metadata correction.
+title: "[Correction] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Work and location
+      description: Article title and section, formal declaration, or repository file and revision.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction and mathematical reason
+      description: Quote the relevant passage and explain the proposed correction, with supporting calculation or reference where applicable.
+    validations:
+      required: true

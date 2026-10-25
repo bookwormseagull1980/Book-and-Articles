@@ -76,3 +76,7 @@ Jinku Guo. *Coarse-Graining and Long-Range Response in Generated Systems*. 2026.
 
 The repository PDF is identified by its snapshot tag and checksum. The public
 article records identify the work or their respective deposited versions.
+
+## Research context
+
+[Related research and results](../../topics/gravity-and-cosmology.md) · [Programme overview](../../README.md) · [Proofs and calculations](https://bookwormseagull1980.github.io/Book-and-Articles/verification.html)

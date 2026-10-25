@@ -1,85 +1,138 @@
-# Book and Articles
+# Foundations from Minimal Change
 
-Public reading copies of books and research articles by Jinku Guo. Each article
-page explains its generating construction, principal results and relation to
-established methods. Each work also has subject keywords, citation metadata,
-a rights statement and a SHA-256 file record. LaTeX sources are not included.
-Computational supplements are supplied where indicated.
+## Mathematics, physics and computation
 
-## Books
+Research papers and books by **Jinku Guo**, Northwestern Polytechnical University.
 
-- [Beyond Apparent Paths: The Practice of Seeking Truth from Facts](books/beyond-apparent-paths/README.md)
-  - DOI: not assigned
+[Research portal](https://bookwormseagull1980.github.io/Book-and-Articles/) · [Lean proofs](https://github.com/bookwormseagull1980/Lean-Formalization-of-Arithmetic-and-Basic-Physical-Interfaces) · [V5 calculations](https://github.com/bookwormseagull1980/coarse-graining-genesis) · [Research discussions](https://github.com/bookwormseagull1980/Book-and-Articles/discussions)
 
-## Articles
+How much mathematical and physical structure can be generated from a common
+description of change? This programme begins with minimal unbiased compositional
+change, derives its Gaussian correlation law, and follows the structures retained
+by finite observation. Its mathematical branch constructs arithmetic together
+with the expressions that generate its elements. Its physical branch develops
+compact spectral geometry, gauge and matter response, and macroscopic dynamics.
+Its computational branch turns finite observations into independently checkable
+records with explicit error and bit-cost bounds.
 
-### Mathematics
+The common source matters. Changing a source input changes several sectors
+together, so a coupling, mass response and cosmological readout can be compared
+as related outputs of one construction. The papers develop these connections as
+explicit maps, operators and compatibility theorems.
 
-- [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md)
-  - Natural-number arithmetic from a correlation source, with ordered expression histories, conditional readout and history-assembly dynamics.
-  - SSRN: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
-  - Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
+![The common source and its arithmetic, physical and computational branches](site/assets/research-map.png)
 
-- [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md)
-  - Prime localization by Hodge operators, occupation traces, additive relative inputs and signed Gaussian responses, with endpoint fixed-point certificates and reproducible computation.
-  - SSRN: [10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn.7650278)
-  - Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
-  - Includes the computational supplement in `anc/`.
+## Principal results
 
-- [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md)
-  - Interaction-compatible spectral weights, certified constructions, quadratic ledgers and nonlinear Galerkin error bounds for finite observations.
-  - SSRN: [10.2139/ssrn.7649818](https://doi.org/10.2139/ssrn.7649818)
-  - Zenodo: [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976)
+### Generated arithmetic and retained histories
 
-- [Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost](articles/certified-spectral-computation-for-semilinear-evolution/README.md)
-  - Finite rational Neumann trajectories and quantized Picard executions, with separate residual checks and bit-cost bounds.
-  - SSRN: [10.2139/ssrn.7659059](https://doi.org/10.2139/ssrn.7659059)
-  - Zenodo: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
-  - Includes the manuscript PDF and the computational supplement in `anc/`.
+The arithmetic construction starts from correlation geometry and an ordered
+spectral family. Native modulation and composition define addition and
+multiplication; winding degree certifies the resulting ordered Peano semiring.
+Finite expression fibres retain input order, brackets and operation labels.
+Different ways of producing the same value therefore remain distinguishable.
+The history-assembly operator couples these differences back to observable
+values: a history component with zero initial value readout can produce a
+nonzero later readout. Eliminating the differences gives an exact memory equation.
 
-### Physics
+[Arithmetic and histories](topics/generated-arithmetic.md)
 
-- [A Spectral Criterion for Emergent Gravity](articles/a-spectral-criterion-for-emergent-gravity/README.md)
-  - Source-resolved tensor exchange, positive spectral measures and the conditions for an emergent gravitational response.
-  - arXiv: [10.48550/arXiv.2607.21621](https://doi.org/10.48550/arXiv.2607.21621)
-  - Zenodo: [10.5281/zenodo.22093341](https://doi.org/10.5281/zenodo.22093341)
-  - SSRN: [10.2139/ssrn.7352000](https://doi.org/10.2139/ssrn.7352000)
+### Prime directions and operator responses
 
-- [Coarse-Graining and Long-Range Response in Generated Systems](articles/coarse-graining-and-long-range-response/README.md)
-  - Preservation of source-to-observation response under coarse-graining, including memory and the stability of visible poles and residues.
-  - arXiv: [10.48550/arXiv.2608.01989](https://doi.org/10.48550/arXiv.2608.01989)
-  - Zenodo: [10.5281/zenodo.22093524](https://doi.org/10.5281/zenodo.22093524)
-  - SSRN: [10.2139/ssrn.7352038](https://doi.org/10.2139/ssrn.7352038)
+Cascade-irreducible prime modes, their residue classes in the augmentation
+cotangent space, and degree-one harmonic bar vectors are linked by explicit
+identifications. The degree-one Hodge operator has eigenvalue `d(n)-2`, where
+`d(n)` counts positive divisors; its heat flow localizes the prime sector with
+sharp operator error `exp(-tau)`. Symmetric and graded exterior occupations
+give zeta and reciprocal-zeta traces. Additive input spaces retain the relative
+data required to intertwine addition with multiplicative central parity.
 
-- [The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap](articles/the-spectrum-of-a-compact-internal-space-i/README.md)
-  - Generated gauge–matter response, the equilibrium Yang–Mills spectral gap and finite-resolution field realizations.
-  - SSRN: [10.2139/ssrn.7352020](https://doi.org/10.2139/ssrn.7352020)
-  - Zenodo: [10.5281/zenodo.22067117](https://doi.org/10.5281/zenodo.22067117)
+[Prime decomposition and operator methods](topics/prime-operators.md)
 
-- [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](articles/the-spectrum-of-a-compact-internal-space-ii/README.md)
-  - Common spectral responses for effective couplings, fermion mass relations, electroweak matching and finite cosmological comparisons.
-  - SSRN: [10.2139/ssrn.7351999](https://doi.org/10.2139/ssrn.7351999)
-  - Zenodo: [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468)
+### Gauge structure and the generated Yang-Mills spectral gap
 
-- [The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation](articles/the-spectrum-of-a-compact-internal-space-iii/README.md)
-  - Reconstruction error bounds for changing spectral windows, object moments and memory, with finite Galerkin calculations and continuous particle and cold-sheet certificates.
-  - SSRN: [10.2139/ssrn.7659840](https://doi.org/10.2139/ssrn.7659840)
-  - Zenodo: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)
-  - Includes the 86-page manuscript PDF and the complete computational supplement in `anc/`.
+The compact internal construction produces gauge and matter structures in its
+stated response classes, including the Standard Model gauge quotient and a
+scalar weak doublet. A generated nonlinear action has a differentiated
+original-field Hessian with radial and coexact connection sectors. Its unique
+self-adjoint closure has an attained positive spectral bottom and the
+corresponding finite-occupation Fock gap. These operator statements are
+formalized in Lean. V5 supplies the finite spectral-response calculation and
+the separately certified transverse-traceless endpoint realization.
 
-### Engineering
+[Gauge structure, matter and spectral gaps](topics/gauge-and-mass-gap.md)
 
-No engineering papers have been uploaded yet.
+### Emergent gravity and cosmic structure
 
-## Archival Policy
+A source-resolved spectral criterion identifies long-range tensor exchange.
+Coarse-graining retains four response defects, including direct response and
+hidden-state memory, rather than retaining a propagator alone. Moving spectral
+windows carry reconstruction bounds and object moments into finite cosmological
+calculations. A continuous-trajectory certificate covers a 4,096-particle example
+at its stated mesh resolution; cold-sheet evolution has a separate pre-crossing
+certificate.
 
-The repository is a catalogue, not a single citable publication. Each book or
-article is maintained as a distinct work. A work's directory records its own
-persistent identifiers and checksum. Title-based immutable Git tags identify
-repository snapshots. Zenodo deposits are handled separately for each work.
-A Zenodo concept DOI identifies the evolving work and a Zenodo version DOI
-identifies one deposited version. The repository PDF and an archived version
-are identified separately by their metadata and checksums.
+[Gravity, coarse-graining and cosmology](topics/gravity-and-cosmology.md)
 
-Copyright (c) 2026 Jinku Guo. Rights are stated separately in each work's
-`metadata/RIGHTS.md` file.
+### Certified computation and the P vs NP connection
+
+Generated function classes carry finite construction certificates. Interaction
+weights and full quadratic ledgers preserve the data used to control nonlinear
+spectral approximations. For a specified semilinear Neumann evolution problem,
+finite rational trajectory records have independently checked residuals and
+polynomial bit cost. The computation paper also proves an equality of certified
+relations and deterministic polynomial-time computation in its generated
+framework, and identifies the uniform-generation condition that connects this
+statement to the standard P vs NP problem.
+
+[Generated computation and complexity](topics/certified-computation.md)
+
+## Where to start
+
+- **For the construction:** read *A Spectral Construction of Natural-Number
+  Arithmetic*, then *Prime Decomposition and Operator Responses*. Continue to
+  the generated-spectrum and certified-computation papers for finite observation.
+- **For physics:** start with *Compact Internal Space I*, then its numerical
+  companion *II*. Read the gravity criterion and coarse-graining paper before
+  *III*, which develops finite-window cosmic structure formation.
+- **For verification:** start with the [Lean library](https://github.com/bookwormseagull1980/Lean-Formalization-of-Arithmetic-and-Basic-Physical-Interfaces)
+  and its theorem-to-paper index, or the [V5 reviewer guide](https://github.com/bookwormseagull1980/coarse-graining-genesis/blob/master/REVIEWER_START_HERE.md)
+  for computational records, interval enclosures and comparisons.
+
+## Papers
+
+Each title opens a substantial introduction, the reading PDF and its metadata.
+The DOI links below identify each work across its deposited versions.
+
+| Work | Archive |
+| --- | --- |
+| [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md) | [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592) |
+| [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md) | [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151) |
+| [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md) | [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976) |
+| [Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost](articles/certified-spectral-computation-for-semilinear-evolution/README.md) | [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642) |
+| [A Spectral Criterion for Emergent Gravity](articles/a-spectral-criterion-for-emergent-gravity/README.md) | [10.5281/zenodo.22093341](https://doi.org/10.5281/zenodo.22093341) |
+| [Coarse-Graining and Long-Range Response in Generated Systems](articles/coarse-graining-and-long-range-response/README.md) | [10.5281/zenodo.22093524](https://doi.org/10.5281/zenodo.22093524) |
+| [The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap](articles/the-spectrum-of-a-compact-internal-space-i/README.md) | [10.5281/zenodo.22067117](https://doi.org/10.5281/zenodo.22067117) |
+| [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](articles/the-spectrum-of-a-compact-internal-space-ii/README.md) | [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468) |
+| [The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation](articles/the-spectrum-of-a-compact-internal-space-iii/README.md) | [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996) |
+
+## Books, citation and contact
+
+[Beyond Apparent Paths: The Practice of Seeking Truth from Facts](books/beyond-apparent-paths/README.md)
+is available as a separate reading copy.
+
+Use the individual work's citation record when referring to a result. The
+collection itself has no single publication DOI. [Citation guidance](CITATION.md)
+links the paper records, the Lean proof library and the computational framework.
+
+Author: Jinku Guo · [ORCID 0009-0000-6600-6171](https://orcid.org/0009-0000-6600-6171)
+· [guojk@nwpu.edu.cn](mailto:guojk@nwpu.edu.cn).
+Questions about a mathematical statement, physical construction or numerical
+record are welcome in [Discussions](https://github.com/bookwormseagull1980/Book-and-Articles/discussions).
+Specific corrections can be submitted through [Issues](https://github.com/bookwormseagull1980/Book-and-Articles/issues/new/choose).
+
+PDFs, source supplements and their rights are recorded separately in each work's
+`metadata/RIGHTS.md`. LaTeX manuscript sources are not distributed here. Existing
+immutable title tags and per-work checksums preserve earlier repository records.
+
+Copyright (c) 2026 Jinku Guo.
