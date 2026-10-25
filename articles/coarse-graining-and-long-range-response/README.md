@@ -52,10 +52,27 @@ This work turns coarse-graining into a response-preservation problem with explic
 
 The practical consequence is a sharper standard for effective models. A model can be assessed by what its retained variables generate under later operations and by how accurately they reproduce the relevant response. This is especially valuable when the feature of interest is a critical pole, a universal coupling or another observable that depends on more than the present coarse state.
 
-## Keywords
+## Research subjects and results
 
-Coarse-graining; Linear response; Operator approximation; Schur complements;
-Memory kernels; Analytic Fredholm theory.
+### Primary subjects
+
+Coarse-graining; Model reduction; Linear response theory; Non-Markovian dynamics; Memory kernels; Effective dynamics; Resolvent estimates; Schur complements; Spectral approximation; Error bounds; Long-range interactions; Pole stability.
+
+### Research subjects
+
+Reduced-order models; Dynamical systems; Source coupling; Input-output systems; Stationary response; Dynamical closure; Hidden variables; Finite-dimensional critical subspaces; Spectral poles; Finite-rank residues; Reciprocal systems; Vacuum covariance; Positive spectral measures; Response preservation; Memory truncation.
+
+### Methods
+
+Projection methods; Operator approximation; Analytic Fredholm theory; Perturbation theory; Resolvent identities; Contour estimates; Block operator matrices; Common-space reconstruction; Differentiable factorization; Defect estimates; Operator norm bounds; Spectral projection; Channel elimination; Matrix-valued response; Finite-memory approximation.
+
+### Results and research questions
+
+Response-preserving coarse-graining; Exact error identity for reduced response; Pole and residue stability under model reduction; Geometric convergence with memory length; Positive finite-rank response residues; Source overlap and observable critical modes; Conditions for memoryless reduced dynamics; Identification of response residues with massless spectral atoms.
+
+### Chinese subject terms
+
+粗粒化; 模型降阶; 线性响应; 非马尔可夫动力学; 记忆核; 长程响应; 极点稳定性; 留数误差; Schur补; 算子逼近; 约化动力学; 自由度消去.
 
 ## Public file
 

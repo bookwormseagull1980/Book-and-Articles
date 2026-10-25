@@ -50,10 +50,27 @@ This paper supplies an error-controlled route from generated matter response to 
 
 The resulting framework gives coarse structures a precise operational status. A reduced object is supported by an explicit reconstruction and a certified observation error. Its continued use, refinement or decomposition follows from the same evolving budget. This makes the formation and reuse of cosmic structures part of a mathematically controlled dynamics.
 
-## Keywords
+## Research subjects and results
 
-Cosmic structure formation; Coarse-graining; Spectral methods;
-Model reduction; Memory effects; A posteriori error estimates.
+### Primary subjects
+
+Cosmic structure formation; Large-scale structure of the Universe; Cosmological simulations; N-body simulations; Gravitational clustering; Cosmological perturbation theory; Adaptive spectral methods; Model reduction; A posteriori error estimates; Validated numerics; Memory effects; Particle-mesh methods.
+
+### Research subjects
+
+Cold matter dynamics; Density perturbations; Cosmological expansion; Matter concentrations; Particle trajectories; Field-particle coupling; Spatial moments; Multipole expansions; Cloud-in-cell assignment; Cold-sheet dynamics; Moving spectral projections; Material clocks; Constraint propagation; Positive density; Continuous-time error bounds.
+
+### Methods
+
+Spectral Galerkin methods; Fourier methods; Common-space reconstruction; Dynamical coarse-graining; Memory truncation; Residual estimates; Stability estimates; Moment methods; Force error bounds; Trajectory enclosures; Interval bounds; Adaptive resolution; Observation error control; Moving-window analysis; Computational work accounting.
+
+### Results and research questions
+
+Certified cosmic structure formation dynamics; Continuous-time enclosures for cosmological particle trajectories; Least certified spectral window at a prescribed accuracy; Exact eight-moment cloud-in-cell representation; Force error bounds for reduced matter objects; Controlled re-entry of unresolved degrees of freedom; Full-frequency force bounds for cold-sheet evolution; Error-controlled reduction with verification cost included.
+
+### Chinese subject terms
+
+宇宙结构形成; 宇宙大尺度结构; 宇宙学数值模拟; N体模拟; 引力聚集; 宇宙学微扰; 粒子网格方法; 自适应谱方法; 后验误差估计; 连续时间轨道认证; 冷物质动力学; 记忆效应.
 
 ## Public files
 

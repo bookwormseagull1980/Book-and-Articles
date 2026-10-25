@@ -49,10 +49,31 @@ The main achievement is a usable criterion for emergent gravitational exchange, 
 
 The generating perspective is concrete here. Collective geometry is obtained by following a response through its construction, its reductions and its physical readout. The spectrum supplies the candidate mode, matter supplies its observable meaning, and the residue fixes the strength of the interaction. Their compatibility is what makes the emergent gravitational description possible.
 
-## Keywords
+## Research subjects and results
 
-Källén–Lehmann representation; Stress-tensor correlators; Analytic Fredholm
-theory; Long-range tensor exchange; Emergent gravity.
+### Primary subjects
+
+Emergent gravity; Massless spin-2 fields; Gravitational interaction; Universal gravitational coupling; Newtonian limit; Spectral representation; Stress-energy tensor; Källén-Lehmann representation; Effective field theory of gravity; Long-range interactions; Graviton exchange; Positive spectral measures.
+
+### Research subjects
+
+Conserved sources; Energy-momentum conservation; Tensor correlators; Transverse-traceless modes; Helicity-2 states; Massless excitations; Spectral atoms; Vacuum correlations; Static gravitational potential; Inverse-square law; Finite-size corrections; Planck scale; Lorentz covariance; Einstein-matter systems; Source coupling.
+
+### Methods
+
+Spectral theory; Operator theory; Analytic Fredholm theory; Schur complements; Resolvent estimates; Pole residues; Spectral projections; Contour integration; Finite-rank approximation; Operator convergence; Channel elimination; Positive measures; Linear response theory; Effective field theory; Spectral approximation.
+
+### Results and research questions
+
+Spectral criterion for emergent gravity; Universal coupling from conserved matter sources; Newtonian potential from tensor exchange; Massless spectral atoms at continuum thresholds; Two-helicity long-range gravitational response; Finite-size bounds for gravitational exchange; Stability of critical pole residues under approximation; Vanishing transverse-traceless atomic weight for a positive conserved stress tensor.
+
+### Chinese subject terms
+
+涌现引力; 无质量自旋二场; 引力子交换; 普适引力耦合; 牛顿极限; 引力有效场论; 能动张量; 正谱测度; 无质量谱原子; 长程张量相互作用; 普朗克尺度; 谱论.
+
+### Search aliases
+
+Kallen-Lehmann representation; Kallen Lehmann spectral representation.
 
 ## Public file
 

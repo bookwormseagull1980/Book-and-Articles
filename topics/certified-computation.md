@@ -55,3 +55,21 @@ theorem within the programme.
 Keywords: P vs NP, computational complexity, certified computation, polynomial
 bit complexity, nonlinear evolution, spectral methods, residual certificates,
 robust decoding, generated function classes.
+
+## Research subjects and results
+
+### Primary subjects
+
+Nonlinear evolution equations; Spectral Galerkin methods; Gevrey regularity; Analytic regularity; A posteriori error estimates; Semigroup methods; Spectral truncation; Bilinear estimates; Nonlinear partial differential equations; Certified computation; Exponential weights; Model reduction; Polynomial-time algorithms; Bit complexity; Computational complexity; P versus NP; Validated numerics; Verifiable computation; Proof certificates; Reaction-diffusion equations; Exact rational arithmetic; Robust decoding.
+
+### Methods
+
+Analytic semigroups; Weighted coefficient spaces; Banach algebra estimates; Exponential tail estimates; Galerkin error analysis; Duhamel formula; Local existence estimates; Energy methods; Quadratic forms; Signed energy balances; Compactness arguments; Compatible approximation; Single-mode tests; Integral operator bounds; Projection methods; A posteriori error estimates; Residual error bounds; Spectral tail bounds; Rational Taylor methods; Quantized Picard iteration; Quantized restarts; Denominator growth control; Exact arithmetic; Polynomial resource bounds; Modular certification; Sum-of-squares residuals; Boolean rounding; Error-tolerant decoding; Finite operator approximation; Rounding error analysis.
+
+### Results and research questions
+
+Cutoff-uniform Galerkin error bounds for nonlinear evolution; Sharp analytic threshold in Neumann and Stokes realizations; Least spectral cutoff certified by an observation error bound; Joint control of initial and interaction-generated spectral tails; Propagation of exponential spectral regularity; Quadratic error accounting with complete cross terms; Multiplicity-free bounds for history-resolved observations; Invariance criterion for closed evolution of observed values; Polynomial-bit-cost certified computation for reaction-diffusion equations; Polynomial-size certificates for nonlinear evolution; Producer-independent verification of PDE trajectories; Uniform construction of accepted numerical certificates; Polynomial-time checking in the complete input and certificate lengths; Robust decoding of verifiable witnesses; Polynomial compilation and checking of Boolean circuit residuals; Certified computation with explicit precision and denominator bounds.
+
+### Chinese subject terms
+
+非线性演化方程; 谱Galerkin方法; Gevrey正则性; 解析正则性; 谱截断误差; 半群方法; 非线性偏微分方程; 指数加权空间; 最小认证截断; 后验误差估计; 交叉项; 能量方法; P与NP问题; 多项式时间算法; 位复杂度; 计算复杂性; 可验证计算; 数值计算证书; 偏微分方程计算复杂度; 精确有理运算; 反应扩散方程; 布尔电路; 见证提取; 稳健解码.

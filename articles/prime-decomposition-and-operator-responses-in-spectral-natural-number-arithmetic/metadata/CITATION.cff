@@ -42,16 +42,68 @@ abstract: We construct decomposition and occupation operators on a generated cor
   classes. Counting applications recover Bertrand's theorem, the prime-number asymptotic and
   square-free sign densities through the occupation traces and their boundary responses.
 keywords:
-- Spectral arithmetic
-- Prime factorization
-- Hodge Laplacians
-- Fock spaces
-- Möbius function
-- Dirichlet series
-- Heat semigroups
-- Riemann zeta function
-- Prime numbers
-- Hodge Laplacian
-- Fock space
-- Moebius function
-- Gaussian dilation
+- "Prime numbers"
+- "Prime factorization"
+- "Hodge Laplacian"
+- "Prime projection"
+- "Spectral gap"
+- "Möbius function"
+- "Riemann zeta function"
+- "Fock space"
+- "Prime number theorem"
+- "Heat semigroups"
+- "Dirichlet series"
+- "Arithmetic quantum statistical mechanics"
+- "Multiplicative arithmetic"
+- "Square-free integers"
+- "Euler products"
+- "Möbius inversion"
+- "Liouville function"
+- "Symmetric Fock space"
+- "Fermionic Fock space"
+- "Exterior algebra"
+- "Augmentation ideals"
+- "Cotangent spaces"
+- "Bar complexes"
+- "Harmonic vectors"
+- "Additive decompositions"
+- "Primitive pairs"
+- "Weyl asymptotics"
+- "Homological algebra"
+- "Operator semigroups"
+- "Resolvent approximation"
+- "Spectral projections"
+- "Heat trace estimates"
+- "Gaussian regularization"
+- "Occupation-number representation"
+- "Graded traces"
+- "Dilation identities"
+- "Common-factor decomposition"
+- "Charge-defect identities"
+- "Fixed-point theorems"
+- "Interval enclosures"
+- "Mellin transforms"
+- "Tauberian theory"
+- "Prime numbers as degree-one Hodge zero modes"
+- "Sharp heat and resolvent approximations to the prime projection"
+- "Exact unit spectral gap in a decomposition Laplacian"
+- "Euler products and Möbius coefficients from occupation traces"
+- "Additive charge defects and multiplicative parity"
+- "Common-factor scale identities for signed arithmetic responses"
+- "Stable fixed point of the full Gaussian endpoint response"
+- "Three-dimensional Weyl counting from square energy and quadratic shell capacity"
+- "素数"
+- "素因数分解"
+- "素数定理"
+- "霍奇拉普拉斯算子"
+- "精确谱隙"
+- "素数投影"
+- "莫比乌斯函数"
+- "黎曼ζ函数"
+- "福克空间"
+- "欧拉乘积"
+- "分解同调"
+- "平方自由数"
+- "Mobius function"
+- "Moebius function"
+- "Prime decomposition"

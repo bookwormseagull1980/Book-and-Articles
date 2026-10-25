@@ -52,9 +52,27 @@ Circle degree provides a classical arithmetic certification. The additional resu
 
 Formal differences, fractions and completion extend the arithmetic to scalar fields and Hilbert spaces, with finite rational certificates and spectral approximation estimates. A Lean companion records the indexed arithmetic and history constructions, their assembly interfaces and formal dependencies. The paper's contribution is thus both foundational and dynamical: it constructs the arithmetic carrier and proves that the route to a value can remain mathematically consequential after that value has been obtained.
 
-## Keywords
+## Research subjects and results
 
-Natural numbers; Gaussian semigroups; Arithmetic expressions; Conditional expectation; Trace class operators; Operator semigroups; Memory kernels; Formalized mathematics.
+### Primary subjects
+
+Construction of natural numbers; Natural-number objects; Peano arithmetic; Unique factorization; Arithmetic expressions; Spectral theory; Gaussian semigroups; Non-Markovian dynamics; Memory kernels; Conditional expectation; Trace-class operators; Formalized mathematics.
+
+### Research subjects
+
+Foundations of arithmetic; Ordered semirings; Recursive constructions; Arithmetic expression trees; Expression enumeration; Evaluation maps; Finite fibres; Generation histories; Winding number; Circle endomorphisms; Gaussian distributions; Neumann boundary conditions; Conditional variance; Conditional entropy; Scale covariance.
+
+### Methods
+
+Universal algebra; Structural recursion; Spectral decomposition; Heat semigroups; Probability measures; Hilbert spaces; Orthogonal projections; Self-adjoint operators; Trace-class estimates; Contraction semigroups; Integral equations; Projection methods; Gaussian tail bounds; Lean theorem proving; Machine-checked proofs.
+
+### Results and research questions
+
+Spectral construction of natural-number arithmetic; Finite evaluation fibres of arithmetic expressions; Unique factorization on generated arithmetic modes; Exact separation of value and expression-history information; Nontrivial coupling between arithmetic values and expression histories; Trace-class operator from arithmetic expression assembly; Exact memory equation for arithmetic readout; Canonical scale and orientation transport of arithmetic.
+
+### Chinese subject terms
+
+自然数构造; 自然数对象; 皮亚诺算术; 唯一分解; 算术表达式树; 生成历史; 条件期望; 条件熵; 迹类算子; 非马尔可夫动力学; 记忆方程; 形式化数学.
 
 ## Public file
 

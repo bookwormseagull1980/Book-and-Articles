@@ -67,3 +67,21 @@ shared spectral inputs propagate through the upper layers.
 
 Keywords: Yang-Mills, mass gap, spectral gap, gauge theory, Standard Model,
 matter representations, Higgs doublet, compact internal geometry, Lean.
+
+## Research subjects and results
+
+### Primary subjects
+
+Yang-Mills theory; Mass gap; Standard Model gauge group; Gauge symmetry; Chiral fermions; Higgs doublet; Spectral geometry; Quantum field theory; Matter representations; Spectral gap; Vacuum stability; Mathematical physics; Fermion generations; Three fermion generations; Fermion mass hierarchies; Fermion mass relations; Gauge coupling constants; Standard Model parameters; Electroweak symmetry breaking; Higgs boson; Particle cosmology; One-loop matching; Charged lepton masses.
+
+### Methods
+
+Representation theory; Lie groups; Gaussian measures; Self-adjoint operators; Quadratic forms; Coercivity estimates; Spectral analysis; Hodge decomposition; Fock space; Osterwalder-Schrader reconstruction; Reflection positivity; Causal perturbation theory; Source covariance; Equilibrium analysis; Formalized mathematics; Canonical normalization; Effective couplings; Renormalization schemes; Finite matching; Perturbative quantum field theory; One-loop calculations; Self-energy calculations; Spectral transfer; Parameter elimination; Nonlinear elliptic equations; Weak solutions; Cosmological parameter estimation; Numerical quadrature; Spectral tail bounds.
+
+### Results and research questions
+
+Derivation of the Standard Model gauge group; Classification of chiral matter representations; Selection of a complex Higgs doublet; Positive mass gap for the generated Yang-Mills operator; Unique vacuum and attained spectral gap; Complete coercivity of the Yang-Mills Hessian; Lorentzian geometry from a phase clock; Interacting gauge-matter fields by causal perturbation theory; Selection of three fermion generations; Geometric relation among six fermion masses; Correlated electron and electroweak mass scales; Unique transverse-traceless spectral endpoint; Gauge and Higgs matching from a common action; Born-level top quark decay width; Cosmological ratios independent of neutrino mass normalization; Nonlinear gravitational flux from source covariance.
+
+### Chinese subject terms
+
+杨米尔斯理论; 质量间隙; 标准模型规范群; 手征费米子; 物质表示; 希格斯双重态; 真空稳定性; 谱几何; 紧致内部空间; 洛伦兹几何; 自伴算子; 量子场论; 三代费米子; 费米子质量层级; 六费米子质量关系; 规范耦合常数; 标准模型参数; 带电轻子质量; 电弱对称性破缺; 一圈匹配; 希格斯质量; 顶夸克衰变; 粒子宇宙学; 真空能.

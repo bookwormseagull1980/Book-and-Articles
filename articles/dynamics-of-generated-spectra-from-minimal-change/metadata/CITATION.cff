@@ -40,17 +40,65 @@ abstract: Nonlinear spectral evolution requires control of the frequencies prese
   The Neumann source is derived within the paper under the stated composition and scaling assumptions
   with the endpoint and reflecting conditions.
 keywords:
-- Nonlinear evolution equations
-- Spectral Galerkin approximation
-- Gevrey regularity
-- Analytic semigroups
-- Exponential weights
-- Bilinear estimates
-- Quadratic forms
-- A posteriori error estimates
-- Generated function classes
-- Certified computation
-- Finite windows
-- Nonlinear evolution
-- Spectral methods
-- Memory kernels
+- "Nonlinear evolution equations"
+- "Spectral Galerkin methods"
+- "Gevrey regularity"
+- "Analytic regularity"
+- "Exponential weights"
+- "Spectral truncation"
+- "A posteriori error estimates"
+- "Semigroup methods"
+- "Bilinear estimates"
+- "Nonlinear partial differential equations"
+- "Certified computation"
+- "Model reduction"
+- "Semilinear evolution equations"
+- "Parabolic equations"
+- "Function spaces"
+- "Analytic function classes"
+- "Compact resolvent"
+- "Neumann Laplacian"
+- "Stokes operator"
+- "Nonlinear frequency generation"
+- "Interaction support"
+- "Initial spectral tails"
+- "Nonlinear source tails"
+- "Observation accuracy"
+- "Quadratic observables"
+- "History-dependent dynamics"
+- "Stability of approximations"
+- "Analytic semigroups"
+- "Weighted coefficient spaces"
+- "Banach algebra estimates"
+- "Exponential tail estimates"
+- "Galerkin error analysis"
+- "Duhamel formula"
+- "Local existence estimates"
+- "Energy methods"
+- "Quadratic forms"
+- "Signed energy balances"
+- "Compactness arguments"
+- "Compatible approximation"
+- "Single-mode tests"
+- "Integral operator bounds"
+- "Projection methods"
+- "Cutoff-uniform Galerkin error bounds for nonlinear evolution"
+- "Sharp analytic threshold in Neumann and Stokes realizations"
+- "Least spectral cutoff certified by an observation error bound"
+- "Joint control of initial and interaction-generated spectral tails"
+- "Propagation of exponential spectral regularity"
+- "Quadratic error accounting with complete cross terms"
+- "Multiplicity-free bounds for history-resolved observations"
+- "Invariance criterion for closed evolution of observed values"
+- "非线性演化方程"
+- "谱Galerkin方法"
+- "Gevrey正则性"
+- "解析正则性"
+- "谱截断误差"
+- "半群方法"
+- "非线性偏微分方程"
+- "指数加权空间"
+- "最小认证截断"
+- "后验误差估计"
+- "交叉项"
+- "能量方法"

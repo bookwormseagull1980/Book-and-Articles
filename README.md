@@ -164,3 +164,29 @@ PDFs, source supplements and their rights are recorded separately in each work's
 immutable title tags and per-work checksums preserve earlier repository records.
 
 Copyright (c) 2026 Jinku Guo.
+
+## Research subjects and results
+
+### Primary subjects
+
+Mathematical physics; Yang-Mills mass gap; Standard Model; Emergent gravity; Natural numbers; Prime numbers; P versus NP; Computational complexity; Formalized mathematics; Certified computation; Cosmology; Philosophy of science.
+
+### Research subjects
+
+Gauge theory; Higgs field; Fermion masses; Three fermion generations; Quantum field theory; Spectral geometry; Number theory; Prime factorization; Riemann zeta function; Nonlinear evolution equations; Cosmic structure formation; Non-Markovian dynamics; Coarse-graining; Complexity science; Foundations of mathematics.
+
+### Methods
+
+Spectral theory; Operator theory; Representation theory; Gaussian semigroups; Hodge theory; Fock spaces; Spectral Galerkin methods; Validated numerics; Bit complexity; Lean 4; Theorem proving; Interval arithmetic; Reproducible research; Model reduction; Error estimates.
+
+### Results and research questions
+
+Standard Model gauge structure and a Yang-Mills mass gap; Natural-number construction with expression histories; Prime localization by Hodge operators; Spectral criteria for emergent gravity; Polynomial-bit-cost certified nonlinear computation; Error-controlled cosmic structure formation; Machine-checked arithmetic and physical operators; Physics and mathematics from minimal change.
+
+### Chinese subject terms
+
+数学物理; 生成框架; 标准模型; 杨米尔斯质量间隙; 涌现引力; 自然数构造; 素数; P与NP; 形式化数学; 宇宙结构形成; 计算复杂性; 科学哲学.
+
+### Search aliases
+
+P vs NP; P=NP; Yang Mills mass gap; YM mass gap; Lean 4; Generated mathematics.

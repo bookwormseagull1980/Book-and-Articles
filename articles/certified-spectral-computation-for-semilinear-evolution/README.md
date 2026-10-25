@@ -59,11 +59,31 @@ The generating framework retains construction bounds as usable data. This paper 
 
 The resulting contribution is a complete certified computation theorem for the stated semilinear family, supported by a second execution model and modular composition results. It establishes a route by which an infinite evolution can produce a finite, reproducible and quantitatively checked answer with a polynomial resource guarantee.
 
-## Keywords
+## Research subjects and results
 
-Validated numerics; Spectral Galerkin methods; Semilinear parabolic equations;
-Reaction-diffusion equations; A posteriori error estimates; Exact rational
-arithmetic; Proof-carrying computation; Bit complexity.
+### Primary subjects
+
+Polynomial-time algorithms; Bit complexity; Computational complexity; P versus NP; Certified computation; Validated numerics; Verifiable computation; Proof certificates; Reaction-diffusion equations; Spectral Galerkin methods; Exact rational arithmetic; Robust decoding.
+
+### Research subjects
+
+Semilinear parabolic equations; Nonlinear evolution equations; Complexity of differential equations; Numerical solution of PDEs; Precision complexity; Finite certificates; Independent verification; Rational polynomial trajectories; Neumann boundary conditions; Boolean circuits; Circuit satisfiability; Witness extraction; Search problems; Continuous-time computation; Discrete-continuous computation.
+
+### Methods
+
+A posteriori error estimates; Residual error bounds; Spectral tail bounds; Rational Taylor methods; Quantized Picard iteration; Quantized restarts; Denominator growth control; Exact arithmetic; Polynomial resource bounds; Modular certification; Sum-of-squares residuals; Boolean rounding; Error-tolerant decoding; Finite operator approximation; Rounding error analysis.
+
+### Results and research questions
+
+Polynomial-bit-cost certified computation for reaction-diffusion equations; Polynomial-size certificates for nonlinear evolution; Producer-independent verification of PDE trajectories; Uniform construction of accepted numerical certificates; Polynomial-time checking in the complete input and certificate lengths; Robust decoding of verifiable witnesses; Polynomial compilation and checking of Boolean circuit residuals; Certified computation with explicit precision and denominator bounds.
+
+### Chinese subject terms
+
+P与NP问题; 多项式时间算法; 位复杂度; 计算复杂性; 可验证计算; 数值计算证书; 偏微分方程计算复杂度; 精确有理运算; 反应扩散方程; 布尔电路; 见证提取; 稳健解码.
+
+### Search aliases
+
+P vs NP; P versus NP problem; P=NP; Polynomial-time computation; Complexity of PDEs; Proof-carrying computation.
 
 ## Public files
 

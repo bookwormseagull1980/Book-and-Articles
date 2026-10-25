@@ -55,3 +55,21 @@ resolution actually computed.
 
 Keywords: emergent gravity, spectral measures, Schur complement, coarse-graining,
 memory kernels, cosmology, structure formation, finite-window dynamics.
+
+## Research subjects and results
+
+### Primary subjects
+
+Emergent gravity; Massless spin-2 fields; Gravitational interaction; Universal gravitational coupling; Newtonian limit; Spectral representation; Stress-energy tensor; Källén-Lehmann representation; Effective field theory of gravity; Long-range interactions; Graviton exchange; Positive spectral measures; Coarse-graining; Model reduction; Linear response theory; Non-Markovian dynamics; Memory kernels; Effective dynamics; Resolvent estimates; Schur complements; Spectral approximation; Error bounds; Pole stability; Cosmic structure formation; Large-scale structure of the Universe; Cosmological simulations; N-body simulations; Gravitational clustering; Cosmological perturbation theory; Adaptive spectral methods; A posteriori error estimates; Validated numerics; Memory effects; Particle-mesh methods.
+
+### Methods
+
+Spectral theory; Operator theory; Analytic Fredholm theory; Schur complements; Resolvent estimates; Pole residues; Spectral projections; Contour integration; Finite-rank approximation; Operator convergence; Channel elimination; Positive measures; Linear response theory; Effective field theory; Spectral approximation; Projection methods; Operator approximation; Perturbation theory; Resolvent identities; Contour estimates; Block operator matrices; Common-space reconstruction; Differentiable factorization; Defect estimates; Operator norm bounds; Spectral projection; Matrix-valued response; Finite-memory approximation; Spectral Galerkin methods; Fourier methods; Dynamical coarse-graining; Memory truncation; Residual estimates; Stability estimates; Moment methods; Force error bounds; Trajectory enclosures; Interval bounds; Adaptive resolution; Observation error control; Moving-window analysis; Computational work accounting.
+
+### Results and research questions
+
+Spectral criterion for emergent gravity; Universal coupling from conserved matter sources; Newtonian potential from tensor exchange; Massless spectral atoms at continuum thresholds; Two-helicity long-range gravitational response; Finite-size bounds for gravitational exchange; Stability of critical pole residues under approximation; Vanishing transverse-traceless atomic weight for a positive conserved stress tensor; Response-preserving coarse-graining; Exact error identity for reduced response; Pole and residue stability under model reduction; Geometric convergence with memory length; Positive finite-rank response residues; Source overlap and observable critical modes; Conditions for memoryless reduced dynamics; Identification of response residues with massless spectral atoms; Certified cosmic structure formation dynamics; Continuous-time enclosures for cosmological particle trajectories; Least certified spectral window at a prescribed accuracy; Exact eight-moment cloud-in-cell representation; Force error bounds for reduced matter objects; Controlled re-entry of unresolved degrees of freedom; Full-frequency force bounds for cold-sheet evolution; Error-controlled reduction with verification cost included.
+
+### Chinese subject terms
+
+涌现引力; 无质量自旋二场; 引力子交换; 普适引力耦合; 牛顿极限; 引力有效场论; 能动张量; 正谱测度; 无质量谱原子; 长程张量相互作用; 普朗克尺度; 谱论; 粗粒化; 模型降阶; 线性响应; 非马尔可夫动力学; 记忆核; 长程响应; 极点稳定性; 留数误差; Schur补; 算子逼近; 约化动力学; 自由度消去; 宇宙结构形成; 宇宙大尺度结构; 宇宙学数值模拟; N体模拟; 引力聚集; 宇宙学微扰; 粒子网格方法; 自适应谱方法; 后验误差估计; 连续时间轨道认证; 冷物质动力学; 记忆效应.

@@ -84,3 +84,25 @@ English book manuscript. [Book description and preview](https://bookwormseagull1
 [Citation metadata](metadata/CITATION.cff) · [Rights](metadata/RIGHTS.md)
 
 The checksum in `metadata/SHA256SUMS` identifies the preview PDF in this repository.
+
+## Research subjects and results
+
+### Primary subjects
+
+Philosophy of science; Systems thinking; Complexity science; Emergence; Consciousness; Self-organization; Process philosophy; Epistemology; Interdisciplinary research; Philosophy of mind; Scientific reasoning; Chinese philosophy.
+
+### Research subjects
+
+Order and disorder; Entropy; Symmetry; Evolution; Neuroscience; Levels of organization; Multilevel systems; Reductionism; Biological organization; Social systems; Meaning; Eastern and Western philosophy; Knowledge and action; Scientific explanation; Change and reality.
+
+### Methods
+
+Seeking truth from facts; Integrative thinking; Multilevel analysis; Cross-disciplinary synthesis; Systems philosophy; Scientific methodology; Causation; Observation and interpretation; Renormalization; Scale dependence; Self-organized order; Mind and brain; Facts and processes; Conceptual frameworks; Relations between levels.
+
+### Results and research questions
+
+How order emerges from change; Entropy and self-organization across levels; Consciousness in a multilevel world; Systems thinking across physics and biology; Eastern and Western approaches to scientific understanding; Seeking truth from facts as a method of inquiry; Beyond reductionism in the study of complex systems; Knowledge and action in a changing world.
+
+### Chinese subject terms
+
+科学哲学; 实事求是; 系统思维; 复杂性科学; 涌现; 自组织; 意识; 过程哲学; 认识论; 东方与西方哲学; 知行关系; 秩序与变化.

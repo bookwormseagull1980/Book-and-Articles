@@ -55,3 +55,21 @@ and prime projectors specify the objects on which such an estimate must act.
 
 Keywords: prime numbers, unique factorization, Hodge Laplacian, bar complex,
 Fock space, Riemann zeta function, Moebius function, Gaussian dilation.
+
+## Research subjects and results
+
+### Primary subjects
+
+Prime numbers; Prime factorization; Prime number theorem; Hodge Laplacian; Spectral gap; Prime projection; Möbius function; Riemann zeta function; Fock space; Heat semigroups; Dirichlet series; Arithmetic quantum statistical mechanics.
+
+### Methods
+
+Homological algebra; Operator semigroups; Resolvent approximation; Spectral projections; Heat trace estimates; Gaussian regularization; Occupation-number representation; Graded traces; Dilation identities; Common-factor decomposition; Charge-defect identities; Fixed-point theorems; Interval enclosures; Mellin transforms; Tauberian theory.
+
+### Results and research questions
+
+Prime numbers as degree-one Hodge zero modes; Sharp heat and resolvent approximations to the prime projection; Exact unit spectral gap in a decomposition Laplacian; Euler products and Möbius coefficients from occupation traces; Additive charge defects and multiplicative parity; Common-factor scale identities for signed arithmetic responses; Stable fixed point of the full Gaussian endpoint response; Three-dimensional Weyl counting from square energy and quadratic shell capacity.
+
+### Chinese subject terms
+
+素数; 素因数分解; 素数定理; 霍奇拉普拉斯算子; 精确谱隙; 素数投影; 莫比乌斯函数; 黎曼ζ函数; 福克空间; 欧拉乘积; 分解同调; 平方自由数.

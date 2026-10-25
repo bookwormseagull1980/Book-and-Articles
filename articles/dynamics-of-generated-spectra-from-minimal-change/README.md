@@ -48,11 +48,27 @@ The paper establishes interaction-compatible regularity classes, local nonlinear
 
 The distinctive result is the passage from a specified generating interaction to a certified finite observation. The construction determines the admissible weight, the evolution propagates its bound, the tail estimate controls what is omitted, and the observation modulus fixes the necessary resolution. This provides an analytic foundation for finite spectral computation with a traceable error budget.
 
-## Keywords
+## Research subjects and results
 
-Nonlinear evolution equations; Spectral Galerkin approximation; Gevrey
-regularity; Analytic semigroups; Exponential weights; Bilinear estimates;
-Quadratic forms; A posteriori error estimates.
+### Primary subjects
+
+Nonlinear evolution equations; Spectral Galerkin methods; Gevrey regularity; Analytic regularity; A posteriori error estimates; Semigroup methods; Spectral truncation; Bilinear estimates; Nonlinear partial differential equations; Certified computation; Exponential weights; Model reduction.
+
+### Research subjects
+
+Semilinear evolution equations; Parabolic equations; Function spaces; Analytic function classes; Compact resolvent; Neumann Laplacian; Stokes operator; Nonlinear frequency generation; Interaction support; Initial spectral tails; Nonlinear source tails; Observation accuracy; Quadratic observables; History-dependent dynamics; Stability of approximations.
+
+### Methods
+
+Analytic semigroups; Weighted coefficient spaces; Banach algebra estimates; Exponential tail estimates; Galerkin error analysis; Duhamel formula; Local existence estimates; Energy methods; Quadratic forms; Signed energy balances; Compactness arguments; Compatible approximation; Single-mode tests; Integral operator bounds; Projection methods.
+
+### Results and research questions
+
+Cutoff-uniform Galerkin error bounds for nonlinear evolution; Sharp analytic threshold in Neumann and Stokes realizations; Least spectral cutoff certified by an observation error bound; Joint control of initial and interaction-generated spectral tails; Propagation of exponential spectral regularity; Quadratic error accounting with complete cross terms; Multiplicity-free bounds for history-resolved observations; Invariance criterion for closed evolution of observed values.
+
+### Chinese subject terms
+
+非线性演化方程; 谱Galerkin方法; Gevrey正则性; 解析正则性; 谱截断误差; 半群方法; 非线性偏微分方程; 指数加权空间; 最小认证截断; 后验误差估计; 交叉项; 能量方法.
 
 ## Public file
 

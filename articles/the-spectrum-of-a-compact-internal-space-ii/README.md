@@ -54,11 +54,27 @@ The principal results are the selection of three matter copies and the unique in
 
 The accompanying computational framework records those dependencies and propagates the available numerical enclosures. An interval due to the tensor endpoint, a perturbative matching correction and a discrepancy with reference data each carry a distinct meaning. This separation makes it possible to assess the construction as a predictive system. Its strongest quantitative claims can be traced to a specific spectral response, while comparisons identify which physical readouts are most sensitive to further calculation.
 
-## Keywords
+## Research subjects and results
 
-Gauge couplings; Fermion mass hierarchies; Fermion mass relations; Fermion
-generations; Electroweak symmetry breaking; Particle cosmology; Spectral
-geometry.
+### Primary subjects
+
+Fermion generations; Three fermion generations; Fermion mass hierarchies; Fermion mass relations; Gauge coupling constants; Standard Model parameters; Electroweak symmetry breaking; Higgs boson; Particle cosmology; One-loop matching; Charged lepton masses; Spectral geometry.
+
+### Research subjects
+
+Fermion masses; Quark masses; Lepton masses; Electron mass; Top quark mass; Top quark decay; Higgs mass; Fermi constant; Electroweak scale; Family mixing; Neutrino mass normalization; Vacuum energy; Cosmological expansion; Primordial abundances; Nonlinear gravitational fields.
+
+### Methods
+
+Spectral analysis; Canonical normalization; Effective couplings; Renormalization schemes; Finite matching; Perturbative quantum field theory; One-loop calculations; Self-energy calculations; Spectral transfer; Parameter elimination; Nonlinear elliptic equations; Weak solutions; Cosmological parameter estimation; Numerical quadrature; Spectral tail bounds.
+
+### Results and research questions
+
+Selection of three fermion generations; Geometric relation among six fermion masses; Correlated electron and electroweak mass scales; Unique transverse-traceless spectral endpoint; Gauge and Higgs matching from a common action; Born-level top quark decay width; Cosmological ratios independent of neutrino mass normalization; Nonlinear gravitational flux from source covariance.
+
+### Chinese subject terms
+
+三代费米子; 费米子质量层级; 六费米子质量关系; 规范耦合常数; 标准模型参数; 带电轻子质量; 电弱对称性破缺; 一圈匹配; 希格斯质量; 顶夸克衰变; 粒子宇宙学; 真空能.
 
 ## Public file
 

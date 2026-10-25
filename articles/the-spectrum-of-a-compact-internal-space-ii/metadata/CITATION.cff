@@ -35,15 +35,65 @@ abstract: Minimal unbiased compositional change generates the Gaussian source of
   adopted cosmological mapping. Spectral tail and quadrature bounds control the finite response
   calculation.
 keywords:
-- Gauge couplings
-- Fermion mass hierarchies
-- Fermion mass relations
-- Fermion generations
-- Electroweak symmetry breaking
-- Particle cosmology
-- Spectral geometry
-- Effective couplings
-- Mass scales
-- Particle physics
-- Electroweak matching
-- Charged leptons
+- "Three fermion generations"
+- "Fermion mass relations"
+- "Fermion mass hierarchies"
+- "Gauge coupling constants"
+- "Electroweak symmetry breaking"
+- "One-loop matching"
+- "Particle cosmology"
+- "Spectral geometry"
+- "Fermion generations"
+- "Standard Model parameters"
+- "Higgs boson"
+- "Charged lepton masses"
+- "Fermion masses"
+- "Quark masses"
+- "Lepton masses"
+- "Electron mass"
+- "Top quark mass"
+- "Top quark decay"
+- "Higgs mass"
+- "Fermi constant"
+- "Electroweak scale"
+- "Family mixing"
+- "Neutrino mass normalization"
+- "Vacuum energy"
+- "Cosmological expansion"
+- "Primordial abundances"
+- "Nonlinear gravitational fields"
+- "Spectral analysis"
+- "Canonical normalization"
+- "Effective couplings"
+- "Renormalization schemes"
+- "Finite matching"
+- "Perturbative quantum field theory"
+- "One-loop calculations"
+- "Self-energy calculations"
+- "Spectral transfer"
+- "Parameter elimination"
+- "Nonlinear elliptic equations"
+- "Weak solutions"
+- "Cosmological parameter estimation"
+- "Numerical quadrature"
+- "Spectral tail bounds"
+- "Selection of three fermion generations"
+- "Geometric relation among six fermion masses"
+- "Correlated electron and electroweak mass scales"
+- "Unique transverse-traceless spectral endpoint"
+- "Gauge and Higgs matching from a common action"
+- "Born-level top quark decay width"
+- "Cosmological ratios independent of neutrino mass normalization"
+- "Nonlinear gravitational flux from source covariance"
+- "三代费米子"
+- "费米子质量层级"
+- "六费米子质量关系"
+- "规范耦合常数"
+- "标准模型参数"
+- "带电轻子质量"
+- "电弱对称性破缺"
+- "一圈匹配"
+- "希格斯质量"
+- "顶夸克衰变"
+- "粒子宇宙学"
+- "真空能"

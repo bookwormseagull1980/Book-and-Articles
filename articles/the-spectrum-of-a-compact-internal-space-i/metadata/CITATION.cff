@@ -35,17 +35,66 @@ abstract: From minimal unbiased compositional change we construct compact intern
   local fields. For the renormalizable gauge–matter realization, causal perturbation theory
   constructs the interacting net as a formal series at gauge-compatible finite internal resolution.
 keywords:
-- Emergent gauge symmetry
-- Yang–Mills mass gap
-- Spectral geometry
-- Chiral matter representations
-- Lorentzian geometry
-- Causal perturbation theory
-- Minimal unbiased compositional change
-- Yang-Mills
-- Mass gap
-- Spectral gap
-- Gauge theory
-- Standard Model
-- Matter representations
-- Higgs doublet
+- "Yang-Mills mass gap"
+- "Standard Model gauge group"
+- "Chiral fermions"
+- "Higgs doublet"
+- "Spectral geometry"
+- "Self-adjoint operators"
+- "Vacuum stability"
+- "Causal perturbation theory"
+- "Yang-Mills theory"
+- "Mass gap"
+- "Gauge symmetry"
+- "Quantum field theory"
+- "Matter representations"
+- "Spectral gap"
+- "Mathematical physics"
+- "SU(3) gauge theory"
+- "SU(2) gauge theory"
+- "U(1) gauge theory"
+- "Global structure of the Standard Model"
+- "Gauge-matter interactions"
+- "Fermion representations"
+- "Scalar fields"
+- "Compact internal geometry"
+- "Real projective space"
+- "SU(2) representations"
+- "Lorentzian geometry"
+- "Vacuum structure"
+- "Curvature fluctuations"
+- "Local quantum fields"
+- "Gauge-compatible regularization"
+- "Representation theory"
+- "Lie groups"
+- "Gaussian measures"
+- "Quadratic forms"
+- "Coercivity estimates"
+- "Spectral analysis"
+- "Hodge decomposition"
+- "Fock space"
+- "Osterwalder-Schrader reconstruction"
+- "Reflection positivity"
+- "Source covariance"
+- "Equilibrium analysis"
+- "Formalized mathematics"
+- "Derivation of the Standard Model gauge group"
+- "Classification of chiral matter representations"
+- "Selection of a complex Higgs doublet"
+- "Positive mass gap for the generated Yang-Mills operator"
+- "Unique vacuum and attained spectral gap"
+- "Complete coercivity of the Yang-Mills Hessian"
+- "Lorentzian geometry from a phase clock"
+- "Interacting gauge-matter fields by causal perturbation theory"
+- "杨米尔斯理论"
+- "质量间隙"
+- "标准模型规范群"
+- "手征费米子"
+- "物质表示"
+- "希格斯双重态"
+- "真空稳定性"
+- "谱几何"
+- "紧致内部空间"
+- "洛伦兹几何"
+- "自伴算子"
+- "量子场论"

@@ -58,10 +58,31 @@ The counting appendices derive Bertrand's theorem and the prime-number asymptoti
 
 The paper provides a prime projector with sharp quantitative control, compatible symmetric and exterior traces, a faithful additive relative-input space, exact central-character transport, signed dilation identities and a certified infinite-spectrum fixed point. These are reusable constructions for studying arithmetic response. In particular, they preserve factorization, signs and additive input information before a scalar sum is formed. That retained structure is the distinctive resource offered to subsequent work on arithmetic cancellation and scale-dependent estimates.
 
-## Keywords
+## Research subjects and results
 
-Spectral arithmetic; Prime factorization; Hodge Laplacians; Fock spaces;
-Möbius function; Dirichlet series; Heat semigroups; Riemann zeta function.
+### Primary subjects
+
+Prime numbers; Prime factorization; Prime number theorem; Hodge Laplacian; Spectral gap; Prime projection; Möbius function; Riemann zeta function; Fock space; Heat semigroups; Dirichlet series; Arithmetic quantum statistical mechanics.
+
+### Research subjects
+
+Multiplicative arithmetic; Square-free integers; Euler products; Möbius inversion; Liouville function; Symmetric Fock space; Fermionic Fock space; Exterior algebra; Augmentation ideals; Cotangent spaces; Bar complexes; Harmonic vectors; Additive decompositions; Primitive pairs; Weyl asymptotics.
+
+### Methods
+
+Homological algebra; Operator semigroups; Resolvent approximation; Spectral projections; Heat trace estimates; Gaussian regularization; Occupation-number representation; Graded traces; Dilation identities; Common-factor decomposition; Charge-defect identities; Fixed-point theorems; Interval enclosures; Mellin transforms; Tauberian theory.
+
+### Results and research questions
+
+Prime numbers as degree-one Hodge zero modes; Sharp heat and resolvent approximations to the prime projection; Exact unit spectral gap in a decomposition Laplacian; Euler products and Möbius coefficients from occupation traces; Additive charge defects and multiplicative parity; Common-factor scale identities for signed arithmetic responses; Stable fixed point of the full Gaussian endpoint response; Three-dimensional Weyl counting from square energy and quadratic shell capacity.
+
+### Chinese subject terms
+
+素数; 素因数分解; 素数定理; 霍奇拉普拉斯算子; 精确谱隙; 素数投影; 莫比乌斯函数; 黎曼ζ函数; 福克空间; 欧拉乘积; 分解同调; 平方自由数.
+
+### Search aliases
+
+Mobius function; Moebius function; Prime decomposition.
 
 ## Relation to the companion article
 

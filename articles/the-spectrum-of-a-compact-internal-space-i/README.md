@@ -58,11 +58,27 @@ Free-field reconstruction connects the internal response semigroup to an externa
 
 The paper thus establishes a substantial sequence of results: a generated compact geometry, a classified faithful gauge group, the sixteen-dimensional matter carrier, the weak scalar doublet, a rigorous positive equilibrium Yang-Mills gap, and compatible spacetime and field realizations. Formal proof libraries accompany the indexed foundational interfaces, while the computational framework evaluates the finite spectral responses. The distinctive contribution is the mathematical connection among these outputs through their common Gaussian source and response-preserving continuations.
 
-## Keywords
+## Research subjects and results
 
-Emergent gauge symmetry; Yang–Mills mass gap; Spectral geometry; Chiral matter
-representations; Lorentzian geometry; Causal perturbation theory; Minimal
-unbiased compositional change.
+### Primary subjects
+
+Yang-Mills theory; Mass gap; Standard Model gauge group; Gauge symmetry; Chiral fermions; Higgs doublet; Spectral geometry; Quantum field theory; Matter representations; Spectral gap; Vacuum stability; Mathematical physics.
+
+### Research subjects
+
+SU(3) gauge theory; SU(2) gauge theory; U(1) gauge theory; Global structure of the Standard Model; Gauge-matter interactions; Fermion representations; Scalar fields; Compact internal geometry; Real projective space; SU(2) representations; Lorentzian geometry; Vacuum structure; Curvature fluctuations; Local quantum fields; Gauge-compatible regularization.
+
+### Methods
+
+Representation theory; Lie groups; Gaussian measures; Self-adjoint operators; Quadratic forms; Coercivity estimates; Spectral analysis; Hodge decomposition; Fock space; Osterwalder-Schrader reconstruction; Reflection positivity; Causal perturbation theory; Source covariance; Equilibrium analysis; Formalized mathematics.
+
+### Results and research questions
+
+Derivation of the Standard Model gauge group; Classification of chiral matter representations; Selection of a complex Higgs doublet; Positive mass gap for the generated Yang-Mills operator; Unique vacuum and attained spectral gap; Complete coercivity of the Yang-Mills Hessian; Lorentzian geometry from a phase clock; Interacting gauge-matter fields by causal perturbation theory.
+
+### Chinese subject terms
+
+杨米尔斯理论; 质量间隙; 标准模型规范群; 手征费米子; 物质表示; 希格斯双重态; 真空稳定性; 谱几何; 紧致内部空间; 洛伦兹几何; 自伴算子; 量子场论.
 
 ## Public file
 

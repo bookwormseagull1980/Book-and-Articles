@@ -20,6 +20,7 @@ GITHUB = "https://github.com/bookwormseagull1980/Book-and-Articles"
 LEAN = "https://github.com/bookwormseagull1980/Lean-Formalization-of-Arithmetic-and-Basic-Physical-Interfaces"
 V5 = "https://github.com/bookwormseagull1980/coarse-graining-genesis"
 DATA = json.loads((ROOT / "site/research.json").read_text(encoding="utf-8"))
+DISCOVERY = json.loads((ROOT / "site/discovery.json").read_text(encoding="utf-8"))
 ROUTES = {"README.md": "index.html", "CITATION.md": "citation.html"}
 for topic in DATA["topics"]:
     ROUTES[f"topics/{topic['slug']}.md"] = f"topics/{topic['slug']}.html"
@@ -143,6 +144,7 @@ def main():
             "pdf": "https://raw.githubusercontent.com/bookwormseagull1980/Book-and-Articles/main/" + quote(pdf_path, safe="/"),
             "github": GITHUB + "/tree/main/articles/" + slug,
             "keywords": citation.get("keywords", []),
+            "paper_keywords": DISCOVERY["papers"][slug]["paper_keywords"],
             "abstract": citation.get("abstract", ""),
             "date": str(citation.get("date-released", "")),
             "markdown": (directory / "README.md").read_text(encoding="utf-8"),
@@ -156,8 +158,11 @@ def main():
             "@context": "https://schema.org", "@type": "WebSite",
             "name": DATA["title"], "url": base,
             "author": {"@type": "Person", "name": "Jinku Guo", "identifier": "https://orcid.org/0009-0000-6600-6171"},
+            "keywords": DATA["keywords"],
         }
         if article:
+            meta += '<meta name="keywords" content="' + escape("; ".join(article["keywords"])) + '">\n'
+            meta += '<meta name="citation_keywords" content="' + escape("; ".join(article["paper_keywords"])) + '">\n'
             for name, value in [("citation_title", article["title"]), ("citation_author", "Jinku Guo"),
                                 ("citation_doi", article["doi"]), ("citation_pdf_url", article["pdf"]),
                                 ("citation_publication_date", article["date"])]:
@@ -190,6 +195,8 @@ def main():
                     "encoding": {"@type": "MediaObject", "contentUrl": book_record["preview_pdf"], "encodingFormat": "application/pdf"},
                 },
             }
+        if not article and not book_record:
+            meta += '<meta name="keywords" content="' + escape("; ".join(DATA["keywords"])) + '">\n'
         document = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)} | Jinku Guo</title>
