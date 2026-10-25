@@ -4,7 +4,9 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article
 
-DOI: [10.2139/ssrn.7649818](https://doi.org/10.2139/ssrn.7649818)
+SSRN: [Abstract and download page](https://ssrn.com/abstract=7649818)
+
+Zenodo: [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976)
 
 Repository snapshot: [24 October 2026, companion SSRN metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/dynamics-of-generated-spectra-from-minimal-change-2026-10-24-ssrn/articles/dynamics-of-generated-spectra-from-minimal-change)
 

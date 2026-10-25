@@ -4,7 +4,9 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article
 
-DOI: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
+SSRN: [Abstract and download page](https://ssrn.com/abstract=7421398)
+
+Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/a-spectral-construction-of-natural-number-arithmetic)
 

@@ -74,6 +74,31 @@ def text_excerpt(text, limit=220):
     return text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0] + "..."
 
 
+def publication_links(identifiers):
+    links = []
+    for label, doi_key, url_key in [
+        ("arXiv", "arxiv_doi", "arxiv_url"),
+        ("SSRN", "ssrn_doi", "ssrn_url"),
+    ]:
+        doi = identifiers.get(doi_key)
+        url = identifiers.get(url_key)
+        if doi or url:
+            if not url:
+                url = ("https://arxiv.org/abs/" + doi.split("arXiv.", 1)[1]
+                       if label == "arXiv" else "https://ssrn.com/abstract=" + doi.rsplit(".", 1)[1])
+            links.append({"label": label, "url": url, "doi": doi})
+    doi = identifiers.get("zenodo_concept_doi") or identifiers["zenodo_doi"]
+    links.append({"label": "Zenodo", "url": "https://doi.org/" + doi, "doi": doi})
+    return links
+
+
+def paper_links(article):
+    return "\n".join(
+        f'<a href="{escape(link["url"])}">{escape(link["label"])}</a>'
+        for link in article["publications"]
+    )
+
+
 def main():
     args_parser = argparse.ArgumentParser()
     args_parser.add_argument("--output", default="_site")
@@ -94,9 +119,13 @@ def main():
         pdf_path = f"articles/{slug}/{identifiers['pdf']['filename']}"
         if pdf_path not in tree:
             raise ValueError(f"Untracked PDF reference: {pdf_path}")
+        publications = publication_links(identifiers["identifiers"])
         articles.append({
             "slug": slug, "title": identifiers["title"],
-            "doi": identifiers["identifiers"].get("zenodo_concept_doi") or identifiers["identifiers"]["zenodo_doi"],
+            "doi": publications[0]["doi"],
+            "archive_doi": publications[-1]["doi"],
+            "primary_url": publications[0]["url"],
+            "publications": publications,
             "ssrn": identifiers["identifiers"].get("ssrn_doi"),
             "arxiv": identifiers["identifiers"].get("arxiv_doi"),
             "pdf": "https://raw.githubusercontent.com/bookwormseagull1980/Book-and-Articles/main/" + quote(pdf_path, safe="/"),
@@ -126,6 +155,7 @@ def main():
                 "@context": "https://schema.org", "@type": "ScholarlyArticle",
                 "headline": article["title"], "url": canonical,
                 "identifier": "https://doi.org/" + article["doi"],
+                "sameAs": [link["url"] for link in article["publications"]],
                 "author": {"@type": "Person", "name": "Jinku Guo"},
                 "keywords": article["keywords"], "abstract": article["abstract"],
                 "encoding": {"@type": "MediaObject", "contentUrl": article["pdf"], "encodingFormat": "application/pdf"},
@@ -160,7 +190,7 @@ def main():
 <a href="https://orcid.org/0009-0000-6600-6171">ORCID</a> ·
 <a href="{GITHUB}">GitHub collection</a> ·
 <a href="{GITHUB}/discussions">Research discussions</a></p>
-<p>Rights belong to the individual works. DOI links identify their archival records.</p></footer>
+<p>Preprints are available on arXiv and SSRN. Zenodo supplies the archival records.</p></footer>
 </body></html>'''
         destination = output / route
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -180,8 +210,8 @@ def main():
 <h3><a href="{base}papers/{article["slug"]}.html">{escape(article["title"])}</a></h3>
 <p>{escape(text_excerpt(article["abstract"]))}</p>
 <p class="paper-keywords">{keywords}</p>
-<p class="paper-links"><a href="{article["pdf"]}">Read PDF</a>
-<a href="https://doi.org/{article["doi"]}">DOI</a>
+<p class="paper-links">{paper_links(article)}
+<a href="{article["pdf"]}">Read PDF</a>
 <a href="{article["github"]}">Files &amp; supplement</a></p></div></article>''')
 
     landing = f'''<section class="opening"><p class="eyebrow">Research by Jinku Guo</p>
@@ -226,8 +256,8 @@ The Practice of Seeking Truth from Facts</a></p></section>'''
              '<article class="prose">' + render_markdown(markdown, source, base) + "</article>")
 
     for article in articles:
-        tools = f'''<p class="article-actions"><a href="{article["pdf"]}">Read manuscript PDF</a>
-<a href="https://doi.org/{article["doi"]}">Archival DOI</a>
+        tools = f'''<p class="article-actions">{paper_links(article)}
+<a href="{article["pdf"]}">Read manuscript PDF</a>
 <a href="{article["github"]}">Files and citation</a></p>'''
         page(f"papers/{article['slug']}.html", article["title"],
              '<article class="prose paper-detail"><p class="eyebrow">Research article · Jinku Guo</p><h1>'

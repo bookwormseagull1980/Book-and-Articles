@@ -12,11 +12,11 @@ url: https://ssrn.com/abstract=7421398
 date-released: '2026-10-25'
 identifiers:
 - type: doi
-  value: 10.5281/zenodo.22512592
-  description: Zenodo concept DOI for all versions
-- type: doi
   value: 10.2139/ssrn.7421398
   description: SSRN record
+- type: doi
+  value: 10.5281/zenodo.22512592
+  description: Zenodo concept DOI for all versions
 abstract: 'We construct natural-number arithmetic on an ordered family of correlation modes
   and retain the expressions by which its elements are generated. Minimal unbiased compositional
   change determines a rotation plane and a Gaussian law. Local information and total normalized

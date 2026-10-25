@@ -2,8 +2,10 @@
 
 Each article is a distinct work. Cite the article whose theorem, model or
 calculation you use; its directory contains `metadata/CITATION.cff` and
-`metadata/IDENTIFIERS.yml`. The [paper catalogue](README.md#papers) gives the
-concept DOI for each work. A concept DOI identifies the work across versions.
+`metadata/IDENTIFIERS.yml`. The [paper catalogue](README.md#papers) lists arXiv,
+SSRN and Zenodo records in that order where available. Use the article's
+preferred citation record. Zenodo concept DOIs identify archived works across
+versions.
 
 For formal declarations, cite the proof library and the companion manuscript:
 

@@ -15,14 +15,14 @@ identifiers:
   value: 10.48550/arXiv.2608.01989
   description: arXiv record
 - type: doi
+  value: 10.2139/ssrn.7352038
+  description: SSRN record
+- type: doi
   value: 10.5281/zenodo.22093524
   description: Zenodo concept DOI for all versions
 - type: doi
   value: 10.5281/zenodo.22704837
   description: Zenodo DOI for an archived version
-- type: doi
-  value: 10.2139/ssrn.7352038
-  description: SSRN record
 abstract: We study when a reduced description preserves the response to an applied source. For
   systems defined by continuously differentiable state updates and observations a bounded surjective
   linear coarse map gives differentiable descent when the projected maps are constant on each

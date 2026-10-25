@@ -4,7 +4,9 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article with a computational supplement
 
-DOI: [10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn.7650278)
+SSRN: [Abstract and download page](https://ssrn.com/abstract=7650278)
+
+Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
 

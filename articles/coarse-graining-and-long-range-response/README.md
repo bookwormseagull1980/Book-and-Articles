@@ -4,7 +4,11 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article
 
-DOI: [10.48550/arXiv.2608.01989](https://doi.org/10.48550/arXiv.2608.01989)
+arXiv: [2608.01989](https://arxiv.org/abs/2608.01989)
+
+SSRN: [Abstract and download page](https://ssrn.com/abstract=7352038)
+
+Zenodo: [10.5281/zenodo.22093524](https://doi.org/10.5281/zenodo.22093524)
 
 Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/coarse-graining-and-long-range-response-in-generated-systems-2026-10-23/articles/coarse-graining-and-long-range-response)
 

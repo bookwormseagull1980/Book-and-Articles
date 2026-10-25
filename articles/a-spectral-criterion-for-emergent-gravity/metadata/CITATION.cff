@@ -15,14 +15,14 @@ identifiers:
   value: 10.48550/arXiv.2607.21621
   description: arXiv record
 - type: doi
+  value: 10.2139/ssrn.7352000
+  description: SSRN record
+- type: doi
   value: 10.5281/zenodo.22093341
   description: Zenodo concept DOI for all versions
 - type: doi
   value: 10.5281/zenodo.22704806
   description: Zenodo DOI for an archived version
-- type: doi
-  value: 10.2139/ssrn.7352000
-  description: SSRN record
 abstract: We give a source-resolved spectral criterion for long-range tensor exchange between
   conserved matter sources. Exact channel elimination preserves the propagation kernel together
   with the source and readout maps and the direct response. Common-space estimates control the

@@ -4,7 +4,7 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article
 
-DOI: [10.2139/ssrn.7351999](https://doi.org/10.2139/ssrn.7351999)
+SSRN: [Abstract and download page](https://ssrn.com/abstract=7351999)
 
 Zenodo: [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468)
 

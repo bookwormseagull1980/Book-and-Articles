@@ -4,8 +4,6 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article with computational supplement
 
-DOI: [10.2139/ssrn.7659840](https://doi.org/10.2139/ssrn.7659840)
-
 SSRN: [Abstract and download page](https://ssrn.com/abstract=7659840)
 
 Zenodo: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)

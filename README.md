@@ -102,19 +102,19 @@ statement to the standard P vs NP problem.
 ## Papers
 
 Each title opens a substantial introduction, the reading PDF and its metadata.
-The DOI links below identify each work across its deposited versions.
+Preprint links appear first, followed by the Zenodo archival record.
 
-| Work | Archive |
+| Work | Paper links |
 | --- | --- |
-| [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md) | [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592) |
-| [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md) | [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151) |
-| [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md) | [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976) |
-| [Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost](articles/certified-spectral-computation-for-semilinear-evolution/README.md) | [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642) |
-| [A Spectral Criterion for Emergent Gravity](articles/a-spectral-criterion-for-emergent-gravity/README.md) | [10.5281/zenodo.22093341](https://doi.org/10.5281/zenodo.22093341) |
-| [Coarse-Graining and Long-Range Response in Generated Systems](articles/coarse-graining-and-long-range-response/README.md) | [10.5281/zenodo.22093524](https://doi.org/10.5281/zenodo.22093524) |
-| [The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap](articles/the-spectrum-of-a-compact-internal-space-i/README.md) | [10.5281/zenodo.22067117](https://doi.org/10.5281/zenodo.22067117) |
-| [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](articles/the-spectrum-of-a-compact-internal-space-ii/README.md) | [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468) |
-| [The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation](articles/the-spectrum-of-a-compact-internal-space-iii/README.md) | [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996) |
+| [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md) | [SSRN](https://ssrn.com/abstract=7421398) · [Zenodo](https://doi.org/10.5281/zenodo.22512592) |
+| [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md) | [SSRN](https://ssrn.com/abstract=7650278) · [Zenodo](https://doi.org/10.5281/zenodo.23538151) |
+| [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md) | [SSRN](https://ssrn.com/abstract=7649818) · [Zenodo](https://doi.org/10.5281/zenodo.23536976) |
+| [Certified Spectral Computation for Semilinear Evolution: Finite Records and Polynomial Bit Cost](articles/certified-spectral-computation-for-semilinear-evolution/README.md) | [SSRN](https://ssrn.com/abstract=7659059) · [Zenodo](https://doi.org/10.5281/zenodo.23582642) |
+| [A Spectral Criterion for Emergent Gravity](articles/a-spectral-criterion-for-emergent-gravity/README.md) | [arXiv](https://arxiv.org/abs/2607.21621) · [SSRN](https://ssrn.com/abstract=7352000) · [Zenodo](https://doi.org/10.5281/zenodo.22093341) |
+| [Coarse-Graining and Long-Range Response in Generated Systems](articles/coarse-graining-and-long-range-response/README.md) | [arXiv](https://arxiv.org/abs/2608.01989) · [SSRN](https://ssrn.com/abstract=7352038) · [Zenodo](https://doi.org/10.5281/zenodo.22093524) |
+| [The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap](articles/the-spectrum-of-a-compact-internal-space-i/README.md) | [SSRN](https://ssrn.com/abstract=7352020) · [Zenodo](https://doi.org/10.5281/zenodo.22067117) |
+| [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](articles/the-spectrum-of-a-compact-internal-space-ii/README.md) | [SSRN](https://ssrn.com/abstract=7351999) · [Zenodo](https://doi.org/10.5281/zenodo.22067468) |
+| [The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation](articles/the-spectrum-of-a-compact-internal-space-iii/README.md) | [SSRN](https://ssrn.com/abstract=7659840) · [Zenodo](https://doi.org/10.5281/zenodo.23583996) |
 
 ## Books, citation and contact
 
