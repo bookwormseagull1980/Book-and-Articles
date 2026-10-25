@@ -1,4 +1,18 @@
 "use strict";
+const researchDiagram = document.getElementById("research-map");
+if (researchDiagram) {
+  const areas = [...document.querySelectorAll('map[name="research-navigation"] area')];
+  const resizeMap = () => {
+    if (!researchDiagram.naturalWidth) return;
+    const scale = researchDiagram.clientWidth / researchDiagram.naturalWidth;
+    for (const area of areas) {
+      area.coords = area.dataset.coords.split(",").map(value => Math.round(Number(value) * scale)).join(",");
+    }
+  };
+  researchDiagram.addEventListener("load", resizeMap);
+  new ResizeObserver(resizeMap).observe(researchDiagram);
+  resizeMap();
+}
 const search = document.getElementById("paper-search");
 if (search) {
   const rows = [...document.querySelectorAll(".paper-row")];

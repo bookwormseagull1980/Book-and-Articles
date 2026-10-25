@@ -226,9 +226,21 @@ Yang-Mills spectral-gap theorem, and polynomial-cost trajectory certificates.</p
 <a href="{base}verification.html">Explore proofs and calculations <span aria-hidden="true">→</span></a></p>
 </section>
 <section id="research" class="research-section"><h2>A common source, several research directions</h2>
-<figure><a href="{base}assets/research-map.png" aria-label="Open the research diagram at full resolution"><img src="{base}assets/research-map.png" alt="Minimal change leads to Gaussian correlation and retained spectral data, then branches into arithmetic histories, physical response and certified computation." width="1600" height="720"></a>
+<figure><img id="research-map" src="{base}assets/research-map.png" usemap="#research-navigation" alt="Minimal change leads to Gaussian correlation and retained spectral data, then branches into arithmetic histories, physical response and certified computation." width="1600" height="720">
+<map name="research-navigation">
+<area shape="rect" coords="475,20,1125,112" data-coords="475,20,1125,112" href="{base}topics/generated-arithmetic.html" alt="Minimal change and the arithmetic source" title="Minimal change and the arithmetic source">
+<area shape="rect" coords="475,158,1125,254" data-coords="475,158,1125,254" href="{base}topics/generated-arithmetic.html" alt="Gaussian correlation and the generated carrier" title="Gaussian correlation and the generated carrier">
+<area shape="rect" coords="475,300,1125,396" data-coords="475,300,1125,396" href="{base}topics/prime-operators.html" alt="Retained spectral data and prime operators" title="Retained spectral data and prime operators">
+<area shape="rect" coords="20,495,510,552" data-coords="20,495,510,552" href="{base}topics/generated-arithmetic.html" alt="Arithmetic and histories" title="Arithmetic and histories">
+<area shape="rect" coords="20,552,510,615" data-coords="20,552,510,615" href="{base}topics/prime-operators.html" alt="Prime directions and Hodge operators" title="Prime directions and Hodge operators">
+<area shape="rect" coords="20,615,510,680" data-coords="20,615,510,680" href="{base}topics/generated-arithmetic.html" alt="Value response and memory" title="Value response and memory">
+<area shape="rect" coords="555,495,1045,615" data-coords="555,495,1045,615" href="{base}topics/gauge-and-mass-gap.html" alt="Gauge structure and the generated Yang-Mills spectral gap" title="Gauge structure and the generated Yang-Mills spectral gap">
+<area shape="rect" coords="555,615,1045,680" data-coords="555,615,1045,680" href="{base}topics/gravity-and-cosmology.html" alt="Gravity and cosmic structure" title="Gravity and cosmic structure">
+<area shape="rect" coords="1090,495,1580,680" data-coords="1090,495,1580,680" href="{base}topics/certified-computation.html" alt="Certified computation and polynomial bit cost" title="Certified computation and polynomial bit cost">
+</map>
 <figcaption>The branches share generating data. Their theorems specify the maps,
-realizations and response classes connecting one stage to the next.</figcaption></figure>
+realizations and response classes connecting one stage to the next.
+<a href="{base}assets/research-map.png">Full-resolution diagram</a>.</figcaption></figure>
 <ul class="topic-list">{topic_rows}</ul></section>
 <section class="reading"><h2>Reading routes</h2><div class="reading-columns">
 <div><h3>Mathematical construction</h3><p>Begin with natural-number arithmetic,
