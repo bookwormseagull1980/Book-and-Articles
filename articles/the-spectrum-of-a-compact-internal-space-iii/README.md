@@ -14,55 +14,48 @@ Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-
 
 Updated: 25 October 2026
 
-## Abstract
+## Research overview
 
-Cosmic matter forms concentrations whose external force can often be
-described by their mass and spatial moments. Encounters and material
-exchange can make finer structure relevant again. We determine when
-field and object descriptions preserve that force and the
-subsequent evolution of specified observables while retaining unresolved
-influence in residual variables and memory. The compact internal-space
-construction supplies the matter carriers and collective source. Their
-coupled variations determine the macroscopic evolution. The applications
-examine homogeneous response reuse and a constrained nonuniform Einstein–matter perturbation
-together with autonomous expansion from a local constitutive action.
-In the expanding root-mean-square (RMS) application, the endpoint amplitude
-response fixes the constitutive flux. Its potential determines both the
-cold-matter force and the binding term in the expansion constraint. A
-finite-interval enclosure establishes noncrossing, positive reduced
-kinetic curvature and regular weak-field material-clock readings.
-Reconstruction in a common state space combines object replacement with
-moving spectral boundaries and truncated memory for a finite reference
-evolution. Spatial moments bound the force error. Cloud-in-cell assignment
-admits an exact eight-moment cell representation. A positive lower bound
-on the source derivative of the stationary constraint bounds the error
-in reusing its response. Integrable stability and defect bounds on a
-certified state tube then control the accumulated reconstruction error.
-A common modulus of continuity transfers this bound to observables over
-the prescribed interval. The first accepted window is the least
-certified member of a finite ordered family.
-Finite Galerkin examples retain positive density and the prescribed
-accuracy with reduced arithmetic work including verification. A
-cosmological particle calculation encloses the continuous-time trajectory
-at fixed mesh resolution. Its weakly perturbed cold-sheet reconstruction
-also gives full-frequency force bounds and continuous position and
-momentum equation-defect bounds. These estimates select sufficient
-retained structure for the prescribed interaction and observables. They
-control the re-entry of finer coordinates.
+### Following cosmic structure at the resolution it requires
+
+Cosmic structure formation combines collective gravitational motion, evolving matter distributions and a large range of spatial scales. A useful finite description must determine when a reduced object remains adequate, when its internal structure must return, and how errors accumulate as the retained variables change. This paper develops that description within the generated compact-source framework.
+
+The source-coupled action, matter carrier and relational clock provide the physical dynamics. Spatial Fourier modes describe inhomogeneity of that dynamics. Internal compact modes retain their separate role in the material response. Keeping these roles explicit connects the generated microscopic structure to a macroscopic evolution with defined sources, forces and observations.
+
+### Changing windows without losing the equation
+
+The paper derives the exact dynamics associated with a changing spectral projection. The derivative of the projection contributes to the equation, and eliminating discarded variables produces memory and an initial hidden-state term. A common-space reconstruction makes successive windows comparable.
+
+Its central estimate controls the difference between the reconstructed finite trajectory and the reference evolution. The error budget includes the equation residual, jumps when a window changes, truncated memory and replacement of a resolved object by a reduced one. An integrable stability bound propagates these defects over the certified time interval. An observation modulus converts the resulting state estimate into the requested observational accuracy.
+
+Among a finite ordered family of candidate windows, the method selects the least one accepted by this budget. A discarded component re-enters when its omission can no longer meet the accuracy requirement. Resolution is therefore an evolving consequence of the physical response and the chosen observation.
+
+### Objects, moments and retained material identity
+
+A concentration of matter can often be represented by its mass and centroid, with higher moments added as the force accuracy requires. Taylor expansion of the force explains the hierarchy. The centroid cancels the first moment correction, while the next retained moments control the remaining finite-size error. Encounters and tidal changes can make previously small terms significant.
+
+For cloud-in-cell particle deposition, the paper identifies eight cell moments that represent the trilinear source exactly while the particles remain in the relevant cell configuration. Crossing corrections update this representation when membership changes. Material mass conservation and the accuracy of the force readout are then tested as separate properties of the reduced object.
+
+The reconstruction retains ancestry and membership information when an observation requires it. Object selection is certified through margins, so a small numerical perturbation does not silently change the object being tracked. This gives a mathematical treatment of the point at which a material structure can be followed as one object and the point at which its resolved components are needed again.
+
+### Dynamics and continuous-time certificates
+
+The nonlinear gravitational flux follows from the compact source covariance. The occupied cosmological realization includes expansion, constrained propagation and a matter-phase clock. The analysis derives the appropriate energy accounting for motion and binding. A cold-sheet displacement realization retains the full periodic potential on an interval with no crossing and a regular clock, and the defect from excluded force components is made explicit.
+
+The computational examples certify trajectories over continuous time. A 4,096-particle cloud-in-cell calculation gives an enclosure with a position uncertainty below 0.286 percent of a mesh cell. A separate weak-perturbation cold-sheet calculation controls continuous position and momentum defects through the displacement construction. Their certificates assess the actual evolution between stored times.
+
+Finite Galerkin calculations also compare reduced work at a common accuracy. Verification, unsuccessful reuse attempts and the cost of changing the window enter the accounting. This gives a meaningful way to assess the benefit of adaptive reduction for the stated calculations.
+
+### The main contribution
+
+This paper supplies an error-controlled route from generated matter response to finite-window cosmic dynamics. Its results join moving projections, memory, force moments, material identity and continuous-time numerical certificates. Their common role is to determine which information can safely remain unresolved during an actual evolution.
+
+The resulting framework gives coarse structures a precise operational status. A reduced object is supported by an explicit reconstruction and a certified observation error. Its continued use, refinement or decomposition follows from the same evolving budget. This makes the formation and reuse of cosmic structures part of a mathematically controlled dynamics.
 
 ## Keywords
 
 Cosmic structure formation; Coarse-graining; Spectral methods;
 Model reduction; Memory effects; A posteriori error estimates.
-
-## Scope
-
-The reconstruction estimates compare changes of spectral retention, object
-moments and memory within specified reference evolutions and norms. The
-finite particle trajectory enclosure concerns the continuous-time CIC
-equations at fixed mesh resolution. The full-frequency force and kinetic
-equation-defect bounds concern the stated cold-sheet reconstruction.
-The stored calculations retain these separate scopes.
 
 ## Public files
 

@@ -10,43 +10,49 @@ Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-
 
 Updated: 25 October 2026
 
-## Abstract
+## Research overview
 
-We construct natural-number arithmetic on an ordered family of correlation
-modes and retain the expressions by which its elements are generated.
-Minimal unbiased compositional change determines a rotation plane and a
-Gaussian law. Local information and total normalized correlation determine
-a finite window; preservation of constants selects its Neumann closure
-within the separated homogeneous local boundary class. Modulation and
-composition of the oriented modes define an ordered Peano semiring with
-unique factorization. The modes retain quadratic energy and canonical
-scale transport, while winding degree certifies the arithmetic.
-Ordered expressions have finite evaluation fibres. Equal root-channel
-weights and independent subhistory assembly determine a positive history
-law whose Gaussian marginal is the original mode mass. Conditional
-readout separates value information from internal history variation by
-exact variance and entropy identities. Using the same weights,
-parent–child assembly defines a nonnegative self-adjoint trace-class
-operator with explicit Gaussian cutoff bounds. Its contraction evolution
-couples value coefficients to history differences with zero initial
-readout: an exact matrix element at value four proves this coupling on
-the complete history space. The coupling persists under small changes of
-the relevant conditional weights. Eliminating the history differences
-gives an exact integral equation for the value response. Lean
-formalizations accompany the arithmetic construction, history-source
-recursion and assembly results.
+### Arithmetic with its construction history retained
+
+This paper constructs natural-number arithmetic from a correlation spectrum and then resolves its values into the expressions by which they are generated. Its central achievement is to connect three levels that are usually studied separately: arithmetic values, the histories of arithmetic operations, and an evolution acting on those histories. The resulting system retains both the familiar numerical laws and information that numerical evaluation alone removes.
+
+The source is minimal unbiased compositional change. The least-dimensional faithful irreducible real orthogonal carrier is a rotation plane. Independent composition, exact same-shape self-similarity and unit covariance determine square-root scaling and a Gaussian law. Local information and normalized total correlation give the characteristic local and global lengths. Preservation of constants selects Neumann closure within the stated separated nondegenerate homogeneous local boundary class.
+
+Spectral projections are ordered by their Gaussian response before an integer enumeration is introduced. Orientation selects the positive analytic modes. Pointwise modulation and circle-map composition define their addition and multiplication; modulation by the first positive mode defines successor. The paper proves the Peano recursion structure, unique prime factorization and canonical transport under scale and orientation changes. Winding degree certifies the resulting natural-number arithmetic.
+
+### Resolving how a value is generated
+
+The next construction retains ordered, bracketed addition and multiplication expressions. Only the specified zero, unit and absorbing reductions are imposed at this level. Arithmetic evaluation identifies expressions with the same value, while each value has a finite expression fibre. This gives a precise space in which the construction of a number can itself be observed.
+
+The simplest example is six. Adding six unit leaves and multiplying an additive expression for three by an additive expression for two give the same root value and the same root energy. Their leaf counts are six and five, while their accumulated internal quadratic defects are thirty and thirty-one. In both cases leaf energy plus accumulated defect is thirty-six. The equality at the root coexists with a measurable difference in the construction.
+
+A recursive positive law gives equal weight to the admissible root channels and assembles their subhistories independently. This law differs from uniform counting of all complete expressions. Phase invariance determines a finite phase extension. Summing the resolved source over histories and phases recovers the original Gaussian mass of each mode exactly. Expression multiplicity therefore enriches the source without changing its original partition function.
+
+Weighted amplitude readout, probability pushforward and conditional expectation have distinct definitions. Exact variance and entropy identities separate the information in the root value from the information remaining within its fibre. The example of six has strictly positive conditional leaf-count variance, giving a concrete instance of information preserved by the resolved construction.
+
+### A complete operator on generation histories
+
+The same source weights determine a parent-child assembly response. The paper constructs a nonnegative self-adjoint trace-class operator on the complete counting history space. Its trace tail has an explicit Gaussian bound independent of the number of expressions in each fibre. Finite root cutoffs converge in trace norm, and the full operator generates a contraction evolution with a dissipation identity.
+
+The decisive result is a nonzero transfer from an initially invisible history difference to a later value response. A difference supported on the six histories of four has zero initial value readout, yet its coupling through the complete infinite assembly operator is strictly nonzero. The result persists under small changes of the relevant conditional weights.
+
+Writing $Q$ for the weighted value readout and $H$ for the assembly operator, the phenomenon is expressed by a vector $h$ satisfying
+
+$$
+Qh=0,\qquad QHh\ne0.
+$$
+
+Arithmetic evaluation consequently discards information that can affect this later response. Eliminating the history-difference component produces an exact integral equation with a memory kernel and an initial-history contribution. This supplies a rigorous mechanism by which generation history enters the dynamics of evaluated quantities.
+
+### What distinguishes this construction
+
+Circle degree provides a classical arithmetic certification. The additional results come from constructing the correlation source, its native operations, the resolved positive history law and the assembly response together. Direct circle arithmetic supplies the values and their operations; the present construction also supplies normalized history probabilities, conditional information and an explicit evolution that can return hidden history to an observable value.
+
+Formal differences, fractions and completion extend the arithmetic to scalar fields and Hilbert spaces, with finite rational certificates and spectral approximation estimates. A Lean companion records the indexed arithmetic and history constructions, their assembly interfaces and formal dependencies. The paper's contribution is thus both foundational and dynamical: it constructs the arithmetic carrier and proves that the route to a value can remain mathematically consequential after that value has been obtained.
 
 ## Keywords
 
 Natural numbers; Gaussian semigroups; Arithmetic expressions; Conditional expectation; Trace class operators; Operator semigroups; Memory kernels; Formalized mathematics.
-
-## Scope
-
-This is the first of the two manuscripts obtained by dividing the earlier
-combined work. It develops the correlation source and native arithmetic together
-with ordered expression histories, conditional readout and history-assembly
-dynamics. The second manuscript on prime decomposition and operator responses is
-not included here.
 
 ## Public file
 

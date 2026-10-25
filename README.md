@@ -1,8 +1,9 @@
 # Book and Articles
 
-Public reading copies of books and research articles by Jinku Guo. Each work
-has its own directory with an abstract, subject keywords, citation metadata,
-rights statement and SHA-256 file record. LaTeX sources are not included.
+Public reading copies of books and research articles by Jinku Guo. Each article
+page explains its generating construction, principal results and relation to
+established methods. Each work also has subject keywords, citation metadata,
+a rights statement and a SHA-256 file record. LaTeX sources are not included.
 Computational supplements are supplied where indicated.
 
 ## Books

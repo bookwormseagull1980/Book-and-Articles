@@ -10,28 +10,51 @@ Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-
 
 Updated: 25 October 2026
 
-## Abstract
+## Research overview
 
-We construct decomposition and occupation operators on a generated
-correlation-spectral arithmetic system. Prime residue classes form the
-augmentation cotangent basis, and the corresponding one-word vectors span
-the degree-one kernel of a decomposition Hodge Laplacian. The complementary
-spectral gap is exactly one, giving sharp heat and resolvent approximations
-to the prime projection and summable Gaussian trace errors. Symmetric and
-exterior occupations retain logarithmic arithmetic energy and quadratic
-correlation energy on the same value space. A faithful extension of
-addition records relative inputs; its charge defect intertwines input
-multiplicative parity with the parity of the sum. Common-factor coordinates
-and exact square-divisor identities give scale transforms of the resulting
-signed responses. Combining additive and decomposition responses defines a
-Gaussian endpoint map. Under diagonal self-consistency, this map has a
-unique stable fixed point with an enclosure of the complete infinite
-response. For compact Laplace realizations of square energy and quadratic
-shell capacity, Weyl counting gives dimension three; further geometric and
-central-sign classifications hold in their stated realization classes.
-Counting applications recover Bertrand's theorem, the prime-number
-asymptotic and square-free sign densities through the occupation traces
-and their boundary responses.
+### Making prime structure accessible to operators
+
+Prime factorization is usually stated as an algebraic property of integers. This paper builds an operator theory in which prime directions can also be isolated by a heat flow, occupation traces can read their multiplicative structure, and additive operations retain the relative inputs that a numerical sum suppresses. All these constructions arise from the same spectral natural-number arithmetic and its Gaussian response.
+
+The arithmetic carrier has native modulation and cascade operations. Cascade irreducibles are its prime modes. Their residue classes form the canonical basis of the augmentation cotangent space. Corresponding one-word vectors form the prime subspace recovered by the degree-one decomposition Hodge operator. The paper proves these identifications between the relevant objects and spaces.
+
+### Quantitative prime localization
+
+The decomposition complex records nonunit factor words and their merging operations. Its closed Hodge form defines a self-adjoint operator. On a degree-one vector of value $n>1$, the eigenvalue is
+
+$$
+\mathrm d(n)-2,
+$$
+
+where $\mathrm d(n)$ counts positive divisors. Its kernel consists exactly of prime vectors. The smallest positive eigenvalue is one, attained at prime squares. Consequently the heat flow approaches the prime projection with the sharp operator-norm error
+
+$$
+\bigl\|e^{-\tau\Delta_1}-P_{\mathrm{pr}}\bigr\|=e^{-\tau}.
+$$
+
+The resolvent gives a second quantitative prime projector. Gaussian weighting makes the associated trace errors summable. Prime recognition is therefore represented by an explicit spectral operator with a known gap and convergence rate.
+
+### Occupation traces and the interface between operations
+
+Symmetric occupation coordinates retain arbitrary prime exponents. Exterior coordinates retain square-free occupations and their graded sign. Logarithmic occupation energy gives Dirichlet traces, while the original quadratic energy gives Gaussian traces. The Euler product and reciprocal zeta function are recovered through these related occupation realizations. Exterior parity supplies the internal origin of the Mobius coefficients.
+
+The additive construction preserves information of a different kind. On a fixed-sum fibre, the longitudinal direction records the evaluated sum and the transverse directions record differences between ordered inputs. A faithful extension retains these relative inputs and the associated prime-occupation defect. Its character identity intertwines the two input central parities with the output parity and the defect character.
+
+This is a substantive connection between addition and multiplication. The multiplicative sign is transported exactly through an additive operation once its defect data are retained. A canonical common-factor decomposition further organizes two inputs into a common occupation and two coprime legs, with the corresponding Gaussian scale transformation.
+
+Prime-direction creation gives exact signed dilation identities. The paper develops these identities before taking absolute values, preserving the signs that unsigned capacity estimates would otherwise remove. Mellin analysis then connects the Gaussian readout to the Dirichlet and zeta representations.
+
+### Full-spectrum response and geometric realizations
+
+Normalized endpoint states define a retention response. Under diagonal self-consistency, its input attenuation is required to equal the returned retention. The paper proves existence, uniqueness and stability of the resulting fixed point for the complete infinite spectrum. Explicit tail bounds and rational enclosures certify its numerical evaluation. The first surviving shell explains the characteristic small scale of the fixed point, and the full-spectrum analysis controls the corrections.
+
+The representation extensions retain equally explicit comparison classes. A compact Laplace realization reproducing quadratic shell energy and quadratic shell capacity has counting exponent three-halves, which fixes its dimension to three by Weyl asymptotics. In the round-sphere affine energy-capacity class, the projective realization and its central-sign lift lead to the corresponding minimal half-spin representation.
+
+The counting appendices derive Bertrand's theorem and the prime-number asymptotic within the spectral carrier. Central binomial estimates, positive Fock boundary phases and the Tauberian passage are connected to the generated prime coordinates. These applications show how finite prime localization and infinite analytic readout coexist in one theory.
+
+### The resulting mathematical tools
+
+The paper provides a prime projector with sharp quantitative control, compatible symmetric and exterior traces, a faithful additive relative-input space, exact central-character transport, signed dilation identities and a certified infinite-spectrum fixed point. These are reusable constructions for studying arithmetic response. In particular, they preserve factorization, signs and additive input information before a scalar sum is formed. That retained structure is the distinctive resource offered to subsequent work on arithmetic cancellation and scale-dependent estimates.
 
 ## Keywords
 

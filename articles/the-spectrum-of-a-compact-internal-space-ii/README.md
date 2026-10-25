@@ -12,44 +12,53 @@ Repository copy: [Current article directory](https://github.com/bookwormseagull1
 
 Updated: 25 October 2026.
 
-## Abstract
+## Research overview
 
-Minimal unbiased compositional change generates the Gaussian source of the
-compact internal construction. We derive joint constraints on effective
-couplings and mass scales from its gauge and matter content, scalar sector,
-spectral endpoint and kinetic normalizations. Compatibility of source and
-colour screening selects three matter copies. Within the response family
-indexed by integers, shell support and position retention select the level
-R=5, whose transverse traceless endpoint equation has a unique positive
-root. Eliminating shared transfer parameters gives a relation among six
-geometric fermion masses. Bandwidth variation correlates the electron and
-electroweak scales, while two cosmological ratios are independent of the
-common neutrino mass normalization. Finite matching through one loop
-implements the generated Fermi, top and Higgs conditions in a common action.
-The absorptive top self energy gives the Born decay width as an additional
-output. The compact source covariance and positive RMS amplitude determine
-a local nonlinear flux that couples matter motion to source feedback. A
-model with an auxiliary radius admits autonomous source evolution, positive
-reduced propagation forms and a matter phase clock on a specified finite
-cosmological interval. Physical comparisons use the stated mass definitions,
-matching and thermal approximations. The fixed DESI DR2 distance comparison
-gives χ²=29.5087 for thirteen components and p=0.00554, indicating tension in
-the adopted cosmological mapping. Spectral tail and quadrature bounds
-control the finite response calculation.
+### Turning generated structure into quantitative relations
+
+Once a compact geometry, a matter carrier and a scalar connector have been constructed, the next question is quantitative. Their interactions must determine normalized couplings, transfer amplitudes and mass scales. This paper develops that calculation across the particle, gravitational and cosmological sectors.
+
+The organizing principle is a common spectral response. The internal geometry and representation content determine matrix elements, kinetic norms and transmission factors. Eliminating their shared parameters produces relations between observables. This creates correlations between sectors that would be independent in a model with a separate adjustable coefficient for each quantity.
+
+### Discrete selection and the common endpoint
+
+The calculation first determines which matter and spectral sectors survive the source and screening conditions. Joint source and color screening select three matter copies. Retention of the required shell support and three positive Dirac positions gives an admissible interval for the integer spectral domain. Its unique integer is $R=5$.
+
+The tensor endpoint is determined by a positive response with an exact scaling structure. After the spectral variable is rescaled, its dependence on the dimensionless endpoint $c=kL$ takes the form $A_R/c$. Matching this response to the prescribed endpoint value gives one positive root. The computed center is approximately
+
+$$
+kL\simeq 2.4935343.
+$$
+
+Existence, uniqueness and the numerical enclosure are treated separately from the displayed center. This endpoint enters the subsequent transfer relations repeatedly. The paper thereby links discrete sector selection to a continuous normalization used throughout the calculations.
+
+### Mass relations and normalized interactions
+
+Repeated transmission through the compact geometry generates hierarchical mass factors. The paper derives a geometric relation among six fermion masses by eliminating common transfer parameters. It also obtains a shared bandwidth relation between the electron and electroweak scales. Their significance lies in the restricted pattern: changing a common spectral quantity affects several predicted relations at once.
+
+The analysis distinguishes geometric masses, pole masses and running masses. Conversion factors carry the renormalization scale and prescription required for comparison with measured particle data. This makes the relations testable at the correct level and identifies which finite action and two-point calculations determine their physical readout.
+
+Canonical normalization also gives the gauge and scalar interactions used in finite matching. The paper develops the associated family mixing and a one-loop, tadpole-free electroweak matching calculation. Its results include a Born-level top width near 1.53445 GeV. These calculations extend the construction from representation labels to amplitudes and observables with a stated normalization.
+
+### Gravitational and cosmological consequences
+
+The same source covariance fixes a nonlinear gravitational flux and its local potential. The resulting Bekenstein-Milgrom-type field problem has a unique static weak solution under the specified boundary data. Coupling this response to pressureless matter gives a smooth pre-crossing evolution and an energy balance. Thus the gravitational sector contains a defined field equation and dynamics in addition to a dimensional scale estimate.
+
+The occupied homogeneous cosmological realization includes a relational matter clock and positive constrained propagation forms on the finite interval under study. A common neutrino normalization cancels from a relation between a vacuum-density fraction and a combination of the cosmic temperature, Planck scale and Hubble rate. This produces a cross-sector test whose structure follows from the shared normalization.
+
+Finite cosmological comparisons are reported with their actual statistical outcome. In the adopted DESI DR2 mapping, thirteen components give a chi-square of about 29.51 and a tail probability near 0.00554. The discrepancy is a useful constraint on that realization because the comparison is made after the common spectral quantities have been fixed. Nuclear and primordial-abundance calculations supply additional checks at different physical scales.
+
+### The contribution of the common generating route
+
+The principal results are the selection of three matter copies and the unique integer domain, the unique tensor endpoint, linked mass relations, normalized interaction calculations, and explicit gravitational and cosmological realizations. Their connection is the central advance. A single spectral construction imposes dependencies across quantities normally introduced in separate phenomenological sectors.
+
+The accompanying computational framework records those dependencies and propagates the available numerical enclosures. An interval due to the tensor endpoint, a perturbative matching correction and a discrepancy with reference data each carry a distinct meaning. This separation makes it possible to assess the construction as a predictive system. Its strongest quantitative claims can be traced to a specific spectral response, while comparisons identify which physical readouts are most sensitive to further calculation.
 
 ## Keywords
 
 Gauge couplings; Fermion mass hierarchies; Fermion mass relations; Fermion
 generations; Electroweak symmetry breaking; Particle cosmology; Spectral
 geometry.
-
-## Scope
-
-The calculations use the gauge–matter and scalar construction of the first
-compact-space article. Spectral response bounds control the finite
-calculation. Physical comparisons retain the specified normalization,
-mass-scheme matching and thermal approximations. The reported cosmological
-distance test includes the tension in the adopted mapping.
 
 ## Public file
 

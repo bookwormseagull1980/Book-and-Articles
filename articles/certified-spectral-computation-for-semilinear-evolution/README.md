@@ -12,45 +12,60 @@ Zenodo: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
 
 Repository snapshot: [24 October 2026, SSRN metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/certified-spectral-computation-for-semilinear-evolution-2026-10-24-ssrn/articles/certified-spectral-computation-for-semilinear-evolution)
 
-## Abstract
+## Research overview
 
-We study finite records whose accuracy for an infinite-dimensional nonlinear
-evolution can be checked without rerunning the producing algorithm. The model
-is a fixed Neumann reaction–diffusion equation with quadratic reaction on a
-fixed time interval. Inputs are rational cosine polynomials satisfying a
-common exponentially weighted coefficient bound. Exact rational tests of
-continuity and coefficient bounds together with the initial discrepancy and
-Galerkin residual certify the trajectory error for the original equation and
-the error of its terminal mean and point value. Acceptance depends on the
-submitted record independently of the algorithm that produced its
-coefficients. A rational Taylor construction yields an accepted record for
-every admissible input and requested accuracy. Construction cost and record
-length are polynomial in the complete input length and the number of requested
-accuracy bits. Checking is polynomial in the input and submitted record
-lengths. The proof controls quantized restarts and the bit lengths of
-intermediate numerators and denominators. A separate rational check certifies
-quadratic accounts with positive transport defects and signed injection and
-approximation increments. Finite response approximations also include
-operator-tail and rounding bounds in the acceptance test. These results give a
-computational realization of the generated spectral framework for the encoded
-Neumann family. A rational finite-dimensional system provides a second
-realization through quantized Picard iteration. Construction and checking
-programs accompany both models.
+### From an existence estimate to a checkable computation
+
+An analytic approximation theorem becomes computationally stronger when it supplies three things: a finite construction, a record that can be checked independently, and a bound on the bit operations required to produce and inspect that record. This paper proves such a result for a concrete semilinear evolution family and develops composition principles for related certified computations.
+
+The input, accuracy and observation are part of the mathematical problem. The primary model is the Neumann problem
+
+$$
+\partial_tu=\partial_x^2u+u^2,
+\qquad 0\le x\le\pi,\qquad 0\le t\le\frac1{16}.
+$$
+
+Initial data are finite rational cosine tables with the strong weighted bound $\sum_j4^j|a_j|\le1$. The equation, domain, time interval and norm bound remain fixed. The variable input is the complete coefficient table, including its encoded zero entries, together with the requested accuracy $2^{-m}$, with $m$ supplied in unary.
+
+### The finite record and its mathematical meaning
+
+A record contains a continuous piecewise rational-polynomial trajectory and rational bounds for its coefficients, initial discrepancy, expanded Galerkin residual and discarded spatial tail. Exact tests on this record establish proximity to the complete PDE trajectory over the whole time interval. Terminal observations, including a mean or point evaluation, inherit their accuracy from this trajectory estimate.
+
+The independent checker evaluates rational inequalities. Its soundness theorem uses the submitted record, so a different trajectory producer can use the same acceptance format. Invalid finite records are rejected by a total procedure whose cost is polynomial in their explicit size.
+
+Two spectral weights make the estimate effective. The stronger exponential coefficient weight controls the nonlinear construction; a weaker weight controls the observation. Their gap bounds the unresolved tail. The heat semigroup and cosine projection are contractions in the relevant coefficient spaces, while multiplication satisfies a compatible algebra estimate. These facts turn the analytic remainder into an explicit numerical budget.
+
+### A uniform polynomial construction
+
+The paper supplies a rational Taylor producer that generates an accepted record for every admissible input and requested accuracy. Quantized restarts use the actual stored endpoints. Complex-time bounds control local Taylor remainders, and denominator control prevents the rational representation from growing beyond the proved resource budget.
+
+If $n$ is the input bit length, production and verification both have polynomial cost in $n+m$. The trajectory payload has the explicit bound
+
+$$
+O\!\left((m+1)^7\right),
+$$
+
+and the complete record has size $O(n+(m+1)^7)$. This is a theorem about a defined nonlinear infinite-dimensional evolution problem, its complete input encoding and its accuracy requirement. The result includes the cost of making the numerical evidence inspectable.
+
+A second construction treats rational coupled linear systems with polynomial forcing through quantized Picard iteration. Invariance and a uniform contraction give its finite execution and bit-cost bounds. Composition theorems then specify how certified modules can be connected while keeping track of their errors and resources.
+
+### Successful readout and robust decoding
+
+The later results address a broader computational question. Suppose a candidate-generating evolution is uniformly realizable with polynomial resources and its successful output admits a polynomial-time decoder robust on a known error ball. Combined with a polynomial verifier, these conditions yield an accepted witness in polynomial time on the stated successful-input domain. The theorem exposes the separate obligations behind a computational readout: generating a state, approximating it accurately enough and recovering its discrete answer.
+
+An explicit circuit construction makes the decoding condition concrete. A low-degree sum-of-squares residual with a fixed threshold controls Boolean rounding and gate satisfaction. Compilation, residual checking and decoding have explicit polynomial resource bounds. This connects the continuous certificate format to discrete verifiable output.
+
+### What is different about the method
+
+The generating framework retains construction bounds as usable data. This paper carries that principle through to exact finite records, independent verification and bit complexity. It proves that the records exist, gives an algorithm that constructs them and accounts for their encoded size.
+
+The resulting contribution is a complete certified computation theorem for the stated semilinear family, supported by a second execution model and modular composition results. It establishes a route by which an infinite evolution can produce a finite, reproducible and quantitatively checked answer with a polynomial resource guarantee.
 
 ## Keywords
 
 Validated numerics; Spectral Galerkin methods; Semilinear parabolic equations;
 Reaction-diffusion equations; A posteriori error estimates; Exact rational
 arithmetic; Proof-carrying computation; Bit complexity.
-
-## Scope
-
-The uniform construction and bit-cost theorem concerns a fixed Neumann
-reaction–diffusion equation, time interval and common input bound. Any
-accepted record has the stated error guarantee independently of its producing
-recurrence. A rational coupled system gives a second realization through
-quantized Picard iteration. The computational supplement contains the saved
-inputs, records and exact checking reports.
 
 ## Public files
 

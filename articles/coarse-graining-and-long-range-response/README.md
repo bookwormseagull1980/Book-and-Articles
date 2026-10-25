@@ -8,41 +8,50 @@ DOI: [10.48550/arXiv.2608.01989](https://doi.org/10.48550/arXiv.2608.01989)
 
 Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/coarse-graining-and-long-range-response-in-generated-systems-2026-10-23/articles/coarse-graining-and-long-range-response)
 
-## Abstract
+## Research overview
 
-We study when a reduced description preserves the response to an applied
-source. For systems defined by continuously differentiable state updates and
-observations a bounded surjective linear coarse map gives differentiable
-descent when the projected maps are constant on each fibre. Their common
-source response is then preserved on the invertible domain. For approximate
-descent an exact error identity separates defects in the update and source
-coupling from defects in the readout and direct term. Resolvent and contour
-estimates carry these errors and the displacement of the reference branch to
-visible poles and their residues at shifted critical roots. In a reciprocal
-Hilbert-space realisation an isolated finite-dimensional critical subspace
-with a positive crossing matrix has a positive-semidefinite finite-rank
-residue when the endpoint operator is self-adjoint and the complementary
-inverse is bounded. Source overlap determines its visible directions.
-Arithmetic and reflecting-heat examples separate stationary response
-preservation from memoryless dynamical closure. In the two-mode example pole
-displacement decays geometrically with the retained memory length. The residue
-error includes an additional factor of that length. For a matched vacuum
-covariance the residue is the zero-mass atom of its positive spectral measure.
-This identification uses the same physical projection and source pairing
-together with the continuation and subtraction conventions and endpoint
-matching.
+### Which information can a reduced description discard?
+
+A coarse description replaces a detailed state by fewer variables. Its usefulness depends on the questions those variables can still answer. Matching an equilibrium value does not establish that a reduced model will respond correctly to a new source or preserve a long-range interaction near a critical point. This paper develops coarse-graining around the preservation of future observations and source-dependent response.
+
+The generating framework gives this problem a natural formulation. A state comes with allowed operations, source insertions and observations. Two detailed states belong to the same reduced state precisely when the permitted future procedures cannot distinguish them. This defines an observation-sufficient quotient and its universal property. Information is discarded according to its role in the ensuing construction.
+
+### Exact descent and quantitative defects
+
+The first results establish when an evolution and its observations descend to a quotient. In the smooth setting, a bounded surjective linear coarse map between Banach spaces provides the relevant topology. Fibrewise compatibility of the update and observation maps yields a unique continuously differentiable reduced realization.
+
+The response contains four components. The linearized state update determines propagation. A source map specifies how an intervention enters. An observation map specifies what is measured. A direct term records the immediate source response. Exact joint descent preserves this complete response throughout the domain where the associated inverse exists.
+
+For approximate coarse-graining, the paper derives a four-defect identity. It separates the discrepancies in the update, source, observation and direct term while retaining their interaction with the resolvent. The estimates account for displacement of the reference solution and the sensitivity of nonnormal operators. They therefore apply to reductions for which a small entrywise change in the dynamical matrix would otherwise give little information about the measured response.
+
+Contour and Riesz-projection arguments carry these estimates to visible critical poles and residues. In reciprocal Hilbert-space realizations, a positive crossing on a finite-dimensional critical subspace produces a positive finite-rank residue. The source overlap determines which critical directions remain visible. This provides a direct bridge between mathematically controlled reduction and physically observable long-range behavior.
+
+### Memory follows from the retained dynamics
+
+Eliminating a hidden variable generally produces both a memory term and a term determined by its initial state. The paper derives these contributions explicitly. They describe how discarded information returns to a retained observation during subsequent evolution.
+
+Reflecting heat-flow and arithmetic-merge examples make this mechanism calculable. Truncating memory changes the pole and residue in different ways. The residue estimate acquires an additional memory-length factor because it involves a differentiated remainder. This distinction is important near criticality, where an apparently accurate stationary reduction can still distort the strength of an observable interaction.
+
+The paper also classifies Gaussian operations in the stated centered, orthogonally invariant, continuous, finite-variance self-similar setting. External averaging, internal relative coordinates and quotient formation have different effects on the retained data. Their separation prevents a smoothing operation from being mistaken for an exact dynamical reduction.
+
+A positive spectral realization connects the reduced response to vacuum spectral measures. With the source pairing and continuation conventions held fixed, the zero-mass atom agrees with the residue selected by the reduced channel. The comparison consequently reaches from the quotient construction to the spectral meaning of a long-range exchange.
+
+### The distinctive result
+
+This work turns coarse-graining into a response-preservation problem with explicit mathematical tests. Its main results provide:
+
+- The coarsest quotient that preserves the specified family of future observations.
+- Conditions for smooth dynamical descent and exact preservation of the full response.
+- A four-defect formula and quantitative estimates for approximate reductions, visible poles and residues.
+- Exact memory and hidden-initial-state terms, together with examples that quantify their effect.
+- A compatible positive spectral interpretation of the retained long-range channel.
+
+The practical consequence is a sharper standard for effective models. A model can be assessed by what its retained variables generate under later operations and by how accurately they reproduce the relevant response. This is especially valuable when the feature of interest is a critical pole, a universal coupling or another observable that depends on more than the present coarse state.
 
 ## Keywords
 
 Coarse-graining; Linear response; Operator approximation; Schur complements;
 Memory kernels; Analytic Fredholm theory.
-
-## Scope
-
-The central object is the complete source-to-observation response. Static
-response preservation and memoryless dynamical closure are distinct
-requirements. The pole and residue estimates compare specified branches near
-isolated critical points under the stated resolvent and crossing bounds.
 
 ## Public file
 
