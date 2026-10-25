@@ -17,38 +17,33 @@ identifiers:
     value: "10.5281/zenodo.22067117"
     description: "Zenodo DOI"
 abstract: >-
-  Minimal unbiased compositional change generates a source operation algebra
-  with compact internal and Lorentzian event realizations. On the
-  least-dimensional compact connected faithful irreducible orthogonal carrier,
-  independent composition and square-root scaling with unit covariance fix the
-  centred Gaussian law. Its ladder and coherent comparisons generate the round
-  SU(2) process spectrum; complete centre-invariant observations give RP³.
-  Within complete continuations preserving adjoints, exchange structures,
-  source phase and reversal, three theorems characterize relative frames,
-  least faithful matter and the elementary scalar connector. The faithfully
-  acting group is (SU(3)×SU(2)×U(1))/ℤ₆ acting on a sixteen-dimensional full
-  matter module with a fifteen-dimensional charged quotient. The elementary
-  connector has one complex scalar doublet coordinate.
+  From minimal unbiased compositional change we construct compact internal
+  geometry and gauge–matter representations, and prove a mass gap for the
+  generated Yang–Mills response.
+  On the least-dimensional nontrivial compact connected faithful irreducible orthogonal
+  carrier, independent composition and square-root scaling with unit covariance
+  fix the centred Gaussian source. Ladder operations and coherent comparisons
+  generate the round SU(2) process spectrum; complete centre-invariant
+  observations give RP³. Within complete continuations preserving
+  adjoints, exchange structures, source phase and reversal, three theorems
+  characterize the faithfully acting group
+  (SU(3)×SU(2)×U(1))/ℤ₆,
+  a sixteen-dimensional full matter module with a fifteen-dimensional charged
+  quotient, and an elementary scalar connector parametrized by one complex doublet.
 
-  The colour connection supplies a collective intensity, Casimir feedback and
-  the long-root drive. The complete spectral response has a unique positive
-  equilibrium at the source-calibrated IR radius L_src=√(2π)>L_c=√π. Its
-  normalized radial curvature and common-frame coexact response form the
-  generated Yang–Mills mass operator. Its equilibrium Gaussian response
-  completion has a unique vacuum and an attained positive gap. The original
-  connection polynomials embed with their source state and ordinary products
-  intact, and the representation intertwines the equilibrium update. Explicit
-  Hermite weights describe their curvature correlations, and the joint
-  curvature susceptibility detects the collective radial response.
+  The colour connection determines a complete spectral response with a unique
+  positive equilibrium at the source-calibrated radius. Its normalized radial
+  and common-frame coexact responses define the generated Yang–Mills mass
+  operator. The Gaussian equilibrium completion has a unique vacuum and an
+  attained positive gap. Its representation preserves the original connection
+  state and polynomial products and intertwines the update. The curvature
+  susceptibility detects the collective radial response.
 
-  A source phase clock calibrates timelike translation on the event carrier.
-  Osterwalder–Schrader reconstruction gives free local fields. At
-  gauge-compatible finite internal resolution, causal perturbation theory
-  realizes the native vertices as a local net. Its physical net is the quantum
-  BRST cohomology, with anomaly cancellation ensuring the Ward identities at
-  every order in the renormalizable gauge–matter realization. In the quadratic
-  realization, colour intensity has a radial pole and explicit multiparticle
-  continua.
+  The same source algebra generates a Lorentzian event carrier with a phase
+  clock. Osterwalder–Schrader reconstruction gives free local fields.
+  For the renormalizable gauge–matter realization, causal perturbation theory
+  constructs the interacting net as a formal series at gauge-compatible finite
+  internal resolution.
 keywords:
   - "Emergent gauge symmetry"
   - "Yang–Mills mass gap"
