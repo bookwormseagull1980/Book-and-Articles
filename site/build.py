@@ -196,7 +196,7 @@ Yang-Mills spectral-gap theorem, and polynomial-cost trajectory certificates.</p
 <a href="{base}verification.html">Explore proofs and calculations <span aria-hidden="true">→</span></a></p>
 </section>
 <section id="research" class="research-section"><h2>A common source, several research directions</h2>
-<figure><img src="{base}assets/research-map.png" alt="Minimal change leads to Gaussian correlation and retained spectral data, then branches into arithmetic histories, physical response and certified computation." width="1600" height="720">
+<figure><a href="{base}assets/research-map.png" aria-label="Open the research diagram at full resolution"><img src="{base}assets/research-map.png" alt="Minimal change leads to Gaussian correlation and retained spectral data, then branches into arithmetic histories, physical response and certified computation." width="1600" height="720"></a>
 <figcaption>The branches share generating data. Their theorems specify the maps,
 realizations and response classes connecting one stage to the next.</figcaption></figure>
 <ul class="topic-list">{topic_rows}</ul></section>
