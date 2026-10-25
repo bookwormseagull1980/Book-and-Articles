@@ -27,7 +27,6 @@ characterize the faithfully acting group
 (SU(3)×SU(2)×U(1))/ℤ₆,
 a sixteen-dimensional full matter module with a fifteen-dimensional charged
 quotient, and an elementary scalar connector parametrized by one complex doublet.
-
 The colour connection determines a complete spectral response with a unique
 positive equilibrium at the source-calibrated radius. Its normalized radial
 and common-frame coexact responses define the generated Yang–Mills mass
@@ -35,7 +34,6 @@ operator. The Gaussian equilibrium completion has a unique vacuum and an
 attained positive gap. Its representation preserves the original connection
 state and polynomial products and intertwines the update. The curvature
 susceptibility detects the collective radial response.
-
 The same source algebra generates a Lorentzian event carrier with a phase
 clock. Osterwalder–Schrader reconstruction gives free local fields.
 For the renormalizable gauge–matter realization, causal perturbation theory
