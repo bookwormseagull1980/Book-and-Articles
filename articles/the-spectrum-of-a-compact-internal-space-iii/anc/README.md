@@ -27,7 +27,7 @@ parameter snapshot, bound to its calculation identity and parameter digest.
 Explicit inputs may be either a framework store or this package's flat
 snapshot. Required omissions, conflicting
 aliases and inconsistent flat-background fractions are errors. To bind a
-completed V5.0 calculation with identical consumed numerical values, use
+completed framework calculation with identical consumed numerical values, use
 `verify_cosmological_dynamics.py --rebind-only --params-file <store> --publish-input`.
 This rejects changes to any of the nine consumed values, the numerical
 modules, initial-state identity, operator identity or saved certificates.
@@ -73,7 +73,7 @@ the fixed-mesh trajectory and its error budget retain their own scope.
 ## Common-source evolution
 
 The common-source experiment uses J. Guo, *Coarse-Graining Genesis
-Framework V5.0*, version 5.0.0 (2026), available from the
+Framework*, version 5.0.2 (2026), available from the
 [source repository](https://github.com/bookwormseagull1980/coarse-graining-genesis).
 Its generated matter variables, auxiliary internal source and homogeneous
 geometry evolve under one action. The source approximation is checked
@@ -107,7 +107,17 @@ The autonomous expanding RMS realization is stored under
 periodic field is reconstructed from the exact flux, with the homogeneous
 lapse constraint and displacement evolved together. The record contains
 the two quadrature/evolution evaluations, the rational exit certificate,
-and the omitted displacement-force norms. Both records use the same
+and the omitted displacement-force norms. Density, peculiar velocity,
+expansion and weak-field material-clock bounds are evaluated from the
+same canonical state and exit box. Saved-state diagnostics share the
+potential already reconstructed for that state. The clock remainder
+bounds the square-root reading in the retained weak-field metric.
+The flow defect is orthogonal to the retained sinusoidal displacement;
+its negative is the acceleration driving additional displacement
+components. The exit certificate concerns the retained canonical
+evolution, while the two numerical evaluations provide a separate
+resolution check.
+Both records use the same
 calculation identity below and the common parameter publication interface.
 
 The numerical values in the common-source table are bound to the following
@@ -117,11 +127,11 @@ the sorted relative-path/checksum mapping in compact UTF-8 JSON.
 
 | Identity | Value |
 |---|---|
-| Software version | 5.0.0 |
-| Calculation | 20261006T062902Z-e55d24eb |
-| Calculation source set | `b3e9a1f08aebdcb2789be169fbccbf3ada4e088868705a248d43155227163b3b` |
-| Generated scientific store | `3e7582f23b514fafbec0edb42a211b38de476acce47d4cddf6a1fa13fc8807c8` |
-| Isolated comparison store | `d9550a9d2fdcbdd1ccda6930ab3139199378deda02281fe32909e83c78384ae9` |
+| Software version | 5.0.2 |
+| Calculation | 20261024T115535Z-a6af5cfc |
+| Calculation source set | `c878f52b1131315b526d7665d6896cc04d0882453ffd9bca2600dac945c0a468` |
+| Generated scientific store | `92ae00d4bd0a53fff657330d7e2219ee3fd28ad48bac7845042660e7006abb7a` |
+| Isolated comparison store | `733568f6007c9e6eaa245543d7d67a1921f6c864d71b59ef2499c1351f806098` |
 
 The two methods use the same exact decimal initial canonical record.
 Their uniform error bounds refer to the complete implicit source system
@@ -135,9 +145,9 @@ radius and phase error bounds are respectively `4.860496e-6`,
 outward interval arithmetic and rejected reuse decisions, with shared
 initialization and the invariant-box certificate identified separately.
 
-The cosmological field and particle calculations use the same V5.0
-software release and the full-precision snapshots recorded with their
-calculations. They use one merged pressureless
+The cosmological field and particle calculations retain the full-precision
+snapshots and software identities recorded with their calculations.
+They use one merged pressureless
 component with `omega_m = omega_b + omega_sigma`, common velocity and
 contrast, and dilution proportional to `a^-3`. In the species-resolved
 background, `Omega_Sigma` includes the cold source, photons and neutrinos.

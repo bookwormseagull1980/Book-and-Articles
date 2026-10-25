@@ -6,36 +6,39 @@ Work type: Research article
 
 DOI: [10.2139/ssrn.7421398](https://doi.org/10.2139/ssrn.7421398)
 
-Repository snapshot: [21 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/a-spectral-construction-of-natural-number-arithmetic-2026-10-21/articles/a-spectral-construction-of-natural-number-arithmetic)
+Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/a-spectral-construction-of-natural-number-arithmetic)
+
+Updated: 25 October 2026
 
 ## Abstract
 
-We construct natural-number arithmetic together with its correlation
-source and ordered generation histories. Minimal unbiased compositional
-change selects a rotation plane and a Gaussian law. Local information
-and total normalized correlation determine a finite window. Constant
-preservation selects its Neumann closure within the separated homogeneous
-boundary class. The oriented modes acquire their order from correlation
-response. Modulation defines addition and composition defines multiplication.
-Modulation by the first positive mode defines successor. Winding degree
-certifies an ordered Peano semiring with unique factorization. The modes
-retain their quadratic energy and canonical spectral transport.
-Ordered expressions before evaluation form finite history
-fibres. Equal root-channel weights and independent subhistory assembly
-determine a positive law whose Gaussian marginal is the original mode
-mass. Conditional readout gives exact variance and entropy
-decompositions. Parent–child assembly defines a positive trace-class
-operator with explicit cutoff bounds and dissipative evolution. An exact
-matrix element shows nonzero coupling between value coefficients and
-orthogonal history differences. Eliminating the latter gives an integral
-equation for the value response. Scalar and Hilbert completions preserve
-the construction interfaces. Lean formalizations accompany the core
-arithmetic construction together with the history-source recursion and
-assembly results.
+We construct natural-number arithmetic on an ordered family of correlation
+modes and retain the expressions by which its elements are generated.
+Minimal unbiased compositional change determines a rotation plane and a
+Gaussian law. Local information and total normalized correlation determine
+a finite window; preservation of constants selects its Neumann closure
+within the separated homogeneous local boundary class. Modulation and
+composition of the oriented modes define an ordered Peano semiring with
+unique factorization. The modes retain quadratic energy and canonical
+scale transport, while winding degree certifies the arithmetic.
+Ordered expressions have finite evaluation fibres. Equal root-channel
+weights and independent subhistory assembly determine a positive history
+law whose Gaussian marginal is the original mode mass. Conditional
+readout separates value information from internal history variation by
+exact variance and entropy identities. Using the same weights,
+parent–child assembly defines a nonnegative self-adjoint trace-class
+operator with explicit Gaussian cutoff bounds. Its contraction evolution
+couples value coefficients to history differences with zero initial
+readout: an exact matrix element at value four proves this coupling on
+the complete history space. The coupling persists under small changes of
+the relevant conditional weights. Eliminating the history differences
+gives an exact integral equation for the value response. Lean
+formalizations accompany the arithmetic construction, history-source
+recursion and assembly results.
 
 ## Keywords
 
-Natural numbers; Gaussian semigroups; Arithmetic formulas; Conditional expectation; Trace-class operators; Operator semigroups; Memory kernels; Formalized mathematics.
+Natural numbers; Gaussian semigroups; Arithmetic expressions; Conditional expectation; Trace class operators; Operator semigroups; Memory kernels; Formalized mathematics.
 
 ## Scope
 
@@ -49,7 +52,7 @@ not included here.
 
 - [Read or download the PDF](A%20Spectral%20Construction%20of%20Natural-Number%20Arithmetic.pdf)
 - [Citation metadata](metadata/CITATION.cff)
-- [Persistent identifiers and snapshot information](metadata/IDENTIFIERS.yml)
+- [Persistent identifiers and repository information](metadata/IDENTIFIERS.yml)
 - [SHA-256 checksum](metadata/SHA256SUMS)
 - [Rights](metadata/RIGHTS.md)
 
@@ -67,5 +70,5 @@ Public records:
 - Zenodo concept DOI: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 The Zenodo concept DOI identifies the work across its deposited versions.
-The repository snapshot contains the 93-page manuscript and is identified
-separately by its snapshot tag and checksum.
+The repository contains the current 91-page manuscript. Git history and
+the file checksum identify the reading copy supplied here.

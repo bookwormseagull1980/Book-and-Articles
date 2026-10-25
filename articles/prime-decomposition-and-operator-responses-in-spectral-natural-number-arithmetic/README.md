@@ -6,30 +6,32 @@ Work type: Research article with a computational supplement
 
 DOI: [10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn.7650278)
 
-Repository snapshot: [21 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21-doi-correction/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
+Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
+
+Updated: 25 October 2026
 
 ## Abstract
 
-We study prime decomposition and operator responses on a generated
-correlation-spectral arithmetic system. The classes of cascade-irreducible
-modes form the augmentation cotangent basis. Their one-word vectors
-span the degree-one kernel of a decomposition Hodge Laplacian. Its
-composite spectral gap yields explicit
-heat and resolvent approximations to the prime projection. Symmetric
-and exterior occupations retain both logarithmic arithmetic energy and
-quadratic correlation energy. A faithful additive map records relative
-input data. Its charge defect intertwines input multiplicative parity
-with the parity of the sum. Common-factor coordinates separate shared
-scale from primitive input pairs. Exact prime-direction and
-square-dilation identities relate the resulting signed scale responses.
-Normalized Gaussian endpoint states combine the additive and
-decomposition responses. Diagonal self-consistency gives a unique stable
-fixed point with rigorous infinite-tail enclosures. Representation
-fibres yield dimension and central-sign classifications in the stated
-realization classes. The counting arguments recover Bertrand's theorem
-and the prime-number asymptotic. They also give square-free sign densities
-through the occupation traces and prime projectors with their boundary
-responses.
+We construct decomposition and occupation operators on a generated
+correlation-spectral arithmetic system. Prime residue classes form the
+augmentation cotangent basis, and the corresponding one-word vectors span
+the degree-one kernel of a decomposition Hodge Laplacian. The complementary
+spectral gap is exactly one, giving sharp heat and resolvent approximations
+to the prime projection and summable Gaussian trace errors. Symmetric and
+exterior occupations retain logarithmic arithmetic energy and quadratic
+correlation energy on the same value space. A faithful extension of
+addition records relative inputs; its charge defect intertwines input
+multiplicative parity with the parity of the sum. Common-factor coordinates
+and exact square-divisor identities give scale transforms of the resulting
+signed responses. Combining additive and decomposition responses defines a
+Gaussian endpoint map. Under diagonal self-consistency, this map has a
+unique stable fixed point with an enclosure of the complete infinite
+response. For compact Laplace realizations of square energy and quadratic
+shell capacity, Weyl counting gives dimension three; further geometric and
+central-sign classifications hold in their stated realization classes.
+Counting applications recover Bertrand's theorem, the prime-number
+asymptotic and square-free sign densities through the occupation traces
+and their boundary responses.
 
 ## Keywords
 
@@ -51,7 +53,7 @@ endpoint responses and representation fibres.
 - [Read or download the PDF](Prime%20Decomposition%20and%20Operator%20Responses%20in%20Spectral%20Natural-Number%20Arithmetic.pdf)
 - [Computational supplement and reproduction instructions](anc/README.md)
 - [Citation metadata](metadata/CITATION.cff)
-- [Persistent identifiers and snapshot information](metadata/IDENTIFIERS.yml)
+- [Persistent identifiers and repository information](metadata/IDENTIFIERS.yml)
 - [SHA-256 checksums](metadata/SHA256SUMS)
 - [Rights](metadata/RIGHTS.md)
 
@@ -67,8 +69,8 @@ Arithmetic*. SSRN, 2026. [doi:10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn
 - SSRN record: [Abstract 7650278](https://ssrn.com/abstract=7650278)
 - Zenodo record: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
-The repository snapshot contains the 117-page manuscript and its computational
-supplement. The snapshot tag and checksums identify the files supplied here.
+The repository contains the current 112-page manuscript and its computational
+supplement. Git history and checksums identify the files supplied here.
 
 Related records cited in the manuscript:
 

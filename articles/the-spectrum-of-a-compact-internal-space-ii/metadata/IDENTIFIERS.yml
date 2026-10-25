@@ -8,8 +8,8 @@ identifiers:
 github:
   repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
   path: "articles/the-spectrum-of-a-compact-internal-space-ii"
-  snapshot_tag: "the-spectrum-of-a-compact-internal-space-ii-2026-10-23-doi-update"
-  snapshot_date: "2026-10-23"
+  branch: "main"
+  updated: "2026-10-25"
 pdf:
   filename: "The Spectrum of a Compact Internal Space II - Effective Couplings and Mass Scales.pdf"
-  pages: 164
+  pages: 166

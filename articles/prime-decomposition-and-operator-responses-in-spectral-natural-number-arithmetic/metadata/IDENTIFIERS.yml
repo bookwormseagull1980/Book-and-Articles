@@ -16,4 +16,8 @@ related_works:
 github:
   repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
   path: "articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic"
-  snapshot_tag: "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic-2026-10-21-doi-correction"
+  branch: "main"
+  updated: "2026-10-25"
+pdf:
+  filename: "Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic.pdf"
+  pages: 112

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this article or its supplement, cite the manuscript and identify the repository snapshot."
+message: "If you use this article or its supplement, cite the manuscript and identify the repository revision."
 title: "The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation"
 type: article
 authors:
@@ -8,8 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0000-6600-6171"
 doi: "10.2139/ssrn.7659840"
 url: "https://ssrn.com/abstract=7659840"
-version: "2026-10-23-ssrn"
-date-released: "2026-10-23"
+date-released: "2026-10-25"
 identifiers:
   - type: doi
     value: "10.2139/ssrn.7659840"
@@ -28,6 +27,11 @@ abstract: >-
   coupled variations determine the macroscopic evolution. The applications
   examine homogeneous response reuse and a constrained nonuniform Einstein–matter perturbation
   together with autonomous expansion from a local constitutive action.
+  In the expanding root-mean-square (RMS) application, the endpoint amplitude
+  response fixes the constitutive flux. Its potential determines both the
+  cold-matter force and the binding term in the expansion constraint. A
+  finite-interval enclosure establishes noncrossing, positive reduced
+  kinetic curvature and regular weak-field material-clock readings.
   Reconstruction in a common state space combines object replacement with
   moving spectral boundaries and truncated memory for a finite reference
   evolution. Spatial moments bound the force error. Cloud-in-cell assignment

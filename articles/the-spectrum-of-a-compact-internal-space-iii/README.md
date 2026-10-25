@@ -10,7 +10,9 @@ SSRN: [Abstract and download page](https://ssrn.com/abstract=7659840)
 
 Zenodo: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)
 
-Repository snapshot: [23 October 2026, SSRN metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/the-spectrum-of-a-compact-internal-space-iii-2026-10-23-ssrn/articles/the-spectrum-of-a-compact-internal-space-iii)
+Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/the-spectrum-of-a-compact-internal-space-iii)
+
+Updated: 25 October 2026
 
 ## Abstract
 
@@ -24,6 +26,11 @@ construction supplies the matter carriers and collective source. Their
 coupled variations determine the macroscopic evolution. The applications
 examine homogeneous response reuse and a constrained nonuniform Einstein–matter perturbation
 together with autonomous expansion from a local constitutive action.
+In the expanding root-mean-square (RMS) application, the endpoint amplitude
+response fixes the constitutive flux. Its potential determines both the
+cold-matter force and the binding term in the expansion constraint. A
+finite-interval enclosure establishes noncrossing, positive reduced
+kinetic curvature and regular weak-field material-clock readings.
 Reconstruction in a common state space combines object replacement with
 moving spectral boundaries and truncated memory for a finite reference
 evolution. Spatial moments bound the force error. Cloud-in-cell assignment
@@ -59,14 +66,14 @@ The stored calculations retain these separate scopes.
 
 ## Public files
 
-- [Read or download the PDF](The%20Spectrum%20of%20a%20Compact%20Internal%20Space%20III%20-%20Finite-Window%20Dynamics%20of%20Cosmic%20Structure%20Formation.pdf) — 78 pages.
+- [Read or download the PDF](The%20Spectrum%20of%20a%20Compact%20Internal%20Space%20III%20-%20Finite-Window%20Dynamics%20of%20Cosmic%20Structure%20Formation.pdf) — 86 pages.
 - [Computational supplement and reproduction instructions](anc/README.md)
 - [Construction and checking programs](anc/code/)
 - [Saved calculations and verification results](anc/results/)
 - [Parameter and certificate tables](anc/tables/)
 - [Tests](anc/tests/)
 - [Citation metadata](metadata/CITATION.cff)
-- [Identifiers and snapshot information](metadata/IDENTIFIERS.yml)
+- [Identifiers and repository information](metadata/IDENTIFIERS.yml)
 - [SHA-256 file checksums](metadata/SHA256SUMS)
 - [Rights](metadata/RIGHTS.md)
 
@@ -91,7 +98,7 @@ supplement, 2026.
 - SSRN abstract page: [7659840](https://ssrn.com/abstract=7659840)
 - Zenodo DOI: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)
 
-The repository snapshot is identified by its dated tag and file checksums.
+Git history and file checksums identify the repository reading copy.
 The framework software DOI
 [10.5281/zenodo.22067005](https://doi.org/10.5281/zenodo.22067005)
 identifies a separate software record.

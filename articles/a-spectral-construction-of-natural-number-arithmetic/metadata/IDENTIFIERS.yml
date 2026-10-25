@@ -7,4 +7,8 @@ identifiers:
 github:
   repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
   path: "articles/a-spectral-construction-of-natural-number-arithmetic"
-  snapshot_tag: "a-spectral-construction-of-natural-number-arithmetic-2026-10-21"
+  branch: "main"
+  updated: "2026-10-25"
+pdf:
+  filename: "A Spectral Construction of Natural-Number Arithmetic.pdf"
+  pages: 91
