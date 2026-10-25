@@ -2,9 +2,9 @@ name: Research portal
 on:
   push:
     branches: [main]
-    paths: ['README.md', 'CITATION.md', 'topics/**', 'site/**', 'articles/**/README.md', 'articles/**/metadata/**', 'books/**/README.md', '.github/workflows/research-portal.yml']
+    paths: ['README.md', 'CITATION.md', 'topics/**', 'site/**', 'articles/**/README.md', 'articles/**/metadata/**', 'books/**', '.github/workflows/research-portal.yml']
   pull_request:
-    paths: ['README.md', 'CITATION.md', 'topics/**', 'site/**', 'articles/**/README.md', 'articles/**/metadata/**', 'books/**/README.md', '.github/workflows/research-portal.yml']
+    paths: ['README.md', 'CITATION.md', 'topics/**', 'site/**', 'articles/**/README.md', 'articles/**/metadata/**', 'books/**', '.github/workflows/research-portal.yml']
   workflow_dispatch:
 permissions:
   contents: read

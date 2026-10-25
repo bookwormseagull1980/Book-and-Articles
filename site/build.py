@@ -112,6 +112,18 @@ def main():
     paths = []
     articles = []
     tree = set(subprocess.check_output(["git", "-c", f"safe.directory={ROOT}", "ls-tree", "-r", "--name-only", "HEAD"], cwd=ROOT, text=True).splitlines())
+    book_directory = ROOT / "books/beyond-apparent-paths"
+    book_citation = yaml.safe_load((book_directory / "metadata/CITATION.cff").read_text(encoding="utf-8"))
+    book_pdf_path = "books/beyond-apparent-paths/Beyond Apparent Paths - Preview.pdf"
+    if not (ROOT / book_pdf_path).is_file() and book_pdf_path not in tree:
+        raise ValueError(f"Missing book preview: {book_pdf_path}")
+    book = {
+        "title": book_citation["title"],
+        "abstract": book_citation["abstract"],
+        "keywords": book_citation["keywords"],
+        "language": "en",
+        "preview_pdf": "https://raw.githubusercontent.com/bookwormseagull1980/Book-and-Articles/main/" + quote(book_pdf_path, safe="/"),
+    }
     for slug in DATA["reading_order"]:
         directory = ROOT / "articles" / slug
         identifiers = yaml.safe_load((directory / "metadata/IDENTIFIERS.yml").read_text(encoding="utf-8"))
@@ -136,7 +148,7 @@ def main():
             "markdown": (directory / "README.md").read_text(encoding="utf-8"),
         })
 
-    def page(route, title, content, description=None, article=None):
+    def page(route, title, content, description=None, article=None, book_record=None):
         description = description or DATA["description"]
         canonical = base + route
         meta = ""
@@ -162,6 +174,22 @@ def main():
             }
             if re.fullmatch(r"\d{4}-\d{2}-\d{2}", article["date"]):
                 structured["datePublished"] = article["date"]
+        if book_record:
+            meta += '<meta name="keywords" content="' + escape(", ".join(book_record["keywords"])) + '">\n'
+            structured = {
+                "@context": "https://schema.org", "@type": "Book",
+                "name": book_record["title"], "url": canonical,
+                "author": {"@type": "Person", "name": "Jinku Guo", "identifier": "https://orcid.org/0009-0000-6600-6171"},
+                "description": book_record["abstract"],
+                "inLanguage": book_record["language"],
+                "keywords": book_record["keywords"],
+                "subjectOf": {
+                    "@type": "DigitalDocument",
+                    "name": "English preview: title page, note to the reader and contents",
+                    "inLanguage": "en",
+                    "encoding": {"@type": "MediaObject", "contentUrl": book_record["preview_pdf"], "encodingFormat": "application/pdf"},
+                },
+            }
         document = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)} | Jinku Guo</title>
@@ -175,6 +203,7 @@ def main():
 <meta name="twitter:card" content="summary_large_image">
 {meta}<script type="application/ld+json">{json.dumps(structured, ensure_ascii=False).replace("</", "<\\/")}</script>
 <link rel="stylesheet" href="{base}assets/style.css">
+<link rel="stylesheet" href="{base}assets/book.css">
 <script defer src="{base}assets/search.js"></script>
 <script>window.MathJax={{tex:{{inlineMath:[['$','$'],['\\\\(','\\\\)']]}}}};</script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -182,7 +211,8 @@ def main():
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="container header-inner">
 <a class="brand" href="{base}index.html">Foundations from Minimal Change</a>
-<nav aria-label="Main navigation"><a href="{base}index.html#research">Research</a>
+<nav aria-label="Main navigation"><a href="{base}books/beyond-apparent-paths.html">The book</a>
+<a href="{base}index.html#research">Research</a>
 <a href="{base}index.html#papers">Papers</a><a href="{base}verification.html">Proofs &amp; code</a>
 <a href="{base}citation.html">Cite</a><a href="{base}author.html">Author</a></nav></div></header>
 <main id="main" class="container">{content}</main>
@@ -214,18 +244,40 @@ def main():
 <a href="{article["pdf"]}">Read PDF</a>
 <a href="{article["github"]}">Files &amp; supplement</a></p></div></article>''')
 
-    landing = f'''<section class="opening"><p class="eyebrow">Research by Jinku Guo</p>
-<h1>Foundations from<br>Minimal Change</h1><p class="subtitle">Mathematics, physics and computation</p>
-<p class="lead">A common generating source connects arithmetic histories,
-compact gauge structure, long-range response and finite certified computation.</p>
-<p>The programme follows what is produced by a construction and what must be
-retained when it is observed at finite resolution. Its results include a
-history-dependent natural-number system, quantitative prime projectors, a generated
-Yang-Mills spectral-gap theorem, and polynomial-cost trajectory certificates.</p>
-<p class="opening-links"><a href="#papers">Browse the papers <span aria-hidden="true">↓</span></a>
+    landing = f'''<section class="opening"><p class="eyebrow">Books and research by Jinku Guo</p>
+<h1>Foundations from<br>Minimal Change</h1><p class="subtitle">Change, order and understanding</p>
+<p class="lead">How does a world in continuous change give rise to order,
+life and understanding?</p>
+<p>A book and a research programme explore this question across philosophy,
+mathematics, physics and computation. The book develops a multi-level account
+of reality and knowledge; the papers pursue explicit generating constructions
+and the relations they preserve.</p>
+<p class="opening-links"><a href="#book">Explore the book <span aria-hidden="true">↓</span></a>
+<a href="#papers">Browse the papers <span aria-hidden="true">↓</span></a>
 <a href="{base}verification.html">Explore proofs and calculations <span aria-hidden="true">→</span></a></p>
 </section>
-<section id="research" class="research-section"><h2>A common source, several research directions</h2>
+<section id="book" class="book-feature"><p class="eyebrow">The book</p>
+<h2><a href="{base}books/beyond-apparent-paths.html">Beyond Apparent Paths</a></h2>
+<p class="book-subtitle">The Practice of Seeking Truth from Facts</p>
+<p class="lead">An exploration of how order, life, consciousness, society and
+meaning emerge from a world in constant change.</p>
+<p>Drawing on physics, biology, neuroscience, complexity science, and Eastern
+and Western philosophy, the book develops a way of understanding reality
+across its different levels. Entropy, symmetry, emergence and self-organization
+become connected questions about how structures form and endure.</p>
+<p>Its central concern is methodological: how to move beyond apparent paths,
+return to facts and processes, and discover the relations through which the
+world becomes intelligible. This perspective gives the collection its
+philosophical and methodological setting.</p>
+<p class="opening-links"><a href="{base}books/beyond-apparent-paths.html">Book description and 31-chapter contents <span aria-hidden="true">→</span></a>
+<a href="{book['preview_pdf']}">English preview PDF · 5 pages</a></p></section>
+<section id="research" class="research-section"><h2 id="principal-results">A common source, several research directions</h2>
+<p>The research programme begins with minimal unbiased compositional change.
+A common generating source connects arithmetic histories, compact gauge
+structure, long-range response and finite certified computation. Its results
+include a history-dependent natural-number system, quantitative prime projectors,
+a generated Yang-Mills spectral-gap theorem, and polynomial-cost trajectory
+certificates.</p>
 <figure><img id="research-map" src="{base}assets/research-map.png" usemap="#research-navigation" alt="Minimal change leads to Gaussian correlation and retained spectral data, then branches into arithmetic histories, physical response and certified computation." width="1600" height="720">
 <map name="research-navigation">
 <area shape="rect" coords="475,20,1125,112" data-coords="475,20,1125,112" href="{base}topics/generated-arithmetic.html" alt="Minimal change and the arithmetic source" title="Minimal change and the arithmetic source">
@@ -242,7 +294,10 @@ Yang-Mills spectral-gap theorem, and polynomial-cost trajectory certificates.</p
 realizations and response classes connecting one stage to the next.
 <a href="{base}assets/research-map.png">Full-resolution diagram</a>.</figcaption></figure>
 <ul class="topic-list">{topic_rows}</ul></section>
-<section class="reading"><h2>Reading routes</h2><div class="reading-columns">
+<section class="reading"><h2>Reading routes</h2>
+<p>For the broader ideas, begin with <a href="{base}books/beyond-apparent-paths.html">Beyond Apparent Paths</a>.
+For a mathematical construction, physical mechanism or verification record,
+follow one of the routes below.</p><div class="reading-columns">
 <div><h3>Mathematical construction</h3><p>Begin with natural-number arithmetic,
 then prime decomposition and generated spectra. Expression histories connect
 arithmetic values to later response and memory.</p></div>
@@ -255,9 +310,7 @@ certificates and observational comparisons.</p></div></div></section>
 <section id="papers"><div class="section-heading"><h2>Papers</h2>
 <label class="search-label">Find a paper<input id="paper-search" type="search" placeholder="Title, subject or result" aria-controls="paper-list"></label></div>
 <p id="search-status" class="muted" aria-live="polite">9 papers</p>
-<div id="paper-list">{"".join(article_rows)}</div></section>
-<section><h2>Books</h2><p><a href="{base}books/beyond-apparent-paths.html">Beyond Apparent Paths:
-The Practice of Seeking Truth from Facts</a></p></section>'''
+<div id="paper-list">{"".join(article_rows)}</div></section>'''
     page("index.html", DATA["title"] + ": " + DATA["subtitle"], landing)
 
     for topic in DATA["topics"]:
@@ -276,7 +329,12 @@ The Practice of Seeking Truth from Facts</a></p></section>'''
              + escape(article["title"]) + "</h1>" + tools
              + render_markdown(article["markdown"], f"articles/{article['slug']}/README.md", base, drop_title=True)
              + "</article>", text_excerpt(article["abstract"], 250), article)
-    for source, route in [("CITATION.md", "citation.html"), ("books/beyond-apparent-paths/README.md", "books/beyond-apparent-paths.html"),
+    book_source = "books/beyond-apparent-paths/README.md"
+    book_markdown = (ROOT / book_source).read_text(encoding="utf-8")
+    page("books/beyond-apparent-paths.html", book["title"],
+         '<article class="prose book-detail">' + render_markdown(book_markdown, book_source, base) + "</article>",
+         text_excerpt(book["abstract"], 250), book_record=book)
+    for source, route in [("CITATION.md", "citation.html"),
                           ("site/verification.md", "verification.html"), ("site/author.md", "author.html")]:
         markdown = (ROOT / source).read_text(encoding="utf-8")
         page(route, markdown.splitlines()[0].removeprefix("# "),

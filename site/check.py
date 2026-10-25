@@ -68,6 +68,17 @@ def check():
     assert len(catalogue) == 9
     assert len({a["doi"] for a in catalogue}) == 9
     assert len(pages) == 19, len(pages)
+    home = (SITE / "index.html").read_text(encoding="utf-8")
+    book = (SITE / "books/beyond-apparent-paths.html").read_text(encoding="utf-8")
+    assert home.index('id="book"') < home.index('id="research"')
+    assert '"@type": "Book"' in book
+    assert "The Finger Pointing to the Moon" in book
+    assert "Knowing Where to Stop Brings Stability" in book
+    assert "five-page public preview" in book
+    assert "Beyond%20Apparent%20Paths%20-%20Preview.pdf" in book
+    for path in SITE.rglob("*.html"):
+        text = path.read_text(encoding="utf-8")
+        assert "Beyond%20Apparent%20Paths%20-%20The%20Practice" not in text, path
     if errors:
         raise AssertionError(errors)
     print(f"Validated {len(pages)} pages, internal links and 9 distinct DOI records.")

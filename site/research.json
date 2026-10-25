@@ -1,7 +1,7 @@
 {
   "title": "Foundations from Minimal Change",
-  "subtitle": "Mathematics, physics and computation",
-  "description": "Jinku Guo's research on generated arithmetic and histories, Yang-Mills spectral gaps, emergent gravity, cosmic structure and certified computation, with Lean proofs and reproducible code.",
+  "subtitle": "Books, mathematics, physics and computation",
+  "description": "Books and research by Jinku Guo: Beyond Apparent Paths explores change, order, life and consciousness; the papers develop generated mathematics, physical response and certified computation, with Lean proofs and reproducible code.",
   "topics": [
     {
       "slug": "generated-arithmetic",

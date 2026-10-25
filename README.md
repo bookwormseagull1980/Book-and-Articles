@@ -1,10 +1,33 @@
 # Foundations from Minimal Change
 
-## Mathematics, physics and computation
+## Books, mathematics, physics and computation
 
 Research papers and books by **Jinku Guo**, Northwestern Polytechnical University.
 
-[Research portal](https://bookwormseagull1980.github.io/Book-and-Articles/) · [Lean proofs](https://github.com/bookwormseagull1980/Lean-Formalization-of-Arithmetic-and-Basic-Physical-Interfaces) · [V5 calculations](https://github.com/bookwormseagull1980/coarse-graining-genesis) · [Research discussions](https://github.com/bookwormseagull1980/Book-and-Articles/discussions)
+[The book](books/beyond-apparent-paths/README.md) · [Research portal](https://bookwormseagull1980.github.io/Book-and-Articles/) · [Lean proofs](https://github.com/bookwormseagull1980/Lean-Formalization-of-Arithmetic-and-Basic-Physical-Interfaces) · [V5 calculations](https://github.com/bookwormseagull1980/coarse-graining-genesis) · [Research discussions](https://github.com/bookwormseagull1980/Book-and-Articles/discussions)
+
+## The book
+
+### Beyond Apparent Paths: The Practice of Seeking Truth from Facts
+
+How do order, life, consciousness, society and meaning emerge from a world in
+constant change? *Beyond Apparent Paths* develops the philosophical and
+methodological perspective of this collection, bringing physics, biology,
+neuroscience, complexity science, and Eastern and Western philosophy into a
+multi-level account of reality.
+
+The book follows the relations between disorder and possibility, symmetry and
+emergence, evolution and self-organization. Its central concern is how we come
+to understand and act in a changing world, by returning to facts and processes
+and attending to the relations between different levels of organization.
+
+The five-page English preview presents the title page, the note to the reader
+and the complete contents of the 31-chapter book.
+
+[Book description and contents](books/beyond-apparent-paths/README.md)
+· [Read the English preview](https://raw.githubusercontent.com/bookwormseagull1980/Book-and-Articles/main/books/beyond-apparent-paths/Beyond%20Apparent%20Paths%20-%20Preview.pdf)
+
+## The research programme
 
 How much mathematical and physical structure can be generated from a common
 description of change? This programme begins with minimal unbiased compositional
@@ -89,6 +112,9 @@ statement to the standard P vs NP problem.
 
 ## Where to start
 
+- **For the broader ideas:** begin with [Beyond Apparent Paths](books/beyond-apparent-paths/README.md).
+  It develops the account of change, levels and understanding that gives the
+  collection its philosophical and methodological setting.
 - **For the construction:** read *A Spectral Construction of Natural-Number
   Arithmetic*, then *Prime Decomposition and Operator Responses*. Continue to
   the generated-spectrum and certified-computation papers for finite observation.
@@ -116,10 +142,7 @@ Preprint links appear first, followed by the Zenodo archival record.
 | [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](articles/the-spectrum-of-a-compact-internal-space-ii/README.md) | [SSRN](https://ssrn.com/abstract=7351999) · [Zenodo](https://doi.org/10.5281/zenodo.22067468) |
 | [The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation](articles/the-spectrum-of-a-compact-internal-space-iii/README.md) | [SSRN](https://ssrn.com/abstract=7659840) · [Zenodo](https://doi.org/10.5281/zenodo.23583996) |
 
-## Books, citation and contact
-
-[Beyond Apparent Paths: The Practice of Seeking Truth from Facts](books/beyond-apparent-paths/README.md)
-is available as a separate reading copy.
+## Citation and contact
 
 Use the individual work's citation record when referring to a result. The
 collection itself has no single publication DOI. [Citation guidance](CITATION.md)

@@ -1,0 +1,6 @@
+.book-feature h2{font-size:34px;margin-bottom:10px}
+.book-feature h2 a{color:#244b43;text-decoration:none}
+.book-feature p{max-width:860px}
+.book-feature .book-subtitle{font-size:23px;color:#3d6158;margin-bottom:24px}
+.book-detail>p:first-of-type{color:#3d6158}
+@media(max-width:760px){.book-feature h2{font-size:29px}.book-feature .book-subtitle{font-size:21px}}
