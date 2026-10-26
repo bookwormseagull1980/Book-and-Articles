@@ -61,9 +61,13 @@ The resulting contribution is a complete certified computation theorem for the s
 
 ## Research subjects and results
 
+### Paper keywords
+
+Polynomial bit complexity; Certified computation; Verifiable computation; Reaction–diffusion equations; Exact rational arithmetic; Proof certificates.
+
 ### Primary subjects
 
-Polynomial-time algorithms; Bit complexity; Computational complexity; P versus NP; Certified computation; Validated numerics; Verifiable computation; Proof certificates; Reaction-diffusion equations; Spectral Galerkin methods; Exact rational arithmetic; Robust decoding.
+Polynomial bit complexity; Certified computation; Verifiable computation; Reaction–diffusion equations; Exact rational arithmetic; Proof certificates; Polynomial-time algorithms; Bit complexity; Computational complexity; P versus NP; Validated numerics; Reaction-diffusion equations; Spectral Galerkin methods; Robust decoding.
 
 ### Research subjects
 

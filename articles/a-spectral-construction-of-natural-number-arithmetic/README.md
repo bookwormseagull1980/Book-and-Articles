@@ -10,7 +10,7 @@ Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/a-spectral-construction-of-natural-number-arithmetic)
 
-Updated: 25 October 2026
+Updated: 26 October 2026.
 
 ## Research overview
 
@@ -54,9 +54,13 @@ Formal differences, fractions and completion extend the arithmetic to scalar fie
 
 ## Research subjects and results
 
+### Paper keywords
+
+Construction of natural numbers; Arithmetic expression trees; Conditional expectation; Trace-class operators; Non-Markovian dynamics; Memory kernels.
+
 ### Primary subjects
 
-Construction of natural numbers; Natural-number objects; Peano arithmetic; Unique factorization; Arithmetic expressions; Spectral theory; Gaussian semigroups; Non-Markovian dynamics; Memory kernels; Conditional expectation; Trace-class operators; Formalized mathematics.
+Construction of natural numbers; Arithmetic expression trees; Conditional expectation; Trace-class operators; Non-Markovian dynamics; Memory kernels; Natural-number objects; Peano arithmetic; Unique factorization; Arithmetic expressions; Spectral theory; Gaussian semigroups; Formalized mathematics.
 
 ### Research subjects
 

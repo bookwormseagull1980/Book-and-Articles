@@ -10,7 +10,7 @@ Zenodo: [10.5281/zenodo.22067117](https://doi.org/10.5281/zenodo.22067117)
 
 Repository copy: [Current article directory](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/the-spectrum-of-a-compact-internal-space-i)
 
-Updated: 25 October 2026.
+Updated: 26 October 2026.
 
 ## Research overview
 
@@ -60,9 +60,13 @@ The paper thus establishes a substantial sequence of results: a generated compac
 
 ## Research subjects and results
 
+### Paper keywords
+
+Standard Model gauge group; Chiral fermions; Higgs doublet; Yang–Mills mass gap; Spectral geometry; Vacuum stability.
+
 ### Primary subjects
 
-Yang-Mills theory; Mass gap; Standard Model gauge group; Gauge symmetry; Chiral fermions; Higgs doublet; Spectral geometry; Quantum field theory; Matter representations; Spectral gap; Vacuum stability; Mathematical physics.
+Standard Model gauge group; Chiral fermions; Higgs doublet; Yang–Mills mass gap; Spectral geometry; Vacuum stability; Yang-Mills theory; Mass gap; Gauge symmetry; Quantum field theory; Matter representations; Spectral gap; Mathematical physics.
 
 ### Research subjects
 

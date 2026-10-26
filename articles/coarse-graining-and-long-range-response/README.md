@@ -54,9 +54,13 @@ The practical consequence is a sharper standard for effective models. A model ca
 
 ## Research subjects and results
 
+### Paper keywords
+
+Coarse-graining; Model reduction; Linear response theory; Pole stability; Spectral residues; Memory kernels.
+
 ### Primary subjects
 
-Coarse-graining; Model reduction; Linear response theory; Non-Markovian dynamics; Memory kernels; Effective dynamics; Resolvent estimates; Schur complements; Spectral approximation; Error bounds; Long-range interactions; Pole stability.
+Coarse-graining; Model reduction; Linear response theory; Pole stability; Spectral residues; Memory kernels; Non-Markovian dynamics; Effective dynamics; Resolvent estimates; Schur complements; Spectral approximation; Error bounds; Long-range interactions.
 
 ### Research subjects
 

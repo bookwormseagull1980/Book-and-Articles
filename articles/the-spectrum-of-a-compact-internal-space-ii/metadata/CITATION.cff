@@ -8,7 +8,7 @@ authors:
   orcid: https://orcid.org/0009-0000-6600-6171
 doi: 10.2139/ssrn.7351999
 url: https://ssrn.com/abstract=7351999
-date-released: '2026-10-25'
+date-released: '2026-10-26'
 identifiers:
 - type: doi
   value: 10.2139/ssrn.7351999
@@ -36,9 +36,12 @@ abstract: Minimal unbiased compositional change generates the Gaussian source of
   calculation.
 keywords:
 - "Three fermion generations"
-- "Fermion mass relations"
 - "Fermion mass hierarchies"
+- "Fermion mass relations"
 - "Gauge coupling constants"
+- "Higgs boson mass"
+- "Neutrino masses"
+- "Cosmological parameters"
 - "Electroweak symmetry breaking"
 - "One-loop matching"
 - "Particle cosmology"

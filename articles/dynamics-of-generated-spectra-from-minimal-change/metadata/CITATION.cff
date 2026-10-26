@@ -10,7 +10,7 @@ authors:
 doi: 10.2139/ssrn.7649818
 url: https://ssrn.com/abstract=7649818
 version: 2026-10-24-ssrn
-date-released: '2026-10-24'
+date-released: '2026-10-26'
 identifiers:
 - type: doi
   value: 10.2139/ssrn.7649818
@@ -42,11 +42,12 @@ abstract: Nonlinear spectral evolution requires control of the frequencies prese
 keywords:
 - "Nonlinear evolution equations"
 - "Spectral Galerkin methods"
-- "Gevrey regularity"
+- "Uniform error bounds"
 - "Analytic regularity"
-- "Exponential weights"
 - "Spectral truncation"
 - "A posteriori error estimates"
+- "Gevrey regularity"
+- "Exponential weights"
 - "Semigroup methods"
 - "Bilinear estimates"
 - "Nonlinear partial differential equations"

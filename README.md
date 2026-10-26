@@ -85,6 +85,21 @@ the separately certified transverse-traceless endpoint realization.
 
 [Gauge structure, matter and spectral gaps](topics/gauge-and-mass-gap.md)
 
+### Quantitative particle and cosmological results
+
+The mass-and-coupling paper selects **three fermion generations** and reports
+**41 comparison entries** and **seven groups of observable tests**. V5 records
+**261 derived records** and **57 named benchmark comparisons**. Of its 56
+central-value comparison rows, **51 are within 1%** of their adopted references,
+**40 within 0.5%**, and **13 within 0.1%**. The counts include alternative readouts
+and the stated geometric-mass diagnostics. Representative results include a
+tree-level Higgs mass of **124.98344 GeV**, a neutrino mass sum of **0.0614785 eV**,
+and a tensor-to-scalar ratio of **0.0253303**. The full comparison record also
+reports the solar-splitting, neutron-lifetime and DESI distance discrepancies.
+
+[Mass scales, couplings and observable tests](articles/the-spectrum-of-a-compact-internal-space-ii/README.md#quantitative-results-and-observational-tests)
+· [V5 numerical results](https://github.com/bookwormseagull1980/coarse-graining-genesis#numerical-results-across-particle-physics-and-cosmology)
+
 ### Emergent gravity and cosmic structure
 
 A source-resolved spectral criterion identifies long-range tensor exchange.

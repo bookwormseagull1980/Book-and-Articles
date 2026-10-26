@@ -16,7 +16,7 @@ github:
   path: "articles/certified-spectral-computation-for-semilinear-evolution"
   snapshot_tag: "certified-spectral-computation-for-semilinear-evolution-2026-10-24-ssrn"
   snapshot_date: "2026-10-24"
-  updated: "2026-10-25"
+  updated: "2026-10-26"
 pdf:
   filename: "Certified Spectral Computation for Semilinear Evolution - Finite Records and Polynomial Bit Cost.pdf"
   pages: 53

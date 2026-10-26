@@ -10,7 +10,7 @@ Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
 
-Updated: 25 October 2026
+Updated: 26 October 2026.
 
 ## Research overview
 
@@ -60,9 +60,13 @@ The paper provides a prime projector with sharp quantitative control, compatible
 
 ## Research subjects and results
 
+### Paper keywords
+
+Prime factorization; Hodge Laplacian; Prime projection; Möbius function; Riemann zeta function; Fock space.
+
 ### Primary subjects
 
-Prime numbers; Prime factorization; Prime number theorem; Hodge Laplacian; Spectral gap; Prime projection; Möbius function; Riemann zeta function; Fock space; Heat semigroups; Dirichlet series; Arithmetic quantum statistical mechanics.
+Prime factorization; Hodge Laplacian; Prime projection; Möbius function; Riemann zeta function; Fock space; Prime numbers; Prime number theorem; Spectral gap; Heat semigroups; Dirichlet series; Arithmetic quantum statistical mechanics.
 
 ### Research subjects
 

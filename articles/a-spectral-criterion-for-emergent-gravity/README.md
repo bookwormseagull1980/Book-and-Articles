@@ -51,9 +51,13 @@ The generating perspective is concrete here. Collective geometry is obtained by 
 
 ## Research subjects and results
 
+### Paper keywords
+
+Emergent gravity; Massless spin-2 fields; Universal gravitational coupling; Newtonian limit; Spectral positivity; Källén–Lehmann representation.
+
 ### Primary subjects
 
-Emergent gravity; Massless spin-2 fields; Gravitational interaction; Universal gravitational coupling; Newtonian limit; Spectral representation; Stress-energy tensor; Källén-Lehmann representation; Effective field theory of gravity; Long-range interactions; Graviton exchange; Positive spectral measures.
+Emergent gravity; Massless spin-2 fields; Universal gravitational coupling; Newtonian limit; Spectral positivity; Källén–Lehmann representation; Gravitational interaction; Spectral representation; Stress-energy tensor; Källén-Lehmann representation; Effective field theory of gravity; Long-range interactions; Graviton exchange; Positive spectral measures.
 
 ### Research subjects
 

@@ -8,7 +8,7 @@ authors:
   orcid: https://orcid.org/0009-0000-6600-6171
 doi: 10.2139/ssrn.7352020
 url: https://ssrn.com/abstract=7352020
-date-released: '2026-10-25'
+date-released: '2026-10-26'
 identifiers:
 - type: doi
   value: 10.2139/ssrn.7352020
@@ -35,13 +35,14 @@ abstract: From minimal unbiased compositional change we construct compact intern
   local fields. For the renormalizable gauge–matter realization, causal perturbation theory
   constructs the interacting net as a formal series at gauge-compatible finite internal resolution.
 keywords:
-- "Yang-Mills mass gap"
 - "Standard Model gauge group"
 - "Chiral fermions"
 - "Higgs doublet"
+- "Yang–Mills mass gap"
 - "Spectral geometry"
-- "Self-adjoint operators"
 - "Vacuum stability"
+- "Yang-Mills mass gap"
+- "Self-adjoint operators"
 - "Causal perturbation theory"
 - "Yang-Mills theory"
 - "Mass gap"

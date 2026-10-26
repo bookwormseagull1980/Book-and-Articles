@@ -50,9 +50,13 @@ The distinctive result is the passage from a specified generating interaction to
 
 ## Research subjects and results
 
+### Paper keywords
+
+Nonlinear evolution equations; Spectral Galerkin methods; Uniform error bounds; Analytic regularity; Spectral truncation; A posteriori error estimates.
+
 ### Primary subjects
 
-Nonlinear evolution equations; Spectral Galerkin methods; Gevrey regularity; Analytic regularity; A posteriori error estimates; Semigroup methods; Spectral truncation; Bilinear estimates; Nonlinear partial differential equations; Certified computation; Exponential weights; Model reduction.
+Nonlinear evolution equations; Spectral Galerkin methods; Uniform error bounds; Analytic regularity; Spectral truncation; A posteriori error estimates; Gevrey regularity; Semigroup methods; Bilinear estimates; Nonlinear partial differential equations; Certified computation; Exponential weights; Model reduction.
 
 ### Research subjects
 

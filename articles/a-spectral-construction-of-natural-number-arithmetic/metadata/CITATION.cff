@@ -9,7 +9,7 @@ authors:
   orcid: https://orcid.org/0009-0000-6600-6171
 doi: 10.2139/ssrn.7421398
 url: https://ssrn.com/abstract=7421398
-date-released: '2026-10-25'
+date-released: '2026-10-26'
 identifiers:
 - type: doi
   value: 10.2139/ssrn.7421398
@@ -37,11 +37,11 @@ abstract: 'We construct natural-number arithmetic on an ordered family of correl
 keywords:
 - "Construction of natural numbers"
 - "Arithmetic expression trees"
-- "Gaussian semigroups"
 - "Conditional expectation"
 - "Trace-class operators"
 - "Non-Markovian dynamics"
 - "Memory kernels"
+- "Gaussian semigroups"
 - "Formalized mathematics"
 - "Natural-number objects"
 - "Peano arithmetic"

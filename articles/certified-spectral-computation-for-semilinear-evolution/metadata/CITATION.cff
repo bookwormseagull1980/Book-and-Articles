@@ -11,7 +11,7 @@ authors:
 doi: 10.2139/ssrn.7659059
 url: https://ssrn.com/abstract=7659059
 version: 2026-10-24-ssrn
-date-released: '2026-10-24'
+date-released: '2026-10-26'
 identifiers:
 - type: doi
   value: 10.2139/ssrn.7659059
@@ -40,16 +40,17 @@ keywords:
 - "Polynomial bit complexity"
 - "Certified computation"
 - "Verifiable computation"
+- "Reaction–diffusion equations"
+- "Exact rational arithmetic"
+- "Proof certificates"
 - "Reaction-diffusion equations"
 - "Spectral Galerkin methods"
-- "Exact rational arithmetic"
 - "Robust decoding"
 - "P versus NP"
 - "Polynomial-time algorithms"
 - "Bit complexity"
 - "Computational complexity"
 - "Validated numerics"
-- "Proof certificates"
 - "Semilinear parabolic equations"
 - "Nonlinear evolution equations"
 - "Complexity of differential equations"

@@ -9,7 +9,7 @@ authors:
 doi: 10.48550/arXiv.2607.21621
 url: https://arxiv.org/abs/2607.21621
 version: '2026-10-23'
-date-released: '2026-10-23'
+date-released: '2026-10-26'
 identifiers:
 - type: doi
   value: 10.48550/arXiv.2607.21621
@@ -43,6 +43,8 @@ keywords:
 - "Massless spin-2 fields"
 - "Universal gravitational coupling"
 - "Newtonian limit"
+- "Spectral positivity"
+- "Källén–Lehmann representation"
 - "Källén-Lehmann representation"
 - "Stress-energy tensor"
 - "Spectral theory"

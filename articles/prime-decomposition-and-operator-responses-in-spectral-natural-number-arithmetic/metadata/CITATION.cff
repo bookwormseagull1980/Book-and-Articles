@@ -8,7 +8,7 @@ authors:
   orcid: https://orcid.org/0009-0000-6600-6171
 doi: 10.2139/ssrn.7650278
 url: https://ssrn.com/abstract=7650278
-date-released: '2026-10-25'
+date-released: '2026-10-26'
 identifiers:
 - type: doi
   value: 10.2139/ssrn.7650278
@@ -42,14 +42,14 @@ abstract: We construct decomposition and occupation operators on a generated cor
   classes. Counting applications recover Bertrand's theorem, the prime-number asymptotic and
   square-free sign densities through the occupation traces and their boundary responses.
 keywords:
-- "Prime numbers"
 - "Prime factorization"
 - "Hodge Laplacian"
 - "Prime projection"
-- "Spectral gap"
 - "Möbius function"
 - "Riemann zeta function"
 - "Fock space"
+- "Prime numbers"
+- "Spectral gap"
 - "Prime number theorem"
 - "Heat semigroups"
 - "Dirichlet series"

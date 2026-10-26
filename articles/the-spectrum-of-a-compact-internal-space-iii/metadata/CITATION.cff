@@ -10,7 +10,7 @@ authors:
   orcid: https://orcid.org/0009-0000-6600-6171
 doi: 10.2139/ssrn.7659840
 url: https://ssrn.com/abstract=7659840
-date-released: '2026-10-25'
+date-released: '2026-10-26'
 identifiers:
 - type: doi
   value: 10.2139/ssrn.7659840
@@ -45,13 +45,14 @@ abstract: Cosmic matter forms concentrations whose external force can often be d
   control the re-entry of finer coordinates.
 keywords:
 - "Cosmic structure formation"
-- "Cosmological simulations"
 - "Particle-mesh methods"
-- "Adaptive spectral methods"
-- "Model reduction"
+- "Adaptive coarse-graining"
 - "Memory effects"
 - "A posteriori error estimates"
 - "Validated numerics"
+- "Cosmological simulations"
+- "Adaptive spectral methods"
+- "Model reduction"
 - "Large-scale structure of the Universe"
 - "N-body simulations"
 - "Gravitational clustering"

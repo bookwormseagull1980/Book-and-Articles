@@ -10,7 +10,9 @@ Zenodo: [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468)
 
 Repository copy: [Current article directory](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/the-spectrum-of-a-compact-internal-space-ii)
 
-Updated: 25 October 2026.
+Updated: 26 October 2026.
+
+The common spectral calculation selects **three fermion generations** and links particle masses, gauge couplings and cosmological quantities. The paper reports **41 comparison entries** and **seven groups of observable tests**.
 
 ## Research overview
 
@@ -54,11 +56,40 @@ The principal results are the selection of three matter copies and the unique in
 
 The accompanying computational framework records those dependencies and propagates the available numerical enclosures. An interval due to the tensor endpoint, a perturbative matching correction and a discrepancy with reference data each carry a distinct meaning. This separation makes it possible to assess the construction as a predictive system. Its strongest quantitative claims can be traced to a specific spectral response, while comparisons identify which physical readouts are most sensitive to further calculation.
 
+## Quantitative results and observational tests
+
+The calculation selects **three fermion generations**, the unique admissible integer spectral domain **R = 5**, and a common tensor endpoint **kL ≈ 2.49353433**. These quantities enter linked calculations of gauge couplings, fermion mass hierarchies, electroweak scales and cosmological observables. Eliminating shared transfer parameters gives a relation among six geometric fermion masses and connects the electron and electroweak scales.
+
+The paper's principal comparison table contains **41 entries**, including **37 entries with explicit signed percentage residuals**. Selected results are listed below. Residuals are calculated against the reference values adopted in that table; the corresponding mass definitions and approximation orders are retained.
+
+| Quantity | Calculated value | Reference used in the paper | Relative residual |
+| --- | ---: | ---: | ---: |
+| Weak coupling g₂ at the emergence scale | 0.508848 | 0.508845 | +0.00054% |
+| Strong coupling αₛ(MZ) | 0.118041 | 0.1179 | +0.120% |
+| Electroweak scale v | 246.190 GeV | 246.22 GeV | −0.012% |
+| Z-boson mass | 91.12484 GeV | 91.1876 GeV | −0.069% |
+| W-boson mass, leading ρ approximation | 80.371745 GeV | 80.369 GeV | +0.0034% |
+| Higgs mass, tree-level relation | 124.98344 GeV | 125.20 GeV | −0.173% |
+| Atmospheric neutrino mass-squared splitting | 0.002511207 eV² | 0.002511 eV² | +0.0082% |
+| Vacuum-density fraction ΩΛ | 0.685044 | 0.6847 | +0.050% |
+| Baryon-density fraction Ωb | 0.0494082 | 0.0493 | +0.219% |
+| Baryon-to-photon ratio | 6.12823 × 10⁻¹⁰ | 6.1 × 10⁻¹⁰ | +0.463% |
+
+At the emergence scale, the three matched gauge couplings each differ by less than **0.003%** from the adopted Standard Model extrapolations. Low-energy comparisons include the strong coupling, electroweak masses, Z widths and hadronic observables. The neutrino mass branch gives **0.0026074, 0.0086914 and 0.0501797 eV**, with a total of **0.0614785 eV**.
+
+The paper also specifies **seven groups of observable tests**: a tensor-to-scalar ratio **r = 0.0253**; normal neutrino ordering; an atmospheric mixing value **sin²θ₂₃ = 0.551**; a neutrino mass sum **0.0615 eV**; a PMNS phase near **8π/7** on the stated mixing ansatz; an unmixed pseudoscalar glueball target of **2.426 GeV**; and a low-acceleration scale **a₀ = 1.204 × 10⁻¹⁰ m s⁻²** with its specified nonlinear response.
+
+The same comparison programme records where the present readouts differ appreciably from their references. These include the solar rest-mass splitting, the neutron lifetime and the adopted DESI DR2 distance realization. For the latter, **13 correlated components give χ² ≈ 29.51 and p ≈ 0.00554**. Coupling the successful comparisons and the discrepancies to one generating record makes the cross-sector constraints explicit.
+
 ## Research subjects and results
+
+### Paper keywords
+
+Three fermion generations; Fermion mass hierarchies; Fermion mass relations; Gauge coupling constants; Higgs boson mass; Neutrino masses; Cosmological parameters.
 
 ### Primary subjects
 
-Fermion generations; Three fermion generations; Fermion mass hierarchies; Fermion mass relations; Gauge coupling constants; Standard Model parameters; Electroweak symmetry breaking; Higgs boson; Particle cosmology; One-loop matching; Charged lepton masses; Spectral geometry.
+Three fermion generations; Fermion mass hierarchies; Fermion mass relations; Gauge coupling constants; Higgs boson mass; Neutrino masses; Cosmological parameters; Fermion generations; Standard Model parameters; Electroweak symmetry breaking; Higgs boson; Particle cosmology; One-loop matching; Charged lepton masses; Spectral geometry.
 
 ### Research subjects
 

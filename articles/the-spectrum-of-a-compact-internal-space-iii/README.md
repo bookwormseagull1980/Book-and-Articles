@@ -10,7 +10,7 @@ Zenodo: [10.5281/zenodo.23583996](https://doi.org/10.5281/zenodo.23583996)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/the-spectrum-of-a-compact-internal-space-iii)
 
-Updated: 25 October 2026
+Updated: 26 October 2026.
 
 ## Research overview
 
@@ -52,9 +52,13 @@ The resulting framework gives coarse structures a precise operational status. A 
 
 ## Research subjects and results
 
+### Paper keywords
+
+Cosmic structure formation; Particle-mesh methods; Adaptive coarse-graining; Memory effects; A posteriori error estimates; Validated numerics.
+
 ### Primary subjects
 
-Cosmic structure formation; Large-scale structure of the Universe; Cosmological simulations; N-body simulations; Gravitational clustering; Cosmological perturbation theory; Adaptive spectral methods; Model reduction; A posteriori error estimates; Validated numerics; Memory effects; Particle-mesh methods.
+Cosmic structure formation; Particle-mesh methods; Adaptive coarse-graining; Memory effects; A posteriori error estimates; Validated numerics; Large-scale structure of the Universe; Cosmological simulations; N-body simulations; Gravitational clustering; Cosmological perturbation theory; Adaptive spectral methods; Model reduction.
 
 ### Research subjects
 

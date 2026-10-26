@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "papers": {
     "a-spectral-criterion-for-emergent-gravity": {
       "paper_keywords": [
@@ -7,16 +7,16 @@
         "Massless spin-2 fields",
         "Universal gravitational coupling",
         "Newtonian limit",
-        "Källén-Lehmann representation",
-        "Stress-energy tensor",
-        "Spectral theory",
-        "Effective field theory of gravity"
+        "Spectral positivity",
+        "Källén–Lehmann representation"
       ],
       "web_keywords": [
         "Emergent gravity",
         "Massless spin-2 fields",
         "Universal gravitational coupling",
         "Newtonian limit",
+        "Spectral positivity",
+        "Källén–Lehmann representation",
         "Källén-Lehmann representation",
         "Stress-energy tensor",
         "Spectral theory",
@@ -82,9 +82,11 @@
         "Primary subjects": [
           "Emergent gravity",
           "Massless spin-2 fields",
-          "Gravitational interaction",
           "Universal gravitational coupling",
           "Newtonian limit",
+          "Spectral positivity",
+          "Källén–Lehmann representation",
+          "Gravitational interaction",
           "Spectral representation",
           "Stress-energy tensor",
           "Källén-Lehmann representation",
@@ -163,19 +165,18 @@
         "Coarse-graining",
         "Model reduction",
         "Linear response theory",
-        "Memory kernels",
-        "Non-Markovian dynamics",
         "Pole stability",
-        "Resolvent estimates",
-        "Schur complements"
+        "Spectral residues",
+        "Memory kernels"
       ],
       "web_keywords": [
         "Coarse-graining",
         "Model reduction",
         "Linear response theory",
+        "Pole stability",
+        "Spectral residues",
         "Memory kernels",
         "Non-Markovian dynamics",
-        "Pole stability",
         "Resolvent estimates",
         "Schur complements",
         "Effective dynamics",
@@ -238,15 +239,16 @@
           "Coarse-graining",
           "Model reduction",
           "Linear response theory",
-          "Non-Markovian dynamics",
+          "Pole stability",
+          "Spectral residues",
           "Memory kernels",
+          "Non-Markovian dynamics",
           "Effective dynamics",
           "Resolvent estimates",
           "Schur complements",
           "Spectral approximation",
           "Error bounds",
-          "Long-range interactions",
-          "Pole stability"
+          "Long-range interactions"
         ],
         "Research subjects": [
           "Reduced-order models",
@@ -311,23 +313,22 @@
     },
     "the-spectrum-of-a-compact-internal-space-i": {
       "paper_keywords": [
-        "Yang-Mills mass gap",
         "Standard Model gauge group",
         "Chiral fermions",
         "Higgs doublet",
+        "Yang–Mills mass gap",
         "Spectral geometry",
-        "Self-adjoint operators",
-        "Vacuum stability",
-        "Causal perturbation theory"
+        "Vacuum stability"
       ],
       "web_keywords": [
-        "Yang-Mills mass gap",
         "Standard Model gauge group",
         "Chiral fermions",
         "Higgs doublet",
+        "Yang–Mills mass gap",
         "Spectral geometry",
-        "Self-adjoint operators",
         "Vacuum stability",
+        "Yang-Mills mass gap",
+        "Self-adjoint operators",
         "Causal perturbation theory",
         "Yang-Mills theory",
         "Mass gap",
@@ -387,17 +388,18 @@
       ],
       "categories": {
         "Primary subjects": [
-          "Yang-Mills theory",
-          "Mass gap",
           "Standard Model gauge group",
-          "Gauge symmetry",
           "Chiral fermions",
           "Higgs doublet",
+          "Yang–Mills mass gap",
           "Spectral geometry",
+          "Vacuum stability",
+          "Yang-Mills theory",
+          "Mass gap",
+          "Gauge symmetry",
           "Quantum field theory",
           "Matter representations",
           "Spectral gap",
-          "Vacuum stability",
           "Mathematical physics"
         ],
         "Research subjects": [
@@ -464,19 +466,21 @@
     "the-spectrum-of-a-compact-internal-space-ii": {
       "paper_keywords": [
         "Three fermion generations",
-        "Fermion mass relations",
         "Fermion mass hierarchies",
+        "Fermion mass relations",
         "Gauge coupling constants",
-        "Electroweak symmetry breaking",
-        "One-loop matching",
-        "Particle cosmology",
-        "Spectral geometry"
+        "Higgs boson mass",
+        "Neutrino masses",
+        "Cosmological parameters"
       ],
       "web_keywords": [
         "Three fermion generations",
-        "Fermion mass relations",
         "Fermion mass hierarchies",
+        "Fermion mass relations",
         "Gauge coupling constants",
+        "Higgs boson mass",
+        "Neutrino masses",
+        "Cosmological parameters",
         "Electroweak symmetry breaking",
         "One-loop matching",
         "Particle cosmology",
@@ -538,11 +542,14 @@
       ],
       "categories": {
         "Primary subjects": [
-          "Fermion generations",
           "Three fermion generations",
           "Fermion mass hierarchies",
           "Fermion mass relations",
           "Gauge coupling constants",
+          "Higgs boson mass",
+          "Neutrino masses",
+          "Cosmological parameters",
+          "Fermion generations",
           "Standard Model parameters",
           "Electroweak symmetry breaking",
           "Higgs boson",
@@ -616,21 +623,19 @@
       "paper_keywords": [
         "Construction of natural numbers",
         "Arithmetic expression trees",
-        "Gaussian semigroups",
         "Conditional expectation",
         "Trace-class operators",
         "Non-Markovian dynamics",
-        "Memory kernels",
-        "Formalized mathematics"
+        "Memory kernels"
       ],
       "web_keywords": [
         "Construction of natural numbers",
         "Arithmetic expression trees",
-        "Gaussian semigroups",
         "Conditional expectation",
         "Trace-class operators",
         "Non-Markovian dynamics",
         "Memory kernels",
+        "Gaussian semigroups",
         "Formalized mathematics",
         "Natural-number objects",
         "Peano arithmetic",
@@ -690,16 +695,17 @@
       "categories": {
         "Primary subjects": [
           "Construction of natural numbers",
+          "Arithmetic expression trees",
+          "Conditional expectation",
+          "Trace-class operators",
+          "Non-Markovian dynamics",
+          "Memory kernels",
           "Natural-number objects",
           "Peano arithmetic",
           "Unique factorization",
           "Arithmetic expressions",
           "Spectral theory",
           "Gaussian semigroups",
-          "Non-Markovian dynamics",
-          "Memory kernels",
-          "Conditional expectation",
-          "Trace-class operators",
           "Formalized mathematics"
         ],
         "Research subjects": [
@@ -765,24 +771,22 @@
     },
     "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic": {
       "paper_keywords": [
-        "Prime numbers",
         "Prime factorization",
         "Hodge Laplacian",
         "Prime projection",
-        "Spectral gap",
         "Möbius function",
         "Riemann zeta function",
         "Fock space"
       ],
       "web_keywords": [
-        "Prime numbers",
         "Prime factorization",
         "Hodge Laplacian",
         "Prime projection",
-        "Spectral gap",
         "Möbius function",
         "Riemann zeta function",
         "Fock space",
+        "Prime numbers",
+        "Spectral gap",
         "Prime number theorem",
         "Heat semigroups",
         "Dirichlet series",
@@ -843,15 +847,15 @@
       ],
       "categories": {
         "Primary subjects": [
-          "Prime numbers",
           "Prime factorization",
-          "Prime number theorem",
           "Hodge Laplacian",
-          "Spectral gap",
           "Prime projection",
           "Möbius function",
           "Riemann zeta function",
           "Fock space",
+          "Prime numbers",
+          "Prime number theorem",
+          "Spectral gap",
           "Heat semigroups",
           "Dirichlet series",
           "Arithmetic quantum statistical mechanics"
@@ -925,23 +929,22 @@
     "the-spectrum-of-a-compact-internal-space-iii": {
       "paper_keywords": [
         "Cosmic structure formation",
-        "Cosmological simulations",
         "Particle-mesh methods",
-        "Adaptive spectral methods",
-        "Model reduction",
+        "Adaptive coarse-graining",
         "Memory effects",
         "A posteriori error estimates",
         "Validated numerics"
       ],
       "web_keywords": [
         "Cosmic structure formation",
-        "Cosmological simulations",
         "Particle-mesh methods",
-        "Adaptive spectral methods",
-        "Model reduction",
+        "Adaptive coarse-graining",
         "Memory effects",
         "A posteriori error estimates",
         "Validated numerics",
+        "Cosmological simulations",
+        "Adaptive spectral methods",
+        "Model reduction",
         "Large-scale structure of the Universe",
         "N-body simulations",
         "Gravitational clustering",
@@ -1000,17 +1003,18 @@
       "categories": {
         "Primary subjects": [
           "Cosmic structure formation",
+          "Particle-mesh methods",
+          "Adaptive coarse-graining",
+          "Memory effects",
+          "A posteriori error estimates",
+          "Validated numerics",
           "Large-scale structure of the Universe",
           "Cosmological simulations",
           "N-body simulations",
           "Gravitational clustering",
           "Cosmological perturbation theory",
           "Adaptive spectral methods",
-          "Model reduction",
-          "A posteriori error estimates",
-          "Validated numerics",
-          "Memory effects",
-          "Particle-mesh methods"
+          "Model reduction"
         ],
         "Research subjects": [
           "Cold matter dynamics",
@@ -1077,21 +1081,20 @@
       "paper_keywords": [
         "Nonlinear evolution equations",
         "Spectral Galerkin methods",
-        "Gevrey regularity",
+        "Uniform error bounds",
         "Analytic regularity",
-        "Exponential weights",
         "Spectral truncation",
-        "A posteriori error estimates",
-        "Semigroup methods"
+        "A posteriori error estimates"
       ],
       "web_keywords": [
         "Nonlinear evolution equations",
         "Spectral Galerkin methods",
-        "Gevrey regularity",
+        "Uniform error bounds",
         "Analytic regularity",
-        "Exponential weights",
         "Spectral truncation",
         "A posteriori error estimates",
+        "Gevrey regularity",
+        "Exponential weights",
         "Semigroup methods",
         "Bilinear estimates",
         "Nonlinear partial differential equations",
@@ -1152,11 +1155,12 @@
         "Primary subjects": [
           "Nonlinear evolution equations",
           "Spectral Galerkin methods",
-          "Gevrey regularity",
+          "Uniform error bounds",
           "Analytic regularity",
-          "A posteriori error estimates",
-          "Semigroup methods",
           "Spectral truncation",
+          "A posteriori error estimates",
+          "Gevrey regularity",
+          "Semigroup methods",
           "Bilinear estimates",
           "Nonlinear partial differential equations",
           "Certified computation",
@@ -1229,26 +1233,25 @@
         "Polynomial bit complexity",
         "Certified computation",
         "Verifiable computation",
-        "Reaction-diffusion equations",
-        "Spectral Galerkin methods",
+        "Reaction–diffusion equations",
         "Exact rational arithmetic",
-        "Robust decoding",
-        "P versus NP"
+        "Proof certificates"
       ],
       "web_keywords": [
         "Polynomial bit complexity",
         "Certified computation",
         "Verifiable computation",
+        "Reaction–diffusion equations",
+        "Exact rational arithmetic",
+        "Proof certificates",
         "Reaction-diffusion equations",
         "Spectral Galerkin methods",
-        "Exact rational arithmetic",
         "Robust decoding",
         "P versus NP",
         "Polynomial-time algorithms",
         "Bit complexity",
         "Computational complexity",
         "Validated numerics",
-        "Proof certificates",
         "Semilinear parabolic equations",
         "Nonlinear evolution equations",
         "Complexity of differential equations",
@@ -1308,17 +1311,19 @@
       ],
       "categories": {
         "Primary subjects": [
+          "Polynomial bit complexity",
+          "Certified computation",
+          "Verifiable computation",
+          "Reaction–diffusion equations",
+          "Exact rational arithmetic",
+          "Proof certificates",
           "Polynomial-time algorithms",
           "Bit complexity",
           "Computational complexity",
           "P versus NP",
-          "Certified computation",
           "Validated numerics",
-          "Verifiable computation",
-          "Proof certificates",
           "Reaction-diffusion equations",
           "Spectral Galerkin methods",
-          "Exact rational arithmetic",
           "Robust decoding"
         ],
         "Research subjects": [
@@ -1394,6 +1399,14 @@
   "repositories": {
     "coarse-graining-genesis": {
       "web_keywords": [
+        "Three fermion generations",
+        "Fermion mass relations",
+        "Higgs boson mass",
+        "Neutrino masses",
+        "Cosmological parameters",
+        "Baryon asymmetry",
+        "Primordial abundances",
+        "Particle physics predictions",
         "Computational physics",
         "Standard Model",
         "Yang-Mills theory",
@@ -1420,7 +1433,6 @@
         "Cosmic expansion",
         "Matter power spectrum",
         "Structure growth",
-        "Primordial abundances",
         "Scientific computing",
         "Numerical analysis",
         "Interval arithmetic",
@@ -1459,6 +1471,14 @@
       ],
       "categories": {
         "Primary subjects": [
+          "Three fermion generations",
+          "Fermion mass relations",
+          "Higgs boson mass",
+          "Neutrino masses",
+          "Cosmological parameters",
+          "Baryon asymmetry",
+          "Primordial abundances",
+          "Particle physics predictions",
           "Computational physics",
           "Standard Model",
           "Yang-Mills theory",

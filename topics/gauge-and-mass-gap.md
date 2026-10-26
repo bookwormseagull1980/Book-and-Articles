@@ -58,6 +58,28 @@ and physical readout. The observed Newton constant calibrates dimensions;
 shared spectral inputs propagate through the upper layers.
 [Open the vector diagram](../site/assets/physical-layers.pdf).
 
+## Numerical results and tests
+
+The common calculation selects three fermion generations and R=5. The paper's
+principal comparison table has 41 entries, and its observable-test table gives
+seven groups of measurements spanning neutrinos, primordial tensors, glueball
+spectroscopy and low-acceleration gravity.
+
+| Quantity | Calculated result | Relative difference from the adopted reference |
+| --- | ---: | ---: |
+| Strong coupling αₛ(MZ) | 0.118041 | +0.120% |
+| Electroweak scale | 246.190 GeV | −0.012% |
+| Z mass | 91.12484 GeV | −0.069% |
+| Higgs mass, tree-level relation | 124.98344 GeV | −0.173% |
+| Vacuum-density fraction | 0.685044 | +0.050% |
+
+V5 supplies 57 named benchmark comparisons, including 56 central-value rows
+and one upper-limit test. Of the central-value rows, 51 have absolute relative
+differences below 1%. Alternative approximations, reciprocal ratios and
+geometric-mass diagnostics retain their separate rows and conventions.
+[The full paper introduction](../articles/the-spectrum-of-a-compact-internal-space-ii/README.md#quantitative-results-and-observational-tests)
+gives further results and the reported discrepancies.
+
 ## Read and reproduce
 
 - [Compact Internal Space I: Gauge Structure and a Scalar Mass Gap](../articles/the-spectrum-of-a-compact-internal-space-i/README.md)
