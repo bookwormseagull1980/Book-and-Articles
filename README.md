@@ -154,7 +154,7 @@ Preprint links appear first, followed by the Zenodo archival record.
 | [A Spectral Criterion for Emergent Gravity](articles/a-spectral-criterion-for-emergent-gravity/README.md) | [arXiv](https://arxiv.org/abs/2607.21621) · [SSRN](https://ssrn.com/abstract=7352000) · [Zenodo](https://doi.org/10.5281/zenodo.22093341) |
 | [Coarse-Graining and Long-Range Response in Generated Systems](articles/coarse-graining-and-long-range-response/README.md) | [arXiv](https://arxiv.org/abs/2608.01989) · [SSRN](https://ssrn.com/abstract=7352038) · [Zenodo](https://doi.org/10.5281/zenodo.22093524) |
 | [The Spectrum of a Compact Internal Space I: Gauge Structure and a Scalar Mass Gap](articles/the-spectrum-of-a-compact-internal-space-i/README.md) | [SSRN](https://ssrn.com/abstract=7352020) · [Zenodo](https://doi.org/10.5281/zenodo.22067117) |
-| [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](articles/the-spectrum-of-a-compact-internal-space-ii/README.md) | [SSRN](https://ssrn.com/abstract=7351999) · [Zenodo](https://doi.org/10.5281/zenodo.22067468) |
+| [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](articles/the-spectrum-of-a-compact-internal-space-ii/README.md) | [arXiv:2607.24329](https://arxiv.org/abs/2607.24329) · [DOI](https://doi.org/10.48550/arXiv.2607.24329) · [SSRN](https://ssrn.com/abstract=7351999) · [Zenodo](https://doi.org/10.5281/zenodo.22067468) |
 | [The Spectrum of a Compact Internal Space III: Finite-Window Dynamics of Cosmic Structure Formation](articles/the-spectrum-of-a-compact-internal-space-iii/README.md) | [SSRN](https://ssrn.com/abstract=7659840) · [Zenodo](https://doi.org/10.5281/zenodo.23583996) |
 
 ## Citation and contact

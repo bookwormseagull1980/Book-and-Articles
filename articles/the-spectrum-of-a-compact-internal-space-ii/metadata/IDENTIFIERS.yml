@@ -1,6 +1,9 @@
 title: "The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales"
 canonical_slug: "the-spectrum-of-a-compact-internal-space-ii"
 identifiers:
+  arxiv: "2607.24329"
+  arxiv_doi: "10.48550/arXiv.2607.24329"
+  arxiv_url: "https://arxiv.org/abs/2607.24329"
   ssrn_doi: "10.2139/ssrn.7351999"
   ssrn_url: "https://ssrn.com/abstract=7351999"
   zenodo_doi: "10.5281/zenodo.22067468"
@@ -9,7 +12,7 @@ github:
   repository: "https://github.com/bookwormseagull1980/Book-and-Articles"
   path: "articles/the-spectrum-of-a-compact-internal-space-ii"
   branch: "main"
-  updated: "2026-10-26"
+  updated: "2026-10-27"
 pdf:
   filename: "The Spectrum of a Compact Internal Space II - Effective Couplings and Mass Scales.pdf"
   pages: 166

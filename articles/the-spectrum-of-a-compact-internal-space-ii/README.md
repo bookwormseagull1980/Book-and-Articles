@@ -4,13 +4,15 @@ Author: [Jinku Guo](https://orcid.org/0009-0000-6600-6171)
 
 Work type: Research article
 
+arXiv: [2607.24329](https://arxiv.org/abs/2607.24329) · [DOI: 10.48550/arXiv.2607.24329](https://doi.org/10.48550/arXiv.2607.24329)
+
 SSRN: [Abstract and download page](https://ssrn.com/abstract=7351999)
 
 Zenodo: [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468)
 
 Repository copy: [Current article directory](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/the-spectrum-of-a-compact-internal-space-ii)
 
-Updated: 26 October 2026.
+Updated: 27 October 2026.
 
 The common spectral calculation selects **three fermion generations** and links particle masses, gauge couplings and cosmological quantities. The paper reports **41 comparison entries** and **seven groups of observable tests**.
 
@@ -126,8 +128,9 @@ gives the source, gauge–matter construction and scalar response used here.
 ## Citation and archival records
 
 Jinku Guo. *The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales*. 2026.
-[doi:10.2139/ssrn.7351999](https://doi.org/10.2139/ssrn.7351999).
+[arXiv:2607.24329](https://arxiv.org/abs/2607.24329). [doi:10.48550/arXiv.2607.24329](https://doi.org/10.48550/arXiv.2607.24329).
 
+- Preferred preprint: [arXiv:2607.24329](https://arxiv.org/abs/2607.24329) · [DOI](https://doi.org/10.48550/arXiv.2607.24329)
 - SSRN preprint DOI: [10.2139/ssrn.7351999](https://doi.org/10.2139/ssrn.7351999)
 - Zenodo DOI: [10.5281/zenodo.22067468](https://doi.org/10.5281/zenodo.22067468)
 

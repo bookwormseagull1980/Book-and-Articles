@@ -99,6 +99,8 @@ files remain outside this repository.
 
 [The Spectrum of a Compact Internal Space II: Effective Couplings and Mass Scales](../the-spectrum-of-a-compact-internal-space-ii/README.md)
 uses the common spectral responses for the coupling and mass calculations.
+The preprint is available as [arXiv:2607.24329](https://arxiv.org/abs/2607.24329)
+with [DOI 10.48550/arXiv.2607.24329](https://doi.org/10.48550/arXiv.2607.24329).
 
 ## Citation and archival records
 

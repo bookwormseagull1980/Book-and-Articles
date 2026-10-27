@@ -83,7 +83,7 @@ gives further results and the reported discrepancies.
 ## Read and reproduce
 
 - [Compact Internal Space I: Gauge Structure and a Scalar Mass Gap](../articles/the-spectrum-of-a-compact-internal-space-i/README.md)
-- [Compact Internal Space II: Effective Couplings and Mass Scales](../articles/the-spectrum-of-a-compact-internal-space-ii/README.md)
+- [Compact Internal Space II: Effective Couplings and Mass Scales](../articles/the-spectrum-of-a-compact-internal-space-ii/README.md) · [arXiv:2607.24329](https://arxiv.org/abs/2607.24329) · [DOI](https://doi.org/10.48550/arXiv.2607.24329)
 - [Lean theorem library](https://github.com/bookwormseagull1980/Lean-Formalization-of-Arithmetic-and-Basic-Physical-Interfaces)
 - [V5 calculations and interval certificates](https://github.com/bookwormseagull1980/coarse-graining-genesis)
 

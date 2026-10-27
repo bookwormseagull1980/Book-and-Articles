@@ -6,10 +6,16 @@ authors:
 - family-names: Guo
   given-names: Jinku
   orcid: https://orcid.org/0009-0000-6600-6171
-doi: 10.2139/ssrn.7351999
-url: https://ssrn.com/abstract=7351999
+doi: 10.48550/arXiv.2607.24329
+url: https://arxiv.org/abs/2607.24329
 date-released: '2026-10-26'
 identifiers:
+- type: doi
+  value: 10.48550/arXiv.2607.24329
+  description: Preferred arXiv preprint DOI
+- type: url
+  value: https://arxiv.org/abs/2607.24329
+  description: arXiv abstract and download page
 - type: doi
   value: 10.2139/ssrn.7351999
   description: SSRN preprint DOI
