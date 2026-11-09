@@ -27,6 +27,19 @@ and the complete contents of the 31-chapter book.
 [Book description and contents](books/beyond-apparent-paths/README.md)
 · [Read the English preview](https://raw.githubusercontent.com/bookwormseagull1980/Book-and-Articles/main/books/beyond-apparent-paths/Beyond%20Apparent%20Paths%20-%20Preview.pdf)
 
+## Foundations and research programme
+
+[**The Logical Starting Point of Mathematical Logic and Natural Generation**](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/README.md)
+sets out the philosophical argument and research programme connecting the book
+to the mathematical, physical and computational papers. Starting from the
+question of how a theory acquires its objects and operations, it develops
+minimal change, multi-level order and empirical correction. Three appendices
+present the physical, mathematical and engineering pictures, including generated
+gauge structure, arithmetic histories, scale energy and certified continuum
+computation.
+
+[Read the 20-page paper](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/The%20Logical%20Starting%20Point%20of%20Mathematical%20Logic%20and%20Natural%20Generation.pdf)
+
 ## The research programme
 
 How much mathematical and physical structure can be generated from a common
@@ -130,6 +143,7 @@ statement to the standard P vs NP problem.
 - **For the broader ideas:** begin with [Beyond Apparent Paths](books/beyond-apparent-paths/README.md).
   It develops the account of change, levels and understanding that gives the
   collection its philosophical and methodological setting.
+- **For the common starting point:** read [The Logical Starting Point of Mathematical Logic and Natural Generation](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/README.md), which connects the philosophical argument to the research programme.
 - **For the construction:** read *A Spectral Construction of Natural-Number
   Arithmetic*, then *Prime Decomposition and Operator Responses*. Continue to
   the generated-spectrum and certified-computation papers for finite observation.
@@ -147,6 +161,7 @@ Preprint links appear first, followed by the Zenodo archival record.
 
 | Work | Paper links |
 | --- | --- |
+| [The Logical Starting Point of Mathematical Logic and Natural Generation](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/README.md) | [PDF](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/The%20Logical%20Starting%20Point%20of%20Mathematical%20Logic%20and%20Natural%20Generation.pdf) · [Citation](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/metadata/CITATION.cff) |
 | [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md) | [SSRN](https://ssrn.com/abstract=7421398) · [Zenodo](https://doi.org/10.5281/zenodo.22512592) |
 | [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md) | [SSRN](https://ssrn.com/abstract=7650278) · [Zenodo](https://doi.org/10.5281/zenodo.23538151) |
 | [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md) | [SSRN](https://ssrn.com/abstract=7649818) · [Zenodo](https://doi.org/10.5281/zenodo.23536976) |

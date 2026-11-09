@@ -40,6 +40,12 @@ through the book.
 - [Coarse-graining, gravity and cosmology](../../topics/gravity-and-cosmology.md)
 - [Generated computation and complexity](../../topics/certified-computation.md)
 
+The companion article [The Logical Starting Point of Mathematical Logic and Natural Generation](../../articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/README.md)
+develops this starting-point question in a 20-page philosophical argument and
+research programme. It connects the book's account of change and multi-level
+order to the mathematical, physical and engineering constructions in this
+collection.
+
 ## Contents
 
 1. The Finger Pointing to the Moon

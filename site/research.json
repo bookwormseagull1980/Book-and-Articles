@@ -1,7 +1,7 @@
 {
   "title": "Foundations from Minimal Change",
   "subtitle": "Books, mathematics, physics and computation",
-  "description": "Books and research by Jinku Guo: Beyond Apparent Paths explores change, order, life and consciousness; the papers develop generated mathematics, physical response and certified computation, with Lean proofs and reproducible code.",
+  "description": "Books and research by Jinku Guo: Beyond Apparent Paths and The Logical Starting Point of Mathematical Logic and Natural Generation develop the philosophical foundations of generated mathematics, physical response and certified computation, with Lean proofs and reproducible code.",
   "topics": [
     {
       "slug": "generated-arithmetic",
@@ -45,6 +45,7 @@
     }
   ],
   "reading_order": [
+    "the-logical-starting-point-of-mathematical-logic-and-natural-generation",
     "a-spectral-construction-of-natural-number-arithmetic",
     "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic",
     "dynamics-of-generated-spectra-from-minimal-change",
@@ -162,6 +163,32 @@
     "Verifiable computation",
     "Reaction–diffusion equations",
     "Exact rational arithmetic",
-    "Proof certificates"
+    "Proof certificates",
+    "Philosophy of mathematics",
+    "Philosophy of physics",
+    "Foundations of physics",
+    "Mathematical logic",
+    "Natural generation",
+    "Emergence",
+    "Scientific methodology",
+    "Theory construction",
+    "Process philosophy",
+    "Constructive mathematics",
+    "Renormalization",
+    "Natural-number arithmetic",
+    "History-dependent dynamics",
+    "Continuum limits",
+    "Yang–Mills theory",
+    "Mass gap",
+    "Riemann hypothesis",
+    "Scale-energy estimates",
+    "Formal verification",
+    "Lean theorem prover",
+    "Navier–Stokes equations",
+    "Adaptive simulation",
+    "Digital twins",
+    "Multilevel systems",
+    "Order and disorder",
+    "Scientific explanation"
   ]
 }

@@ -1,0 +1,78 @@
+cff-version: 1.2.0
+message: Please cite this article when referring to its philosophical argument or research programme.
+title: 'The Logical Starting Point of Mathematical Logic and Natural Generation: Philosophical Ideas,
+  Mathematical and Physical Pictures, and a Research Programme'
+authors: &id001
+- family-names: Guo
+  given-names: Jinku
+  affiliation: Northwestern Polytechnical University
+  orcid: https://orcid.org/0009-0000-6600-6171
+url: https://bookwormseagull1980.github.io/Book-and-Articles/papers/the-logical-starting-point-of-mathematical-logic-and-natural-generation.html
+date-released: '2026-11-09'
+abstract: We present the philosophical basis and research programme of a generative framework for
+  mathematics and physics. The central question concerns the origin of the objects, assumptions,
+  and operations from which a theory begins. Logical consistency constrains their consequences but
+  does not establish their correspondence with nature. Taking minimal unbiased change as the common
+  starting point, the framework studies how relations close into ordered structures and how successive
+  levels acquire their own objects and laws. The main argument develops this view from the discussion
+  in Beyond Apparent Paths. Three appendices develop the physical, mathematical, and engineering
+  pictures that guide the programme. A common source connects internal spectra, gauge and matter
+  structure, a positive equilibrium Yang–Mills gap, collective gravity, and cosmic evolution. Retaining
+  the formation of numbers and functions supplies history-dependent responses, a signed scale-energy
+  approach to the Riemann hypothesis, and a study of efficient generation and verification. For the
+  Navier–Stokes equations, finite evolutions with controlled residuals, stability, and spectral tails
+  are completed into continuum solutions on certified intervals. The unifying aim is to trace the
+  starting points of these problems to a common process of generation and to retain that process
+  in their mathematical description.
+keywords:
+- Philosophy of mathematics
+- Philosophy of physics
+- Philosophy of science
+- Foundations of mathematics
+- Foundations of physics
+- Mathematical logic
+- Natural generation
+- Emergence
+- Scientific methodology
+- Theory construction
+- Process philosophy
+- Constructive mathematics
+- Mathematical physics
+- Spectral geometry
+- Gaussian semigroups
+- Coarse-graining
+- Renormalization
+- Natural-number arithmetic
+- Arithmetic expression trees
+- History-dependent dynamics
+- Continuum limits
+- Gauge theory
+- Yang–Mills theory
+- Mass gap
+- Standard Model
+- Emergent gravity
+- Cosmic structure formation
+- Riemann hypothesis
+- Möbius function
+- Scale-energy estimates
+- P versus NP
+- Computational complexity
+- Polynomial bit complexity
+- Certified computation
+- Formal verification
+- Lean theorem prover
+- Navier–Stokes equations
+- A posteriori error estimates
+- Adaptive simulation
+- Digital twins
+- Multilevel systems
+- Order and disorder
+- Scientific explanation
+license-url: https://github.com/bookwormseagull1980/Book-and-Articles/blob/main/articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/metadata/RIGHTS.md
+preferred-citation:
+  type: article
+  title: 'The Logical Starting Point of Mathematical Logic and Natural Generation: Philosophical
+    Ideas, Mathematical and Physical Pictures, and a Research Programme'
+  authors: *id001
+  year: 2026
+  url: https://bookwormseagull1980.github.io/Book-and-Articles/papers/the-logical-starting-point-of-mathematical-logic-and-natural-generation.html

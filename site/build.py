@@ -88,8 +88,9 @@ def publication_links(identifiers):
                 url = ("https://arxiv.org/abs/" + doi.split("arXiv.", 1)[1]
                        if label == "arXiv" else "https://ssrn.com/abstract=" + doi.rsplit(".", 1)[1])
             links.append({"label": label, "url": url, "doi": doi})
-    doi = identifiers.get("zenodo_concept_doi") or identifiers["zenodo_doi"]
-    links.append({"label": "Zenodo", "url": "https://doi.org/" + doi, "doi": doi})
+    doi = identifiers.get("zenodo_concept_doi") or identifiers.get("zenodo_doi")
+    if doi:
+        links.append({"label": "Zenodo", "url": "https://doi.org/" + doi, "doi": doi})
     return links
 
 
@@ -135,9 +136,9 @@ def main():
         publications = publication_links(identifiers["identifiers"])
         articles.append({
             "slug": slug, "title": identifiers["title"],
-            "doi": publications[0]["doi"],
-            "archive_doi": publications[-1]["doi"],
-            "primary_url": publications[0]["url"],
+            "doi": publications[0]["doi"] if publications else None,
+            "archive_doi": publications[-1]["doi"] if publications else None,
+            "primary_url": publications[0]["url"] if publications else GITHUB + "/tree/main/articles/" + slug,
             "publications": publications,
             "ssrn": identifiers["identifiers"].get("ssrn_doi"),
             "arxiv": identifiers["identifiers"].get("arxiv_doi"),
@@ -171,7 +172,7 @@ def main():
             structured = {
                 "@context": "https://schema.org", "@type": "ScholarlyArticle",
                 "headline": article["title"], "url": canonical,
-                "identifier": "https://doi.org/" + article["doi"],
+                "identifier": "https://doi.org/" + article["doi"] if article["doi"] else article["github"],
                 "sameAs": [link["url"] for link in article["publications"]],
                 "author": {"@type": "Person", "name": "Jinku Guo"},
                 "keywords": article["keywords"], "abstract": article["abstract"],
@@ -278,6 +279,14 @@ world becomes intelligible. This perspective gives the collection its
 philosophical and methodological setting.</p>
 <p class="opening-links"><a href="{base}books/beyond-apparent-paths.html">Book description and 31-chapter contents <span aria-hidden="true">→</span></a>
 <a href="{book['preview_pdf']}">English preview PDF · 5 pages</a></p></section>
+<section id="foundations" class="research-section"><p class="eyebrow">Foundations and research programme</p>
+<h2><a href="{base}papers/the-logical-starting-point-of-mathematical-logic-and-natural-generation.html">The Logical Starting Point of Mathematical Logic and Natural Generation</a></h2>
+<p>How do the objects, assumptions and operations of a theory acquire their
+connection with nature? This 20-page article develops the philosophical starting
+point shared by the collection. Three appendices connect the argument to
+generated gauge and matter structure, arithmetic histories, scale-energy
+estimates and certified continuum computation.</p>
+<p class="opening-links"><a href="{base}papers/the-logical-starting-point-of-mathematical-logic-and-natural-generation.html">Read the argument and research programme <span aria-hidden="true">→</span></a></p></section>
 <section id="research" class="research-section"><h2 id="principal-results">A common source, several research directions</h2>
 <p>The research programme begins with minimal unbiased compositional change.
 A common generating source connects arithmetic histories, compact gauge
@@ -316,7 +325,7 @@ and theorem-to-paper mappings. V5 gives executable source records, interval
 certificates and observational comparisons.</p></div></div></section>
 <section id="papers"><div class="section-heading"><h2>Papers</h2>
 <label class="search-label">Find a paper<input id="paper-search" type="search" placeholder="Title, subject or result" aria-controls="paper-list"></label></div>
-<p id="search-status" class="muted" aria-live="polite">9 papers</p>
+<p id="search-status" class="muted" aria-live="polite">{len(articles)} papers</p>
 <div id="paper-list">{"".join(article_rows)}</div></section>'''
     page("index.html", DATA["title"] + ": " + DATA["subtitle"], landing)
 
