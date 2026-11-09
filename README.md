@@ -38,7 +38,7 @@ present the physical, mathematical and engineering pictures, including generated
 gauge structure, arithmetic histories, scale energy and certified continuum
 computation.
 
-[Read the 20-page paper](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/The%20Logical%20Starting%20Point%20of%20Mathematical%20Logic%20and%20Natural%20Generation.pdf)
+[Read the 20-page paper](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/The%20Logical%20Starting%20Point%20of%20Mathematical%20Logic%20and%20Natural%20Generation.pdf) · [Zenodo concept DOI](https://doi.org/10.5281/zenodo.24071580)
 
 ## The research programme
 
@@ -161,7 +161,7 @@ Preprint links appear first, followed by the Zenodo archival record.
 
 | Work | Paper links |
 | --- | --- |
-| [The Logical Starting Point of Mathematical Logic and Natural Generation](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/README.md) | [PDF](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/The%20Logical%20Starting%20Point%20of%20Mathematical%20Logic%20and%20Natural%20Generation.pdf) · [Citation](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/metadata/CITATION.cff) |
+| [The Logical Starting Point of Mathematical Logic and Natural Generation](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/README.md) | [PDF](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/The%20Logical%20Starting%20Point%20of%20Mathematical%20Logic%20and%20Natural%20Generation.pdf) · [Citation](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/metadata/CITATION.cff) · [Zenodo](https://doi.org/10.5281/zenodo.24071580) |
 | [A Spectral Construction of Natural-Number Arithmetic](articles/a-spectral-construction-of-natural-number-arithmetic/README.md) | [SSRN](https://ssrn.com/abstract=7421398) · [Zenodo](https://doi.org/10.5281/zenodo.22512592) |
 | [Prime Decomposition and Operator Responses in Spectral Natural-Number Arithmetic](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md) | [SSRN](https://ssrn.com/abstract=7650278) · [Zenodo](https://doi.org/10.5281/zenodo.23538151) |
 | [Dynamics of Generated Spectra from Minimal Change: Certified Function Classes and Finite Windows](articles/dynamics-of-generated-spectra-from-minimal-change/README.md) | [SSRN](https://ssrn.com/abstract=7649818) · [Zenodo](https://doi.org/10.5281/zenodo.23536976) |

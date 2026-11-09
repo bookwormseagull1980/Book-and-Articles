@@ -9,7 +9,7 @@ records the author, title, language and public introduction address.
 
 For the philosophical argument and common research programme, cite:
 
-Guo, Jinku. *The Logical Starting Point of Mathematical Logic and Natural Generation: Philosophical Ideas, Mathematical and Physical Pictures, and a Research Programme*. Preprint, 2026. [Article and citation metadata](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/README.md).
+Guo, Jinku. *The Logical Starting Point of Mathematical Logic and Natural Generation: Philosophical Ideas, Mathematical and Physical Pictures, and a Research Programme*. Preprint, 2026. [10.5281/zenodo.24071580](https://doi.org/10.5281/zenodo.24071580). [Article and citation metadata](articles/the-logical-starting-point-of-mathematical-logic-and-natural-generation/README.md).
 
 Each article is a distinct work. Cite the article whose theorem, model or
 calculation you use; its directory contains `metadata/CITATION.cff` and

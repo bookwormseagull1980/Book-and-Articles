@@ -76,3 +76,9 @@ preferred-citation:
   authors: *id001
   year: 2026
   url: https://bookwormseagull1980.github.io/Book-and-Articles/papers/the-logical-starting-point-of-mathematical-logic-and-natural-generation.html
+  doi: 10.5281/zenodo.24071580
+doi: 10.5281/zenodo.24071580
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.24071580
+  description: Zenodo concept DOI for all versions

@@ -10,6 +10,8 @@
 
 English preprint · 20 pages · November 2026
 
+**Zenodo concept DOI:** [10.5281/zenodo.24071580](https://doi.org/10.5281/zenodo.24071580)
+
 ## Abstract
 
 We present the philosophical basis and research programme of a generative framework for mathematics and physics. The central question concerns the origin of the objects, assumptions, and operations from which a theory begins. Logical consistency constrains their consequences but does not establish their correspondence with nature. Taking minimal unbiased change as the common starting point, the framework studies how relations close into ordered structures and how successive levels acquire their own objects and laws. The main argument develops this view from the discussion in Beyond Apparent Paths. Three appendices develop the physical, mathematical, and engineering pictures that guide the programme. A common source connects internal spectra, gauge and matter structure, a positive equilibrium Yang–Mills gap, collective gravity, and cosmic evolution. Retaining the formation of numbers and functions supplies history-dependent responses, a signed scale-energy approach to the Riemann hypothesis, and a study of efficient generation and verification. For the Navier–Stokes equations, finite evolutions with controlled residuals, stability, and spectral tails are completed into continuum solutions on certified intervals. The unifying aim is to trace the starting points of these problems to a common process of generation and to retain that process in their mathematical description.
@@ -68,7 +70,7 @@ develop the corresponding mathematical constructions and physical models.
 
 ## Citation and rights
 
-Guo, Jinku. *The Logical Starting Point of Mathematical Logic and Natural Generation: Philosophical Ideas, Mathematical and Physical Pictures, and a Research Programme*. Preprint, 2026. [Public reading copy](https://bookwormseagull1980.github.io/Book-and-Articles/papers/the-logical-starting-point-of-mathematical-logic-and-natural-generation.html).
+Guo, Jinku. *The Logical Starting Point of Mathematical Logic and Natural Generation: Philosophical Ideas, Mathematical and Physical Pictures, and a Research Programme*. Preprint, 2026. [10.5281/zenodo.24071580](https://doi.org/10.5281/zenodo.24071580). [Public reading copy](https://bookwormseagull1980.github.io/Book-and-Articles/papers/the-logical-starting-point-of-mathematical-logic-and-natural-generation.html).
 
 [Citation metadata](metadata/CITATION.cff) · [Identifiers](metadata/IDENTIFIERS.yml) · [Rights](metadata/RIGHTS.md) · [PDF checksum](metadata/SHA256SUMS)
 
