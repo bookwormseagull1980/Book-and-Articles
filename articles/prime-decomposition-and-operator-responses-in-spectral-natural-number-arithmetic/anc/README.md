@@ -107,17 +107,17 @@ Equation numbers refer to the accompanying manuscript.
 
 | Mathematical quantity | Manuscript | Implementation or JSON field |
 | --- | --- | --- |
-| Transverse coefficient and shell sum | (6.64), (B.60) | `weight`, `weight_sum` |
-| Full-spectrum response | (6.65) | `make_retention`, using the exact finite divisor sieve `decomposition_values` |
-| Dimensionless UV/IR parameters | (6.66) | `beta_uv`, `beta_ir` |
-| Endpoint-retention map | (6.67) | `make_retention` |
-| Response-derivative bounds and contraction | (B.64)-(B.67) | `response_majorant`, `B_uv`, `B_ir`, `contraction_majorant` |
-| Iteration error | (B.69) | `iteration_error_bound` |
-| Fixed-point bracket and displayed error | (B.70)-(B.71) | `fixed_point`, `absolute_error_from_displayed_value_upper` |
-| Geometric tail estimates | (B.75) | `gaussian_tail` |
-| Map and fixed-point truncation errors | (B.76)-(B.77) | `map_error_bound`, `truncation_error_bound` |
-| Exponential remainder | (B.78) | `exp_point` |
-| Total enclosure | (B.79) | `fixed_point` |
+| Transverse coefficient and shell sum | (6.67), (B.59) | `weight`, `weight_sum` |
+| Full-spectrum response | (6.68) | `make_retention`, using the exact finite divisor sieve `decomposition_values` |
+| Dimensionless UV/IR parameters | (6.69) | `beta_uv`, `beta_ir` |
+| Endpoint-retention map | (6.70) | `make_retention` |
+| Response-derivative bounds and contraction | (B.62)-(B.65) | `response_majorant`, `B_uv`, `B_ir`, `contraction_majorant` |
+| Iteration error | (B.67) | `iteration_error_bound` |
+| Fixed-point bracket and displayed error | (B.68)-(B.69) | `fixed_point`, `absolute_error_from_displayed_value_upper` |
+| Geometric tail estimates | (B.73) | `gaussian_tail` |
+| Map and fixed-point truncation errors | (B.74)-(B.75) | `map_error_bound`, `truncation_error_bound` |
+| Exponential remainder | (B.76) | `exp_point` |
+| Total enclosure | (B.77) | `fixed_point` |
 
 ## Enclosing arithmetic
 

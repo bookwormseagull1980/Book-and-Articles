@@ -10,7 +10,27 @@ Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
 
-Updated: 26 October 2026.
+Updated: 10 November 2026.
+
+## Abstract
+
+We construct decomposition, occupation and additive-response operators on spectral
+natural-number arithmetic. Prime residue classes form the augmentation cotangent basis,
+and the corresponding one-word vectors span the degree-one Hodge kernel. The
+complementary gap is exactly one, giving sharp heat and resolvent approximations to the
+prime projection with summable Gaussian trace errors. Symmetric and exterior occupations
+retain logarithmic arithmetic energy and evaluated quadratic correlation energy. A
+faithful extension of addition records relative inputs. Its charge defect relates input
+multiplicative parity to the parity of the sum, while Schur reduction retains the
+transverse contribution to the inverse response. Prime-direction transfer and mutually
+inverse square-dilation transforms connect the signed occupation responses. Combining
+additive and decomposition responses gives an endpoint map whose unique stable fixed
+point, under diagonal self-consistency, is enclosed with its infinite tail. Compact
+Laplace realizations of square energy and quadratic shell capacity have dimension three.
+In the stated spherical and central-sign classes, their coefficient functions admit a
+common Gaussian history calculus. Occupation traces and classical boundary arguments
+recover Bertrand's theorem, the prime-number asymptotic and square-free sign densities
+on the generated carrier.
 
 ## Research overview
 
@@ -119,7 +139,7 @@ Arithmetic*. SSRN, 2026. [doi:10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn
 - SSRN record: [Abstract 7650278](https://ssrn.com/abstract=7650278)
 - Zenodo record: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
-The repository contains the current 112-page manuscript and its computational
+The repository contains the current 122-page manuscript and its computational
 supplement. Git history and checksums identify the files supplied here.
 
 Related records cited in the manuscript:
