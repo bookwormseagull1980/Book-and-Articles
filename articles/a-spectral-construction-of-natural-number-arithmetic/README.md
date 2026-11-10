@@ -10,7 +10,27 @@ Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/a-spectral-construction-of-natural-number-arithmetic)
 
-Updated: 26 October 2026.
+Updated: 10 November 2026.
+
+## Abstract
+
+We construct natural-number arithmetic on correlation modes and retain the ordered
+expressions that generate them. Minimal unbiased compositional change determines a
+rotation plane and a Gaussian law. Local information and total normalized correlation
+determine a finite window. Within the separated nondegenerate homogeneous local boundary
+class, preservation of constants selects the Neumann closure. Modulation and composition
+of the oriented modes give an ordered Peano semiring with unique factorization,
+quadratic energy and canonical scale transport. Winding degree certifies the arithmetic.
+Each value has a finite expression fibre. Equal root-channel weights and independent
+child assembly define a positive history law with the original Gaussian marginal.
+Conditional readout separates value information from history variation. The same weights
+on parent–child relations define a nonnegative self-adjoint trace-class assembly
+operator with explicit Gaussian cutoff bounds. A history difference at value four has
+zero initial readout but a strictly nonzero subsequent value response under the complete
+operator. This coupling persists under small changes of the relevant conditional
+weights. Eliminating history differences gives an exact memory equation and a joint norm
+budget. The arithmetic, history-source and assembly results have accompanying Lean
+formalizations.
 
 ## Research overview
 
@@ -100,7 +120,7 @@ Public records:
 - Zenodo concept DOI: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 The Zenodo concept DOI identifies the work across its deposited versions.
-The repository contains the current 91-page manuscript. Git history and
+The repository contains the current 98-page manuscript. Git history and
 the file checksum identify the reading copy supplied here.
 
 ## Research context
