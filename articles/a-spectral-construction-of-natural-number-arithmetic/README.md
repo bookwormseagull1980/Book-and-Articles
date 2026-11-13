@@ -10,27 +10,28 @@ Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/a-spectral-construction-of-natural-number-arithmetic)
 
-Updated: 10 November 2026.
+Updated: 13 November 2026.
 
 ## Abstract
 
-We construct natural-number arithmetic on correlation modes and retain the ordered
-expressions that generate them. Minimal unbiased compositional change determines a
-rotation plane and a Gaussian law. Local information and total normalized correlation
-determine a finite window. Within the separated nondegenerate homogeneous local boundary
-class, preservation of constants selects the Neumann closure. Modulation and composition
-of the oriented modes give an ordered Peano semiring with unique factorization,
-quadratic energy and canonical scale transport. Winding degree certifies the arithmetic.
-Each value has a finite expression fibre. Equal root-channel weights and independent
-child assembly define a positive history law with the original Gaussian marginal.
-Conditional readout separates value information from history variation. The same weights
-on parent–child relations define a nonnegative self-adjoint trace-class assembly
-operator with explicit Gaussian cutoff bounds. A history difference at value four has
-zero initial readout but a strictly nonzero subsequent value response under the complete
-operator. This coupling persists under small changes of the relevant conditional
-weights. Eliminating history differences gives an exact memory equation and a joint norm
-budget. The arithmetic, history-source and assembly results have accompanying Lean
-formalizations.
+We construct natural-number arithmetic on correlation modes together with
+source-weighted dynamics of its generating expressions. Minimal unbiased compositional
+change determines a rotation plane and a Gaussian law. Local information and total
+normalized correlation determine a finite window. Within the separated nondegenerate
+homogeneous local boundary class, preservation of constants selects the Neumann closure.
+Modulation and composition of the oriented modes give an ordered Peano semiring with
+unique factorization, quadratic energy and canonical scale transport. Winding degree
+certifies the arithmetic. Each natural value has a finite expression fibre. Equal
+root-channel weights and independent child assembly define a positive history law with
+the original Gaussian marginal. Conditional readout separates value information from
+history variation. The same weights on parent–child relations define a nonnegative
+self-adjoint trace-class assembly operator with explicit Gaussian cutoff bounds. A
+history difference at value four has zero initial readout but a strictly nonzero
+subsequent value response under the complete operator. This coupling persists under
+small changes of the relevant conditional weights. Eliminating history differences gives
+an exact memory equation and a joint norm budget. Signed balances, fractions and
+certified limits extend the scalar field. The natural-mode arithmetic, finite-fibre
+history law and assembly results have accompanying Lean formalizations.
 
 ## Research overview
 
@@ -70,7 +71,9 @@ Arithmetic evaluation consequently discards information that can affect this lat
 
 Circle degree provides a classical arithmetic certification. The additional results come from constructing the correlation source, its native operations, the resolved positive history law and the assembly response together. Direct circle arithmetic supplies the values and their operations; the present construction also supplies normalized history probabilities, conditional information and an explicit evolution that can return hidden history to an observable value.
 
-Formal differences, fractions and completion extend the arithmetic to scalar fields and Hilbert spaces, with finite rational certificates and spectral approximation estimates. A Lean companion records the indexed arithmetic and history constructions, their assembly interfaces and formal dependencies. The paper's contribution is thus both foundational and dynamical: it constructs the arithmetic carrier and proves that the route to a value can remain mathematically consequential after that value has been obtained.
+Signed balances, fractions and compatible rational refinements continue the generated arithmetic to its scalar fields. Interval names specify real values with certified precision. Independent natural-source inputs induce balance and ratio laws, so these extensions retain both their operations and their probabilistic source. Finite rational certificates and spectral approximation estimates remain available in the completed state spaces. A Lean companion records the indexed arithmetic and history constructions, their assembly interfaces and formal dependencies.
+
+The concluding discussion treats number systems as outputs of specified formation processes. Comparison with standard number systems certifies those outputs; a particular set-theoretic coding is absent from the generating data. The history resolution also makes a precise distinction between equality of values and equality of formation histories. Their nonzero coupling to later observations shows why that distinction matters mathematically.
 
 ## Research subjects and results
 
@@ -120,7 +123,7 @@ Public records:
 - Zenodo concept DOI: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 The Zenodo concept DOI identifies the work across its deposited versions.
-The repository contains the current 98-page manuscript. Git history and
+The repository contains the current 104-page manuscript. Git history and
 the file checksum identify the reading copy supplied here.
 
 ## Research context

@@ -8,7 +8,7 @@ authors:
   orcid: https://orcid.org/0009-0000-6600-6171
 doi: 10.2139/ssrn.7650278
 url: https://ssrn.com/abstract=7650278
-date-released: '2026-11-10'
+date-released: '2026-11-13'
 identifiers:
 - type: doi
   value: 10.2139/ssrn.7650278
@@ -27,23 +27,24 @@ preferred-citation:
   doi: 10.2139/ssrn.7650278
   url: https://ssrn.com/abstract=7650278
 abstract: >-
-  We construct decomposition, occupation and additive-response operators on spectral
-  natural-number arithmetic. Prime residue classes form the augmentation cotangent
-  basis, and the corresponding one-word vectors span the degree-one Hodge kernel. The
-  complementary gap is exactly one, giving sharp heat and resolvent approximations to
-  the prime projection with summable Gaussian trace errors. Symmetric and exterior
-  occupations retain logarithmic arithmetic energy and evaluated quadratic correlation
-  energy. A faithful extension of addition records relative inputs. Its charge defect
-  relates input multiplicative parity to the parity of the sum, while Schur reduction
-  retains the transverse contribution to the inverse response. Prime-direction transfer
-  and mutually inverse square-dilation transforms connect the signed occupation
-  responses. Combining additive and decomposition responses gives an endpoint map whose
-  unique stable fixed point, under diagonal self-consistency, is enclosed with its
-  infinite tail. Compact Laplace realizations of square energy and quadratic shell
-  capacity have dimension three. In the stated spherical and central-sign classes, their
-  coefficient functions admit a common Gaussian history calculus. Occupation traces and
-  classical boundary arguments recover Bertrand's theorem, the prime-number asymptotic
-  and square-free sign densities on the generated carrier.
+  We construct an operator calculus linking prime decomposition, occupation parity and
+  additive response on spectral natural-number arithmetic. Prime residue classes form
+  the augmentation cotangent basis, and the corresponding one-word vectors span the
+  degree-one Hodge kernel. The complementary gap is exactly one, giving sharp heat and
+  resolvent approximations to the prime projection with summable Gaussian trace
+  errors. Symmetric and exterior occupations retain logarithmic arithmetic energy and
+  evaluated quadratic correlation energy. A faithful extension of addition records
+  relative inputs. Its charge defect relates input multiplicative parity to the parity
+  of the sum, while Schur reduction retains the transverse contribution to the inverse
+  response. Prime-direction transfer and mutually inverse square-dilation transforms
+  connect the signed occupation responses. Combining additive and decomposition
+  responses gives an endpoint map whose unique stable fixed point, under diagonal
+  self-consistency, is enclosed with its infinite tail. Compact Laplace realizations
+  of square energy and quadratic shell capacity have dimension three. In the stated
+  spherical and central-sign classes, their coefficient functions admit a common
+  Gaussian history calculus. Occupation traces and classical boundary arguments
+  recover Bertrand's theorem, the prime-number asymptotic and square-free sign
+  densities on the generated carrier.
 keywords:
 - "Prime factorization"
 - "Hodge Laplacian"

@@ -10,27 +10,27 @@ Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
 
-Updated: 10 November 2026.
+Updated: 13 November 2026.
 
 ## Abstract
 
-We construct decomposition, occupation and additive-response operators on spectral
-natural-number arithmetic. Prime residue classes form the augmentation cotangent basis,
-and the corresponding one-word vectors span the degree-one Hodge kernel. The
-complementary gap is exactly one, giving sharp heat and resolvent approximations to the
-prime projection with summable Gaussian trace errors. Symmetric and exterior occupations
-retain logarithmic arithmetic energy and evaluated quadratic correlation energy. A
-faithful extension of addition records relative inputs. Its charge defect relates input
-multiplicative parity to the parity of the sum, while Schur reduction retains the
-transverse contribution to the inverse response. Prime-direction transfer and mutually
-inverse square-dilation transforms connect the signed occupation responses. Combining
-additive and decomposition responses gives an endpoint map whose unique stable fixed
-point, under diagonal self-consistency, is enclosed with its infinite tail. Compact
-Laplace realizations of square energy and quadratic shell capacity have dimension three.
-In the stated spherical and central-sign classes, their coefficient functions admit a
-common Gaussian history calculus. Occupation traces and classical boundary arguments
-recover Bertrand's theorem, the prime-number asymptotic and square-free sign densities
-on the generated carrier.
+We construct an operator calculus linking prime decomposition, occupation parity and
+additive response on spectral natural-number arithmetic. Prime residue classes form the
+augmentation cotangent basis, and the corresponding one-word vectors span the degree-one
+Hodge kernel. The complementary gap is exactly one, giving sharp heat and resolvent
+approximations to the prime projection with summable Gaussian trace errors. Symmetric
+and exterior occupations retain logarithmic arithmetic energy and evaluated quadratic
+correlation energy. A faithful extension of addition records relative inputs. Its charge
+defect relates input multiplicative parity to the parity of the sum, while Schur
+reduction retains the transverse contribution to the inverse response. Prime-direction
+transfer and mutually inverse square-dilation transforms connect the signed occupation
+responses. Combining additive and decomposition responses gives an endpoint map whose
+unique stable fixed point, under diagonal self-consistency, is enclosed with its
+infinite tail. Compact Laplace realizations of square energy and quadratic shell
+capacity have dimension three. In the stated spherical and central-sign classes, their
+coefficient functions admit a common Gaussian history calculus. Occupation traces and
+classical boundary arguments recover Bertrand's theorem, the prime-number asymptotic and
+square-free sign densities on the generated carrier.
 
 ## Research overview
 
@@ -66,6 +66,8 @@ This is a substantive connection between addition and multiplication. The multip
 
 Prime-direction creation gives exact signed dilation identities. The paper develops these identities before taking absolute values, preserving the signs that unsigned capacity estimates would otherwise remove. Mellin analysis then connects the Gaussian readout to the Dirichlet and zeta representations.
 
+The scalar continuation is compatible with these operators. Finite signed prime charges represent positive generated rationals, with reciprocal given by charge reflection. Unique positive roots subdivide the normalized Gaussian response, and certified rational limits determine its continuous nonnegative parameters. Canonical spectral transport commutes with these extensions.
+
 ### Full-spectrum response and geometric realizations
 
 Normalized endpoint states define a retention response. Under diagonal self-consistency, its input attenuation is required to equal the returned retention. The paper proves existence, uniqueness and stability of the resulting fixed point for the complete infinite spectrum. Explicit tail bounds and rational enclosures certify its numerical evaluation. The first surviving shell explains the characteristic small scale of the fixed point, and the full-spectrum analysis controls the corrections.
@@ -77,6 +79,8 @@ The counting appendices derive Bertrand's theorem and the prime-number asymptoti
 ### The resulting mathematical tools
 
 The paper provides a prime projector with sharp quantitative control, compatible symmetric and exterior traces, a faithful additive relative-input space, exact central-character transport, signed dilation identities and a certified infinite-spectrum fixed point. These are reusable constructions for studying arithmetic response. In particular, they preserve factorization, signs and additive input information before a scalar sum is formed. That retained structure is the distinctive resource offered to subsequent work on arithmetic cancellation and scale-dependent estimates.
+
+The conclusion gives the generative interpretation in terms of the operator results: intertwining identities specify which formation relations survive representation changes, while retained relative inputs and return terms quantify information identified by scalar readout.
 
 ## Research subjects and results
 
@@ -139,7 +143,7 @@ Arithmetic*. SSRN, 2026. [doi:10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn
 - SSRN record: [Abstract 7650278](https://ssrn.com/abstract=7650278)
 - Zenodo record: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
-The repository contains the current 122-page manuscript and its computational
+The repository contains the current 126-page manuscript and its computational
 supplement. Git history and checksums identify the files supplied here.
 
 Related records cited in the manuscript:
