@@ -9,7 +9,7 @@ authors:
   orcid: https://orcid.org/0009-0000-6600-6171
 doi: 10.2139/ssrn.7421398
 url: https://ssrn.com/abstract=7421398
-date-released: '2026-11-13'
+date-released: '2026-11-14'
 identifiers:
 - type: doi
   value: 10.2139/ssrn.7421398
@@ -19,31 +19,33 @@ identifiers:
   description: Zenodo concept DOI for all versions
 abstract: >-
   We construct natural-number arithmetic on correlation modes together with
-  source-weighted dynamics of its generating expressions. Minimal unbiased
-  compositional change determines a rotation plane and a Gaussian law. Local
-  information and total normalized correlation determine a finite window. Within the
-  separated nondegenerate homogeneous local boundary class, preservation of constants
-  selects the Neumann closure. Modulation and composition of the oriented modes give
-  an ordered Peano semiring with unique factorization, quadratic energy and canonical
-  scale transport. Winding degree certifies the arithmetic. Each natural value has a
-  finite expression fibre. Equal root-channel weights and independent child assembly
-  define a positive history law with the original Gaussian marginal. Conditional
-  readout separates value information from history variation. The same weights on
-  parent–child relations define a nonnegative self-adjoint trace-class assembly
-  operator with explicit Gaussian cutoff bounds. A history difference at value four
-  has zero initial readout but a strictly nonzero subsequent value response under the
-  complete operator. This coupling persists under small changes of the relevant
-  conditional weights. Eliminating history differences gives an exact memory equation
-  and a joint norm budget. Signed balances, fractions and certified limits extend the
-  scalar field. The natural-mode arithmetic, finite-fibre history law and assembly
-  results have accompanying Lean formalizations.
+  source-weighted dynamics of its generating expressions. Minimal unbiased compositional
+  change determines a rotation plane and a Gaussian law. Local information and total
+  normalized correlation determine a finite window. Within the separated nondegenerate
+  homogeneous local boundary class, preservation of constants selects the Neumann
+  closure. Modulation and composition of the oriented modes give an ordered Peano
+  semiring with unique factorization, quadratic energy and canonical scale transport.
+  Winding degree certifies the arithmetic. Each natural value has a finite expression
+  fibre. Equal root-channel weights and independent child assembly define a positive
+  history law with the original Gaussian marginal. Conditional readout separates value
+  information from history variation. The same weights on parent–child relations define
+  a nonnegative self-adjoint trace-class assembly operator with explicit Gaussian cutoff
+  bounds. A history difference at value four has zero initial readout but a strictly
+  nonzero subsequent value response under the complete operator. This coupling persists
+  under small changes of the relevant conditional weights. Eliminating history
+  differences gives an exact memory equation and a joint norm budget. Signed balances,
+  fractions and certified limits extend the scalar field. The natural-mode arithmetic,
+  finite-fibre history law and assembly results have accompanying Lean formalizations.
 keywords:
 - "Construction of natural numbers"
+- "Spectral arithmetic"
+- "Gaussian convolution semigroups"
 - "Arithmetic expression trees"
+- "History-dependent dynamics"
+- "Memory kernels"
 - "Conditional expectation"
 - "Trace-class operators"
 - "Non-Markovian dynamics"
-- "Memory kernels"
 - "Gaussian semigroups"
 - "Formalized mathematics"
 - "Natural-number objects"

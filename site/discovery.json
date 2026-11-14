@@ -623,19 +623,22 @@
     "a-spectral-construction-of-natural-number-arithmetic": {
       "paper_keywords": [
         "Construction of natural numbers",
+        "Spectral arithmetic",
+        "Gaussian convolution semigroups",
         "Arithmetic expression trees",
-        "Conditional expectation",
-        "Trace-class operators",
-        "Non-Markovian dynamics",
+        "History-dependent dynamics",
         "Memory kernels"
       ],
       "web_keywords": [
         "Construction of natural numbers",
+        "Spectral arithmetic",
+        "Gaussian convolution semigroups",
         "Arithmetic expression trees",
+        "History-dependent dynamics",
+        "Memory kernels",
         "Conditional expectation",
         "Trace-class operators",
         "Non-Markovian dynamics",
-        "Memory kernels",
         "Gaussian semigroups",
         "Formalized mathematics",
         "Natural-number objects",
@@ -772,20 +775,24 @@
     },
     "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic": {
       "paper_keywords": [
+        "Spectral arithmetic",
         "Prime factorization",
         "Hodge Laplacian",
         "Prime projection",
+        "Fock space",
         "Möbius function",
         "Riemann zeta function",
-        "Fock space"
+        "Spectral geometry"
       ],
       "web_keywords": [
+        "Spectral arithmetic",
         "Prime factorization",
         "Hodge Laplacian",
         "Prime projection",
+        "Fock space",
         "Möbius function",
         "Riemann zeta function",
-        "Fock space",
+        "Spectral geometry",
         "Prime numbers",
         "Spectral gap",
         "Prime number theorem",

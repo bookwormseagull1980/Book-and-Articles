@@ -10,7 +10,7 @@ Zenodo: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/a-spectral-construction-of-natural-number-arithmetic)
 
-Updated: 13 November 2026.
+Updated: 14 November 2026.
 
 ## Abstract
 
@@ -79,7 +79,7 @@ The concluding discussion treats number systems as outputs of specified formatio
 
 ### Paper keywords
 
-Construction of natural numbers; Arithmetic expression trees; Conditional expectation; Trace-class operators; Non-Markovian dynamics; Memory kernels.
+Construction of natural numbers; Spectral arithmetic; Gaussian convolution semigroups; Arithmetic expression trees; History-dependent dynamics; Memory kernels.
 
 ### Primary subjects
 
@@ -123,7 +123,7 @@ Public records:
 - Zenodo concept DOI: [10.5281/zenodo.22512592](https://doi.org/10.5281/zenodo.22512592)
 
 The Zenodo concept DOI identifies the work across its deposited versions.
-The repository contains the current 104-page manuscript. Git history and
+The repository contains the current 106-page manuscript. Git history and
 the file checksum identify the reading copy supplied here.
 
 ## Research context

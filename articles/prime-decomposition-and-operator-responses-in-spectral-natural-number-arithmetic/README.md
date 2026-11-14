@@ -10,7 +10,7 @@ Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
 
-Updated: 13 November 2026.
+Updated: 14 November 2026.
 
 ## Abstract
 
@@ -86,7 +86,7 @@ The conclusion gives the generative interpretation in terms of the operator resu
 
 ### Paper keywords
 
-Prime factorization; Hodge Laplacian; Prime projection; Möbius function; Riemann zeta function; Fock space.
+Spectral arithmetic; Prime factorization; Hodge Laplacian; Prime projection; Fock space; Möbius function; Riemann zeta function; Spectral geometry.
 
 ### Primary subjects
 
