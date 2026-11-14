@@ -16,6 +16,20 @@ Updated: 27 October 2026.
 
 The common spectral calculation selects **three fermion generations** and links particle masses, gauge couplings and cosmological quantities. The paper reports **41 comparison entries** and **seven groups of observable tests**.
 
+## What the common calculation determines
+
+Why should a mass relation, an electroweak scale and a cosmological ratio constrain the same construction? In this paper their transfer factors and normalizations inherit shared spectral data. Eliminating those shared quantities produces relations that can be tested across sectors. The three-generation selection and the finite spectral domain come before the numerical comparisons.
+
+| Type of result | Concrete output | How it is assessed |
+| --- | --- | --- |
+| Discrete selection | Three matter copies and the integer domain R = 5 | Source screening, shell support and position retention |
+| Continuous spectral normalization | A unique positive tensor endpoint near kL = 2.49353433 | Existence, uniqueness and finite integration and tail bounds |
+| Cross-sector relation | A relation among six geometric fermion masses and a shared electron–electroweak bandwidth relation | Elimination of common transfer parameters |
+| Quantitative comparison | 41 table entries, including 37 signed percentage residuals | The stated mass definitions, matching prescriptions and reference values |
+| Observable tests | Seven groups spanning neutrino, tensor, spectroscopy and low-acceleration readouts | The specified physical realization and measurement |
+
+The numerical results and observational tests below include the actual values, residuals and approximation orders. The accompanying computational framework retains their generating dependencies, so that changing a shared input has traceable consequences across the comparison.
+
 ## Research overview
 
 ### Turning generated structure into quantitative relations

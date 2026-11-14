@@ -1,0 +1,35 @@
+{
+  "purpose": "Website introductions; manuscript titles, abstracts and keywords are unchanged.",
+  "papers": {
+    "the-logical-starting-point-of-mathematical-logic-and-natural-generation": {
+      "summary": "Why begin with change? This research programme connects the formation of mathematical objects, physical structures and finite computations, and explains which questions are pursued by each branch."
+    },
+    "prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic": {
+      "summary": "Prime factorization acquires an operator realization: the degree-one decomposition Hodge flow isolates prime modes with error exp(-tau), while linked occupation spaces recover zeta and reciprocal-zeta traces."
+    },
+    "a-spectral-criterion-for-emergent-gravity": {
+      "summary": "A source-resolved spectral criterion links long-range two-helicity exchange to a positive zero-mass residue, matter energies and universal coupling, with explicit control of finite-approximation errors."
+    },
+    "coarse-graining-and-long-range-response": {
+      "summary": "When does a reduced model preserve a measured interaction? Exact response identities and quantitative pole-and-residue bounds track source coupling, observations and the memory left by eliminated coordinates."
+    },
+    "the-spectrum-of-a-compact-internal-space-i": {
+      "summary": "One generated source connects the Standard Model gauge quotient, a sixteen-dimensional matter carrier, a complex weak doublet and an attained positive gap of the generated Yang–Mills response."
+    },
+    "the-spectrum-of-a-compact-internal-space-ii": {
+      "summary": "The common spectral calculation selects three fermion generations, imposes linked mass and coupling relations, and reports 41 comparison entries together with seven groups of observable tests."
+    },
+    "the-spectrum-of-a-compact-internal-space-iii": {
+      "summary": "Cosmic structure is followed through field and object descriptions while unresolved influence is retained in residuals and memory. Finite-window estimates control forces, trajectories and observable errors."
+    },
+    "dynamics-of-generated-spectra-from-minimal-change": {
+      "summary": "Nonlinear evolution creates frequencies absent initially. A common spectral-weight gap controls both the initial tail and the discarded nonlinear source, yielding uniform finite-cutoff error certificates."
+    },
+    "certified-spectral-computation-for-semilinear-evolution": {
+      "summary": "Finite records certify an infinite-dimensional nonlinear trajectory without rerunning its producer. For the encoded Neumann family, construction, record length and checking have explicit polynomial bit-cost bounds."
+    },
+    "a-spectral-construction-of-natural-number-arithmetic": {
+      "summary": "Natural-number arithmetic is constructed together with its generating expressions. Histories with the same value can have different later responses, and eliminating those differences produces an exact memory equation."
+    }
+  }
+}

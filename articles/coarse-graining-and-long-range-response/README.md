@@ -12,6 +12,14 @@ Zenodo: [10.5281/zenodo.22093524](https://doi.org/10.5281/zenodo.22093524)
 
 Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/coarse-graining-and-long-range-response-in-generated-systems-2026-10-23/articles/coarse-graining-and-long-range-response)
 
+## What must survive when a description is simplified?
+
+Reducing the number of coordinates can preserve a stationary response while changing the subsequent evolution. The distinction matters whenever an eliminated variable can return information to the visible state. This paper treats the applied source and observation as part of the reduction and separates exact descent, approximation defects and dynamical memory.
+
+For exact descent, states with the same coarse value must have the same projected update and observation. For approximate descent, an error identity records the separate defects in the update, source coupling, readout and direct response. Resolvent and contour estimates then carry these errors to shifted critical poles and their residues.
+
+The worked two-mode example makes the memory effect quantitative. The pole displacement decreases geometrically with the retained memory length, while the residue error carries an additional factor of that length. Thus agreement in pole location alone does not give the same control of response strength. Arithmetic and reflecting-heat examples show how the same issue arises in different realizations.
+
 ## Research overview
 
 ### Which information can a reduced description discard?

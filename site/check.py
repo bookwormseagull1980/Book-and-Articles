@@ -1,5 +1,6 @@
 """Validate generated pages and their internal links before deployment."""
 import json
+from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -88,6 +89,15 @@ def check():
     for path in SITE.rglob("*.html"):
         text = path.read_text(encoding="utf-8")
         assert "Beyond%20Apparent%20Paths%20-%20The%20Practice" not in text, path
+    overviews = json.loads((ROOT / "site/web-overviews.json").read_text(encoding="utf-8"))["papers"]
+    assert set(overviews) == set(research["reading_order"])
+    for article in catalogue:
+        assert article["web_summary"] == overviews[article["slug"]]["summary"]
+        page_text = (SITE / ("papers/" + article["slug"] + ".html")).read_text(encoding="utf-8")
+        assert escape(article["web_summary"]) in page_text
+        assert escape(article["abstract"]) in home
+    assert "Choose a question" in home
+    assert home.count('<summary>Manuscript abstract</summary>') == len(catalogue)
     if errors:
         raise AssertionError(errors)
     print(f"Validated {len(pages)} pages, {len(catalogue)} articles, internal links and {len(dois)} distinct DOI records.")

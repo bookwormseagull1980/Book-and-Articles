@@ -12,6 +12,20 @@ Repository copy: [Current article directory](https://github.com/bookwormseagull1
 
 Updated: 26 October 2026.
 
+## Gauge structure, matter and a positive spectral gap
+
+The central result is a connected construction of geometry, representations and response. Starting with minimal unbiased compositional change, the paper obtains a Gaussian source, compact process geometry and a gauge–matter continuation. The resulting connection then defines the equilibrium operator whose spectral gap is proved.
+
+| Stage | Principal result | Role in the next stage |
+| --- | --- | --- |
+| Common source and compact observation | Rotation-plane source, Gaussian law, round process spectrum and centre-invariant projective geometry | Fixes the geometry and response conventions |
+| Faithful gauge action | The quotient (SU(3) × SU(2) × U(1))/Z6 in the stated response-preserving class | Determines the acting group and charge conventions |
+| Matter and scalar connector | Sixteen complex matter coordinates, a fifteen-dimensional charged quotient and one complex weak doublet | Supplies the representation data for the response calculation |
+| Connection equilibrium | A unique positive equilibrium from the complete spectral response | Determines the radial and coexact restoring operators |
+| Generated Yang–Mills operator | A self-adjoint completion, unique vacuum and attained positive spectral gap | Gives a definite operator and first positive excitation |
+
+The gap calculation keeps both the collective radial sector and the complete coexact connection sector. Their appearance in one operator is essential to the result. The later field constructions explain how these internal responses enter event geometry, free-field reconstruction and the finite-resolution perturbative gauge–matter realization.
+
 ## Research overview
 
 ### A common construction for geometry, matter and response

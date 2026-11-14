@@ -12,6 +12,20 @@ Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-
 
 Updated: 14 November 2026.
 
+## Prime factorization as an operator problem
+
+A prime is recognized algebraically by the impossibility of a nontrivial multiplicative factorization. Here the same prime modes can also be recovered by an explicit operator on decomposition words. Its degree-one eigenvalue is d(n)-2, where d(n) counts positive divisors. The zero eigenspace is the prime subspace, and heat evolution approaches its orthogonal projector with sharp operator error exp(-tau).
+
+| Structure | Concrete result | Information made available |
+| --- | --- | --- |
+| Multiplicative cascade | Irreducible modes and unique prime occupations | Which prime directions occur in a value |
+| Augmentation cotangent space | Residue classes of prime generators give its canonical basis | The first-order algebraic directions of multiplication |
+| Decomposition Hodge operator | Degree-one prime kernel and quantitative heat and resolvent projectors | Operator localization of the same prime sector |
+| Symmetric and exterior occupations | Zeta and reciprocal-zeta traces in their convergence domains | Multiplicity and signed square-free occupation |
+| Faithful additive input space | Intertwining with multiplicative central parity | The relative input information needed to compare the two operations |
+
+The identifications connect a mode, its cotangent residue class and its one-word bar vector through specified maps. The value of the construction is that these descriptions remain linked to the arithmetic source and Gaussian response. The detailed sections below give the maps, normalizations, estimates and counting applications.
+
 ## Abstract
 
 We construct an operator calculus linking prime decomposition, occupation parity and

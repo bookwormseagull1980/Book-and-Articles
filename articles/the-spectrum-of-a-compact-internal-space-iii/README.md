@@ -12,6 +12,21 @@ Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-
 
 Updated: 26 October 2026.
 
+## Following structure when the useful description changes
+
+A compact concentration of matter may be represented by its total mass and a few spatial moments while it is well separated from other structures. During an encounter, deformation or exchange, omitted coordinates can affect the motion again. The paper asks which information must be retained for this change of description to remain accurate over a specified interval.
+
+Spatial moments control the force error. Residual variables and truncated memory record unresolved influence. Moving spectral boundaries determine which coordinates re-enter, while stability estimates accumulate their effects along the reconstructed trajectory. A common observation modulus finally transfers the trajectory bound to the observables being studied.
+
+| Realization | Explicit control |
+| --- | --- |
+| Expanding source–matter background | Noncrossing, positive reduced kinetic curvature and regular material-clock readings on an enclosed interval |
+| Field-to-object reconstruction | Force error from retained moments together with residual and memory errors |
+| Particle-mesh calculation | An exact eight-moment cell representation for cloud-in-cell assignment |
+| Time-dependent approximation | Continuous trajectory enclosures at fixed mesh resolution and equation-defect bounds for the cold-sheet reconstruction |
+
+These estimates connect a physical question about the emergence of objects to a quantitative rule for choosing how much structure an observation requires. The accepted window is selected by the stated finite certification criterion.
+
 ## Research overview
 
 ### Following cosmic structure at the resolution it requires

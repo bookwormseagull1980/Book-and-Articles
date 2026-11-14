@@ -32,6 +32,17 @@ physical matching and observational comparisons.
 - [Regression workflows](https://github.com/bookwormseagull1980/coarse-graining-genesis/actions)
 - [Concept DOI 10.5281/zenodo.22067005](https://doi.org/10.5281/zenodo.22067005)
 
+## Results and the records that support them
+
+| Result | What to inspect | Public record |
+| --- | --- | --- |
+| Native arithmetic and history-dependent response | Source definitions, evaluation maps, assembly operators and exact memory identities | [Lean theorem index](https://github.com/bookwormseagull1980/Lean-Formalization-of-Arithmetic-and-Basic-Physical-Interfaces/blob/main/theorem-index.json) |
+| Generated Yang–Mills spectral gap | Original-field Hessian, self-adjoint domain, coercivity and attained spectral bottom | [Lean construction and declarations](https://github.com/bookwormseagull1980/Lean-Formalization-of-Arithmetic-and-Basic-Physical-Interfaces#the-generated-yang-mills-spectral-gap-theorem) |
+| Finite tensor endpoint | Outward rational enclosure of the complete response and its derivative | [V5 release facts](https://github.com/bookwormseagull1980/coarse-graining-genesis/blob/master/docs/RELEASE_FACTS.md) |
+| Particle and cosmological values | 261 derived records and the 57-row benchmark programme, with units and readout definitions | [V5 numerical results](https://github.com/bookwormseagull1980/coarse-graining-genesis#numerical-results-across-particle-physics-and-cosmology) |
+
+The sources distinguish the operator theorem, an interval enclosure and an observational comparison. Following a result through these records shows which statement each kind of evidence supports.
+
 ## Reading a verification record
 
 A formal declaration establishes its stated conclusion under its typed

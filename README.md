@@ -58,6 +58,18 @@ explicit maps, operators and compatibility theorems.
 
 ![The common source and its arithmetic, physical and computational branches](site/assets/research-map.png)
 
+## Start with a question
+
+| Question | Result to look for | Read |
+| --- | --- | --- |
+| Can the way a number is formed affect its later response? | Finite expression histories, nonzero history-to-value coupling and exact memory | [Arithmetic and histories](articles/a-spectral-construction-of-natural-number-arithmetic/README.md) |
+| Can prime modes be localized by an operator? | A decomposition Hodge kernel with sharp heat-projection error exp(-tau) | [Prime decomposition](articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic/README.md) |
+| Can one source generate gauge structure, matter and a positive gap? | The faithful gauge quotient, matter carrier, scalar connector and generated Yang–Mills gap | [Compact Internal Space I](articles/the-spectrum-of-a-compact-internal-space-i/README.md) |
+| Can common spectral data constrain particle and cosmological quantities together? | Three-generation selection, mass relations, 41 comparisons and seven test groups | [Compact Internal Space II](articles/the-spectrum-of-a-compact-internal-space-ii/README.md) |
+| Which long-range response has gravitational coupling? | Positive zero-mass tensor residue, matter-energy vertices and two-helicity exchange | [Gravity criterion](articles/a-spectral-criterion-for-emergent-gravity/README.md) |
+| What information must a reduced description retain? | Source response, displaced poles and residues, unresolved influence and memory | [Coarse-graining](articles/coarse-graining-and-long-range-response/README.md) and [cosmic structure](articles/the-spectrum-of-a-compact-internal-space-iii/README.md) |
+| Can a finite computation certify nonlinear continuum evolution? | Common-cutoff error bounds and independently checkable records with polynomial bit costs | [Generated spectral dynamics](articles/dynamics-of-generated-spectra-from-minimal-change/README.md) and [certified computation](articles/certified-spectral-computation-for-semilinear-evolution/README.md) |
+
 ## Principal results
 
 ### Generated arithmetic and retained histories

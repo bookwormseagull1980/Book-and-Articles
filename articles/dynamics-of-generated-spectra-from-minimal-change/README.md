@@ -10,6 +10,14 @@ Zenodo: [10.5281/zenodo.23536976](https://doi.org/10.5281/zenodo.23536976)
 
 Repository snapshot: [24 October 2026, companion SSRN metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/dynamics-of-generated-spectra-from-minimal-change-2026-10-24-ssrn/articles/dynamics-of-generated-spectra-from-minimal-change)
 
+## Controlling the frequencies that interaction creates
+
+An accurate initial truncation does not by itself control a nonlinear trajectory. Interaction creates new frequencies, which must be estimated with the same information that supports the initial state. This paper retains spectral bounds with a state's construction and proves that a common gap between stronger and weaker weights controls both sources of error.
+
+The Galerkin estimate holds on one local interval common to all cutoffs. Stability and a common observation modulus turn it into a sufficient finite cutoff for the requested observation accuracy. Interaction-support conditions determine which exponential reserves survive the flow, and single-mode tests identify the analytic threshold in the Neumann and Stokes realizations.
+
+Generated presentations also retain the source approximation and time-integration history. Quadratic observations carry signed injection and approximation increments together with the cross terms needed under composition. The history-resolved examples show when observed values have a closed evolution and when additional memory is required. This gives the following computational paper explicit spectral-tail and observation estimates to certify.
+
 ## Research overview
 
 ### A function together with the evidence for its construction

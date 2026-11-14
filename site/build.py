@@ -21,6 +21,8 @@ LEAN = "https://github.com/bookwormseagull1980/Lean-Formalization-of-Arithmetic-
 V5 = "https://github.com/bookwormseagull1980/coarse-graining-genesis"
 DATA = json.loads((ROOT / "site/research.json").read_text(encoding="utf-8"))
 DISCOVERY = json.loads((ROOT / "site/discovery.json").read_text(encoding="utf-8"))
+WEB_OVERVIEWS = json.loads((ROOT / "site/web-overviews.json").read_text(encoding="utf-8"))["papers"]
+QUESTION_ROUTES = (ROOT / "README.md").read_text(encoding="utf-8").split("## Start with a question\n", 1)[1].split("\n## ", 1)[0].strip()
 ROUTES = {"README.md": "index.html", "CITATION.md": "citation.html"}
 for topic in DATA["topics"]:
     ROUTES[f"topics/{topic['slug']}.md"] = f"topics/{topic['slug']}.html"
@@ -147,6 +149,7 @@ def main():
             "keywords": citation.get("keywords", []),
             "paper_keywords": DISCOVERY["papers"][slug]["paper_keywords"],
             "abstract": citation.get("abstract", ""),
+            "web_summary": WEB_OVERVIEWS[slug]["summary"],
             "date": str(citation.get("date-released", "")),
             "markdown": (directory / "README.md").read_text(encoding="utf-8"),
         })
@@ -176,6 +179,7 @@ def main():
                 "sameAs": [link["url"] for link in article["publications"]],
                 "author": {"@type": "Person", "name": "Jinku Guo"},
                 "keywords": article["keywords"], "abstract": article["abstract"],
+                "description": article["web_summary"],
                 "encoding": {"@type": "MediaObject", "contentUrl": article["pdf"], "encodingFormat": "application/pdf"},
             }
             if re.fullmatch(r"\d{4}-\d{2}-\d{2}", article["date"]):
@@ -241,12 +245,14 @@ def main():
     )
     article_rows = []
     for number, article in enumerate(articles, 1):
-        search = escape(" ".join([article["title"], article["abstract"], *article["keywords"]]))
+        search = escape(" ".join([article["title"], article["web_summary"], article["abstract"], *article["keywords"]]))
         keywords = escape(" · ".join(article["keywords"][:6]))
         article_rows.append(f'''<article class="paper-row" data-search="{search}">
 <span class="paper-index">{number:02d}</span><div>
 <h3><a href="{base}papers/{article["slug"]}.html">{escape(article["title"])}</a></h3>
-<p>{escape(text_excerpt(article["abstract"]))}</p>
+<p>{escape(article["web_summary"])}</p>
+<details class="paper-abstract"><summary>Manuscript abstract</summary>
+<p>{escape(article["abstract"])}</p></details>
 <p class="paper-keywords">{keywords}</p>
 <p class="paper-links">{paper_links(article)}
 <a href="{article["pdf"]}">Read PDF</a>
@@ -310,6 +316,9 @@ certificates.</p>
 realizations and response classes connecting one stage to the next.
 <a href="{base}assets/research-map.png">Full-resolution diagram</a>.</figcaption></figure>
 <ul class="topic-list">{topic_rows}</ul></section>
+<section class="research-section"><h2>Choose a question</h2>
+<p>Each route below starts with a result and leads to the construction, proof or calculation behind it.</p>
+<div class="prose">{render_markdown(QUESTION_ROUTES, "README.md", base)}</div></section>
 <section class="reading"><h2>Reading routes</h2>
 <p>For the broader ideas, begin with <a href="{base}books/beyond-apparent-paths.html">Beyond Apparent Paths</a>.
 For a mathematical construction, physical mechanism or verification record,
@@ -344,7 +353,7 @@ certificates and observational comparisons.</p></div></div></section>
              '<article class="prose paper-detail"><p class="eyebrow">Research article · Jinku Guo</p><h1>'
              + escape(article["title"]) + "</h1>" + tools
              + render_markdown(article["markdown"], f"articles/{article['slug']}/README.md", base, drop_title=True)
-             + "</article>", text_excerpt(article["abstract"], 250), article)
+             + "</article>", text_excerpt(article["web_summary"], 300), article)
     book_source = "books/beyond-apparent-paths/README.md"
     book_markdown = (ROOT / book_source).read_text(encoding="utf-8")
     page("books/beyond-apparent-paths.html", book["title"],

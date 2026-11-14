@@ -12,6 +12,19 @@ Zenodo: [10.5281/zenodo.22093341](https://doi.org/10.5281/zenodo.22093341)
 
 Repository snapshot: [23 October 2026](https://github.com/bookwormseagull1980/Book-and-Articles/tree/a-spectral-criterion-for-emergent-gravity-2026-10-23/articles/a-spectral-criterion-for-emergent-gravity)
 
+## Which spectral response can carry gravity?
+
+A long-range propagator becomes a gravitational response only through its coupling to matter and its observable tensor content. This paper follows the applied source, propagation, readout and direct response together. A positive spectral representation identifies a surviving zero-mass atom; conservation reduces the leading stationary-matter vertices to their total energies, so that the exchange residue factorizes into those energies and a common coefficient.
+
+| Question | Result supplied by the paper |
+| --- | --- |
+| Does eliminating internal channels preserve the measured response? | Exact elimination retains the source and readout maps as well as the propagation kernel and direct term |
+| Can an approximate critical root carry the correct interaction strength? | Common-space estimates control the residue at the displaced root |
+| Which tensor response is gravitationally visible? | The compact realization produces an external two-helicity response, with its positivity and source pairing specified |
+| How does stationary matter enter the long-range force? | Conservation fixes the leading energy vertices, and spatial resolvent estimates give the potential, force and finite-size corrections |
+
+This source-resolved formulation makes it possible to test the interaction itself, including its normalization, instead of identifying gravity from a propagator pole alone. The effective Einstein–matter interpretation is developed with the helicity, coupling and nonlinear-consistency conditions stated in the paper.
+
 ## Research overview
 
 ### The question behind the construction

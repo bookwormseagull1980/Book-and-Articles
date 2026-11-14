@@ -12,6 +12,19 @@ English preprint · 20 pages · November 2026
 
 **Zenodo concept DOI:** [10.5281/zenodo.24071580](https://doi.org/10.5281/zenodo.24071580)
 
+## From a philosophical starting point to concrete constructions
+
+A theory must acquire its objects and operations before it can describe their consequences. This article asks how that formation can remain part of the theory. Minimal unbiased change is developed as a common starting point, and the mathematical, physical and computational branches turn the question into distinct constructions and tests.
+
+| Question | Development in the programme | Where to continue |
+| --- | --- | --- |
+| How do numbers acquire operations and retain their formation? | Generated arithmetic, finite expression fibres and history-dependent response | [Arithmetic and histories](../../topics/generated-arithmetic.md) |
+| How are geometry, matter and interaction connected? | Compact source geometry, gauge and matter classification, equilibrium response and mass scales | [Gauge structure and mass gap](../../topics/gauge-and-mass-gap.md) |
+| What survives a change of description? | Source response, visible poles, unresolved coordinates and memory | [Gravity and cosmology](../../topics/gravity-and-cosmology.md) |
+| How can a finite calculation support a continuum conclusion? | Residuals, spectral tails, stability bounds and independently checked records | [Certified computation](../../topics/certified-computation.md) |
+
+The book supplies the philosophical and methodological setting. The linked papers formulate the particular objects, hypotheses and conclusions through which the programme can be examined.
+
 ## Abstract
 
 We present the philosophical basis and research programme of a generative framework for mathematics and physics. The central question concerns the origin of the objects, assumptions, and operations from which a theory begins. Logical consistency constrains their consequences but does not establish their correspondence with nature. Taking minimal unbiased change as the common starting point, the framework studies how relations close into ordered structures and how successive levels acquire their own objects and laws. The main argument develops this view from the discussion in Beyond Apparent Paths. Three appendices develop the physical, mathematical, and engineering pictures that guide the programme. A common source connects internal spectra, gauge and matter structure, a positive equilibrium Yang–Mills gap, collective gravity, and cosmic evolution. Retaining the formation of numbers and functions supplies history-dependent responses, a signed scale-energy approach to the Riemann hypothesis, and a study of efficient generation and verification. For the Navier–Stokes equations, finite evolutions with controlled residuals, stability, and spectral tails are completed into continuum solutions on certified intervals. The unifying aim is to trace the starting points of these problems to a common process of generation and to retain that process in their mathematical description.

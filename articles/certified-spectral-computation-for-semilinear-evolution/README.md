@@ -10,6 +10,19 @@ Zenodo: [10.5281/zenodo.23582642](https://doi.org/10.5281/zenodo.23582642)
 
 Repository snapshot: [24 October 2026, SSRN metadata update](https://github.com/bookwormseagull1980/Book-and-Articles/tree/certified-spectral-computation-for-semilinear-evolution-2026-10-24-ssrn/articles/certified-spectral-computation-for-semilinear-evolution)
 
+## A finite result that can be checked independently
+
+A numerical output becomes independently checkable when a finite record supplies the quantities needed to bound its error. For the fixed Neumann reaction–diffusion model and rational input class studied here, exact tests of continuity, coefficient bounds, initial discrepancy and Galerkin residual certify the original trajectory and its terminal observations.
+
+| Task | Proven output | Cost parameters |
+| --- | --- | --- |
+| Construct a record | A rational Taylor procedure yields an accepted record for every admissible input and requested accuracy | Complete input length and requested accuracy bits |
+| Store the record | Polynomial record length, including controlled intermediate rational bit lengths | The same input and accuracy parameters |
+| Check a submitted record | Polynomial verification of the trajectory error and terminal mean and point value | Input length and submitted record length |
+| Compare producing methods | Acceptance uses the record's tests independently of how its coefficients were obtained | One stated acceptance criterion |
+
+This separates the mathematical guarantee from the implementation that finds a candidate trajectory. A second rational finite-dimensional realization uses quantized Picard iteration, and the distributed programs implement the construction and checking procedures. The abstract and manuscript state the encoded equation, input bounds and time interval for each conclusion.
+
 ## Research overview
 
 ### From an existence estimate to a checkable computation
