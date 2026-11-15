@@ -10,7 +10,7 @@ Zenodo: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
 Current repository copy: [main](https://github.com/bookwormseagull1980/Book-and-Articles/tree/main/articles/prime-decomposition-and-operator-responses-in-spectral-natural-number-arithmetic)
 
-Updated: 14 November 2026.
+Updated: 15 November 2026.
 
 ## Prime factorization as an operator problem
 
@@ -28,22 +28,23 @@ The identifications connect a mode, its cotangent residue class and its one-word
 
 ## Abstract
 
-We construct an operator calculus linking prime decomposition, occupation parity and
-additive response on spectral natural-number arithmetic. Prime residue classes form the
-augmentation cotangent basis, and the corresponding one-word vectors span the degree-one
-Hodge kernel. The complementary gap is exactly one, giving sharp heat and resolvent
-approximations to the prime projection with summable Gaussian trace errors. Symmetric
-and exterior occupations retain logarithmic arithmetic energy and evaluated quadratic
-correlation energy. A faithful extension of addition records relative inputs. Its charge
-defect relates input multiplicative parity to the parity of the sum, while Schur
-reduction retains the transverse contribution to the inverse response. Prime-direction
-transfer and mutually inverse square-dilation transforms connect the signed occupation
-responses. Combining additive and decomposition responses gives an endpoint map whose
-unique stable fixed point, under diagonal self-consistency, is enclosed with its
-infinite tail. Compact Laplace realizations of square energy and quadratic shell
-capacity have dimension three. In the stated spherical and central-sign classes, their
-coefficient functions admit a common Gaussian history calculus. Occupation traces and
-classical boundary arguments recover Bertrand's theorem, the prime-number asymptotic and
+We study prime decomposition and ordered additive inputs on a spectral natural-number
+carrier with its Gaussian correlation response. The degree-one decomposition Laplacian
+has the prime subspace as its kernel and a complementary gap of exactly one. It gives
+sharp heat and resolvent approximations to the prime projection with summable Gaussian
+trace errors. Prime residue classes form the augmentation cotangent basis. A faithful
+extension of addition retains relative inputs through a prime-charge defect. Its central
+character relates input multiplicative parity to the parity of the sum, and Schur
+reduction gives the transverse contribution to the inverse response. Symmetric and
+exterior occupations retain logarithmic arithmetic energy and evaluated quadratic
+energy. Prime-direction transfer and mutually inverse square-dilation transforms connect
+their signed scale responses. Decomposition attenuation changes relative additive inputs
+and enters a joint positive trace. Under diagonal self-consistency its endpoint map has
+a unique stable fixed point whose enclosure includes the infinite-series tail. Complete
+compact Laplace realizations of square energy and quadratic shell capacity have
+dimension three. In the stated spherical and central-sign classes, the coefficient
+functions admit a common Gaussian history calculus. Occupation traces and classical
+boundary arguments recover Bertrand's theorem, the prime-number asymptotic and
 square-free sign densities on the generated carrier.
 
 ## Research overview
@@ -89,6 +90,23 @@ Normalized endpoint states define a retention response. Under diagonal self-cons
 The representation extensions retain equally explicit comparison classes. A compact Laplace realization reproducing quadratic shell energy and quadratic shell capacity has counting exponent three-halves, which fixes its dimension to three by Weyl asymptotics. In the round-sphere affine energy-capacity class, the projective realization and its central-sign lift lead to the corresponding minimal half-spin representation.
 
 The counting appendices derive Bertrand's theorem and the prime-number asymptotic within the spectral carrier. Central binomial estimates, positive Fock boundary phases and the Tauberian passage are connected to the generated prime coordinates. These applications show how finite prime localization and infinite analytic readout coexist in one theory.
+
+### History-sensitive additive response
+
+Decomposition attenuation distinguishes ordered input pairs even when their sum
+is fixed. At sum five, the paper computes the transverse response explicitly.
+Its lift to the recursive history source has squared compression defect
+$(1-e^{-\tau})^2/4$. The root channels have equal mass, while the child
+histories retain their original conditional probabilities. This gives a
+quantitative example of information retained by the complete history pairing
+and lost under separate value readouts.
+
+The representation construction also evaluates coefficients and states on the
+same ordered Gaussian increments. Their shared dependence gives a positive
+Jacobian Gram, mixed coefficient–state derivatives and exact two-time pairings.
+Unitary transport preserves the connected additive response eigenvalues
+$2m(k-m)$. The Gaussian number action, factor-word decomposition and transported
+additive evolution retain their distinct generators and parameters.
 
 ### The resulting mathematical tools
 
@@ -157,7 +175,7 @@ Arithmetic*. SSRN, 2026. [doi:10.2139/ssrn.7650278](https://doi.org/10.2139/ssrn
 - SSRN record: [Abstract 7650278](https://ssrn.com/abstract=7650278)
 - Zenodo record: [10.5281/zenodo.23538151](https://doi.org/10.5281/zenodo.23538151)
 
-The repository contains the current 126-page manuscript and its computational
+The repository contains the current 130-page manuscript and its computational
 supplement. Git history and checksums identify the files supplied here.
 
 Related records cited in the manuscript:
